@@ -1,0 +1,65 @@
+{
+  "tool": "OpenAI ImageGen built-in",
+  "assets": [
+    {
+      "id": "01-kenalan-accounting",
+      "style": "documentary editorial photograph",
+      "description": "Dua orang meninjau angka usaha bersama di meja kantor.",
+      "prompt": "Use case: ads-marketing. Generate one standalone raster image for the hero panel of a Loka Kasir Accounting Instagram carousel for Indonesian small-business readers. Medium: documentary editorial photograph. Scene: An Indonesian architecture or creative studio owner and a bookkeeper reviewing business figures together at a wood table, laptop angled away and a simple stack of paper in foreground. Sunlit contemporary Jakarta small office, two adults with natural expressions, photographed from seated eye level. Navy, cream, walnut, one cobalt accent. Show the everyday work of bookkeeping. Framing: wide horizontal 3:2 illustration or photo so it crops to a horizontal panel. Concentrate the main point of interest in the central 65% horizontally and vertically; let background reach all edges. Full bleed. Polished commercial editorial quality, accessible and grounded. This asset contains the scene only; all real product UI, brand, and campaign typography are added separately. No lettering, words, captions, numbers, recognizable interface, signatures, watermarks, or borders."
+    },
+    {
+      "id": "02-piutang-pembayaran",
+      "style": "hand-drawn editorial comic illustration",
+      "description": "Ilustrasi staf keuangan mencocokkan dokumen dengan kalkulator.",
+      "prompt": "Use case: ads-marketing. Generate one standalone raster image for the hero panel of a Loka Kasir Accounting Instagram carousel for Indonesian small-business readers. Medium: hand-drawn editorial comic illustration. Scene: One scene, an Indonesian small-business finance staff member in indigo comparing two pieces of paper and entering a partial payment at their desk, fingers holding a white desk calculator. Expressive ink outlines, gentle halftone or colored-pencil grain, cobalt and golden amber on warm off-white, mature small-business magazine style. No speech bubbles or panels. Framing: wide horizontal 3:2 illustration or photo so it crops to a horizontal panel. Concentrate the main point of interest in the central 65% horizontally and vertically; let background reach all edges. Full bleed. Polished commercial editorial quality, accessible and grounded. This asset contains the scene only; all real product UI, brand, and campaign typography are added separately. No lettering, words, captions, numbers, recognizable interface, signatures, watermarks, or borders."
+    },
+    {
+      "id": "03-dari-po-ke-utang",
+      "style": "three-dimensional isometric miniature",
+      "description": "Miniatur area penerimaan barang dengan kardus dan troli.",
+      "prompt": "Use case: ads-marketing. Generate one standalone raster image for the hero panel of a Loka Kasir Accounting Instagram carousel for Indonesian small-business readers. Medium: three-dimensional isometric miniature. Scene: A small Indonesian distributor’s receiving dock seen from above at a three-quarter angle, open delivery entrance, orange cardboard boxes, rolling pallet, a worker in blue with a blank clipboard. Tangible matte miniature clay materials, cobalt doorway and off-white backdrop, crafted and neat. Focus on receiving stock from a supplier. Framing: wide horizontal 3:2 illustration or photo so it crops to a horizontal panel. Concentrate the main point of interest in the central 65% horizontally and vertically; let background reach all edges. Full bleed. Polished commercial editorial quality, accessible and grounded. This asset contains the scene only; all real product UI, brand, and campaign typography are added separately. No lettering, words, captions, numbers, recognizable interface, signatures, watermarks, or borders."
+    },
+    {
+      "id": "04-cocokkan-mutasi-bank",
+      "style": "editorial still-life photograph, top-down",
+      "description": "Foto dari atas dua lembar dokumen, ponsel, dan kalkulator.",
+      "prompt": "Use case: ads-marketing. Generate one standalone raster image for the hero panel of a Loka Kasir Accounting Instagram carousel for Indonesian small-business readers. Medium: editorial still-life photograph, top-down. Scene: On a blue-grey accounting desk, neatly arranged phone with intentionally dark blank screen, two distinct blank printed statement sheets with only faint non-readable lines, elegant pen, calculator, carefully aligned blue binder clips. Diffused window light, stylish product photography, clean compositional rhythm, navy and warm white. Framing: wide horizontal 3:2 illustration or photo so it crops to a horizontal panel. Concentrate the main point of interest in the central 65% horizontally and vertically; let background reach all edges. Full bleed. Polished commercial editorial quality, accessible and grounded. This asset contains the scene only; all real product UI, brand, and campaign typography are added separately. No lettering, words, captions, numbers, recognizable interface, signatures, watermarks, or borders."
+    },
+    {
+      "id": "05-stok-per-gudang",
+      "style": "natural documentary photograph",
+      "description": "Dua rekan memeriksa kardus persediaan di lorong gudang.",
+      "prompt": "Use case: ads-marketing. Generate one standalone raster image for the hero panel of a Loka Kasir Accounting Instagram carousel for Indonesian small-business readers. Medium: natural documentary photograph. Scene: Two Indonesian warehouse colleagues in a small distribution warehouse aisle, one checking an orderly shelf of boxed stock against a clipboard while the other moves a carton toward a trolley. Realistic warm daylight, 35mm candid look, blue racks, cardboard tones and muted sage. Small-business scale, not a vast automated facility. Framing: wide horizontal 3:2 illustration or photo so it crops to a horizontal panel. Concentrate the main point of interest in the central 65% horizontally and vertically; let background reach all edges. Full bleed. Polished commercial editorial quality, accessible and grounded. This asset contains the scene only; all real product UI, brand, and campaign typography are added separately. No lettering, words, captions, numbers, recognizable interface, signatures, watermarks, or borders."
+    },
+    {
+      "id": "06-nilai-buku-aset",
+      "style": "architectural 3D product render",
+      "description": "Render rak penyimpanan logam dengan beberapa kardus.",
+      "prompt": "Use case: ads-marketing. One wide horizontal 3:2 hero for an Indonesian small-business accounting Instagram post about fixed asset depreciation. Show one recognizable commercial four-level boltless gray metal storage rack, with a handful of kraft stock boxes on its shelves, standing on a pale powder-blue platform in a clean small Indonesian workshop or backroom. The asset being depreciated is the rack itself, which must occupy center frame and be clearly visible. Sculpted architectural 3D product render, matte materials, believable construction, gentle cobalt and pale sky ambient light with a warm yellow detail, graceful three-quarter angle. Middle 65% holds main visual. Surrounding space full bleed. Scene only. No text, markings, logo, interface, numbers, captions, or watermark."
+    },
+    {
+      "id": "07-siapkan-efaktur",
+      "style": "paper-cut editorial collage",
+      "description": "Kolase kertas yang memperlihatkan tangan sedang menyusun dokumen.",
+      "prompt": "Use case: ads-marketing. Generate one standalone raster image for the hero panel of a Loka Kasir Accounting Instagram carousel for Indonesian small-business readers. Medium: paper-cut editorial collage. Scene: A small stack of form-like paper with abstract lines, an Indonesian office worker’s hand arranging it, a small cobalt folder and understated paper clip. Layer tactile matte cut paper and photocopy textures with torn edges, saturated blue, ecru and touches of coral. Tax document preparation, no governmental insignia, no logo, no letters, no stamps, no barcode or QR. Framing: wide horizontal 3:2 illustration or photo so it crops to a horizontal panel. Concentrate the main point of interest in the central 65% horizontally and vertically; let background reach all edges. Full bleed. Polished commercial editorial quality, accessible and grounded. This asset contains the scene only; all real product UI, brand, and campaign typography are added separately. No lettering, words, captions, numbers, recognizable interface, signatures, watermarks, or borders."
+    },
+    {
+      "id": "08-cek-sebelum-tutup-buku",
+      "style": "warm editorial photography",
+      "description": "Petugas pembukuan memeriksa laporan di meja pada sore hari.",
+      "prompt": "Use case: ads-marketing. Generate one standalone raster image for the hero panel of a Loka Kasir Accounting Instagram carousel for Indonesian small-business readers. Medium: warm editorial photography. Scene: Indonesian bookkeeper in an ordinary office finishing monthly reporting at dusk, an orderly pile of folders, warm desk lamp contrasts with blue evening window, hand checking notes, laptop turned away. Candid eye-level composition, atmospheric but clear, deep navy, amber and ivory. Framing: wide horizontal 3:2 illustration or photo so it crops to a horizontal panel. Concentrate the main point of interest in the central 65% horizontally and vertically; let background reach all edges. Full bleed. Polished commercial editorial quality, accessible and grounded. This asset contains the scene only; all real product UI, brand, and campaign typography are added separately. No lettering, words, captions, numbers, recognizable interface, signatures, watermarks, or borders."
+    },
+    {
+      "id": "09-anggaran-vs-realisasi",
+      "style": "watercolor and gouache editorial illustration",
+      "description": "Ilustrasi cat air dengan struk, buku, dan kalkulator untuk meninjau anggaran.",
+      "prompt": "Use case: ads-marketing. Generate one standalone raster image for the hero panel of a Loka Kasir Accounting Instagram carousel for Indonesian small-business readers. Medium: watercolor and gouache editorial illustration. Scene: From an overhead viewpoint, an Indonesian café owner’s hands place two groups of small blank receipts next to a notebook, calculator, and ceramic cup on an olive-green table. Bold gouache shapes with subtle watercolor paper grain, cream, jade, muted navy, ochre. Everyday budgeting and cost review. Framing: wide horizontal 3:2 illustration or photo so it crops to a horizontal panel. Concentrate the main point of interest in the central 65% horizontally and vertically; let background reach all edges. Full bleed. Polished commercial editorial quality, accessible and grounded. This asset contains the scene only; all real product UI, brand, and campaign typography are added separately. No lettering, words, captions, numbers, recognizable interface, signatures, watermarks, or borders."
+    },
+    {
+      "id": "10-lacak-perubahan-pembukuan",
+      "style": "tactile layered-paper editorial illustration",
+      "description": "Kolase kaca pembesar dan lembar catatan transaksi.",
+      "prompt": "Use case: ads-marketing. Generate one standalone raster image for the hero panel of a Loka Kasir Accounting Instagram carousel for Indonesian small-business readers. Medium: tactile layered-paper editorial illustration. Scene: Desk scene with a magnifier over one of several stacked transaction record slips and an Indonesian accounting staff member’s hand moving one page aside. Details implied with short abstract ruled strokes. Deep indigo and sand with bright blue accents and sculptural shadows, polished contemporary cut-paper technique. Emphasize tracing a change in records. Framing: wide horizontal 3:2 illustration or photo so it crops to a horizontal panel. Concentrate the main point of interest in the central 65% horizontally and vertically; let background reach all edges. Full bleed. Polished commercial editorial quality, accessible and grounded. This asset contains the scene only; all real product UI, brand, and campaign typography are added separately. No lettering, words, captions, numbers, recognizable interface, signatures, watermarks, or borders."
+    }
+  ]
+}

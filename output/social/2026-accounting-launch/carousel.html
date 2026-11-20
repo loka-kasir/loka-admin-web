@@ -62,154 +62,200 @@ body{font-family:Jakarta,sans-serif;background:#0b1f42}
 .menu-path li{border-radius:12px;background:#f3f7ff;color:#133567;font-size:33px;font-weight:800;padding:15px 24px;line-height:1.2}
 .menu-path li + li{margin-left:30px}
 .menu-path li + li + li{margin-left:60px}
-</style><body><article class="slide cover" style="--solid:#092653;--accent:#165ceb;--soft:#b9e7ff;" data-file="media/01-kenalan-accounting/slide-01.jpg">
+
+.cover{background:var(--cover-bg);color:#fff}
+.cover::before{display:none}
+.cover main{padding-top:56px;display:flex;flex-direction:column;align-items:stretch}
+.cover .cover-copy{position:relative;z-index:2}
+.cover h1{font-size:81px;line-height:1.08;letter-spacing:-.055em;text-wrap:pretty}
+.cover .kicker{font-size:25px;margin-bottom:20px;color:var(--cover-kicker)}
+.cover .lead{margin-top:22px;font-size:32px;line-height:1.29}
+.cover .hero-art{position:relative;width:100%;height:548px;flex:none;margin-top:40px;overflow:hidden;border-radius:23px}
+.hero-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.cover.paper,.cover.top-art{color:#11274c}
+.cover.paper .lead,.cover.top-art .lead{color:#28435d}
+.cover.paper .wordmark small,.cover.top-art .wordmark small{color:var(--cover-ink)}
+.cover.paper footer,.cover.top-art footer{color:var(--cover-ink)}
+.cover.paper .hero-art{border-radius:8px;margin-top:42px}
+.cover.top-art main{padding-top:35px}
+.cover.top-art .hero-art{order:-1;height:533px;margin-top:0;margin-bottom:43px;border-radius:17px}
+.cover.top-art h1{font-size:76px}
+.cover.top-art .lead{margin-top:18px}
+.cover.framed .hero-art{border:11px solid #ffffffeb;border-radius:15px;box-shadow:0 14px 35px #08152e56}
+.cover.bleed .hero-art{position:absolute;left:-76px;right:-76px;bottom:-39px;width:auto;height:820px;margin:0;border-radius:0}
+.cover.bleed .hero-art::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,var(--cover-bg) 0%,color-mix(in srgb,var(--cover-bg) 88%,transparent) 14%,transparent 36%,transparent 75%,color-mix(in srgb,var(--cover-bg) 92%,transparent) 100%)}
+.cover.bleed .hero-art img{object-position:center 65%}
+.cover.bleed .cover-copy{max-width:865px}
+.cover.bleed footer{text-shadow:0 1px 10px #07192f}
+.cover.framed footer{color:#f0f7ff}
+
+.steps{background:linear-gradient(150deg,color-mix(in srgb,var(--soft) 55%,#fff),#fcfbf5 76%);}
+.steps .number{background:var(--cover-ink)}
+.steps .kicker,.steps footer{color:var(--cover-ink)}
+.steps li{border-left:5px solid var(--cover-ink)}
+.steps.paper,.steps.top-art{background:linear-gradient(145deg,var(--cover-bg),#fff 85%)}
+.steps.framed li{box-shadow:0 12px 30px #22365e1e}
+
+.product{background:linear-gradient(145deg,var(--solid),#101f40 78%)}
+.product main{padding-top:45px}
+.product h2{font-size:61px;line-height:1.11}
+.product .lead{font-size:29px;line-height:1.32;margin-top:18px}
+.product .menu-path{margin-top:27px;padding:18px 22px;border-radius:18px}
+.menu-path h3{font-size:25px;margin-bottom:11px}
+.menu-path ul{gap:8px}
+.menu-path li{padding:11px 20px;font-size:28px}
+.product figure{margin-top:27px;border-radius:17px;padding:11px}
+.product figure img{height:auto;max-height:270px;object-fit:contain;object-position:center;border-radius:7px}
+.product figcaption{font-size:20px;padding:7px 5px 2px}
+.product .cta{font-size:25px;padding:12px 22px;margin-top:auto;margin-bottom:25px}
+</style><body><article class="slide cover bleed" style="--solid:#092653;--accent:#165ceb;--soft:#b9e7ff;--cover-bg:#0b1f3b;--cover-ink:#1c55c8;--cover-kicker:#d8e7ff;" data-file="media/01-kenalan-accounting/slide-01.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 3</span></header>
-          <main><p class="kicker">PILIH PRODUK SESUAI PEKERJAAN</p><h1>Kenali aplikasi pembukuan dan laporan keuangan.</h1>
-      <p class="lead">Loka Kasir Accounting membantu tim mengikuti transaksi dari faktur sampai laporan.</p><figure><img src="assets/dashboard.png" alt="Kenalan dengan Loka Kasir Accounting di akun demo"><figcaption>Tampilan akun demo</figcaption></figure></main>
+          <main><div class="cover-copy"><p class="kicker">PILIH PRODUK SESUAI PEKERJAAN</p><h1>Kenali aplikasi pembukuan dan laporan keuangan.</h1>
+      <p class="lead">Loka Kasir Accounting membantu tim mengikuti transaksi dari faktur sampai laporan.</p></div><div class="hero-art"><img src="assets/art/01-kenalan-accounting.jpg" alt="Dua orang meninjau angka usaha bersama di meja kantor."></div></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide steps" style="--solid:#092653;--accent:#165ceb;--soft:#b9e7ff;" data-file="media/01-kenalan-accounting/slide-02.jpg">
+          </article><article class="slide steps bleed" style="--solid:#092653;--accent:#165ceb;--soft:#b9e7ff;--cover-bg:#0b1f3b;--cover-ink:#1c55c8;--cover-kicker:#d8e7ff;" data-file="media/01-kenalan-accounting/slide-02.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 3</span></header>
           <main><p class="kicker">PILIH PRODUK SESUAI PEKERJAAN</p><h2>Dua produk untuk dua pekerjaan</h2><ol><li><span class="number">1</span><div><h3>Loka Kasir</h3><p>Catat penjualan di meja kasir, kelola shift, dan cetak struk.</p></div></li><li><span class="number">2</span><div><h3>Loka Kasir Accounting</h3><p>Buat faktur, kelola utang-piutang, dan baca jurnal serta laporan keuangan.</p></div></li><li><span class="number">3</span><div><h3>Integrasi opsional</h3><p>Gunakan Accounting secara mandiri atau hubungkan dengan Loka Kasir.</p></div></li></ol></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide product" style="--solid:#092653;--accent:#165ceb;--soft:#b9e7ff;" data-file="media/01-kenalan-accounting/slide-03.jpg">
+          </article><article class="slide product bleed" style="--solid:#092653;--accent:#165ceb;--soft:#b9e7ff;--cover-bg:#0b1f3b;--cover-ink:#1c55c8;--cover-kicker:#d8e7ff;" data-file="media/01-kenalan-accounting/slide-03.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 3</span></header>
           <main><h2>Coba alurnya dari saldo awal.</h2><p class="lead">Siapkan data perusahaan dan saldo awal. Catat satu faktur penjualan, lalu buka jurnal transaksi dan lihat pengaruhnya pada laporan.</p>
       <div class="menu-path"><h3>Langkah di Accounting</h3><ul><li>Persiapan Data Perusahaan</li><li>Faktur Penjualan</li><li>Katalog Laporan</li></ul></div>
-      <p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
+      <figure><img src="assets/dashboard.png" alt="Kenalan dengan Loka Kasir Accounting di akun demo"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
           <footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
-          </article><article class="slide cover" style="--solid:#142754;--accent:#4f54d6;--soft:#cbd0ff;" data-file="media/02-piutang-pembayaran/slide-01.jpg">
+          </article><article class="slide cover paper" style="--solid:#142754;--accent:#4f54d6;--soft:#cbd0ff;--cover-bg:#f5eddb;--cover-ink:#1b459c;--cover-kicker:#2a4d96;" data-file="media/02-piutang-pembayaran/slide-01.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 3</span></header>
-          <main><p class="kicker">FAKTUR DAN PIUTANG</p><h1>Faktur Rp2.997.000. Sisa piutangnya berapa?</h1>
-      <p class="lead">Cek saldo faktur setelah pelanggan membayar sebagian.</p><figure><img src="assets/piutang.png" alt="Piutang dan pembayaran sebagian di akun demo"><figcaption>Tampilan akun demo</figcaption></figure></main>
+          <main><div class="cover-copy"><p class="kicker">FAKTUR DAN PIUTANG</p><h1>Faktur Rp2.997.000. Sisa piutangnya berapa?</h1>
+      <p class="lead">Cek saldo faktur setelah pelanggan membayar sebagian.</p></div><div class="hero-art"><img src="assets/art/02-piutang-pembayaran.jpg" alt="Ilustrasi staf keuangan mencocokkan dokumen dengan kalkulator."></div></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide steps" style="--solid:#142754;--accent:#4f54d6;--soft:#cbd0ff;" data-file="media/02-piutang-pembayaran/slide-02.jpg">
+          </article><article class="slide steps paper" style="--solid:#142754;--accent:#4f54d6;--soft:#cbd0ff;--cover-bg:#f5eddb;--cover-ink:#1b459c;--cover-kicker:#2a4d96;" data-file="media/02-piutang-pembayaran/slide-02.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 3</span></header>
           <main><p class="kicker">FAKTUR DAN PIUTANG</p><h2>Contoh satu faktur pelanggan</h2><ol><li><span class="number">1</span><div><h3>Rp2.997.000</h3><p>Total faktur penjualan yang ditagihkan.</p></div></li><li><span class="number">2</span><div><h3>Rp1.000.000</h3><p>Pembayaran pelanggan yang sudah dicatat.</p></div></li><li><span class="number">3</span><div><h3>Rp1.997.000</h3><p>Piutang tersisa. Status faktur masih dibayar sebagian.</p></div></li></ol></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide product" style="--solid:#142754;--accent:#4f54d6;--soft:#cbd0ff;" data-file="media/02-piutang-pembayaran/slide-03.jpg">
+          </article><article class="slide product paper" style="--solid:#142754;--accent:#4f54d6;--soft:#cbd0ff;--cover-bg:#f5eddb;--cover-ink:#1b459c;--cover-kicker:#2a4d96;" data-file="media/02-piutang-pembayaran/slide-03.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 3</span></header>
           <main><h2>Temukan pembayaran di faktur yang sama.</h2><p class="lead">Pilih tagihan di Penerimaan Pembayaran dan buka Riwayat pelunasan. Jika ada salah nominal, pembatalan membentuk jurnal pembalik dan memulihkan saldo tagihan.</p>
       <div class="menu-path"><h3>Langkah di Accounting</h3><ul><li>Penjualan</li><li>Penerimaan Pembayaran</li><li>Riwayat pelunasan</li></ul></div>
-      <p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
+      <figure><img src="assets/piutang.png" alt="Piutang dan pembayaran sebagian di akun demo"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
           <footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
-          </article><article class="slide cover" style="--solid:#082a49;--accent:#0879b7;--soft:#b5eaff;" data-file="media/03-dari-po-ke-utang/slide-01.jpg">
+          </article><article class="slide cover framed" style="--solid:#082a49;--accent:#0879b7;--soft:#b5eaff;--cover-bg:#0e2855;--cover-ink:#235bd7;--cover-kicker:#d4f0ff;" data-file="media/03-dari-po-ke-utang/slide-01.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 3</span></header>
-          <main><p class="kicker">PEMBELIAN DAN UTANG</p><h1>120 unit diterima. Kapan utang pemasok dicatat?</h1>
-      <p class="lead">Ikuti jalur pesanan, penerimaan barang, dan faktur pembelian.</p><figure><img src="assets/pembelian.png" alt="Pembelian dari pesanan sampai pembayaran di akun demo"><figcaption>Tampilan akun demo</figcaption></figure></main>
+          <main><div class="cover-copy"><p class="kicker">PEMBELIAN DAN UTANG</p><h1>120 unit diterima. Kapan utang pemasok dicatat?</h1>
+      <p class="lead">Ikuti jalur pesanan, penerimaan barang, dan faktur pembelian.</p></div><div class="hero-art"><img src="assets/art/03-dari-po-ke-utang.jpg" alt="Miniatur area penerimaan barang dengan kardus dan troli."></div></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide steps" style="--solid:#082a49;--accent:#0879b7;--soft:#b5eaff;" data-file="media/03-dari-po-ke-utang/slide-02.jpg">
+          </article><article class="slide steps framed" style="--solid:#082a49;--accent:#0879b7;--soft:#b5eaff;--cover-bg:#0e2855;--cover-ink:#235bd7;--cover-kicker:#d4f0ff;" data-file="media/03-dari-po-ke-utang/slide-02.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 3</span></header>
           <main><p class="kicker">PEMBELIAN DAN UTANG</p><h2>Satu pembelian, tiga dokumen</h2><ol><li><span class="number">1</span><div><h3>Pesanan Pembelian</h3><p>Catat 120 unit × Rp95.000 sebelum barang dikirim.</p></div></li><li><span class="number">2</span><div><h3>Penerimaan Barang</h3><p>Konfirmasi 120 unit fisik masuk ke gudang.</p></div></li><li><span class="number">3</span><div><h3>Faktur Pembelian</h3><p>Tautkan faktur sebesar Rp12.654.000 termasuk PPN ke dokumen penerimaan.</p></div></li></ol></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide product" style="--solid:#082a49;--accent:#0879b7;--soft:#b5eaff;" data-file="media/03-dari-po-ke-utang/slide-03.jpg">
+          </article><article class="slide product framed" style="--solid:#082a49;--accent:#0879b7;--soft:#b5eaff;--cover-bg:#0e2855;--cover-ink:#235bd7;--cover-kicker:#d4f0ff;" data-file="media/03-dari-po-ke-utang/slide-03.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 3</span></header>
           <main><h2>Periksa sisa utang sebelum bayar.</h2><p class="lead">Dalam contoh demo, uang muka Rp2.000.000 mengurangi tagihan. Sisa Rp10.654.000 dibukukan melalui Perintah Pembayaran.</p>
       <div class="menu-path"><h3>Langkah di Accounting</h3><ul><li>Pembelian</li><li>Faktur Pembelian</li><li>Perintah Pembayaran</li></ul></div>
-      <p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
+      <figure><img src="assets/pembelian.png" alt="Pembelian dari pesanan sampai pembayaran di akun demo"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
           <footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
-          </article><article class="slide cover" style="--solid:#0b2a54;--accent:#0a66ce;--soft:#a6e9ff;" data-file="media/04-cocokkan-mutasi-bank/slide-01.jpg">
+          </article><article class="slide cover top-art" style="--solid:#0b2a54;--accent:#0a66ce;--soft:#a6e9ff;--cover-bg:#e9f0ff;--cover-ink:#1e4689;--cover-kicker:#274f91;" data-file="media/04-cocokkan-mutasi-bank/slide-01.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 3</span></header>
-          <main><p class="kicker">KAS DAN BANK</p><h1>Saldo rekening cocok dengan buku besar?</h1>
-      <p class="lead">Mulai dengan mencocokkan mutasi bank dan jurnal.</p><figure><img src="assets/bank.png" alt="Rekonsiliasi bank di akun demo"><figcaption>Tampilan akun demo</figcaption></figure></main>
+          <main><div class="cover-copy"><p class="kicker">KAS DAN BANK</p><h1>Saldo rekening cocok dengan buku besar?</h1>
+      <p class="lead">Mulai dengan mencocokkan mutasi bank dan jurnal.</p></div><div class="hero-art"><img src="assets/art/04-cocokkan-mutasi-bank.jpg" alt="Foto dari atas dua lembar dokumen, ponsel, dan kalkulator."></div></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide steps" style="--solid:#0b2a54;--accent:#0a66ce;--soft:#a6e9ff;" data-file="media/04-cocokkan-mutasi-bank/slide-02.jpg">
+          </article><article class="slide steps top-art" style="--solid:#0b2a54;--accent:#0a66ce;--soft:#a6e9ff;--cover-bg:#e9f0ff;--cover-ink:#1e4689;--cover-kicker:#274f91;" data-file="media/04-cocokkan-mutasi-bank/slide-02.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 3</span></header>
           <main><p class="kicker">KAS DAN BANK</p><h2>Hasil rekonsiliasi giro di akun demo</h2><ol><li><span class="number">1</span><div><h3>Rp25.316.000</h3><p>Saldo akhir pada contoh rekening koran.</p></div></li><li><span class="number">2</span><div><h3>Rp25.316.000</h3><p>Saldo akun Bank di buku besar untuk tanggal yang sama.</p></div></li><li><span class="number">3</span><div><h3>Rp0</h3><p>Selisih saldo setelah mutasi dicocokkan.</p></div></li></ol></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide product" style="--solid:#0b2a54;--accent:#0a66ce;--soft:#a6e9ff;" data-file="media/04-cocokkan-mutasi-bank/slide-03.jpg">
+          </article><article class="slide product top-art" style="--solid:#0b2a54;--accent:#0a66ce;--soft:#a6e9ff;--cover-bg:#e9f0ff;--cover-ink:#1e4689;--cover-kicker:#274f91;" data-file="media/04-cocokkan-mutasi-bank/slide-03.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 3</span></header>
           <main><h2>Cocokkan sebelum menutup rekonsiliasi.</h2><p class="lead">Impor CSV mutasi. Pilih baris yang sesuai dengan jurnal berdasarkan tanggal, nominal, dan referensi. Tinjau saldo akhir sebelum menyelesaikan rekonsiliasi.</p>
       <div class="menu-path"><h3>Langkah di Accounting</h3><ul><li>Kas &amp; Bank</li><li>Rekonsiliasi Bank</li><li>Impor CSV</li></ul></div>
-      <p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
+      <figure><img src="assets/bank.png" alt="Rekonsiliasi bank di akun demo"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
           <footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
-          </article><article class="slide cover" style="--solid:#07334c;--accent:#117a91;--soft:#b9f1f2;" data-file="media/05-stok-per-gudang/slide-01.jpg">
+          </article><article class="slide cover bleed" style="--solid:#07334c;--accent:#117a91;--soft:#b9f1f2;--cover-bg:#0c2b2f;--cover-ink:#126260;--cover-kicker:#bde4da;" data-file="media/05-stok-per-gudang/slide-01.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 3</span></header>
-          <main><p class="kicker">PERSEDIAAN PER GUDANG</p><h1>Gudang Bekasi di bawah stok minimum.</h1>
-      <p class="lead">Cek stok tersedia di setiap lokasi sebelum membuat pesanan.</p><figure><img src="assets/stok.png" alt="Minimum stok dan pemindahan antargudang di akun demo"><figcaption>Tampilan akun demo</figcaption></figure></main>
+          <main><div class="cover-copy"><p class="kicker">PERSEDIAAN PER GUDANG</p><h1>Gudang Bekasi di bawah stok minimum.</h1>
+      <p class="lead">Cek stok tersedia di setiap lokasi sebelum membuat pesanan.</p></div><div class="hero-art"><img src="assets/art/05-stok-per-gudang.jpg" alt="Dua rekan memeriksa kardus persediaan di lorong gudang."></div></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide steps" style="--solid:#07334c;--accent:#117a91;--soft:#b9f1f2;" data-file="media/05-stok-per-gudang/slide-02.jpg">
+          </article><article class="slide steps bleed" style="--solid:#07334c;--accent:#117a91;--soft:#b9f1f2;--cover-bg:#0c2b2f;--cover-ink:#126260;--cover-kicker:#bde4da;" data-file="media/05-stok-per-gudang/slide-02.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 3</span></header>
           <main><p class="kicker">PERSEDIAAN PER GUDANG</p><h2>Periksa kekurangan per lokasi</h2><ol><li><span class="number">1</span><div><h3>20 unit</h3><p>Stok tersedia di Gudang Bekasi pada contoh demo.</p></div></li><li><span class="number">2</span><div><h3>24 unit</h3><p>Batas minimum yang diatur untuk SKU tersebut di Bekasi.</p></div></li><li><span class="number">3</span><div><h3>4 unit</h3><p>Selisih terhadap minimum. Periksa stok Jakarta untuk kemungkinan transfer.</p></div></li></ol></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide product" style="--solid:#07334c;--accent:#117a91;--soft:#b9f1f2;" data-file="media/05-stok-per-gudang/slide-03.jpg">
+          </article><article class="slide product bleed" style="--solid:#07334c;--accent:#117a91;--soft:#b9f1f2;--cover-bg:#0c2b2f;--cover-ink:#126260;--cover-kicker:#bde4da;" data-file="media/05-stok-per-gudang/slide-03.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 3</span></header>
           <main><h2>Pilih pemindahan atau pembelian.</h2><p class="lead">Tinjau Barang Stok Minimum. Gunakan Permintaan Barang untuk kebutuhan internal atau buat permintaan pembelian saat perlu restok.</p>
       <div class="menu-path"><h3>Langkah di Accounting</h3><ul><li>Persediaan</li><li>Barang Stok Minimum</li><li>Permintaan Barang</li></ul></div>
-      <p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
+      <figure><img src="assets/stok.png" alt="Minimum stok dan pemindahan antargudang di akun demo"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
           <footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
-          </article><article class="slide cover" style="--solid:#172552;--accent:#5160cf;--soft:#cbd7ff;" data-file="media/06-nilai-buku-aset/slide-01.jpg">
+          </article><article class="slide cover paper" style="--solid:#172552;--accent:#5160cf;--soft:#cbd7ff;--cover-bg:#e7f0fb;--cover-ink:#174fae;--cover-kicker:#23528c;" data-file="media/06-nilai-buku-aset/slide-01.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 3</span></header>
-          <main><p class="kicker">KARTU ASET TETAP</p><h1>Rak Rp4,8 juta. Berapa nilai bukunya?</h1>
-      <p class="lead">Lihat harga perolehan dan penyusutan di kartu aset.</p><figure><img src="assets/aset.png" alt="Aset tetap dan penyusutan di akun demo"><figcaption>Tampilan akun demo</figcaption></figure></main>
+          <main><div class="cover-copy"><p class="kicker">KARTU ASET TETAP</p><h1>Rak Rp4,8 juta. Berapa nilai bukunya?</h1>
+      <p class="lead">Lihat harga perolehan dan penyusutan di kartu aset.</p></div><div class="hero-art"><img src="assets/art/06-nilai-buku-aset.jpg" alt="Render rak penyimpanan logam dengan beberapa kardus."></div></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide steps" style="--solid:#172552;--accent:#5160cf;--soft:#cbd7ff;" data-file="media/06-nilai-buku-aset/slide-02.jpg">
+          </article><article class="slide steps paper" style="--solid:#172552;--accent:#5160cf;--soft:#cbd7ff;--cover-bg:#e7f0fb;--cover-ink:#174fae;--cover-kicker:#23528c;" data-file="media/06-nilai-buku-aset/slide-02.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 3</span></header>
           <main><p class="kicker">KARTU ASET TETAP</p><h2>Contoh penyusutan garis lurus</h2><ol><li><span class="number">1</span><div><h3>Rp4.800.000</h3><p>Harga perolehan rak. Contoh ini memakai residu Rp0.</p></div></li><li><span class="number">2</span><div><h3>Rp100.000 per bulan</h3><p>Penyusutan garis lurus untuk umur manfaat 48 bulan.</p></div></li><li><span class="number">3</span><div><h3>Rp4.700.000</h3><p>Nilai buku contoh setelah satu bulan penyusutan penuh.</p></div></li></ol></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide product" style="--solid:#172552;--accent:#5160cf;--soft:#cbd7ff;" data-file="media/06-nilai-buku-aset/slide-03.jpg">
+          </article><article class="slide product paper" style="--solid:#172552;--accent:#5160cf;--soft:#cbd7ff;--cover-bg:#e7f0fb;--cover-ink:#174fae;--cover-kicker:#23528c;" data-file="media/06-nilai-buku-aset/slide-03.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 3</span></header>
           <main><h2>Buka kartu aset untuk melihat jurnalnya.</h2><p class="lead">Lengkapi harga perolehan, residu, dan umur manfaat. Catat penyusutan periode tersebut. Bila rak berpindah lokasi, simpan riwayatnya di Pindah Aset.</p>
       <div class="menu-path"><h3>Langkah di Accounting</h3><ul><li>Aset Tetap</li><li>Daftar aset</li><li>Pindah Aset</li></ul></div>
-      <p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
+      <figure><img src="assets/aset.png" alt="Aset tetap dan penyusutan di akun demo"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
           <footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
-          </article><article class="slide cover" style="--solid:#0a244f;--accent:#1864d9;--soft:#c0e0ff;" data-file="media/07-siapkan-efaktur/slide-01.jpg">
+          </article><article class="slide cover framed" style="--solid:#0a244f;--accent:#1864d9;--soft:#c0e0ff;--cover-bg:#1645b9;--cover-ink:#153690;--cover-kicker:#e3eeff;" data-file="media/07-siapkan-efaktur/slide-01.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 3</span></header>
-          <main><p class="kicker">E-FAKTUR CORETAX</p><h1>Siap ekspor XML e-Faktur dari Accounting?</h1>
-      <p class="lead">Periksa faktur keluaran sebelum menyiapkan berkas.</p><figure><img src="assets/pajak.png" alt="Pemeriksaan e-Faktur sebelum unggah di akun demo"><figcaption>Tampilan akun demo</figcaption></figure></main>
+          <main><div class="cover-copy"><p class="kicker">E-FAKTUR CORETAX</p><h1>Siap ekspor XML e-Faktur dari Accounting?</h1>
+      <p class="lead">Periksa faktur keluaran sebelum menyiapkan berkas.</p></div><div class="hero-art"><img src="assets/art/07-siapkan-efaktur.jpg" alt="Kolase kertas yang memperlihatkan tangan sedang menyusun dokumen."></div></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide steps" style="--solid:#0a244f;--accent:#1864d9;--soft:#c0e0ff;" data-file="media/07-siapkan-efaktur/slide-02.jpg">
+          </article><article class="slide steps framed" style="--solid:#0a244f;--accent:#1864d9;--soft:#c0e0ff;--cover-bg:#1645b9;--cover-ink:#153690;--cover-kicker:#e3eeff;" data-file="media/07-siapkan-efaktur/slide-02.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 3</span></header>
           <main><p class="kicker">E-FAKTUR CORETAX</p><h2>Tiga pemeriksaan sebelum ekspor</h2><ol><li><span class="number">1</span><div><h3>Identitas pajak</h3><p>Cek profil pajak perusahaan dan pembeli pada dokumen.</p></div></li><li><span class="number">2</span><div><h3>Faktur keluaran</h3><p>Pilih faktur penjualan yang sudah diposting.</p></div></li><li><span class="number">3</span><div><h3>Dasar pajak dan PPN</h3><p>Tinjau angka yang tercatat sebelum ekspor XML.</p></div></li></ol></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide product" style="--solid:#0a244f;--accent:#1864d9;--soft:#c0e0ff;" data-file="media/07-siapkan-efaktur/slide-03.jpg">
+          </article><article class="slide product framed" style="--solid:#0a244f;--accent:#1864d9;--soft:#c0e0ff;--cover-bg:#1645b9;--cover-ink:#153690;--cover-kicker:#e3eeff;" data-file="media/07-siapkan-efaktur/slide-03.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 3</span></header>
           <main><h2>Siapkan XML, lalu unggah lewat Coretax.</h2><p class="lead">Ekspor XML dari e-Faktur Coretax. Setelah berkas diproses di Coretax, simpan nomor faktur yang terbit di Accounting.</p>
       <div class="menu-path"><h3>Langkah di Accounting</h3><ul><li>Pajak</li><li>e-Faktur Coretax</li><li>Faktur Pajak Keluaran</li></ul></div>
-      <p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
+      <figure><img src="assets/pajak.png" alt="Pemeriksaan e-Faktur sebelum unggah di akun demo"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
           <footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
-          </article><article class="slide cover" style="--solid:#14254c;--accent:#3a5fcb;--soft:#d6e2ff;" data-file="media/08-cek-sebelum-tutup-buku/slide-01.jpg">
+          </article><article class="slide cover bleed" style="--solid:#14254c;--accent:#3a5fcb;--soft:#d6e2ff;--cover-bg:#181b37;--cover-ink:#343661;--cover-kicker:#e9e0f1;" data-file="media/08-cek-sebelum-tutup-buku/slide-01.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 3</span></header>
-          <main><p class="kicker">TUTUP BUKU BULANAN</p><h1>Apa yang dicek sebelum mengunci periode?</h1>
-      <p class="lead">Tinjau saldo dan dokumen yang belum selesai.</p><figure><img src="assets/tutup-buku.png" alt="Checklist menjelang tutup buku di akun demo"><figcaption>Tampilan akun demo</figcaption></figure></main>
+          <main><div class="cover-copy"><p class="kicker">TUTUP BUKU BULANAN</p><h1>Apa yang dicek sebelum mengunci periode?</h1>
+      <p class="lead">Tinjau saldo dan dokumen yang belum selesai.</p></div><div class="hero-art"><img src="assets/art/08-cek-sebelum-tutup-buku.jpg" alt="Petugas pembukuan memeriksa laporan di meja pada sore hari."></div></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide steps" style="--solid:#14254c;--accent:#3a5fcb;--soft:#d6e2ff;" data-file="media/08-cek-sebelum-tutup-buku/slide-02.jpg">
+          </article><article class="slide steps bleed" style="--solid:#14254c;--accent:#3a5fcb;--soft:#d6e2ff;--cover-bg:#181b37;--cover-ink:#343661;--cover-kicker:#e9e0f1;" data-file="media/08-cek-sebelum-tutup-buku/slide-02.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 3</span></header>
           <main><p class="kicker">TUTUP BUKU BULANAN</p><h2>Periksa tiga bagian ini</h2><ol><li><span class="number">1</span><div><h3>Kas dan bank</h3><p>Cocokkan saldo buku besar dengan rekening koran.</p></div></li><li><span class="number">2</span><div><h3>Piutang dan utang</h3><p>Tinjau faktur terbuka dan pembayaran yang belum tercatat.</p></div></li><li><span class="number">3</span><div><h3>Persediaan dan aset</h3><p>Periksa stok opname dan penyusutan yang perlu diposting.</p></div></li></ol></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide product" style="--solid:#14254c;--accent:#3a5fcb;--soft:#d6e2ff;" data-file="media/08-cek-sebelum-tutup-buku/slide-03.jpg">
+          </article><article class="slide product bleed" style="--solid:#14254c;--accent:#3a5fcb;--soft:#d6e2ff;--cover-bg:#181b37;--cover-ink:#343661;--cover-kicker:#e9e0f1;" data-file="media/08-cek-sebelum-tutup-buku/slide-03.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 3</span></header>
           <main><h2>Tinjau laporan, lalu kunci bulan yang selesai.</h2><p class="lead">Buka neraca saldo, laba rugi, dan neraca. Di akun demo, Oktober sudah dikunci setelah pemeriksaan. November masih terbuka untuk pembukuan berjalan.</p>
       <div class="menu-path"><h3>Langkah di Accounting</h3><ul><li>Buku Besar</li><li>Tutup Buku</li><li>Periode terkunci</li></ul></div>
-      <p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
+      <figure><img src="assets/tutup-buku.png" alt="Checklist menjelang tutup buku di akun demo"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
           <footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
-          </article><article class="slide cover" style="--solid:#132342;--accent:#117988;--soft:#ade9f8;" data-file="media/09-anggaran-vs-realisasi/slide-01.jpg">
+          </article><article class="slide cover top-art" style="--solid:#132342;--accent:#117988;--soft:#ade9f8;--cover-bg:#f1efdb;--cover-ink:#236452;--cover-kicker:#205442;" data-file="media/09-anggaran-vs-realisasi/slide-01.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 3</span></header>
-          <main><p class="kicker">ANGGARAN DAN REALISASI</p><h1>Dari anggaran Rp500 ribu, berapa yang terpakai?</h1>
-      <p class="lead">Bandingkan rencana dengan biaya yang sudah masuk buku besar.</p><figure><img src="assets/anggaran.png" alt="Anggaran versus realisasi di akun demo"><figcaption>Tampilan akun demo</figcaption></figure></main>
+          <main><div class="cover-copy"><p class="kicker">ANGGARAN DAN REALISASI</p><h1>Dari anggaran Rp500 ribu, berapa yang terpakai?</h1>
+      <p class="lead">Bandingkan rencana dengan biaya yang sudah masuk buku besar.</p></div><div class="hero-art"><img src="assets/art/09-anggaran-vs-realisasi.jpg" alt="Ilustrasi cat air dengan struk, buku, dan kalkulator untuk meninjau anggaran."></div></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide steps" style="--solid:#132342;--accent:#117988;--soft:#ade9f8;" data-file="media/09-anggaran-vs-realisasi/slide-02.jpg">
+          </article><article class="slide steps top-art" style="--solid:#132342;--accent:#117988;--soft:#ade9f8;--cover-bg:#f1efdb;--cover-ink:#236452;--cover-kicker:#205442;" data-file="media/09-anggaran-vs-realisasi/slide-02.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 3</span></header>
           <main><p class="kicker">ANGGARAN DAN REALISASI</p><h2>Biaya logistik Oktober di akun demo</h2><ol><li><span class="number">1</span><div><h3>Rp500.000</h3><p>Anggaran akun biaya logistik untuk Oktober.</p></div></li><li><span class="number">2</span><div><h3>Rp375.000</h3><p>Realisasi biaya di buku besar pada periode yang sama.</p></div></li><li><span class="number">3</span><div><h3>Rp125.000</h3><p>Selisih. Realisasi mencapai 75% dari anggaran.</p></div></li></ol></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide product" style="--solid:#132342;--accent:#117988;--soft:#ade9f8;" data-file="media/09-anggaran-vs-realisasi/slide-03.jpg">
+          </article><article class="slide product top-art" style="--solid:#132342;--accent:#117988;--soft:#ade9f8;--cover-bg:#f1efdb;--cover-ink:#236452;--cover-kicker:#205442;" data-file="media/09-anggaran-vs-realisasi/slide-03.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 3</span></header>
           <main><h2>Cek realisasi per akun dan bulan.</h2><p class="lead">Buka Anggaran, pilih rencana yang ingin ditinjau, lalu klik Lihat realisasi. Gunakan periode yang sama untuk membaca anggaran dan biaya aktual.</p>
       <div class="menu-path"><h3>Langkah di Accounting</h3><ul><li>Buku Besar</li><li>Anggaran</li><li>Lihat realisasi</li></ul></div>
-      <p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
+      <figure><img src="assets/anggaran.png" alt="Anggaran versus realisasi di akun demo"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
           <footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
-          </article><article class="slide cover" style="--solid:#092554;--accent:#2656c0;--soft:#d9e9ff;" data-file="media/10-lacak-perubahan-pembukuan/slide-01.jpg">
+          </article><article class="slide cover paper" style="--solid:#092554;--accent:#2656c0;--soft:#d9e9ff;--cover-bg:#f4ecd8;--cover-ink:#483991;--cover-kicker:#483991;" data-file="media/10-lacak-perubahan-pembukuan/slide-01.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 3</span></header>
-          <main><p class="kicker">LOG AKTIVITAS PEMBUKUAN</p><h1>Siapa yang mencatat perubahan pembukuan?</h1>
-      <p class="lead">Gunakan Log aktivitas untuk menelusuri perubahan.</p><figure><img src="assets/audit.png" alt="Jejak audit pembukuan di akun demo"><figcaption>Tampilan akun demo</figcaption></figure></main>
+          <main><div class="cover-copy"><p class="kicker">LOG AKTIVITAS PEMBUKUAN</p><h1>Siapa yang mencatat perubahan pembukuan?</h1>
+      <p class="lead">Gunakan Log aktivitas untuk menelusuri perubahan.</p></div><div class="hero-art"><img src="assets/art/10-lacak-perubahan-pembukuan.jpg" alt="Kolase kaca pembesar dan lembar catatan transaksi."></div></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide steps" style="--solid:#092554;--accent:#2656c0;--soft:#d9e9ff;" data-file="media/10-lacak-perubahan-pembukuan/slide-02.jpg">
+          </article><article class="slide steps paper" style="--solid:#092554;--accent:#2656c0;--soft:#d9e9ff;--cover-bg:#f4ecd8;--cover-ink:#483991;--cover-kicker:#483991;" data-file="media/10-lacak-perubahan-pembukuan/slide-02.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 3</span></header>
           <main><p class="kicker">LOG AKTIVITAS PEMBUKUAN</p><h2>Tiga informasi yang bisa ditinjau</h2><ol><li><span class="number">1</span><div><h3>Waktu</h3><p>Lihat kapan tindakan dicatat sistem.</p></div></li><li><span class="number">2</span><div><h3>Pengguna</h3><p>Periksa siapa yang tercantum pada aktivitas tersebut.</p></div></li><li><span class="number">3</span><div><h3>Rincian</h3><p>Buka jenis tindakan dan keterangan perubahan yang tersimpan.</p></div></li></ol></main>
           <footer><span>@lokakasir.id</span><span>Geser →</span></footer>
-          </article><article class="slide product" style="--solid:#092554;--accent:#2656c0;--soft:#d9e9ff;" data-file="media/10-lacak-perubahan-pembukuan/slide-03.jpg">
+          </article><article class="slide product paper" style="--solid:#092554;--accent:#2656c0;--soft:#d9e9ff;--cover-bg:#f4ecd8;--cover-ink:#483991;--cover-kicker:#483991;" data-file="media/10-lacak-perubahan-pembukuan/slide-03.jpg">
           <header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 3</span></header>
           <main><h2>Cari aktivitas, lalu buka rinciannya.</h2><p class="lead">Cari pengguna, aksi, atau keterangan di Log aktivitas. Saat meninjau koreksi pembayaran, cocokkan catatan aktivitas dengan Riwayat pelunasan tagihan.</p>
       <div class="menu-path"><h3>Langkah di Accounting</h3><ul><li>Pengaturan</li><li>Log Aktivitas</li><li>Lihat rincian</li></ul></div>
-      <p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
+      <figure><img src="assets/audit.png" alt="Jejak audit pembukuan di akun demo"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Buka Loka Kasir Accounting <span>→</span></p></main>
           <footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
           </article></body></html>

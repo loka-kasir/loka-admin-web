@@ -1,6 +1,6 @@
 {
   "account": "@lokakasir.id",
-  "verified_at": "2026-11-20T10:28:56.748926+07:00",
+  "verified_at": "2026-11-20T10:57:00.051630+07:00",
   "accounting_count": 10,
   "media_reachable": 30,
   "total_scheduled": 94,
@@ -11,9 +11,9 @@
       "folder": "media/01-kenalan-accounting",
       "scheduled_at": "2026-11-20T14:00:00+07:00",
       "media_ids": [
-        "992e79b0-b0fc-4843-9248-ad4fd6734457",
-        "1eeff0e1-5c52-4858-8005-2f41e377f839",
-        "1675f6a8-e0c4-4a4a-8a40-4127adb5b217"
+        "9a93062a-056d-43cb-8c61-4362308d03c6",
+        "fe410e07-6b0c-4c35-b2a1-399ef611da2a",
+        "7ab2c21d-7e88-4a27-97f0-9bab233f7baf"
       ],
       "instagram_status": "scheduled",
       "threads_status": "waiting"
@@ -24,9 +24,9 @@
       "folder": "media/02-piutang-pembayaran",
       "scheduled_at": "2026-11-20T20:00:00+07:00",
       "media_ids": [
-        "35f03674-2074-4ae4-9483-d489e5f0d204",
-        "14bc0e0b-d304-4cd6-8bd7-e06e48483627",
-        "3fbcd7ed-58e3-4aff-bcbe-299ae3ace61c"
+        "2fde791d-a849-4251-9ea1-b7e8f70181ff",
+        "59ecc71e-a2c4-4517-8243-ee97ce79ab9f",
+        "01cccc0e-5975-406b-80fa-087cdeb9b6f1"
       ],
       "instagram_status": "scheduled",
       "threads_status": "waiting"
@@ -37,9 +37,9 @@
       "folder": "media/03-dari-po-ke-utang",
       "scheduled_at": "2026-11-21T14:00:00+07:00",
       "media_ids": [
-        "ce121777-6a45-4833-81bc-6e7ca3cb0bd5",
-        "a1962c65-0ede-4d1e-a6ba-9d45f34bb609",
-        "4cac9a6f-7b83-4194-82a3-9157b04aba12"
+        "4582e280-9c43-4213-b20e-8aa516270618",
+        "1edc6acc-7055-4bae-9884-b1dc2b171c27",
+        "57f9d52c-2f40-4c1b-834b-9b7468491622"
       ],
       "instagram_status": "scheduled",
       "threads_status": "waiting"
@@ -50,9 +50,9 @@
       "folder": "media/04-cocokkan-mutasi-bank",
       "scheduled_at": "2026-11-21T20:00:00+07:00",
       "media_ids": [
-        "e73c86a0-90c4-4f42-b2c7-c8f369669ef0",
-        "af9e9864-a891-4253-9f60-d292e526f01d",
-        "ba9f9561-5f25-465c-af5e-619c70ce7053"
+        "a4825cef-b1c2-4f2d-9ce0-1485d53785dd",
+        "214d35b4-75f9-4be2-bf77-e1230a38de31",
+        "cd97b150-c3ea-4a77-803a-c0ad8a8d452a"
       ],
       "instagram_status": "scheduled",
       "threads_status": "waiting"
@@ -63,9 +63,9 @@
       "folder": "media/05-stok-per-gudang",
       "scheduled_at": "2026-11-22T14:00:00+07:00",
       "media_ids": [
-        "601f0ce4-c2dc-479b-ad67-aa48c0d947d9",
-        "bbfa9a78-b09d-49ac-8c4a-4518fd2d7c66",
-        "2e3f3c09-0f27-4292-8e57-52bae7a257f6"
+        "8ba7c8b9-c1d8-4c66-9a9d-d30d25855c09",
+        "eaa56cc0-48bf-4813-892e-99824cae329f",
+        "f0207d82-2fea-4141-9d99-5a93627ebc19"
       ],
       "instagram_status": "scheduled",
       "threads_status": "waiting"
@@ -76,9 +76,9 @@
       "folder": "media/06-nilai-buku-aset",
       "scheduled_at": "2026-11-22T20:00:00+07:00",
       "media_ids": [
-        "51f51cc2-64d2-4127-a645-c0dddb64840d",
-        "f6b5e1f6-1508-428f-ada9-eb383e30e1d5",
-        "220e6763-285b-49b2-aafa-6beb6f06448f"
+        "3e272859-f6e8-4e2b-86fc-6d988a3aa976",
+        "94557705-1844-4124-a69c-6b890a605575",
+        "2a0baf90-ff17-442b-ad12-394cf7b048be"
       ],
       "instagram_status": "scheduled",
       "threads_status": "waiting"
@@ -89,9 +89,9 @@
       "folder": "media/07-siapkan-efaktur",
       "scheduled_at": "2026-11-23T14:00:00+07:00",
       "media_ids": [
-        "e6ad26b8-503c-4255-8441-039fc909a677",
-        "a3348291-98c7-42cb-9986-97da8d22cff2",
-        "af88f8c5-c6b2-4e69-b13e-d0575715e5e1"
+        "fa12240b-93a3-456d-8de7-3743fae97eca",
+        "8c93c843-2253-4d47-a594-af400fc0ba0e",
+        "7a5aa138-77d4-4f3c-959a-cf0373feabeb"
       ],
       "instagram_status": "scheduled",
       "threads_status": "waiting"
@@ -102,9 +102,9 @@
       "folder": "media/08-cek-sebelum-tutup-buku",
       "scheduled_at": "2026-11-23T20:00:00+07:00",
       "media_ids": [
-        "be895af3-a77b-489b-ba92-52cdb22dc0a1",
-        "40529ae9-84f4-455d-9bc6-bcbf4d0c413e",
-        "5051e2e4-2ab4-4d2b-a90d-83aec516e00a"
+        "9c57e2c3-2bd2-4888-b6cb-0b52b07020b4",
+        "2a9cac3b-7b96-4931-a7f7-a66a5e8b7b27",
+        "ae849eb7-c0f9-41a6-b142-044536024915"
       ],
       "instagram_status": "scheduled",
       "threads_status": "waiting"
@@ -115,9 +115,9 @@
       "folder": "media/09-anggaran-vs-realisasi",
       "scheduled_at": "2026-11-24T14:00:00+07:00",
       "media_ids": [
-        "408902e6-16a3-4824-9d53-8d61de6e2f87",
-        "fd05fd39-377f-4dfe-9427-8bc4702ba978",
-        "ca8a28d4-8e83-4cb9-9b3e-2b6e1fc44936"
+        "56751dd5-2064-425b-92ff-f12890230e15",
+        "4df282d9-5f81-457e-94aa-5e4e9fc4259b",
+        "fa9c4cf7-aed4-4419-bd02-b237cf2f0228"
       ],
       "instagram_status": "scheduled",
       "threads_status": "waiting"
@@ -128,9 +128,9 @@
       "folder": "media/10-lacak-perubahan-pembukuan",
       "scheduled_at": "2026-11-24T20:00:00+07:00",
       "media_ids": [
-        "a7fe62a2-0817-4746-985d-9aab74fb7cdc",
-        "c1d0bce5-af47-4248-9bd4-5d08636bfb83",
-        "31f6acf9-565f-4955-ac21-97c5ba38336b"
+        "37376759-8971-4b81-9e75-cc43df103060",
+        "1a6224fd-1a59-471b-8657-fbd0709b67af",
+        "90bcae54-da1f-4d16-84c5-b623c375f17b"
       ],
       "instagram_status": "scheduled",
       "threads_status": "waiting"
@@ -299,5 +299,5 @@
       "title": "Tanggal tua, dompet pembeli menipis. Warung tetap harus jalan 💪"
     }
   ],
-  "revision": "product-identity-and-accounting-workflows"
+  "revision": "distinct-editorial-art-and-product-screenshots"
 }

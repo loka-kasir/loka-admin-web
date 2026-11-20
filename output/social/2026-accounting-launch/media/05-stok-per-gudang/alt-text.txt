@@ -1,4 +1,4 @@
-Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Gudang Bekasi di bawah stok minimum. Cek stok tersedia di setiap lokasi sebelum membuat pesanan.
+Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Gudang Bekasi di bawah stok minimum. Cek stok tersedia di setiap lokasi sebelum membuat pesanan. Ilustrasi: Dua rekan memeriksa kardus persediaan di lorong gudang.
 
 Slide 2: 20 unit. Stok tersedia di Gudang Bekasi pada contoh demo. 24 unit. Batas minimum yang diatur untuk SKU tersebut di Bekasi. 4 unit. Selisih terhadap minimum. Periksa stok Jakarta untuk kemungkinan transfer.
 

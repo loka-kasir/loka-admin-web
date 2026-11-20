@@ -1,4 +1,4 @@
-Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Siap ekspor XML e-Faktur dari Accounting? Periksa faktur keluaran sebelum menyiapkan berkas.
+Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Siap ekspor XML e-Faktur dari Accounting? Periksa faktur keluaran sebelum menyiapkan berkas. Ilustrasi: Kolase kertas yang memperlihatkan tangan sedang menyusun dokumen.
 
 Slide 2: Identitas pajak. Cek profil pajak perusahaan dan pembeli pada dokumen. Faktur keluaran. Pilih faktur penjualan yang sudah diposting. Dasar pajak dan PPN. Tinjau angka yang tercatat sebelum ekspor XML.
 

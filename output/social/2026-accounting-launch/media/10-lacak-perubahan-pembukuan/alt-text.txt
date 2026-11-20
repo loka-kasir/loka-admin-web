@@ -1,4 +1,4 @@
-Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Siapa yang mencatat perubahan pembukuan? Gunakan Log aktivitas untuk menelusuri perubahan.
+Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Siapa yang mencatat perubahan pembukuan? Gunakan Log aktivitas untuk menelusuri perubahan. Ilustrasi: Kolase kaca pembesar dan lembar catatan transaksi.
 
 Slide 2: Waktu. Lihat kapan tindakan dicatat sistem. Pengguna. Periksa siapa yang tercantum pada aktivitas tersebut. Rincian. Buka jenis tindakan dan keterangan perubahan yang tersimpan.
 
