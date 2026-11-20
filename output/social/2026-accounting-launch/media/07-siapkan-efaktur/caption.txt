@@ -1,0 +1,7 @@
+Sebelum menyiapkan XML faktur keluaran, cocokkan dulu identitas pajak, dokumen penjualan, dan angka PPN.
+
+Di Loka Kasir Accounting, tim bisa meninjau faktur, menyiapkan XML, lalu mencatat nomor faktur setelah diproses di Coretax.
+
+Lihat menu e-Faktur di accounting.lokakasir.id.
+
+#LokaKasir #LokaKasirAccounting #Coretax #EFaktur

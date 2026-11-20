@@ -1,0 +1,7 @@
+Rak gudang Rp4,8 juta masih dipakai. Supaya tim bisa baca nilai bukunya, catat harga perolehan, umur manfaat, residu, dan metode penyusutan di kartu aset.
+
+Contoh ilustrasi: garis lurus 48 bulan tanpa residu menghasilkan Rp100.000 per bulan. Kalau aset pindah lokasi, simpan juga riwayat pemindahannya.
+
+Coba modul Aset Tetap di accounting.lokakasir.id.
+
+#LokaKasir #LokaKasirAccounting #AsetTetap

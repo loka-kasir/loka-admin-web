@@ -1,0 +1,7 @@
+Faktur Rp2.997.000. Transfer masuk Rp1.000.000. Berarti masih ada Rp1.997.000 yang perlu ditagih.
+
+Di Loka Kasir Accounting, pembayaran sebagian tercatat di faktur yang sama. Saat nominal salah input, buka Riwayat pelunasan untuk membalik jurnal pembayaran dan memulihkan saldo tagihan.
+
+Simpan contoh ini buat tim penagihan. Coba alurnya di accounting.lokakasir.id.
+
+#LokaKasir #LokaKasirAccounting #PiutangUsaha

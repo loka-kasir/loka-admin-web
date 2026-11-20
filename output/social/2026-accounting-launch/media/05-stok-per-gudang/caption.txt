@@ -1,0 +1,7 @@
+Total stok perusahaan bisa terlihat aman, padahal salah satu gudang sudah di bawah minimum. Contoh di demo kami, Bekasi masih punya 20 unit dengan batas 24 unit.
+
+Sebelum langsung beli, cek stok lokasi lain. Kalau bisa dipindah, catat permintaan dan pemindahannya. Kalau perlu restok, teruskan ke pembelian.
+
+Lihat stok per gudang di accounting.lokakasir.id.
+
+#LokaKasir #LokaKasirAccounting #Persediaan

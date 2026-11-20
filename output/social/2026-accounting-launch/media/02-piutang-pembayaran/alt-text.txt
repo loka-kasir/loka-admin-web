@@ -1,0 +1,5 @@
+Slide 1: Pelanggan baru bayar sebagian. Berapa sisanya? Satu faktur bisa punya beberapa pembayaran.
+
+Slide 2: Rp2.997.000. Nilai faktur dalam contoh demo. Rp1.000.000. Pembayaran yang sudah diterima. Rp1.997.000. Saldo yang masih perlu ditagih.
+
+Slide 3: Buka riwayatnya sebelum menagih. Catat pembayaran pada faktur yang sama. Jika nominal salah, gunakan Riwayat pelunasan untuk membatalkan pembayaran dan memulihkan saldo. Lihat alur piutang di Accounting. accounting.lokakasir.id.

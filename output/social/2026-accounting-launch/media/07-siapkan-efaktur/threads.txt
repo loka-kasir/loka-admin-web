@@ -1,0 +1,1 @@
+Waktu review faktur keluaran, mulai dari tiga hal: identitas, dokumen penjualan, dan nilai PPN. Setelah cocok, siapkan XML lalu unggah lewat Coretax. Simpan nomor faktur yang terbit bersama dokumen penjualannya.

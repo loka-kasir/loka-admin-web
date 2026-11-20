@@ -1,0 +1,5 @@
+Slide 1: Stok total cukup. Gudang Bekasi tinggal 20. Cek jumlah per lokasi sebelum pesan lagi.
+
+Slide 2: Stok Bekasi 20 unit. Ini jumlah fisik yang masih tersedia di lokasi. Minimum 24 unit. Gudang Bekasi 4 unit di bawah batas minimum. Periksa gudang asal. Kalau ada stok cukup di lokasi lain, pertimbangkan pemindahan.
+
+Slide 3: Tentukan tindakan dari stok per lokasi. Buka Barang Stok Minimum. Buat permintaan internal, atau teruskan kebutuhan ke pembelian bila stok antargudang tidak cukup. Coba alur persediaan. accounting.lokakasir.id.

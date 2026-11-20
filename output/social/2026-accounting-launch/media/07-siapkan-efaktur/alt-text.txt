@@ -1,0 +1,5 @@
+Slide 1: Sebelum ekspor e-Faktur, cek tiga hal ini. Tinjau faktur keluaran sebelum menyiapkan XML.
+
+Slide 2: Identitas. Cocokkan profil pajak perusahaan dan pembeli. Dokumen. Pilih faktur penjualan yang sudah diposting. Angka. Review dasar pengenaan dan nilai PPN yang tercatat.
+
+Slide 3: Siapkan XML. Unggah lewat Coretax. Setelah ditinjau, ekspor XML dari Accounting. Lanjutkan unggah di Coretax dan catat nomor faktur yang diterbitkan. Lihat alur e-Faktur. accounting.lokakasir.id.

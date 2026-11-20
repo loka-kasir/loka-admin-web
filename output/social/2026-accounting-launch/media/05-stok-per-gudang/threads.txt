@@ -1,0 +1,1 @@
+Cek stok per lokasi walau total terlihat aman. Kalau Gudang Bekasi di bawah minimum, periksa Gudang Jakarta sebelum buat PO. Kadang stok di gudang lain sudah cukup untuk menutup kekurangannya.

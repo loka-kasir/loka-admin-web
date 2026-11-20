@@ -1,0 +1,7 @@
+Dua transfer Rp1 juta bisa masuk di hari yang sama. Nominal yang sama bisa merujuk ke faktur yang berbeda.
+
+Waktu rekonsiliasi, cek tanggal, nominal, dan referensi sebelum mencocokkan mutasi dengan jurnal. Lalu periksa apakah saldo akhir rekening sesuai buku besar.
+
+Coba fitur Rekonsiliasi Bank di accounting.lokakasir.id.
+
+#LokaKasir #LokaKasirAccounting #RekonsiliasiBank

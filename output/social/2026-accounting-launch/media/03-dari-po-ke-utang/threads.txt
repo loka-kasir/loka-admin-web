@@ -1,0 +1,1 @@
+Barang datang hari ini, faktur datang besok. Gudang perlu catat fisiknya saat diterima. Keuangan perlu tautkan faktur ke penerimaan saat tagihan datang. Dua pekerjaan itu saling melengkapi sebelum pemasok dibayar.

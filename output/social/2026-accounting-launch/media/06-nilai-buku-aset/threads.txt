@@ -1,0 +1,1 @@
+Saat aset pindah gudang, tim perlu tahu lokasinya. Saat tutup buku, tim juga perlu tahu nilai bukunya. Kartu aset yang diisi sejak awal membantu menjawab dua pertanyaan itu.
