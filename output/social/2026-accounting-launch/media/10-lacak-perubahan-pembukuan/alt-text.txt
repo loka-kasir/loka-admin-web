@@ -1,0 +1,5 @@
+Slide 1: Ada perubahan transaksi. Bisa ditelusuri? Pakai riwayat perubahan saat meninjau pembukuan.
+
+Slide 2: Kapan. Lihat waktu aktivitas yang dicatat sistem. Siapa. Periksa pengguna yang melakukan perubahan. Apa yang berubah. Buka rincian tindakan dan dokumen terkait bila tersedia.
+
+Slide 3: Tinjau riwayat dari Log aktivitas. Saat tim menemukan perubahan, lihat catatan aktivitas untuk memahami tindakan sebelum menindaklanjutinya. Buka Loka Kasir Accounting. accounting.lokakasir.id.

@@ -1,164 +1,302 @@
 {
-  "verified_at": "2026-11-20T09:54:50.734734+07:00",
   "account": "@lokakasir.id",
-  "total_before": 84,
-  "total_after": 92,
-  "accounting_count": 8,
-  "moved_kasir_count": 8,
-  "untouched_count": 76,
-  "media_reachable": 24,
+  "verified_at": "2026-11-20T10:18:05.721011+07:00",
+  "accounting_count": 10,
+  "media_reachable": 30,
+  "total_scheduled": 94,
   "posts": [
     {
+      "id": "cec35782-48e4-42c6-a8f9-13e198cfe17c",
       "theme": "Kenalan dengan Loka Kasir Accounting",
       "folder": "media/01-kenalan-accounting",
-      "accounting_id": "cec35782-48e4-42c6-a8f9-13e198cfe17c",
-      "accounting_at": "2026-11-24T14:00:00+07:00",
-      "instagram_status": "scheduled",
-      "threads_status": "waiting",
+      "scheduled_at": "2026-11-20T14:00:00+07:00",
       "media_ids": [
         "442de2f9-92a4-4afd-9867-c75390a18d81",
         "1417ba6c-72de-4f35-9d0d-b3687361234f",
         "32fd36be-3264-41f2-bb5d-ef06d7929ccf"
       ],
-      "kasir_pair_id": "afc0ea8e-19d8-4ea3-a426-827b7d24469e",
-      "kasir_pair_at": "2026-11-24T20:00:00+07:00",
-      "kasir_pair_title": "Tanggal tua, dompet pembeli menipis. Warung tetap harus jalan 💪",
-      "displaced_id": "d513324d-9bbc-4612-a2b1-4dd0b7037229",
-      "displaced_title": "Paket Rp12 ribu. Minum gratisnya dibayar siapa?",
-      "displaced_at": "2027-01-01T14:00:00+07:00"
+      "instagram_status": "scheduled",
+      "threads_status": "waiting"
     },
     {
+      "id": "469bbdc7-421a-4301-8521-e5f8ae0a4bec",
       "theme": "Piutang dan pembayaran sebagian",
       "folder": "media/02-piutang-pembayaran",
-      "accounting_id": "469bbdc7-421a-4301-8521-e5f8ae0a4bec",
-      "accounting_at": "2026-11-27T20:00:00+07:00",
-      "instagram_status": "scheduled",
-      "threads_status": "waiting",
+      "scheduled_at": "2026-11-20T20:00:00+07:00",
       "media_ids": [
         "68e90a8c-be47-4316-884c-7c612a011929",
         "cf90124d-c525-496d-9b3d-9623af7eb6e9",
         "607578ba-6e3e-4d4c-8cb6-6823f56f14bf"
       ],
-      "kasir_pair_id": "b404bdb0-0d0e-4cf1-8cec-dd86c2b1b5d3",
-      "kasir_pair_at": "2026-11-27T14:00:00+07:00",
-      "kasir_pair_title": "“Diskonnya buat semua, kan?” Mulai dari sini ributnya.",
-      "displaced_id": "e18f945f-849e-4c13-893e-dc94057a1663",
-      "displaced_title": "Owner bukan tempat penyimpanan semua ingatan.",
-      "displaced_at": "2027-01-01T20:00:00+07:00"
+      "instagram_status": "scheduled",
+      "threads_status": "waiting"
     },
     {
+      "id": "af2fd5d1-0527-4629-b391-71e028f7e163",
       "theme": "Pembelian dari pesanan sampai pembayaran",
       "folder": "media/03-dari-po-ke-utang",
-      "accounting_id": "af2fd5d1-0527-4629-b391-71e028f7e163",
-      "accounting_at": "2026-12-01T14:00:00+07:00",
-      "instagram_status": "scheduled",
-      "threads_status": "waiting",
+      "scheduled_at": "2026-11-21T14:00:00+07:00",
       "media_ids": [
         "925c1344-039b-4e1e-bb07-8adfc9c4ffb3",
         "5dd8b5e8-f0a3-49f8-9678-361d8ef34ec7",
         "ea255abc-0c1c-43c5-a7fc-7813e3564d4a"
       ],
-      "kasir_pair_id": "902d574e-409b-4d33-b0d0-7f19f601fb47",
-      "kasir_pair_at": "2026-12-01T20:00:00+07:00",
-      "kasir_pair_title": "Omzet naik. Usaha pasti lebih sehat?",
-      "displaced_id": "6c343fea-0eda-48eb-addc-6812ae67707e",
-      "displaced_title": "Target Rp600 ribu. Butuh berapa transaksi?",
-      "displaced_at": "2027-01-02T14:00:00+07:00"
+      "instagram_status": "scheduled",
+      "threads_status": "waiting"
     },
     {
+      "id": "c6e93e09-5738-4a72-a8b4-7212bbaf2011",
       "theme": "Rekonsiliasi bank",
       "folder": "media/04-cocokkan-mutasi-bank",
-      "accounting_id": "c6e93e09-5738-4a72-a8b4-7212bbaf2011",
-      "accounting_at": "2026-12-04T20:00:00+07:00",
-      "instagram_status": "scheduled",
-      "threads_status": "waiting",
+      "scheduled_at": "2026-11-21T20:00:00+07:00",
       "media_ids": [
         "0c8b2b23-d0e3-4fb6-bfba-9588ceace93a",
         "1cea075b-bda5-4b36-8d6e-52b0f3769e74",
         "bddd2645-c2dd-4c6f-bd77-436c003ceed2"
       ],
-      "kasir_pair_id": "39cade5d-3256-4271-a001-a28e89390c20",
-      "kasir_pair_at": "2026-12-04T14:00:00+07:00",
-      "kasir_pair_title": "Satu orang masak, bungkus, sekaligus terima uang?",
-      "displaced_id": "a1e58882-855e-4a03-a172-0241b505b467",
-      "displaced_title": "“Bisa jadi sejam lagi?” Jangan jawab sebelum cek.",
-      "displaced_at": "2027-01-02T20:00:00+07:00"
+      "instagram_status": "scheduled",
+      "threads_status": "waiting"
     },
     {
+      "id": "87bf3371-ef30-4a7f-a5e2-205518f85b52",
       "theme": "Minimum stok dan pemindahan antargudang",
       "folder": "media/05-stok-per-gudang",
-      "accounting_id": "87bf3371-ef30-4a7f-a5e2-205518f85b52",
-      "accounting_at": "2026-12-08T14:00:00+07:00",
-      "instagram_status": "scheduled",
-      "threads_status": "waiting",
+      "scheduled_at": "2026-11-22T14:00:00+07:00",
       "media_ids": [
         "d9b0d1ab-62bc-4019-bc69-7a28d50049fa",
         "3dcce286-4b62-42ef-b051-dc6739764a25",
         "5fed5cea-2ba9-40e4-9f6c-f47d8cfbbb65"
       ],
-      "kasir_pair_id": "7ad08f48-0f85-4164-951e-74f2f5743088",
-      "kasir_pair_at": "2026-12-08T20:00:00+07:00",
-      "kasir_pair_title": "Kasir baru sudah dilatih. Sudah pernah mencoba?",
-      "displaced_id": "c4211bdd-4d1f-4a47-9c04-10ca49f954b5",
-      "displaced_title": "Bahan segar dibeli banyak. Ramainya belum tentu.",
-      "displaced_at": "2027-01-03T14:00:00+07:00"
+      "instagram_status": "scheduled",
+      "threads_status": "waiting"
     },
     {
+      "id": "b582c469-85c7-4323-a68a-2777fc544a1e",
       "theme": "Aset tetap dan penyusutan",
       "folder": "media/06-nilai-buku-aset",
-      "accounting_id": "b582c469-85c7-4323-a68a-2777fc544a1e",
-      "accounting_at": "2026-12-11T20:00:00+07:00",
-      "instagram_status": "scheduled",
-      "threads_status": "waiting",
+      "scheduled_at": "2026-11-22T20:00:00+07:00",
       "media_ids": [
         "887bd704-9b0e-4497-92e0-c163d4365a22",
         "e46f81c6-667a-42b6-b62f-cd0509377419",
         "e0630263-6d11-4f73-b639-6a679116fbb2"
       ],
-      "kasir_pair_id": "1ba88aee-c43f-4047-bd91-d26cf107a96e",
-      "kasir_pair_at": "2026-12-11T14:00:00+07:00",
-      "kasir_pair_title": "Besok 12.12. Malam ini pura-pura jadi pelanggan.",
-      "displaced_id": "06792af5-45ea-407b-b495-0595a5c603ba",
-      "displaced_title": "Chat bilang kosong. Petugas bilang sudah dipesan.",
-      "displaced_at": "2027-01-03T20:00:00+07:00"
+      "instagram_status": "scheduled",
+      "threads_status": "waiting"
     },
     {
+      "id": "efe680f8-3427-4569-9afc-7285812ea396",
       "theme": "Pemeriksaan e-Faktur sebelum unggah",
       "folder": "media/07-siapkan-efaktur",
-      "accounting_id": "efe680f8-3427-4569-9afc-7285812ea396",
-      "accounting_at": "2026-12-15T14:00:00+07:00",
-      "instagram_status": "scheduled",
-      "threads_status": "waiting",
+      "scheduled_at": "2026-11-23T14:00:00+07:00",
       "media_ids": [
         "e9e7af48-a40c-410d-8ca8-6a0e4d62fb7f",
         "4bb82612-0bd5-42a5-9799-e172053059f9",
         "f1c76cea-abf7-49bf-b521-24321f2d90c3"
       ],
-      "kasir_pair_id": "ba9dc31b-78e4-4159-9907-c24e6b9da035",
-      "kasir_pair_at": "2026-12-15T20:00:00+07:00",
-      "kasir_pair_title": "Member top-up. Semuanya sudah jadi hasil jualan?",
-      "displaced_id": "164de743-f2ee-4b74-a2e8-9faacc9b0775",
-      "displaced_title": "Stok opname nggak harus menunggu semua rak kosong.",
-      "displaced_at": "2027-01-04T14:00:00+07:00"
+      "instagram_status": "scheduled",
+      "threads_status": "waiting"
     },
     {
+      "id": "9a441c3e-d030-471f-a770-8550d381dd41",
       "theme": "Checklist menjelang tutup buku",
       "folder": "media/08-cek-sebelum-tutup-buku",
-      "accounting_id": "9a441c3e-d030-471f-a770-8550d381dd41",
-      "accounting_at": "2026-12-18T20:00:00+07:00",
-      "instagram_status": "scheduled",
-      "threads_status": "waiting",
+      "scheduled_at": "2026-11-23T20:00:00+07:00",
       "media_ids": [
         "91facd15-887a-41e0-9c83-7353d9997713",
         "9ed2e6b0-b445-4c52-9366-d6f07991865b",
         "ea033f8a-7110-4cbe-900d-b32b84e2a942"
       ],
-      "kasir_pair_id": "832536dd-ccec-4f27-83d6-ac95be79b653",
-      "kasir_pair_at": "2026-12-18T14:00:00+07:00",
-      "kasir_pair_title": "Order 100 porsi. Otomatis bisa kasih diskon besar?",
-      "displaced_id": "156d2c70-9856-437b-8b32-1f2669997631",
-      "displaced_title": "Kasir sering ditanya harga? Coba lihat menunya.",
-      "displaced_at": "2027-01-04T20:00:00+07:00"
+      "instagram_status": "scheduled",
+      "threads_status": "waiting"
+    },
+    {
+      "id": "f64a6dbe-2be5-40ae-b991-4e8ff25ce336",
+      "theme": "Anggaran versus realisasi",
+      "folder": "media/09-anggaran-vs-realisasi",
+      "scheduled_at": "2026-11-24T14:00:00+07:00",
+      "media_ids": [
+        "d9daa583-ee90-4bf0-b2d2-1675f6eb7e64",
+        "46009a40-5292-4443-a130-a27fd137ce8f",
+        "4f0c9f9e-23c7-4455-87ad-28a30120483c"
+      ],
+      "instagram_status": "scheduled",
+      "threads_status": "waiting"
+    },
+    {
+      "id": "cabd960e-f9c2-4fc5-8311-09c0ba8b89d3",
+      "theme": "Jejak audit pembukuan",
+      "folder": "media/10-lacak-perubahan-pembukuan",
+      "scheduled_at": "2026-11-24T20:00:00+07:00",
+      "media_ids": [
+        "913a8b50-e2da-4aab-b53e-079edd0caa6b",
+        "cea684a7-26b1-4719-bc60-a2e93a2f5759",
+        "3e2dd699-5a24-4f8c-b39f-398d5f6c64b8"
+      ],
+      "instagram_status": "scheduled",
+      "threads_status": "waiting"
+    }
+  ],
+  "moves": [
+    {
+      "id": "cec35782-48e4-42c6-a8f9-13e198cfe17c",
+      "old_scheduled_at": "2026-11-24T14:00:00+07:00",
+      "scheduled_at": "2026-11-20T14:00:00+07:00",
+      "reason": "Accounting dimajukan",
+      "title": "Transaksi sudah dicatat. Pas ditanya berapa piutang dan laba bulan ini, masih harus buka beberapa file?"
+    },
+    {
+      "id": "1de3b232-b85f-491a-b33e-97f431b688f2",
+      "old_scheduled_at": "2026-11-20T14:00:00+07:00",
+      "scheduled_at": "2027-01-02T14:00:00+07:00",
+      "reason": "Kasir dari 20–23 November",
+      "title": "Tokonya kecil. Kenapa catatannya harus rapi?"
+    },
+    {
+      "id": "469bbdc7-421a-4301-8521-e5f8ae0a4bec",
+      "old_scheduled_at": "2026-11-27T20:00:00+07:00",
+      "scheduled_at": "2026-11-20T20:00:00+07:00",
+      "reason": "Accounting dimajukan",
+      "title": "Faktur Rp2.997.000. Transfer masuk Rp1.000.000. Berarti masih ada Rp1.997.000 yang perlu ditagih."
+    },
+    {
+      "id": "14e0f559-f8fb-445b-bd45-9dd3c1add59c",
+      "old_scheduled_at": "2026-11-20T20:00:00+07:00",
+      "scheduled_at": "2027-01-02T20:00:00+07:00",
+      "reason": "Kasir dari 20–23 November",
+      "title": "Tetangga diskon 30%. Kamu harus ikut?"
+    },
+    {
+      "id": "af2fd5d1-0527-4629-b391-71e028f7e163",
+      "old_scheduled_at": "2026-12-01T14:00:00+07:00",
+      "scheduled_at": "2026-11-21T14:00:00+07:00",
+      "reason": "Accounting dimajukan",
+      "title": "Gudang menerima 120 unit hari ini. Faktur pemasok baru datang besok. Tim gudang bisa mencatat penerimaannya dulu. Tim keuangan kemudian menautkan faktur ke dokumen penerimaan saat mencatat utang."
+    },
+    {
+      "id": "e6f73785-463a-4965-ac7c-59abe99cea7c",
+      "old_scheduled_at": "2026-11-21T14:00:00+07:00",
+      "scheduled_at": "2027-01-03T14:00:00+07:00",
+      "reason": "Kasir dari 20–23 November",
+      "title": "30 hampers masuk. Uang belanja harian malah habis."
+    },
+    {
+      "id": "6c343fea-0eda-48eb-addc-6812ae67707e",
+      "old_scheduled_at": "2027-01-02T14:00:00+07:00",
+      "scheduled_at": "2026-12-01T14:00:00+07:00",
+      "reason": "Kasir dikembalikan ke slot Desember",
+      "title": "Target Rp600 ribu. Butuh berapa transaksi?"
+    },
+    {
+      "id": "c6e93e09-5738-4a72-a8b4-7212bbaf2011",
+      "old_scheduled_at": "2026-12-04T20:00:00+07:00",
+      "scheduled_at": "2026-11-21T20:00:00+07:00",
+      "reason": "Accounting dimajukan",
+      "title": "Dua transfer Rp1 juta bisa masuk di hari yang sama. Nominal yang sama bisa merujuk ke faktur yang berbeda."
+    },
+    {
+      "id": "10708706-05ca-417a-89f2-c62e8a9ac495",
+      "old_scheduled_at": "2026-11-21T20:00:00+07:00",
+      "scheduled_at": "2027-01-03T20:00:00+07:00",
+      "reason": "Kasir dari 20–23 November",
+      "title": "Antrean panjang. Satu pertanyaan bisa menyelamatkan pesanan."
+    },
+    {
+      "id": "a1e58882-855e-4a03-a172-0241b505b467",
+      "old_scheduled_at": "2027-01-02T20:00:00+07:00",
+      "scheduled_at": "2026-12-04T20:00:00+07:00",
+      "reason": "Kasir dikembalikan ke slot Desember",
+      "title": "“Bisa jadi sejam lagi?” Jangan jawab sebelum cek."
+    },
+    {
+      "id": "87bf3371-ef30-4a7f-a5e2-205518f85b52",
+      "old_scheduled_at": "2026-12-08T14:00:00+07:00",
+      "scheduled_at": "2026-11-22T14:00:00+07:00",
+      "reason": "Accounting dimajukan",
+      "title": "Total stok perusahaan bisa terlihat aman, padahal salah satu gudang sudah di bawah minimum. Contoh di demo kami, Bekasi masih punya 20 unit dengan batas 24 unit."
+    },
+    {
+      "id": "c740ab9a-67de-4800-b771-2fea27cdad89",
+      "old_scheduled_at": "2026-11-22T14:00:00+07:00",
+      "scheduled_at": "2027-01-04T14:00:00+07:00",
+      "reason": "Kasir dari 20–23 November",
+      "title": "Beli 3 dus lebih murah. Kalau 2 dus diam?"
+    },
+    {
+      "id": "c4211bdd-4d1f-4a47-9c04-10ca49f954b5",
+      "old_scheduled_at": "2027-01-03T14:00:00+07:00",
+      "scheduled_at": "2026-12-08T14:00:00+07:00",
+      "reason": "Kasir dikembalikan ke slot Desember",
+      "title": "Bahan segar dibeli banyak. Ramainya belum tentu."
+    },
+    {
+      "id": "b582c469-85c7-4323-a68a-2777fc544a1e",
+      "old_scheduled_at": "2026-12-11T20:00:00+07:00",
+      "scheduled_at": "2026-11-22T20:00:00+07:00",
+      "reason": "Accounting dimajukan",
+      "title": "Rak gudang Rp4,8 juta masih dipakai. Supaya tim bisa baca nilai bukunya, catat harga perolehan, umur manfaat, residu, dan metode penyusutan di kartu aset."
+    },
+    {
+      "id": "757ecb15-0b95-45d3-aa1f-223085436d24",
+      "old_scheduled_at": "2026-11-22T20:00:00+07:00",
+      "scheduled_at": "2027-01-04T20:00:00+07:00",
+      "reason": "Kasir dari 20–23 November",
+      "title": "Toko sepi hari ini. Langsung ganti menu?"
+    },
+    {
+      "id": "06792af5-45ea-407b-b495-0595a5c603ba",
+      "old_scheduled_at": "2027-01-03T20:00:00+07:00",
+      "scheduled_at": "2026-12-11T20:00:00+07:00",
+      "reason": "Kasir dikembalikan ke slot Desember",
+      "title": "Chat bilang kosong. Petugas bilang sudah dipesan."
+    },
+    {
+      "id": "efe680f8-3427-4569-9afc-7285812ea396",
+      "old_scheduled_at": "2026-12-15T14:00:00+07:00",
+      "scheduled_at": "2026-11-23T14:00:00+07:00",
+      "reason": "Accounting dimajukan",
+      "title": "Sebelum menyiapkan XML faktur keluaran, cocokkan dulu identitas pajak, dokumen penjualan, dan angka PPN."
+    },
+    {
+      "id": "5e1e3c9a-4576-4d4a-8061-2a5ca255cc75",
+      "old_scheduled_at": "2026-11-23T14:00:00+07:00",
+      "scheduled_at": "2027-01-05T14:00:00+07:00",
+      "reason": "Kasir dari 20–23 November",
+      "title": "“Udah transfer, Kak.” Yang dicek layar siapa?"
+    },
+    {
+      "id": "164de743-f2ee-4b74-a2e8-9faacc9b0775",
+      "old_scheduled_at": "2027-01-04T14:00:00+07:00",
+      "scheduled_at": "2026-12-15T14:00:00+07:00",
+      "reason": "Kasir dikembalikan ke slot Desember",
+      "title": "Stok opname nggak harus menunggu semua rak kosong."
+    },
+    {
+      "id": "9a441c3e-d030-471f-a770-8550d381dd41",
+      "old_scheduled_at": "2026-12-18T20:00:00+07:00",
+      "scheduled_at": "2026-11-23T20:00:00+07:00",
+      "reason": "Accounting dimajukan",
+      "title": "Sebelum akhir tahun, mulai dari tiga pemeriksaan: cocokkan kas dan bank, periksa piutang dan utang terbuka, lalu review persediaan serta penyusutan aset."
+    },
+    {
+      "id": "b267b6e3-89f6-442c-8621-63f1ef85b04c",
+      "old_scheduled_at": "2026-11-23T20:00:00+07:00",
+      "scheduled_at": "2027-01-05T20:00:00+07:00",
+      "reason": "Kasir dari 20–23 November",
+      "title": "Shift berganti. Pesanan gantung ikut pindah nggak?"
+    },
+    {
+      "id": "156d2c70-9856-437b-8b32-1f2669997631",
+      "old_scheduled_at": "2027-01-04T20:00:00+07:00",
+      "scheduled_at": "2026-12-18T20:00:00+07:00",
+      "reason": "Kasir dikembalikan ke slot Desember",
+      "title": "Kasir sering ditanya harga? Coba lihat menunya."
+    },
+    {
+      "id": "afc0ea8e-19d8-4ea3-a426-827b7d24469e",
+      "old_scheduled_at": "2026-11-24T20:00:00+07:00",
+      "scheduled_at": "2026-11-27T20:00:00+07:00",
+      "reason": "Kasir tema tanggal tua",
+      "title": "Tanggal tua, dompet pembeli menipis. Warung tetap harus jalan 💪"
     }
   ]
 }

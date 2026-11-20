@@ -1,7 +1,7 @@
 # Materi Instagram Loka Kasir
 
 
-Pada 20 November 2026, delapan carousel Accounting dijadwalkan di Instagram dan Threads @lokakasir.id melalui Loka Admin. Accounting bergantian menempati slot 14.00 dan 20.00 WIB pada tanggal 24 November–18 Desember. Delapan posting Loka Kasir dari slot tersebut dipindah ke 1–4 Januari 2027 dalam urutan semula.
+Pada 20 November 2026, kalender Instagram dan Threads @lokakasir.id diperbarui untuk menayangkan sepuluh carousel Accounting pada 20–24 November, pukul 14.00 dan 20.00 WIB. Dua carousel baru membahas anggaran dan jejak audit. Delapan posting Kasir dari 20–23 November pindah ke 2–5 Januari 2027, dan tema tanggal tua pindah ke 27 November pukul 20.00 WIB. Jadwal gabungan memuat seluruh 94 posting yang terverifikasi di Loka Admin.
 
 [Buka galeri Accounting](2026-accounting-launch/index.html), [lihat kalender gabungan](2026-accounting-launch/jadwal-gabungan.csv), atau [baca verifikasi Loka Admin](2026-accounting-launch/verifikasi-jadwal.json).
 
