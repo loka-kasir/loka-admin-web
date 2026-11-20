@@ -1,7 +1,10 @@
-Dua transfer Rp1 juta bisa masuk di hari yang sama. Nominal yang sama bisa merujuk ke faktur yang berbeda.
+Loka Kasir Accounting · Rekonsiliasi bank
 
-Waktu rekonsiliasi, cek tanggal, nominal, dan referensi sebelum mencocokkan mutasi dengan jurnal. Lalu periksa apakah saldo akhir rekening sesuai buku besar.
+Contoh giro di akun demo berakhir di Rp25.316.000. Buku besar menunjukkan angka yang sama. Selisih rekonsiliasi Rp0.
 
-Coba fitur Rekonsiliasi Bank di accounting.lokakasir.id.
+Di Kas & Bank → Rekonsiliasi Bank, impor CSV mutasi dan cocokkan barisnya dengan jurnal. Saat ada dua nominal yang sama, periksa tanggal serta referensinya sebelum memilih.
 
-#LokaKasir #LokaKasirAccounting #RekonsiliasiBank
+Lihat menu rekonsiliasi di
+https://accounting.lokakasir.id/
+
+#LokaKasirAccounting #PembukuanBisnis

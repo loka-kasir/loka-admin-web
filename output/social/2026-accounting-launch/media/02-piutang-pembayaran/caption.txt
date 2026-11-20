@@ -1,7 +1,10 @@
-Faktur Rp2.997.000. Transfer masuk Rp1.000.000. Berarti masih ada Rp1.997.000 yang perlu ditagih.
+Loka Kasir Accounting · Piutang dan pembayaran sebagian
 
-Di Loka Kasir Accounting, pembayaran sebagian tercatat di faktur yang sama. Saat nominal salah input, buka Riwayat pelunasan untuk membalik jurnal pembayaran dan memulihkan saldo tagihan.
+Di akun demo, faktur SI-2026-00002 senilai Rp2.997.000 sudah dibayar Rp1.000.000. Sisa piutangnya Rp1.997.000.
 
-Simpan contoh ini buat tim penagihan. Coba alurnya di accounting.lokakasir.id.
+Buka Penjualan → Penerimaan Pembayaran. Pilih tagihan dan lihat Riwayat pelunasan untuk memeriksa transfer yang dicatat. Jika nominal salah, batalkan pelunasan dari riwayat agar jurnal dibalik dan saldo tagihan dipulihkan.
 
-#LokaKasir #LokaKasirAccounting #PiutangUsaha
+Lihat alurnya di
+https://accounting.lokakasir.id/
+
+#LokaKasirAccounting #PembukuanBisnis

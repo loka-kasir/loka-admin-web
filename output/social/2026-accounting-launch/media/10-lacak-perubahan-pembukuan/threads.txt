@@ -1,1 +1,5 @@
-Waktu angka berubah, tanyakan kapan dan tindakan apa yang tercatat. Log aktivitas Loka Kasir Accounting menunjukkan pengguna serta rincian perubahan, sehingga pemilik punya titik awal untuk meninjau.
+Loka Kasir Accounting · Jejak audit pembukuan
+
+Saat angka pembukuan berubah, mulai dari waktu, pengguna, dan rincian tindakan di Log Aktivitas. Untuk koreksi pembayaran, cocokkan dengan Riwayat pelunasan tagihan.
+
+https://accounting.lokakasir.id/

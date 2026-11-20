@@ -1,7 +1,10 @@
-Total stok perusahaan bisa terlihat aman, padahal salah satu gudang sudah di bawah minimum. Contoh di demo kami, Bekasi masih punya 20 unit dengan batas 24 unit.
+Loka Kasir Accounting · Minimum stok dan pemindahan antargudang
 
-Sebelum langsung beli, cek stok lokasi lain. Kalau bisa dipindah, catat permintaan dan pemindahannya. Kalau perlu restok, teruskan ke pembelian.
+Satu SKU di demo masih punya 20 unit di Gudang Bekasi, sementara minimumnya 24 unit. Kekurangannya 4 unit terhadap batas minimum.
 
-Lihat stok per gudang di accounting.lokakasir.id.
+Buka Persediaan → Barang Stok Minimum. Cek saldo Gudang Jakarta dulu untuk melihat apakah barang bisa dipindah. Jika perlu restok, buat permintaan pembelian dari kebutuhan yang terlihat.
 
-#LokaKasir #LokaKasirAccounting #Persediaan
+Lihat stok per gudang di
+https://accounting.lokakasir.id/
+
+#LokaKasirAccounting #PembukuanBisnis

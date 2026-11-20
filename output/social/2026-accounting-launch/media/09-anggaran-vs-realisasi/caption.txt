@@ -1,7 +1,10 @@
-Tim menganggarkan biaya logistik Rp500.000. Di buku besar baru tercatat Rp375.000. Selisihnya Rp125.000.
+Loka Kasir Accounting · Anggaran versus realisasi
 
-Dengan menu Anggaran di Loka Kasir Accounting, tim bisa membandingkan rencana dan realisasi per akun dan per bulan. Mulai dari satu pos biaya yang rutin muncul.
+Anggaran biaya logistik Oktober di demo Rp500.000. Realisasinya Rp375.000 atau 75% dari anggaran. Selisihnya Rp125.000.
 
-Lihat alurnya di accounting.lokakasir.id.
+Buka Buku Besar → Anggaran → Lihat realisasi untuk membandingkan angka per akun dan bulan.
 
-#LokaKasir #LokaKasirAccounting #Anggaran
+Lihat contohnya di
+https://accounting.lokakasir.id/
+
+#LokaKasirAccounting #PembukuanBisnis

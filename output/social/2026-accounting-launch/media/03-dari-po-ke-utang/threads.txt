@@ -1,1 +1,5 @@
-Barang datang hari ini, faktur datang besok. Gudang perlu catat fisiknya saat diterima. Keuangan perlu tautkan faktur ke penerimaan saat tagihan datang. Dua pekerjaan itu saling melengkapi sebelum pemasok dibayar.
+Loka Kasir Accounting · Pembelian dari pesanan sampai pembayaran
+
+120 unit diterima di gudang. Faktur pemasok Rp12.654.000 ditautkan ke penerimaan. Setelah uang muka Rp2.000.000 dipakai, buka Perintah Pembayaran untuk membukukan sisa Rp10.654.000.
+
+https://accounting.lokakasir.id/

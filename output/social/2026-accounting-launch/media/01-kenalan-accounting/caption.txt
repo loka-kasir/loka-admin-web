@@ -1,7 +1,10 @@
-Transaksi sudah dicatat. Pas ditanya berapa piutang dan laba bulan ini, masih harus buka beberapa file?
+Loka Kasir Accounting · Kenalan dengan Loka Kasir Accounting
 
-Kenalan dengan Loka Kasir Accounting. Anda bisa mengikuti alur dari faktur dan pembayaran sampai jurnal, laba rugi, neraca, dan arus kas. Mulai dari satu transaksi, lalu lihat bagaimana angkanya bergerak.
+Loka Kasir dipakai tim kasir untuk penjualan, shift, dan struk. Loka Kasir Accounting dipakai tim keuangan untuk faktur, utang-piutang, jurnal, dan laporan keuangan.
 
-Coba gratis 14 hari di accounting.lokakasir.id.
+Accounting bisa dipakai secara mandiri atau dihubungkan dengan Loka Kasir. Kalau baru mulai, siapkan saldo awal, catat satu faktur, lalu buka jurnal dan laporan untuk melihat hasilnya.
 
-#LokaKasir #LokaKasirAccounting #PembukuanBisnis
+Coba gratis 14 hari di
+https://accounting.lokakasir.id/
+
+#LokaKasirAccounting #PembukuanBisnis

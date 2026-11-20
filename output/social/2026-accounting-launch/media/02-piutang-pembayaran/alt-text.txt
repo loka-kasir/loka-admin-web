@@ -1,5 +1,5 @@
-Slide 1: Pelanggan baru bayar sebagian. Berapa sisanya? Satu faktur bisa punya beberapa pembayaran.
+Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Faktur Rp2.997.000. Sisa piutangnya berapa? Cek saldo faktur setelah pelanggan membayar sebagian.
 
-Slide 2: Rp2.997.000. Nilai faktur dalam contoh demo. Rp1.000.000. Pembayaran yang sudah diterima. Rp1.997.000. Saldo yang masih perlu ditagih.
+Slide 2: Rp2.997.000. Total faktur penjualan yang ditagihkan. Rp1.000.000. Pembayaran pelanggan yang sudah dicatat. Rp1.997.000. Piutang tersisa. Status faktur masih dibayar sebagian.
 
-Slide 3: Buka riwayatnya sebelum menagih. Catat pembayaran pada faktur yang sama. Jika nominal salah, gunakan Riwayat pelunasan untuk membatalkan pembayaran dan memulihkan saldo. Lihat alur piutang di Accounting. accounting.lokakasir.id.
+Slide 3: Temukan pembayaran di faktur yang sama. Pilih tagihan di Penerimaan Pembayaran dan buka Riwayat pelunasan. Jika ada salah nominal, pembatalan membentuk jurnal pembalik dan memulihkan saldo tagihan. Langkah di Accounting: Penjualan, Penerimaan Pembayaran, Riwayat pelunasan. Buka Loka Kasir Accounting. accounting.lokakasir.id.

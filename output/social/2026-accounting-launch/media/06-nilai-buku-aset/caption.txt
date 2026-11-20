@@ -1,7 +1,10 @@
-Rak gudang Rp4,8 juta masih dipakai. Supaya tim bisa baca nilai bukunya, catat harga perolehan, umur manfaat, residu, dan metode penyusutan di kartu aset.
+Loka Kasir Accounting · Aset tetap dan penyusutan
 
-Contoh ilustrasi: garis lurus 48 bulan tanpa residu menghasilkan Rp100.000 per bulan. Kalau aset pindah lokasi, simpan juga riwayat pemindahannya.
+Rak dalam akun demo diperoleh seharga Rp4.800.000. Dengan residu Rp0 dan umur manfaat 48 bulan, ilustrasi penyusutan garis lurusnya Rp100.000 sebulan. Setelah satu bulan penuh, nilai bukunya Rp4.700.000.
 
-Coba modul Aset Tetap di accounting.lokakasir.id.
+Buka Aset Tetap untuk melihat kartu dan penyusutannya. Gunakan Pindah Aset untuk mencatat lokasi baru jika rak dipindahkan.
 
-#LokaKasir #LokaKasirAccounting #AsetTetap
+Coba modulnya di
+https://accounting.lokakasir.id/
+
+#LokaKasirAccounting #PembukuanBisnis

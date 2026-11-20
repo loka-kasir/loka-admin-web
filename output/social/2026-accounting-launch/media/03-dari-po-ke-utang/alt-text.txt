@@ -1,5 +1,5 @@
-Slide 1: Barang sudah datang. Faktur pemasok menyusul. Catat dua kejadian itu sesuai urutannya.
+Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. 120 unit diterima. Kapan utang pemasok dicatat? Ikuti jalur pesanan, penerimaan barang, dan faktur pembelian.
 
-Slide 2: Pesanan Pembelian. Tetapkan barang, kuantitas, dan harga yang disepakati. Penerimaan Barang. Catat kuantitas fisik yang benar-benar diterima gudang. Faktur Pembelian. Tautkan ke penerimaan dan catat utang pemasok.
+Slide 2: Pesanan Pembelian. Catat 120 unit × Rp95.000 sebelum barang dikirim. Penerimaan Barang. Konfirmasi 120 unit fisik masuk ke gudang. Faktur Pembelian. Tautkan faktur sebesar Rp12.654.000 termasuk PPN ke dokumen penerimaan.
 
-Slide 3: Cocokkan dokumen sebelum melunasi. Periksa pesanan, penerimaan, dan faktur. Setelah nilainya cocok, buat Perintah Pembayaran untuk ditinjau dan dieksekusi. Coba alur pembelian. accounting.lokakasir.id.
+Slide 3: Periksa sisa utang sebelum bayar. Dalam contoh demo, uang muka Rp2.000.000 mengurangi tagihan. Sisa Rp10.654.000 dibukukan melalui Perintah Pembayaran. Langkah di Accounting: Pembelian, Faktur Pembelian, Perintah Pembayaran. Buka Loka Kasir Accounting. accounting.lokakasir.id.

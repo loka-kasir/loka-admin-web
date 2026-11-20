@@ -1,5 +1,5 @@
-Slide 1: Rak masih dipakai. Sudah tahu nilai bukunya? Kartu aset berisi lebih dari harga beli.
+Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Rak Rp4,8 juta. Berapa nilai bukunya? Lihat harga perolehan dan penyusutan di kartu aset.
 
-Slide 2: Rp4.800.000. Harga perolehan rak dalam contoh demo. 48 bulan. Umur manfaat contoh, dengan residu Rp0. Rp100.000 per bulan. Ilustrasi penyusutan garis lurus.
+Slide 2: Rp4.800.000. Harga perolehan rak. Contoh ini memakai residu Rp0. Rp100.000 per bulan. Penyusutan garis lurus untuk umur manfaat 48 bulan. Rp4.700.000. Nilai buku contoh setelah satu bulan penyusutan penuh.
 
-Slide 3: Catat aset dan lokasinya. Lengkapi kartu aset dan jalankan penyusutan. Kalau rak dipindahkan, catat lokasi barunya agar tim tahu posisi aset. Jelajahi modul Aset Tetap. accounting.lokakasir.id.
+Slide 3: Buka kartu aset untuk melihat jurnalnya. Lengkapi harga perolehan, residu, dan umur manfaat. Catat penyusutan periode tersebut. Bila rak berpindah lokasi, simpan riwayatnya di Pindah Aset. Langkah di Accounting: Aset Tetap, Daftar aset, Pindah Aset. Buka Loka Kasir Accounting. accounting.lokakasir.id.

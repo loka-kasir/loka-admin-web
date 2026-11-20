@@ -1,1 +1,5 @@
-Dua mutasi dengan nominal sama? Cek tanggal, pengirim, dan referensi faktur sebelum klik cocokkan. Satu langkah kecil ini bisa menghindari pembayaran yang masuk ke pelanggan keliru.
+Loka Kasir Accounting · Rekonsiliasi bank
+
+Rekening koran dan buku besar sama-sama Rp25.316.000. Selisih Rp0. Mulai rekonsiliasi dengan mencocokkan tanggal, nominal, dan referensi mutasi terhadap jurnal bank.
+
+https://accounting.lokakasir.id/

@@ -1,7 +1,10 @@
-Sebelum akhir tahun, mulai dari tiga pemeriksaan: cocokkan kas dan bank, periksa piutang dan utang terbuka, lalu review persediaan serta penyusutan aset.
+Loka Kasir Accounting · Checklist menjelang tutup buku
 
-Setelah jurnal dan laporan ditinjau, tim bisa mengunci periode di Loka Kasir Accounting.
+Sebelum mengunci bulan, cocokkan kas dan bank, tinjau piutang dan utang terbuka, lalu cek stok dan penyusutan.
 
-Simpan checklist ini buat rapat tutup buku. Coba gratis 14 hari di accounting.lokakasir.id.
+Setelah angka ditinjau di neraca saldo, laba rugi, dan neraca, buka Buku Besar → Tutup Buku. Di demo, Oktober sudah dikunci dan November masih terbuka.
 
-#LokaKasir #LokaKasirAccounting #TutupBuku
+Lihat alurnya di
+https://accounting.lokakasir.id/
+
+#LokaKasirAccounting #PembukuanBisnis

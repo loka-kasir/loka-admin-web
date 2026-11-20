@@ -1,5 +1,5 @@
-Slide 1: Ada perubahan transaksi. Bisa ditelusuri? Pakai riwayat perubahan saat meninjau pembukuan.
+Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Siapa yang mencatat perubahan pembukuan? Gunakan Log aktivitas untuk menelusuri perubahan.
 
-Slide 2: Kapan. Lihat waktu aktivitas yang dicatat sistem. Siapa. Periksa pengguna yang melakukan perubahan. Apa yang berubah. Buka rincian tindakan dan dokumen terkait bila tersedia.
+Slide 2: Waktu. Lihat kapan tindakan dicatat sistem. Pengguna. Periksa siapa yang tercantum pada aktivitas tersebut. Rincian. Buka jenis tindakan dan keterangan perubahan yang tersimpan.
 
-Slide 3: Tinjau riwayat dari Log aktivitas. Saat tim menemukan perubahan, lihat catatan aktivitas untuk memahami tindakan sebelum menindaklanjutinya. Buka Loka Kasir Accounting. accounting.lokakasir.id.
+Slide 3: Cari aktivitas, lalu buka rinciannya. Cari pengguna, aksi, atau keterangan di Log aktivitas. Saat meninjau koreksi pembayaran, cocokkan catatan aktivitas dengan Riwayat pelunasan tagihan. Langkah di Accounting: Pengaturan, Log Aktivitas, Lihat rincian. Buka Loka Kasir Accounting. accounting.lokakasir.id.

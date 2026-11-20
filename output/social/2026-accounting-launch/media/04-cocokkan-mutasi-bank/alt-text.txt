@@ -1,5 +1,5 @@
-Slide 1: Ada transfer masuk. Sudah ketemu jurnalnya? Cocokkan mutasi bank dengan pembukuan.
+Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Saldo rekening cocok dengan buku besar? Mulai dengan mencocokkan mutasi bank dan jurnal.
 
-Slide 2: Tanggal. Lihat kapan dana benar-benar tercatat di rekening. Nominal. Bandingkan nilai mutasi dengan jurnal rekening yang sama. Referensi. Cek nama pengirim atau nomor faktur saat ada nominal serupa.
+Slide 2: Rp25.316.000. Saldo akhir pada contoh rekening koran. Rp25.316.000. Saldo akun Bank di buku besar untuk tanggal yang sama. Rp0. Selisih saldo setelah mutasi dicocokkan.
 
-Slide 3: Cek selisih sebelum menutup periode. Impor mutasi, cocokkan dengan jurnal, lalu bandingkan saldo akhir rekening dengan buku besar. Buka Rekonsiliasi Bank. accounting.lokakasir.id.
+Slide 3: Cocokkan sebelum menutup rekonsiliasi. Impor CSV mutasi. Pilih baris yang sesuai dengan jurnal berdasarkan tanggal, nominal, dan referensi. Tinjau saldo akhir sebelum menyelesaikan rekonsiliasi. Langkah di Accounting: Kas & Bank, Rekonsiliasi Bank, Impor CSV. Buka Loka Kasir Accounting. accounting.lokakasir.id.

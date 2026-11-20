@@ -1,5 +1,5 @@
-Slide 1: Anggaran Rp500 ribu. Sudah terpakai berapa? Cocokkan rencana bulanan dengan biaya yang sudah tercatat.
+Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Dari anggaran Rp500 ribu, berapa yang terpakai? Bandingkan rencana dengan biaya yang sudah masuk buku besar.
 
-Slide 2: Rp500.000. Anggaran biaya logistik Oktober dalam contoh demo. Rp375.000. Biaya logistik yang dibukukan pada bulan tersebut. Rp125.000. Selisih antara anggaran dan realisasi.
+Slide 2: Rp500.000. Anggaran akun biaya logistik untuk Oktober. Rp375.000. Realisasi biaya di buku besar pada periode yang sama. Rp125.000. Selisih. Realisasi mencapai 75% dari anggaran.
 
-Slide 3: Periksa biaya sebelum tutup buku. Buka Anggaran, lalu pilih Lihat realisasi. Bandingkan rencana dengan angka buku besar per akun dan per bulan. Buka Loka Kasir Accounting. accounting.lokakasir.id.
+Slide 3: Cek realisasi per akun dan bulan. Buka Anggaran, pilih rencana yang ingin ditinjau, lalu klik Lihat realisasi. Gunakan periode yang sama untuk membaca anggaran dan biaya aktual. Langkah di Accounting: Buku Besar, Anggaran, Lihat realisasi. Buka Loka Kasir Accounting. accounting.lokakasir.id.

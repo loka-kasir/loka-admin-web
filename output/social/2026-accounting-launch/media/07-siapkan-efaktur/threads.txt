@@ -1,1 +1,5 @@
-Waktu review faktur keluaran, mulai dari tiga hal: identitas, dokumen penjualan, dan nilai PPN. Setelah cocok, siapkan XML lalu unggah lewat Coretax. Simpan nomor faktur yang terbit bersama dokumen penjualannya.
+Loka Kasir Accounting · Pemeriksaan e-Faktur sebelum unggah
+
+Di e-Faktur Coretax, cek identitas pajak, faktur yang terposting, dan nilai PPN. Ekspor XML dari Accounting, unggah lewat Coretax, lalu simpan nomor faktur yang terbit.
+
+https://accounting.lokakasir.id/

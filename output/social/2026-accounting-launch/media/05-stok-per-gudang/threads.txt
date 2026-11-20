@@ -1,1 +1,5 @@
-Cek stok per lokasi walau total terlihat aman. Kalau Gudang Bekasi di bawah minimum, periksa Gudang Jakarta sebelum buat PO. Kadang stok di gudang lain sudah cukup untuk menutup kekurangannya.
+Loka Kasir Accounting · Minimum stok dan pemindahan antargudang
+
+Gudang Bekasi punya 20 unit dan batas minimumnya 24. Ada kekurangan 4 unit. Lihat Barang Stok Minimum, cek gudang lain, lalu pilih pemindahan atau permintaan pembelian sesuai kebutuhan.
+
+https://accounting.lokakasir.id/

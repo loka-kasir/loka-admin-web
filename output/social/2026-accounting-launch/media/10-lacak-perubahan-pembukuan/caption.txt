@@ -1,7 +1,10 @@
-Waktu menemukan perubahan transaksi, mulailah dari riwayatnya. Cek kapan tindakan dicatat, siapa penggunanya, dan buka rincian untuk melihat dokumen yang terkait.
+Loka Kasir Accounting · Jejak audit pembukuan
 
-Di Loka Kasir Accounting, Log aktivitas membantu pemilik menelusuri perubahan pembukuan.
+Saat angka berubah, cek dulu catatan waktunya, pengguna yang tercantum, dan keterangan tindakan. Untuk koreksi pelunasan, bandingkan Log aktivitas dengan Riwayat pelunasan pada tagihan.
 
-Kenali fiturnya di accounting.lokakasir.id.
+Buka Pengaturan → Log Aktivitas untuk mencari aksi dan melihat rinciannya.
 
-#LokaKasir #LokaKasirAccounting #AuditTrail
+Kenali fiturnya di
+https://accounting.lokakasir.id/
+
+#LokaKasirAccounting #PembukuanBisnis

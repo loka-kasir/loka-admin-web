@@ -1,7 +1,10 @@
-Gudang menerima 120 unit hari ini. Faktur pemasok baru datang besok. Tim gudang bisa mencatat penerimaannya dulu. Tim keuangan kemudian menautkan faktur ke dokumen penerimaan saat mencatat utang.
+Loka Kasir Accounting · Pembelian dari pesanan sampai pembayaran
 
-Kalau jumlah dan harganya sudah cocok, lanjutkan ke Perintah Pembayaran di Loka Kasir Accounting.
+Tim gudang menerima 120 unit. Tim keuangan kemudian menautkan faktur Rp12.654.000 ke penerimaan barang agar tagihan pemasok bisa ditelusuri ke dokumen asalnya.
 
-Coba alur lengkapnya di accounting.lokakasir.id.
+Di contoh demo, uang muka Rp2.000.000 mengurangi tagihan. Sisa Rp10.654.000 masuk ke Perintah Pembayaran untuk diperiksa dan dibukukan.
 
-#LokaKasir #LokaKasirAccounting #Pembelian
+Coba urutannya di
+https://accounting.lokakasir.id/
+
+#LokaKasirAccounting #PembukuanBisnis

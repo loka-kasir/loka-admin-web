@@ -1,5 +1,5 @@
-Slide 1: Stok total cukup. Gudang Bekasi tinggal 20. Cek jumlah per lokasi sebelum pesan lagi.
+Slide 1: Loka Kasir Accounting. Pembukuan dan laporan keuangan. Gudang Bekasi di bawah stok minimum. Cek stok tersedia di setiap lokasi sebelum membuat pesanan.
 
-Slide 2: Stok Bekasi 20 unit. Ini jumlah fisik yang masih tersedia di lokasi. Minimum 24 unit. Gudang Bekasi 4 unit di bawah batas minimum. Periksa gudang asal. Kalau ada stok cukup di lokasi lain, pertimbangkan pemindahan.
+Slide 2: 20 unit. Stok tersedia di Gudang Bekasi pada contoh demo. 24 unit. Batas minimum yang diatur untuk SKU tersebut di Bekasi. 4 unit. Selisih terhadap minimum. Periksa stok Jakarta untuk kemungkinan transfer.
 
-Slide 3: Tentukan tindakan dari stok per lokasi. Buka Barang Stok Minimum. Buat permintaan internal, atau teruskan kebutuhan ke pembelian bila stok antargudang tidak cukup. Coba alur persediaan. accounting.lokakasir.id.
+Slide 3: Pilih pemindahan atau pembelian. Tinjau Barang Stok Minimum. Gunakan Permintaan Barang untuk kebutuhan internal atau buat permintaan pembelian saat perlu restok. Langkah di Accounting: Persediaan, Barang Stok Minimum, Permintaan Barang. Buka Loka Kasir Accounting. accounting.lokakasir.id.
