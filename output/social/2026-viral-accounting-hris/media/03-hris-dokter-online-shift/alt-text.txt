@@ -1,0 +1,7 @@
+Slide 1: Loka Kasir HRIS. VIRAL DI THREADS, 17–21 NOV 2026. Dokter online 24 jam? Jawabannya ada di jadwal. Ramai di Threads: benarkah ada dokter telemedicine yang online terus? 24 jam: Status online yang bikin warganet penasaran. 17 Nov mulai ramai dibahas; PB IDI ikut menanggapi.
+
+Slide 2: Yang sebenarnya terjadi. Awalnya: Seorang pengguna Threads heran melihat dokter telemedicine yang tampak online sampai larut malam. Kata dokter: Jam praktik disepakati sejak awal dan diisi di dashboard, termasuk shift malam. Kata PB IDI: Telemedicine untuk keluhan ringan. Bila perlu pemeriksaan fisik, pasien dirujuk. Sumber: detikHealth, 17–21 November 2026.
+
+Slide 3: Di toko juga sama: jadwalnya harus jelas. Satu orang, satu shift sehari. Jadwal yang bertumpuk bikin orang capek dan pelanggan menunggu. Jam kerja tertulis. Pagi, sore, atau malam: semua tahu kapan mulai dan selesai. Hadirnya tercatat. Absen masuk dan pulang dicocokkan dengan jadwalnya.
+
+Slide 4: Susun shift 7 hari per outlet. Satu shift per karyawan per tanggal. Minggu ini beres? Salin ke pekan depan. Karyawan melihat jadwalnya di Portal Saya. Menu: Jadwal Shift, Atur Shift, Salin ke pekan depan. Tangkapan layar: Jadwal shift tujuh hari: shift pagi dan sore tiap karyawan per outlet. Coba mode demo di hris.lokakasir.id.

@@ -1,0 +1,246 @@
+<!doctype html><html lang="id"><meta charset="utf-8"><title>Carousel isu terkini · Loka Kasir Accounting & HRIS</title><style>@font-face{font-family:Jakarta;src:url('assets/Jakarta-Medium.ttf');font-weight:500}
+@font-face{font-family:Jakarta;src:url('assets/Jakarta-SemiBold.ttf');font-weight:600}
+@font-face{font-family:Jakarta;src:url('assets/Jakarta-Bold.ttf');font-weight:700}
+@font-face{font-family:Jakarta;src:url('assets/Jakarta-ExtraBold.ttf');font-weight:800}
+*{box-sizing:border-box}
+html,body,p,h1,h2,h3,figure,ol,ul{margin:0;padding:0}
+ol,ul{list-style:none}
+body{font-family:Jakarta,sans-serif;font-weight:500;background:#0b1f42}
+
+/* Warna merek: biru #0D5DF3, kuning #FFC93C, tinta #231F20. Accounting memakai keluarga biru; HRIS kuning-hitam. */
+.t-navy{--bg:#0b1f3b;--ink:#fff;--muted:#c9d8f2;--accent:#FFC93C;--on-accent:#231F20;--panel:#143465;--panel-ink:#fff;--panel-accent:#FFC93C;--bridge:#e6efff;--bridge-ink:#11274c;--bridge-accent:#0D5DF3}
+.t-cobalt{--bg:#0D5DF3;--ink:#fff;--muted:#dfe9ff;--accent:#FFC93C;--on-accent:#231F20;--panel:#fff;--panel-ink:#11274c;--panel-accent:#0D5DF3;--bridge:#0b1f3b;--bridge-ink:#fff;--bridge-accent:#FFC93C}
+.t-paper{--bg:#f5eddb;--ink:#11274c;--muted:#44566f;--accent:#0D5DF3;--on-accent:#fff;--panel:#11274c;--panel-ink:#fff;--panel-accent:#FFC93C;--bridge:#0D5DF3;--bridge-ink:#fff;--bridge-accent:#FFC93C}
+.t-sun{--bg:#FFC93C;--ink:#231F20;--muted:#4b3d12;--accent:#0D5DF3;--on-accent:#fff;--panel:#231F20;--panel-ink:#fff;--panel-accent:#FFC93C;--bridge:#231F20;--bridge-ink:#fff;--bridge-accent:#FFC93C}
+.t-ink{--bg:#1b1c22;--ink:#fff;--muted:#cdd0da;--accent:#FFC93C;--on-accent:#231F20;--panel:#FFC93C;--panel-ink:#231F20;--panel-accent:#0D5DF3;--bridge:#FFC93C;--bridge-ink:#231F20;--bridge-accent:#0D5DF3}
+.t-sky{--bg:#e6efff;--ink:#11274c;--muted:#3c5278;--accent:#0D5DF3;--on-accent:#fff;--panel:#0D5DF3;--panel-ink:#fff;--panel-accent:#FFC93C;--bridge:#0D5DF3;--bridge-ink:#fff;--bridge-accent:#FFC93C}
+
+.slide{width:1080px;height:1350px;padding:64px 72px 54px;position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;background:var(--bg);color:var(--ink)}
+.slide>header,.slide>main,.slide>footer{position:relative;z-index:1}
+.brand{display:flex;align-items:center;justify-content:space-between;gap:24px;height:76px;flex:none}
+.wordmark{display:flex;align-items:center;gap:20px}
+.wordmark img{width:64px;height:64px;border-radius:15px;display:block}
+.wordmark strong,.wordmark small{display:block}
+.wordmark strong{font-size:38px;font-weight:800;line-height:1.1;letter-spacing:-.035em}
+.wordmark small{font-size:22px;font-weight:600;margin-top:5px;line-height:1.2;opacity:.8}
+.pagination{font-size:24px;font-weight:700;opacity:.8}
+.slide main{flex:1;min-height:0;display:flex;flex-direction:column}
+.slide footer{height:36px;flex:none;display:flex;align-items:center;justify-content:space-between;font-size:24px;font-weight:700;opacity:.92}
+.kicker{font-weight:800;font-size:24px;letter-spacing:.11em;line-height:1.25;text-transform:uppercase}
+
+/* 1. Sampul */
+.cover main{padding-top:44px}
+.chips{display:flex;flex-wrap:wrap;gap:12px;flex:none}
+.chip{display:inline-flex;align-items:center;gap:10px;height:50px;padding:0 22px;border-radius:100px;font-size:22px;font-weight:800;letter-spacing:.08em;border:2px solid color-mix(in srgb,var(--ink) 38%,transparent)}
+.chip.live{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.chip.live i{width:12px;height:12px;border-radius:50%;background:currentColor}
+.cover h1{font-size:82px;line-height:1.07;letter-spacing:-.05em;font-weight:800;margin-top:26px;text-wrap:balance;flex:none}
+.cover .lead{font-size:33px;line-height:1.36;letter-spacing:-.015em;color:var(--muted);margin-top:22px;max-width:900px;flex:none;text-wrap:pretty}
+.hero{margin-top:auto;margin-bottom:34px;flex:none;position:relative;overflow:hidden;border-radius:34px;background:var(--panel);color:var(--panel-ink);padding:40px 46px 42px}
+.hero .icon{position:absolute;right:-34px;top:-38px;width:290px;height:290px;opacity:.13;transform:rotate(-14deg)}
+.hero .icon svg{width:100%;height:100%;display:block}
+.hero .big{font-weight:800;line-height:1;letter-spacing:-.06em;color:var(--panel-accent);white-space:nowrap;position:relative}
+.hero .label{font-size:31px;font-weight:700;line-height:1.3;margin-top:16px;max-width:760px;position:relative;text-wrap:balance}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:30px;position:relative}
+.mini{border:2px solid color-mix(in srgb,var(--panel-ink) 26%,transparent);border-radius:20px;padding:16px 22px}
+.mini b{display:block;font-size:34px;font-weight:800;letter-spacing:-.03em;line-height:1.15}
+.mini span{display:block;font-size:23px;line-height:1.3;margin-top:4px;opacity:.86}
+.hero.versus{padding:34px 46px 38px}
+.versus .row{position:relative}
+.versus .row+.row{margin-top:22px;padding-top:22px;border-top:2px dashed color-mix(in srgb,var(--panel-ink) 30%,transparent)}
+.versus .row span{display:block;font-size:26px;font-weight:700;opacity:.86}
+.versus .row b{display:block;font-size:112px;font-weight:800;letter-spacing:-.055em;line-height:1.05;margin-top:4px;white-space:nowrap}
+.versus .row:first-child b{opacity:.62}
+.versus .row:last-child b{color:var(--panel-accent)}
+.versus .badge{position:absolute;right:38px;top:50%;transform:translateY(-50%) rotate(-9deg);min-width:176px;height:176px;padding:0 18px;border-radius:50%;background:var(--panel-accent);color:var(--panel);display:grid;place-items:center;text-align:center;font-size:44px;font-weight:800;letter-spacing:-.03em;line-height:1.05;box-shadow:0 14px 34px #00000038}
+.versus .badge.long{font-size:30px}
+.hero.ticker{padding:14px 46px}
+.ticker .row{display:grid;grid-template-columns:292px 1fr;align-items:center;gap:26px;padding:27px 0;position:relative}
+.ticker .row+.row{border-top:2px solid color-mix(in srgb,var(--panel-ink) 20%,transparent)}
+.ticker .row b{font-size:37px;font-weight:800;letter-spacing:-.03em;color:var(--panel-accent);line-height:1.15}
+.ticker .row span{font-size:30px;font-weight:600;line-height:1.3}
+
+/* 2. Fakta */
+.facts{background:#fbf8f1;color:#11274c}
+.facts main{padding-top:52px}
+.facts .kicker{color:#0D5DF3}
+.facts h2,.bridge h2{font-size:68px;line-height:1.1;letter-spacing:-.048em;font-weight:800;margin-top:18px;text-wrap:balance}
+/* Tiga baris berbagi sisa tinggi slide secara rata supaya halaman terisi sampai baris sumber. */
+.facts ol{margin-top:36px;border-top:3px solid #11274c;flex:1;min-height:0;display:grid;grid-auto-rows:1fr}
+.facts li{display:grid;grid-template-columns:286px 1fr;gap:30px;align-items:center;padding:24px 0;border-bottom:2px solid #d9d2c1}
+.facts li b{font-size:42px;font-weight:800;letter-spacing:-.035em;line-height:1.18;color:#0D5DF3;text-wrap:balance}
+.facts li p{font-size:36px;line-height:1.38;letter-spacing:-.012em;color:#22395d}
+.facts .source{margin-top:26px;margin-bottom:30px;flex:none;font-size:23px;line-height:1.4;color:#5a6a82}
+.facts.p-hris li b{color:#231F20}
+.facts.p-hris .kicker{color:#231F20}
+.facts.p-hris ol{border-top-color:#231F20}
+.facts.p-hris li b::before{content:'';display:block;width:54px;height:9px;border-radius:5px;background:#FFC93C;margin-bottom:14px}
+
+/* 3. Jembatan ke usaha */
+.bridge{background:var(--bridge);color:var(--bridge-ink)}
+.bridge main{padding-top:52px}
+.bridge .kicker{color:var(--bridge-accent)}
+.bridge ol{margin-top:38px;margin-bottom:34px;display:grid;gap:22px;flex:1;min-height:0;grid-auto-rows:1fr}
+.bridge li{display:flex;align-items:center;gap:30px;min-height:176px;background:#fff;color:#11274c;border-radius:30px;padding:26px 36px;box-shadow:0 12px 30px #0a1d3f1c}
+.bridge .number{display:grid;place-items:center;width:92px;height:92px;flex:none;border-radius:26px;background:#0D5DF3;color:#fff;font-size:42px;font-weight:800}
+.bridge.p-hris .number{background:#FFC93C;color:#231F20}
+.bridge h3{font-size:43px;line-height:1.18;font-weight:800;letter-spacing:-.035em}
+.bridge li p{font-size:33px;line-height:1.36;color:#3a4f72;margin-top:10px}
+
+/* 4. Produk */
+.app{background:linear-gradient(150deg,#0e2b5c,#0b1c3a 78%);color:#fff;--cta:#fff;--cta-ink:#0b3aa0}
+.app.p-hris{background:linear-gradient(150deg,#1166ff,#0a47c9 82%);--cta:#FFC93C;--cta-ink:#231F20}
+.app main{padding-top:46px;align-items:flex-start}
+.app .kicker{color:#FFC93C}
+.app h2{font-size:66px;line-height:1.1;letter-spacing:-.048em;font-weight:800;margin-top:16px;text-wrap:balance}
+.app .lead{font-size:32px;line-height:1.4;color:#e4edff;margin-top:20px;text-wrap:pretty}
+.path{display:flex;flex-wrap:wrap;align-items:center;gap:10px 12px;margin-top:28px;margin-bottom:26px;flex:none}
+.path li{font-size:26px;font-weight:800;line-height:1.2;padding:12px 20px;border-radius:14px;background:#ffffff1c;border:1.5px solid #ffffff4a}
+.path li.sep{padding:0;background:none;border:0;font-size:30px;opacity:.7}
+.app figure{background:#f5f8ff;border-radius:22px;margin:auto 0;padding:12px;width:100%;box-shadow:0 20px 50px #06112b70;flex:none}
+.app figure img{display:block;margin:0 auto;max-width:100%;max-height:var(--shot-h,430px);width:auto;height:auto;border-radius:12px}
+.app figure .crop{width:912px;max-height:440px;overflow:hidden;border-radius:12px;background:#fff;margin:0 auto}
+.app figure .crop img{max-width:none;max-height:none;margin:0;border-radius:0}
+.app figcaption{padding:10px 6px 2px;color:#3a5a86;font-size:20px;font-weight:700}
+.app .cta{margin-top:0;margin-bottom:30px;flex:none;background:var(--cta);color:var(--cta-ink);border-radius:100px;padding:20px 34px;font-size:31px;font-weight:800;line-height:1.2;box-shadow:0 14px 34px #06112b50}
+.app .cta span{padding-left:8px}
+</style><body><article class="slide cover t-sun p-hris" data-file="media/01-hris-kenalan/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>LAGI RAMAI</span><span class="chip">KETENAGAKERJAAN · 21 NOV 2026</span></div><h1>UMP, BSU, pesangon: seminggu ini HR jadi berita.</h1><p class="lead">Tiga-tiganya berujung ke satu hal: data karyawan yang rapi.</p><div class="hero ticker"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg></div><div class="row"><b>UMP 2027</b><span>Batas penetapan 21 November</span></div><div class="row"><b>BSU 2026</b><span>Rp900 ribu, dibayar sekaligus</span></div><div class="row"><b>Dana pesangon</b><span>Aturan pelaksana masih disusun</span></div></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-sun p-hris" data-file="media/01-hris-kenalan/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Faktanya</p><h2>Tiga kabar soal karyawan</h2><ol><li><b>UMP 2027</b><p>Gubernur menetapkan paling lambat 21 November. Jakarta naik 7,1% jadi Rp6.136.941.</p></li><li><b>BSU 2026</b><p>Rp900 ribu dibayar sekaligus. Yang dilihat: kepesertaan BPJS Ketenagakerjaan dan upah yang dilaporkan.</p></li><li><b>Dana pesangon</b><p>Kemnaker: lembaga pengelolanya belum ditetapkan. Aturan pelaksana masih disusun.</p></li></ol><p class="source">Sumber: Kompas.com (20/11), Kemnaker (5/11), ANTARA (15/11).</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-sun p-hris" data-file="media/01-hris-kenalan/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">Buat usahamu</p><h2>Semuanya butuh data yang sama</h2><ol><li><span class="number">1</span><div><h3>Siapa saja karyawannya</h3><p>Nama, jabatan, lokasi kerja, tanggal bergabung, dan statusnya.</p></div></li><li><span class="number">2</span><div><h3>Berapa upahnya</h3><p>Gaji pokok, tunjangan tetap, dan upah minimum di lokasi kerjanya.</p></div></li><li><span class="number">3</span><div><h3>Apa yang sudah dibayar</h3><p>Slip gaji, iuran BPJS, dan PPh 21 tiap bulan.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-sun p-hris" data-file="media/01-hris-kenalan/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir HRIS</p><h2>Loka Kasir HRIS menyimpannya di satu tempat.</h2><p class="lead">Karyawan, jadwal shift, absensi, cuti, lembur, sampai payroll. Karyawan absen dan melihat slip gaji dari Portal Saya.</p><ul class="path"><li>Karyawan</li><li class="sep">›</li><li>Jadwal Shift</li><li class="sep">›</li><li>Absensi</li><li class="sep">›</li><li>Payroll</li></ul><figure><div class="crop" style="height:423px"><img src="assets/shots/hris-ringkasan.png" alt="Ringkasan HR: absensi hari ini, karyawan aktif, hadir, terlambat, dan cuti menunggu" style="width:1369.6px;margin:-203.6px 0 0 0.0px"></div><figcaption>Tampilan Loka Kasir HRIS · Mode demo</figcaption></figure><p class="cta">Coba mode demo di hris.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>hris.lokakasir.id</span></footer>
+</article>
+<article class="slide cover t-ink p-hris" data-file="media/03-hris-dokter-online-shift/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>LAGI RAMAI</span><span class="chip">VIRAL DI THREADS · 17–21 NOV 2026</span></div><h1>Dokter online 24 jam? Jawabannya ada di jadwal.</h1><p class="lead">Ramai di Threads: benarkah ada dokter telemedicine yang online terus?</p><div class="hero stat"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></svg></div><div class="big" style="font-size:236px">24 jam</div><p class="label">Status online yang bikin warganet penasaran</p><div class="minis"><div class="mini"><b>17 Nov</b><span>mulai ramai dibahas</span></div><div class="mini"><b>PB IDI</b><span>ikut menanggapi</span></div></div></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-ink p-hris" data-file="media/03-hris-dokter-online-shift/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Faktanya</p><h2>Yang sebenarnya terjadi</h2><ol><li><b>Awalnya</b><p>Seorang pengguna Threads heran melihat dokter telemedicine yang tampak online sampai larut malam.</p></li><li><b>Kata dokter</b><p>Jam praktik disepakati sejak awal dan diisi di dashboard, termasuk shift malam.</p></li><li><b>Kata PB IDI</b><p>Telemedicine untuk keluhan ringan. Bila perlu pemeriksaan fisik, pasien dirujuk.</p></li></ol><p class="source">Sumber: detikHealth, 17–21 November 2026.</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-ink p-hris" data-file="media/03-hris-dokter-online-shift/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">Buat usahamu</p><h2>Di toko juga sama: jadwalnya harus jelas</h2><ol><li><span class="number">1</span><div><h3>Satu orang, satu shift sehari</h3><p>Jadwal yang bertumpuk bikin orang capek dan pelanggan menunggu.</p></div></li><li><span class="number">2</span><div><h3>Jam kerja tertulis</h3><p>Pagi, sore, atau malam: semua tahu kapan mulai dan selesai.</p></div></li><li><span class="number">3</span><div><h3>Hadirnya tercatat</h3><p>Absen masuk dan pulang dicocokkan dengan jadwalnya.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-ink p-hris" data-file="media/03-hris-dokter-online-shift/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir HRIS</p><h2>Susun shift 7 hari per outlet.</h2><p class="lead">Satu shift per karyawan per tanggal. Minggu ini beres? Salin ke pekan depan. Karyawan melihat jadwalnya di Portal Saya.</p><ul class="path"><li>Jadwal Shift</li><li class="sep">›</li><li>Atur Shift</li><li class="sep">›</li><li>Salin ke pekan depan</li></ul><figure><div class="crop" style="height:407px"><img src="assets/shots/hris-shift.png" alt="Jadwal shift tujuh hari: shift pagi dan sore tiap karyawan per outlet" style="width:1369.6px;margin:-122.1px 0 0 0.0px"></div><figcaption>Tampilan Loka Kasir HRIS · Mode demo</figcaption></figure><p class="cta">Coba mode demo di hris.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>hris.lokakasir.id</span></footer>
+</article>
+<article class="slide cover t-navy p-accounting" data-file="media/05-acc-wapres-dua-tahap/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>LAGI RAMAI</span><span class="chip">POLITIK · 17 NOV 2026</span></div><h1>Presiden mengusulkan dua nama. MPR memilih satu.</h1><p class="lead">Kursi wakil presiden diisi lewat dua tahap. Uang usaha juga sebaiknya begitu.</p><div class="hero stat"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 18v-7"/><path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M3 22h18"/><path d="M6 18v-7"/></svg></div><div class="big" style="font-size:236px">9 Des</div><p class="label">Jadwal sidang paripurna MPR memilih wakil presiden</p><div class="minis"><div class="mini"><b>2 nama</b><span>diusulkan Presiden</span></div><div class="mini"><b>14 hari</b><span>sebelum sidang</span></div></div></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-navy p-accounting" data-file="media/05-acc-wapres-dua-tahap/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Faktanya</p><h2>Aturan mainnya</h2><ol><li><b>Dua nama</b><p>Presiden mengusulkan dua calon wakil presiden kepada MPR.</p></li><li><b>14 hari</b><p>Usulan diserahkan paling lambat dua pekan sebelum sidang paripurna.</p></li><li><b>9 Desember</b><p>MPR menjadwalkan sidang untuk memilih, menetapkan, dan melantik wakil presiden.</p></li></ol><p class="source">Sumber: CNN Indonesia dan Kompas.com, 17 November 2026.</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-navy p-accounting" data-file="media/05-acc-wapres-dua-tahap/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">Buat usahamu</p><h2>Yang mengusulkan bukan yang memutuskan</h2><ol><li><span class="number">1</span><div><h3>Pengaju</h3><p>Staf membuat perintah pembayaran lengkap dengan tagihannya.</p></div></li><li><span class="number">2</span><div><h3>Penyetuju</h3><p>Orang lain memeriksa, lalu menyetujui atau menolak.</p></div></li><li><span class="number">3</span><div><h3>Jejaknya tersimpan</h3><p>Siapa mengajukan dan siapa menyetujui tercatat.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-navy p-accounting" data-file="media/05-acc-wapres-dua-tahap/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir Accounting</p><h2>Pembayaran lewat dua tangan.</h2><p class="lead">Buat perintah pembayaran untuk tagihan pemasok. Pengguna yang berwenang menyetujuinya sebelum transfer. Log aktivitas mencatat setiap langkah.</p><ul class="path"><li>Peran &amp; Hak Akses</li><li class="sep">›</li><li>Perintah Pembayaran</li><li class="sep">›</li><li>Log Aktivitas</li></ul><figure><div class="crop" style="height:402px"><img src="assets/shots/acc-audit.png" alt="Log aktivitas: waktu, pengguna, aksi, dan entitas yang diubah" style="width:1622.1px;margin:-65.1px 0 0 0.0px"></div><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Trial 14 hari di accounting.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
+</article>
+<article class="slide cover t-paper p-accounting" data-file="media/07-acc-rupiah-18245/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>LAGI RAMAI</span><span class="chip">EKONOMI · 18 NOV 2026</span></div><h1>Dolar Rp18.245. Tagihan impormu ikut berubah?</h1><p class="lead">Tagihan dalam dolar nilainya bergerak sampai hari dibayar.</p><div class="hero stat"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg></div><div class="big" style="font-size:188px">Rp18.245</div><p class="label">Per dolar AS, 17 November 2026</p><div class="minis"><div class="mini"><b>0,66%</b><span>melemah dari akhir Oktober</span></div><div class="mini"><b>Rp18.278</b><span>JISDOR 20 November</span></div></div></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-paper p-accounting" data-file="media/07-acc-rupiah-18245/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Faktanya</p><h2>Posisi rupiah</h2><ol><li><b>Rp18.245</b><p>Nilai tukar per dolar AS pada 17 November menurut Bank Indonesia.</p></li><li><b>0,66%</b><p>Pelemahan dibanding akhir Oktober 2026.</p></li><li><b>Rp18.278</b><p>Kurs referensi JISDOR pada 20 November 2026.</p></li></ol><p class="source">Sumber: Bank Indonesia, konferensi pers 18 November 2026 dan data JISDOR.</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-paper p-accounting" data-file="media/07-acc-rupiah-18245/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">CONTOH HITUNGAN</p><h2>Kalau kamu beli barang dalam dolar</h2><ol><li><span class="number">1</span><div><h3>Saat faktur diterima</h3><p>Tagihan US$1.000 dicatat Rp18.245.000.</p></div></li><li><span class="number">2</span><div><h3>Saat dibayar</h3><p>Kalau kurs jadi Rp18.500, yang keluar Rp18.500.000.</p></div></li><li><span class="number">3</span><div><h3>Selisihnya</h3><p>Rp255.000 itu rugi kurs, bukan harga barang.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-paper p-accounting" data-file="media/07-acc-rupiah-18245/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir Accounting</p><h2>Catat valas dengan kursnya.</h2><p class="lead">Atur mata uang dan kurs, lalu catat faktur pembelian dalam valuta asing. Revaluasi kurs menyesuaikan saldo yang belum dibayar.</p><ul class="path"><li>Mata Uang</li><li class="sep">›</li><li>Faktur Pembelian</li><li class="sep">›</li><li>Kurs KMK</li></ul><figure><div class="crop" style="height:315px"><img src="assets/shots/acc-pembelian.png" alt="Daftar faktur pembelian dengan nomor, tanggal, status, dan nilai" style="width:1622.1px;margin:-119.4px 0 0 0.0px"></div><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Trial 14 hari di accounting.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
+</article>
+<article class="slide cover t-ink p-hris" data-file="media/09-hris-ump-2027/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>LAGI RAMAI</span><span class="chip">KETENAGAKERJAAN · 21 NOV 2026</span></div><h1>UMP 2027 sudah keluar. Payroll Januari sudah disesuaikan?</h1><p class="lead">Jakarta naik 7,1%. Bali naik 42,15%.</p><div class="hero stat"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></svg></div><div class="big" style="font-size:236px">7,1%</div><p class="label">Kenaikan UMP Jakarta 2027</p><div class="minis"><div class="mini"><b>Rp6.136.941</b><span>UMP Jakarta 2027</span></div><div class="mini"><b>25 Nov</b><span>batas penetapan UMK</span></div></div></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-ink p-hris" data-file="media/09-hris-ump-2027/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Faktanya</p><h2>Angka yang sudah ditetapkan</h2><ol><li><b>Jakarta</b><p>Rp6.136.941, naik Rp407.065 dari Rp5.729.876.</p></li><li><b>Bali</b><p>Rp4.559.287, naik 42,15% dari Rp3.207.459.</p></li><li><b>Jadwalnya</b><p>UMP paling lambat 21 November, UMK paling lambat 25 November 2026.</p></li></ol><p class="source">Sumber: Kompas.com, 20–21 November 2026; ANTARA, 17 November 2026.</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-ink p-hris" data-file="media/09-hris-ump-2027/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">Buat usahamu</p><h2>Sebelum gaji Januari dibayar</h2><ol><li><span class="number">1</span><div><h3>Cek upah minimum lokasimu</h3><p>Pakai angka provinsi atau kabupaten/kota tempat karyawan bekerja.</p></div></li><li><span class="number">2</span><div><h3>Bandingkan dengan gaji sekarang</h3><p>Siapa saja yang upahnya masih di bawah angka baru?</p></div></li><li><span class="number">3</span><div><h3>Catat bulan berlakunya</h3><p>Supaya payroll Desember dan Januari memakai angka yang benar.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-ink p-hris" data-file="media/09-hris-ump-2027/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir HRIS</p><h2>Atur upah minimum per karyawan.</h2><p class="lead">Di Profil Payroll, isi bulan berlaku dan upah minimum lokasi tiap karyawan, bersama status PTKP dan program BPJS-nya.</p><ul class="path"><li>Aturan Payroll</li><li class="sep">›</li><li>Atur Profil</li><li class="sep">›</li><li>Upah minimum lokasi</li></ul><figure><img src="assets/shots/hris-profil-upah.png" alt="Form Profil Payroll dengan isian Berlaku mulai dan Upah minimum lokasi"><figcaption>Tampilan Loka Kasir HRIS · Mode demo</figcaption></figure><p class="cta">Coba mode demo di hris.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>hris.lokakasir.id</span></footer>
+</article>
+<article class="slide cover t-sun p-hris" data-file="media/11-hris-dana-pesangon-cek-fakta/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>LAGI RAMAI</span><span class="chip">CEK FAKTA · 17 NOV 2026</span></div><h1>Dana pesangon wajib disetor ke Danantara? Kemnaker: tidak benar.</h1><p class="lead">Lembaga pengelolanya belum ditetapkan. Aturan pelaksananya masih disusun.</p><div class="hero stat"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div><div class="big" style="font-size:136px">Tidak benar</div><p class="label">Kabar setoran dana pesangon ke Danantara, menurut Kemnaker</p><div class="minis"><div class="mini"><b>Pasal 253</b><span>UU 27/2026</span></div><div class="mini"><b>Belum ada</b><span>lembaga pengelola</span></div></div></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-sun p-hris" data-file="media/11-hris-dana-pesangon-cek-fakta/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Faktanya</p><h2>Yang sudah pasti dan yang belum</h2><ol><li><b>Sudah ada</b><p>UU 27/2026 Pasal 253 mengamanatkan Dana Cadangan Pesangon.</p></li><li><b>Belum ada</b><p>Lembaga pengelola dan mekanisme setoran. Peraturan turunannya sedang disiapkan.</p></li><li><b>Tidak benar</b><p>Kabar bahwa pengusaha wajib menyetor ke Danantara mulai Oktober 2027.</p></li></ol><p class="source">Sumber: ANTARA (15/11), Kompas.com (17/11), Jabar Saber Hoaks (17/11).</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-sun p-hris" data-file="media/11-hris-dana-pesangon-cek-fakta/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">Buat usahamu</p><h2>Sambil menunggu aturannya, rapikan dasarnya</h2><ol><li><span class="number">1</span><div><h3>Tanggal bergabung</h3><p>Masa kerja dihitung dari sini.</p></div></li><li><span class="number">2</span><div><h3>Upah dan tunjangan tetap</h3><p>Catat angkanya beserta bulan berlakunya.</p></div></li><li><span class="number">3</span><div><h3>Status dan kontrak</h3><p>Tetap, kontrak, atau paruh waktu, lengkap dengan akhir kontraknya.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-sun p-hris" data-file="media/11-hris-dana-pesangon-cek-fakta/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir HRIS</strong><small>Karyawan, absensi &amp; payroll</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir HRIS</p><h2>Data karyawan yang siap dihitung.</h2><p class="lead">Simpan tanggal bergabung, jenis pekerjaan, akhir kontrak, dan gaji pokok tiap karyawan. Unduh data karyawan dalam CSV saat dibutuhkan.</p><ul class="path"><li>Karyawan</li><li class="sep">›</li><li>Tambah Karyawan</li><li class="sep">›</li><li>Laporan</li></ul><figure><img src="assets/shots/hris-karyawan-form.png" alt="Form karyawan: jenis pekerjaan, akhir kontrak, tanggal bergabung, status, dan gaji pokok bulanan"><figcaption>Tampilan Loka Kasir HRIS · Mode demo</figcaption></figure><p class="cta">Coba mode demo di hris.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>hris.lokakasir.id</span></footer>
+</article>
+<article class="slide cover t-paper p-accounting" data-file="media/13-acc-pph-final-umkm-2027/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>LAGI RAMAI</span><span class="chip">PAJAK · 11 NOV 2026</span></div><h1>PT pakai PPh final UMKM sejak 2024? Tahun depan berubah.</h1><p class="lead">Mulai tahun pajak 2027, sebagian badan usaha pindah ke ketentuan umum.</p><div class="hero stat"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 16H8"/><path d="M14 8H8"/><path d="M16 12H8"/><path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z"/></svg></div><div class="big" style="font-size:236px">2027</div><p class="label">Sebagian badan usaha keluar dari PPh final UMKM</p><div class="minis"><div class="mini"><b>PT</b><span>pakai sejak tahun pajak 2024</span></div><div class="mini"><b>CV, firma, BUMDes</b><span>pakai sejak 2023</span></div></div></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-paper p-accounting" data-file="media/13-acc-pph-final-umkm-2027/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Faktanya</p><h2>Ketentuan peralihan PP 20/2026</h2><ol><li><b>PT</b><p>Yang memakai PPh final UMKM sejak tahun pajak 2024 beralih ke ketentuan umum mulai 2027.</p></li><li><b>CV, firma, BUMDes</b><p>Yang memakainya sejak tahun pajak 2023 juga beralih mulai 2027.</p></li><li><b>Yang tetap</b><p>Orang pribadi dan perseroan perorangan, selama omzet setahun belum lebih dari Rp4,8 miliar.</p></li></ol><p class="source">Sumber: DDTCNews, 11 November 2026. Cek kondisi usahamu ke konsultan pajak.</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-paper p-accounting" data-file="media/13-acc-pph-final-umkm-2027/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">Buat usahamu</p><h2>Ketentuan umum: pajak dihitung dari laba</h2><ol><li><span class="number">1</span><div><h3>Butuh laporan laba rugi</h3><p>Dasarnya laba, bukan lagi omzet.</p></div></li><li><span class="number">2</span><div><h3>Biaya harus punya bukti</h3><p>Nota dan faktur pembelian menentukan beban yang bisa diakui.</p></div></li><li><span class="number">3</span><div><h3>Mulai dari saldo awal</h3><p>Januari lebih ringan kalau saldo akhir Desember sudah rapi.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-paper p-accounting" data-file="media/13-acc-pph-final-umkm-2027/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Accounting</strong><small>Pembukuan &amp; laporan keuangan</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir Accounting</p><h2>Mulai pembukuan sebelum Januari.</h2><p class="lead">Isi saldo awal, catat penjualan dan pembelian, lalu kunci periode tiap bulan. Laba rugi dan neraca tersusun dari jurnal yang sama.</p><ul class="path"><li>Persiapan Data Perusahaan</li><li class="sep">›</li><li>Tutup Buku</li><li class="sep">›</li><li>Daftar Laporan</li></ul><figure><img src="assets/shots/acc-tutup-buku.png" alt="Periode terkunci: Oktober 2026, status Terkunci"><figcaption>Tampilan Loka Kasir Accounting · Akun demo</figcaption></figure><p class="cta">Trial 14 hari di accounting.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>accounting.lokakasir.id</span></footer>
+</article></body></html>

@@ -1,0 +1,5 @@
+Loka Kasir HRIS · Seminggu ini urusan karyawan jadi berita terus: UMP 2027, BSU Rp900 ribu, dana cadangan pesangon.
+
+Semuanya butuh data yang sama: siapa karyawanmu, berapa upahnya, apa yang sudah dibayar. Loka Kasir HRIS menyimpan karyawan, shift, absensi, cuti, dan payroll di satu tempat.
+
+Coba mode demonya: https://hris.lokakasir.id/

@@ -1,0 +1,16 @@
+Loka Kasir HRIS · UMP 2027 dan payroll Januari
+
+Batas penetapan UMP 2027 jatuh pada 21 November. Jakarta menetapkan Rp6.136.941, naik 7,1% atau Rp407.065. Bali naik 42,15% menjadi Rp4.559.287. UMK ditetapkan paling lambat 25 November.
+
+Sebelum gaji Januari dibayar, cek tiga hal: upah minimum di lokasi kerja karyawan, siapa yang upahnya masih di bawah angka baru, dan mulai bulan apa angka itu dipakai.
+
+Di Loka Kasir HRIS, Profil Payroll tiap karyawan punya isian bulan berlaku dan upah minimum lokasi, bersama status PTKP dan program BPJS-nya.
+
+Cek angka resmi daerahmu di keputusan gubernur masing-masing.
+
+Coba mode demo:
+https://hris.lokakasir.id/
+
+Sumber: Kompas.com, 20–21 November 2026; ANTARA, 17 November 2026.
+
+#LokaKasirHRIS #UMP2027 #Payroll #HRIS

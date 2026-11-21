@@ -1,0 +1,16 @@
+Loka Kasir HRIS · Dana cadangan pesangon dan kabar Danantara
+
+Beredar kabar bahwa pengusaha wajib menyetor dana cadangan pesangon ke Danantara. Kemnaker menyatakan kabar itu tidak benar.
+
+Yang sudah ada: UU 27/2026 Pasal 253 mengamanatkan Dana Cadangan Pesangon. Yang belum ada: lembaga pengelola dan mekanisme setorannya. Peraturan turunannya masih disiapkan dan akan melalui konsultasi publik.
+
+Sambil menunggu, yang bisa dirapikan sekarang adalah datanya: tanggal bergabung, upah dan tunjangan tetap, serta status dan akhir kontrak tiap karyawan.
+
+Di Loka Kasir HRIS, data itu tersimpan di profil karyawan dan bisa diunduh dalam CSV.
+
+Coba mode demo:
+https://hris.lokakasir.id/
+
+Sumber: ANTARA (15/11), Kompas.com (17/11), Jabar Saber Hoaks (17/11).
+
+#LokaKasirHRIS #CekFakta #Pesangon #HRIS

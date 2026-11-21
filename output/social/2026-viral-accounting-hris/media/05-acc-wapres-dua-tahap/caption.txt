@@ -1,0 +1,16 @@
+Loka Kasir Accounting · Pemilihan wakil presiden dan persetujuan pembayaran
+
+MPR menjadwalkan sidang paripurna 9 Desember 2026 untuk memilih, menetapkan, dan melantik wakil presiden. Aturannya: Presiden mengusulkan dua nama paling lambat 14 hari sebelum sidang, lalu MPR memilih satu.
+
+Terlepas dari siapa yang terpilih, mekanismenya menarik: yang mengusulkan dan yang memutuskan adalah dua pihak berbeda.
+
+Uang usaha juga lebih aman kalau begitu. Satu orang mengajukan pembayaran, orang lain menyetujui, dan keduanya tercatat.
+
+Di Loka Kasir Accounting, perintah pembayaran dibuat untuk tagihan pemasok dan disetujui pengguna yang berwenang sebelum transfer. Log aktivitas mencatat setiap langkah.
+
+Trial 14 hari:
+https://accounting.lokakasir.id/
+
+Sumber: CNN Indonesia dan Kompas.com, 17 November 2026.
+
+#LokaKasirAccounting #KontrolInternal #PembukuanBisnis

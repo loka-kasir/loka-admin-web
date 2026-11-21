@@ -1,0 +1,18 @@
+Loka Kasir HRIS · BSU 2026 dan data upah dari pemberi kerja
+
+BSU 2026 sebesar Rp300 ribu per bulan untuk tiga bulan, dibayar sekaligus Rp900 ribu. Pekerja tidak perlu mendaftar.
+
+Syaratnya menurut Kemnaker: WNI, peserta aktif BPJS Ketenagakerjaan sampai Agustus 2026, dan upah paling banyak Rp3,5 juta per bulan atau setara upah minimum setempat. Yang dipakai adalah upah terakhir yang dilaporkan pemberi kerja: gaji pokok dan tunjangan tetap.
+
+Jadi bagian pemberi kerja jelas: upah yang dilaporkan sesuai dengan yang dibayarkan, dan kepesertaan tidak putus.
+
+Di Loka Kasir HRIS, program BPJS dan dasar upah diatur di profil payroll tiap karyawan. Setelah payroll final, rekap payroll dan iuran BPJS bisa diunduh dalam CSV. Pelaporan ke BPJS tetap dilakukan di kanal resminya.
+
+Cek status BSU di bsu.kemnaker.go.id.
+
+Coba mode demo:
+https://hris.lokakasir.id/
+
+Sumber: Kemnaker, 5 November 2026.
+
+#LokaKasirHRIS #BSU2026 #BPJSKetenagakerjaan #Payroll

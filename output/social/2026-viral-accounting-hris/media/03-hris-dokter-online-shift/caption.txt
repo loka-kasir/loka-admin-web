@@ -1,0 +1,16 @@
+Loka Kasir HRIS · Dokter online 24 jam dan jadwal shift
+
+Minggu ini Threads ramai membahas dokter telemedicine yang kelihatan online terus. Ada yang menduga pakai admin, ada yang menduga AI.
+
+Menurut para dokter yang diwawancarai detikHealth, jam praktik disepakati sejak awal dan diisi di dashboard, termasuk yang sengaja mengambil shift malam. PB IDI mengingatkan telemedicine ditujukan untuk keluhan ringan.
+
+Di toko atau kafe, pertanyaannya mirip: siapa jaga jam berapa? Kalau jadwalnya tertulis, tidak ada yang perlu menebak.
+
+Di Loka Kasir HRIS, jadwal shift disusun 7 hari per outlet, satu shift per karyawan per tanggal, dan bisa disalin ke pekan depan. Karyawan melihat jadwalnya di Portal Saya.
+
+Coba mode demo:
+https://hris.lokakasir.id/
+
+Sumber: detikHealth, 17–21 November 2026.
+
+#LokaKasirHRIS #JadwalShift #Telemedicine #HRIS

@@ -1,0 +1,16 @@
+Loka Kasir Accounting · Harga GTA 6 dan PPN 11%
+
+GTA 6 rilis 19 November. Sebelum rilis, banyak yang mengutip harga Rp1.190.000. Di PlayStation Store Indonesia, yang tertulis Rp1.321.000.
+
+Selisihnya Rp131.000. Coba hitung: Rp1.190.000 × 1,11 = Rp1.320.900. Polanya cocok dengan harga sebelum dan sesudah PPN (tarif 12% × DPP nilai lain 11/12 = 11% dari harga). Sony tidak merinci komponen pajaknya, jadi ini hitungan kami.
+
+Pelajarannya buat usaha yang sudah PKP: tulis jelas apakah harga sudah termasuk PPN, pisahkan DPP dan PPN di faktur, dan ingat PPN yang dipungut bukan omzet.
+
+Di Loka Kasir Accounting, kode pajak di faktur penjualan menghitung DPP dan PPN, lalu menyiapkan ekspor e-Faktur.
+
+Trial 14 hari:
+https://accounting.lokakasir.id/
+
+Sumber harga: Kompas.com, 19 November 2026.
+
+#LokaKasirAccounting #GTA6 #PPN #PembukuanBisnis

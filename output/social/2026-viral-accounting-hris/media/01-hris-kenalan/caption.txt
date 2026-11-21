@@ -1,0 +1,14 @@
+Loka Kasir HRIS · Kenalan dengan Loka Kasir HRIS
+
+Seminggu ini urusan karyawan jadi berita terus. UMP 2027 ditetapkan (Jakarta naik 7,1% jadi Rp6.136.941), BSU Rp900 ribu dijadwalkan cair November–Desember, dan aturan pelaksana dana cadangan pesangon masih disusun.
+
+Tiga-tiganya berujung ke data yang sama: siapa karyawanmu, berapa upahnya, dan apa saja yang sudah dibayar.
+
+Loka Kasir HRIS menyimpan data itu di satu tempat: karyawan, jadwal shift, absensi, cuti, lembur, dan payroll dengan PPh 21 serta BPJS. Karyawan absen dan melihat slip gaji dari Portal Saya.
+
+Coba mode demo dengan data contoh:
+https://hris.lokakasir.id/
+
+Sumber: Kompas.com (20/11), Kemnaker (5/11), ANTARA (15/11).
+
+#LokaKasirHRIS #UMP2027 #BSU2026 #HRIS

@@ -1,0 +1,198 @@
+{
+ "account": "@lokakasir.id",
+ "verified_at": "2026-11-21T23:26:49.097460+07:00",
+ "created": 14,
+ "media_reachable": 35,
+ "scheduled_in_range": 44,
+ "posts": [
+  {
+   "code": "01-hris-kenalan",
+   "id": "80a879dd-ce9c-4cfc-99e4-d328c0d57c95",
+   "title": "Kenalan dengan Loka Kasir HRIS",
+   "format": "foto",
+   "scheduled_at": "2026-11-22T11:00:00+07:00",
+   "media_ids": [
+    "9f39ed90-b1a9-41dc-93dc-578a569a7b86",
+    "ef1f4008-903b-4c9b-b427-02d7b6b7c587",
+    "fb690bab-173a-47d8-a68b-a5171323925e",
+    "72b6fa37-1382-4edf-962e-e9373ff5060f"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "02-acc-gta6-harga-ppn",
+   "id": "5df5081e-d601-4573-9121-dd4a5cfefa41",
+   "title": "Harga GTA 6 dan PPN 11%",
+   "format": "video",
+   "scheduled_at": "2026-11-23T11:00:00+07:00",
+   "media_ids": [
+    "80b3d58b-78b5-4ddb-bfe4-7342dae16035"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "03-hris-dokter-online-shift",
+   "id": "8dbcc285-b9e1-4e89-bd86-6c952852f3c0",
+   "title": "Dokter online 24 jam dan jadwal shift",
+   "format": "foto",
+   "scheduled_at": "2026-11-24T11:00:00+07:00",
+   "media_ids": [
+    "14db1e43-ab3f-4cc9-9653-0fcc35916eb3",
+    "af3ab25a-0ec3-4f40-9088-2eda90af9ed8",
+    "96bd82f9-ea24-4043-81a6-a1a7ce85b35b",
+    "d69e7d0a-7b8a-45cc-ab67-0948328a5b8e"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "04-acc-uu-perampasan-aset",
+   "id": "e138d3e5-8889-497b-82c0-ef8b24470ad8",
+   "title": "UU Perampasan Aset dan catatan asal-usul aset",
+   "format": "video",
+   "scheduled_at": "2026-11-25T11:00:00+07:00",
+   "media_ids": [
+    "048d93bc-f131-48c5-886c-7ec6bb414d97"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "05-acc-wapres-dua-tahap",
+   "id": "64597ca8-8f01-46fa-8b17-ac5b49ac0acf",
+   "title": "Pemilihan wakil presiden dan persetujuan pembayaran",
+   "format": "foto",
+   "scheduled_at": "2026-11-26T11:00:00+07:00",
+   "media_ids": [
+    "e1a8dc2a-a66f-4c06-9588-cef6a3d6b40f",
+    "29709062-df3c-4d3f-b518-a4360025db35",
+    "4a085d39-da69-4f01-8676-8ce8688d3628",
+    "2f67b51f-b0b2-41e6-9f63-341009fdf7f9"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "06-hris-timnas-debut-onboarding",
+   "id": "ef38af3a-9e58-4f59-ac4e-8be245d4dbce",
+   "title": "Debutan Timnas dan hari pertama karyawan baru",
+   "format": "video",
+   "scheduled_at": "2026-11-27T11:00:00+07:00",
+   "media_ids": [
+    "1ca126a5-abc4-4b31-b9cf-e3e49547dae1"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "07-acc-rupiah-18245",
+   "id": "22de0974-9ed0-41eb-8037-ad3f1547c903",
+   "title": "Rupiah Rp18.245 dan tagihan dalam dolar",
+   "format": "foto",
+   "scheduled_at": "2026-11-28T11:00:00+07:00",
+   "media_ids": [
+    "062aabd6-bcb4-4af0-b2c9-0e7faab5864e",
+    "61ff9025-4b04-4956-ba6c-9758f7a19182",
+    "25b5bee4-addc-473f-b258-ca2075161c2a",
+    "15892ab8-82b7-42f0-9312-d96dc93ece6b"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "08-acc-persib-jdt-identik",
+   "id": "6d9ed629-3b03-4269-8e07-f95ae9dc5ab7",
+   "title": "Persib, JDT, dan omzet yang sama",
+   "format": "video",
+   "scheduled_at": "2026-11-29T11:00:00+07:00",
+   "media_ids": [
+    "01a7cbae-2d4b-40ba-a0d3-33186578f601"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "09-hris-ump-2027",
+   "id": "e8bfea43-092a-4b9d-b635-92038e29b36a",
+   "title": "UMP 2027 dan payroll Januari",
+   "format": "foto",
+   "scheduled_at": "2026-11-30T11:00:00+07:00",
+   "media_ids": [
+    "6029274e-cca3-4ccb-916f-98dc0350bce4",
+    "8c38138c-1fb0-4168-9381-d6ea9b876b8c",
+    "bce3d3fe-f42f-4c23-b173-ed11878176f0",
+    "357dda81-b225-438c-96e5-6ac724387781"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "10-hris-gta6-cuti",
+   "id": "b99dc52d-6091-49f3-9b68-0fd6eb2348c2",
+   "title": "GTA 6 rilis dan pengajuan cuti",
+   "format": "video",
+   "scheduled_at": "2026-12-01T11:00:00+07:00",
+   "media_ids": [
+    "decfe898-067a-458a-a491-d8f45e12d0bd"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "11-hris-dana-pesangon-cek-fakta",
+   "id": "1091761c-f457-4ba0-912d-1df54d54e715",
+   "title": "Dana cadangan pesangon dan kabar Danantara",
+   "format": "foto",
+   "scheduled_at": "2026-12-02T11:00:00+07:00",
+   "media_ids": [
+    "84a8c2dc-96bd-4ec5-bc7f-13b7e348ba30",
+    "258373cf-75d9-4f3c-b962-2dd4047a6fc8",
+    "976d53ad-2fac-446f-984f-f0c985c0feed",
+    "a1307b5f-e4b8-4344-878e-1c3b324b8edb"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "12-acc-bi-rate-6-persen",
+   "id": "e84d3735-a9b0-49d8-b784-f4a30e753ceb",
+   "title": "BI-Rate naik ke 6%",
+   "format": "video",
+   "scheduled_at": "2026-12-03T11:00:00+07:00",
+   "media_ids": [
+    "00bbeb65-8f3e-493d-9ae3-2e75baa2f2eb"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "13-acc-pph-final-umkm-2027",
+   "id": "df124001-e91e-47ed-a654-c798511d8783",
+   "title": "PPh final UMKM berakhir untuk sebagian badan usaha",
+   "format": "foto",
+   "scheduled_at": "2026-12-04T11:00:00+07:00",
+   "media_ids": [
+    "9a964ec6-4ba8-4a62-92d7-2430af8885bb",
+    "a15588aa-fff4-4783-bb19-a8d45246ef36",
+    "b1755692-9f02-44ae-82bd-057aed900bcb",
+    "6f3f52c0-8515-4430-8529-2eab0664f06d"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "14-hris-bsu-data-upah",
+   "id": "9852cbdc-672c-4415-9298-01758ce627c4",
+   "title": "BSU 2026 dan data upah dari pemberi kerja",
+   "format": "video",
+   "scheduled_at": "2026-12-05T11:00:00+07:00",
+   "media_ids": [
+    "0573b91c-96ed-4ffe-ae20-3b85a591f67e"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  }
+ ]
+}

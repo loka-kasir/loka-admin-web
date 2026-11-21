@@ -1,0 +1,7 @@
+Slide 1: Loka Kasir Accounting. EKONOMI, 18 NOV 2026. Dolar Rp18.245. Tagihan impormu ikut berubah? Tagihan dalam dolar nilainya bergerak sampai hari dibayar. Rp18.245: Per dolar AS, 17 November 2026. 0,66% melemah dari akhir Oktober; Rp18.278 JISDOR 20 November.
+
+Slide 2: Posisi rupiah. Rp18.245: Nilai tukar per dolar AS pada 17 November menurut Bank Indonesia. 0,66%: Pelemahan dibanding akhir Oktober 2026. Rp18.278: Kurs referensi JISDOR pada 20 November 2026. Sumber: Bank Indonesia, konferensi pers 18 November 2026 dan data JISDOR.
+
+Slide 3: Kalau kamu beli barang dalam dolar. Saat faktur diterima. Tagihan US$1.000 dicatat Rp18.245.000. Saat dibayar. Kalau kurs jadi Rp18.500, yang keluar Rp18.500.000. Selisihnya. Rp255.000 itu rugi kurs, bukan harga barang.
+
+Slide 4: Catat valas dengan kursnya. Atur mata uang dan kurs, lalu catat faktur pembelian dalam valuta asing. Revaluasi kurs menyesuaikan saldo yang belum dibayar. Menu: Mata Uang, Faktur Pembelian, Kurs KMK. Tangkapan layar: Daftar faktur pembelian dengan nomor, tanggal, status, dan nilai. Trial 14 hari di accounting.lokakasir.id.

@@ -1,0 +1,7 @@
+Slide 1: Loka Kasir HRIS. KETENAGAKERJAAN, 21 NOV 2026. UMP, BSU, pesangon: seminggu ini HR jadi berita. Tiga-tiganya berujung ke satu hal: data karyawan yang rapi. UMP 2027: Batas penetapan 21 November; BSU 2026: Rp900 ribu, dibayar sekaligus; Dana pesangon: Aturan pelaksana masih disusun.
+
+Slide 2: Tiga kabar soal karyawan. UMP 2027: Gubernur menetapkan paling lambat 21 November. Jakarta naik 7,1% jadi Rp6.136.941. BSU 2026: Rp900 ribu dibayar sekaligus. Yang dilihat: kepesertaan BPJS Ketenagakerjaan dan upah yang dilaporkan. Dana pesangon: Kemnaker: lembaga pengelolanya belum ditetapkan. Aturan pelaksana masih disusun. Sumber: Kompas.com (20/11), Kemnaker (5/11), ANTARA (15/11).
+
+Slide 3: Semuanya butuh data yang sama. Siapa saja karyawannya. Nama, jabatan, lokasi kerja, tanggal bergabung, dan statusnya. Berapa upahnya. Gaji pokok, tunjangan tetap, dan upah minimum di lokasi kerjanya. Apa yang sudah dibayar. Slip gaji, iuran BPJS, dan PPh 21 tiap bulan.
+
+Slide 4: Loka Kasir HRIS menyimpannya di satu tempat. Karyawan, jadwal shift, absensi, cuti, lembur, sampai payroll. Karyawan absen dan melihat slip gaji dari Portal Saya. Menu: Karyawan, Jadwal Shift, Absensi, Payroll. Tangkapan layar: Ringkasan HR: absensi hari ini, karyawan aktif, hadir, terlambat, dan cuti menunggu. Coba mode demo di hris.lokakasir.id.

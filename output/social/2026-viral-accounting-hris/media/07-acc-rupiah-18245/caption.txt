@@ -1,0 +1,16 @@
+Loka Kasir Accounting · Rupiah Rp18.245 dan tagihan dalam dolar
+
+Bank Indonesia mencatat nilai tukar Rp18.245 per dolar AS pada 17 November 2026, melemah 0,66% dari akhir Oktober. Kurs JISDOR 20 November: Rp18.278.
+
+Kalau kamu membeli barang dari luar negeri, tagihan dalam dolar nilainya bergerak sampai hari dibayar.
+
+Contoh hitungan: tagihan US$1.000 dicatat Rp18.245.000 saat faktur diterima. Kalau saat dibayar kurs jadi Rp18.500, yang keluar Rp18.500.000. Selisih Rp255.000 itu rugi kurs, bukan harga barang. Kalau dicampur, harga pokok jadi keliru.
+
+Di Loka Kasir Accounting, atur mata uang dan kursnya, catat faktur pembelian dalam valuta asing, lalu jalankan revaluasi kurs untuk saldo yang belum dibayar.
+
+Trial 14 hari:
+https://accounting.lokakasir.id/
+
+Sumber: Bank Indonesia, 18 November 2026 dan data JISDOR.
+
+#LokaKasirAccounting #Rupiah #SelisihKurs #PembukuanBisnis

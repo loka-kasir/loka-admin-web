@@ -1,0 +1,7 @@
+Slide 1: Loka Kasir HRIS. KETENAGAKERJAAN, 21 NOV 2026. UMP 2027 sudah keluar. Payroll Januari sudah disesuaikan? Jakarta naik 7,1%. Bali naik 42,15%. 7,1%: Kenaikan UMP Jakarta 2027. Rp6.136.941 UMP Jakarta 2027; 25 Nov batas penetapan UMK.
+
+Slide 2: Angka yang sudah ditetapkan. Jakarta: Rp6.136.941, naik Rp407.065 dari Rp5.729.876. Bali: Rp4.559.287, naik 42,15% dari Rp3.207.459. Jadwalnya: UMP paling lambat 21 November, UMK paling lambat 25 November 2026. Sumber: Kompas.com, 20–21 November 2026; ANTARA, 17 November 2026.
+
+Slide 3: Sebelum gaji Januari dibayar. Cek upah minimum lokasimu. Pakai angka provinsi atau kabupaten/kota tempat karyawan bekerja. Bandingkan dengan gaji sekarang. Siapa saja yang upahnya masih di bawah angka baru? Catat bulan berlakunya. Supaya payroll Desember dan Januari memakai angka yang benar.
+
+Slide 4: Atur upah minimum per karyawan. Di Profil Payroll, isi bulan berlaku dan upah minimum lokasi tiap karyawan, bersama status PTKP dan program BPJS-nya. Menu: Aturan Payroll, Atur Profil, Upah minimum lokasi. Tangkapan layar: Form Profil Payroll dengan isian Berlaku mulai dan Upah minimum lokasi. Coba mode demo di hris.lokakasir.id.

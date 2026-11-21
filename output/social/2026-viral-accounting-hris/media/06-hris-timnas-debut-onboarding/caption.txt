@@ -1,0 +1,16 @@
+Loka Kasir HRIS · Debutan Timnas dan hari pertama karyawan baru
+
+Di pemusatan latihan Timnas Indonesia di Bali, Arlyansyah Abdulmanan (20 tahun, Persija) mendapat panggilan pertamanya dan langsung mencetak gol saat uji coba tertutup melawan Bali United, 15 November. Skor akhir 1–1.
+
+Pemain baru bisa langsung berkontribusi kalau tahu perannya. Karyawan baru juga.
+
+Hari pertama lebih lancar kalau tugas dan lokasinya jelas, shift minggu pertama sudah ada, dan perlengkapan kerja diserahkan lalu dicatat.
+
+Di Loka Kasir HRIS, tambahkan karyawan, mulai checklist masuk dengan tenggatnya di Siklus Karyawan, dan catat serah terima aset. Undangan Portal Saya dibuat dari Akses Tim.
+
+Coba mode demo:
+https://hris.lokakasir.id/
+
+Sumber: CNN Indonesia (17/11), tvOnenews (15/11).
+
+#LokaKasirHRIS #TimnasIndonesia #Onboarding #HRIS

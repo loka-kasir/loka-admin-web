@@ -1,0 +1,1406 @@
+[
+ {
+  "number": 1,
+  "code": "01-hris-kenalan",
+  "folder": "media/01-hris-kenalan",
+  "scheduled_at": "2026-11-22T11:00:00+07:00",
+  "format": "foto",
+  "media": [
+   "slide-01.jpg",
+   "slide-02.jpg",
+   "slide-03.jpg",
+   "slide-04.jpg"
+  ],
+  "slug": "hris-kenalan",
+  "product": "hris",
+  "date": "2026-11-22",
+  "time": "11:00",
+  "theme": "sun",
+  "category": "KETENAGAKERJAAN",
+  "newsDate": "21 NOV 2026",
+  "icon": "users",
+  "title": "Kenalan dengan Loka Kasir HRIS",
+  "headline": "UMP, BSU, pesangon: seminggu ini HR jadi berita.",
+  "lead": "Tiga-tiganya berujung ke satu hal: data karyawan yang rapi.",
+  "hero": {
+   "kind": "ticker",
+   "rows": [
+    [
+     "UMP 2027",
+     "Batas penetapan 21 November"
+    ],
+    [
+     "BSU 2026",
+     "Rp900 ribu, dibayar sekaligus"
+    ],
+    [
+     "Dana pesangon",
+     "Aturan pelaksana masih disusun"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Tiga kabar soal karyawan",
+   "items": [
+    [
+     "UMP 2027",
+     "Gubernur menetapkan paling lambat 21 November. Jakarta naik 7,1% jadi Rp6.136.941."
+    ],
+    [
+     "BSU 2026",
+     "Rp900 ribu dibayar sekaligus. Yang dilihat: kepesertaan BPJS Ketenagakerjaan dan upah yang dilaporkan."
+    ],
+    [
+     "Dana pesangon",
+     "Kemnaker: lembaga pengelolanya belum ditetapkan. Aturan pelaksana masih disusun."
+    ]
+   ],
+   "source": "Sumber: Kompas.com (20/11), Kemnaker (5/11), ANTARA (15/11)."
+  },
+  "bridge": {
+   "title": "Semuanya butuh data yang sama",
+   "items": [
+    [
+     "Siapa saja karyawannya",
+     "Nama, jabatan, lokasi kerja, tanggal bergabung, dan statusnya."
+    ],
+    [
+     "Berapa upahnya",
+     "Gaji pokok, tunjangan tetap, dan upah minimum di lokasi kerjanya."
+    ],
+    [
+     "Apa yang sudah dibayar",
+     "Slip gaji, iuran BPJS, dan PPh 21 tiap bulan."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Loka Kasir HRIS menyimpannya di satu tempat.",
+   "body": "Karyawan, jadwal shift, absensi, cuti, lembur, sampai payroll. Karyawan absen dan melihat slip gaji dari Portal Saya.",
+   "path": [
+    "Karyawan",
+    "Jadwal Shift",
+    "Absensi",
+    "Payroll"
+   ],
+   "capture": "hris-ringkasan.png",
+   "photoFocus": [
+    0,
+    250,
+    1120,
+    770
+   ],
+   "captureAlt": "Ringkasan HR: absensi hari ini, karyawan aktif, hadir, terlambat, dan cuti menunggu",
+   "cta": "Coba mode demo di hris.lokakasir.id"
+  },
+  "caption": "Loka Kasir HRIS · Kenalan dengan Loka Kasir HRIS\n\nSeminggu ini urusan karyawan jadi berita terus. UMP 2027 ditetapkan (Jakarta naik 7,1% jadi Rp6.136.941), BSU Rp900 ribu dijadwalkan cair November–Desember, dan aturan pelaksana dana cadangan pesangon masih disusun.\n\nTiga-tiganya berujung ke data yang sama: siapa karyawanmu, berapa upahnya, dan apa saja yang sudah dibayar.\n\nLoka Kasir HRIS menyimpan data itu di satu tempat: karyawan, jadwal shift, absensi, cuti, lembur, dan payroll dengan PPh 21 serta BPJS. Karyawan absen dan melihat slip gaji dari Portal Saya.\n\nCoba mode demo dengan data contoh:\nhttps://hris.lokakasir.id/\n\nSumber: Kompas.com (20/11), Kemnaker (5/11), ANTARA (15/11).\n\n#LokaKasirHRIS #UMP2027 #BSU2026 #HRIS",
+  "threads": "Loka Kasir HRIS · Seminggu ini urusan karyawan jadi berita terus: UMP 2027, BSU Rp900 ribu, dana cadangan pesangon.\n\nSemuanya butuh data yang sama: siapa karyawanmu, berapa upahnya, apa yang sudah dibayar. Loka Kasir HRIS menyimpan karyawan, shift, absensi, cuti, dan payroll di satu tempat.\n\nCoba mode demonya: https://hris.lokakasir.id/",
+  "productName": "Loka Kasir HRIS"
+ },
+ {
+  "number": 2,
+  "code": "02-acc-gta6-harga-ppn",
+  "folder": "media/02-acc-gta6-harga-ppn",
+  "scheduled_at": "2026-11-23T11:00:00+07:00",
+  "format": "video",
+  "media": [
+   "video.mp4"
+  ],
+  "slug": "acc-gta6-harga-ppn",
+  "product": "accounting",
+  "date": "2026-11-23",
+  "time": "11:00",
+  "theme": "navy",
+  "video": {
+   "kind": "versus",
+   "prefix": "Rp",
+   "badge": "+11%",
+   "rows": [
+    [
+     "Harga yang ramai dikutip",
+     1190000
+    ],
+    [
+     "PlayStation Store Indonesia",
+     1321000
+    ]
+   ]
+  },
+  "category": "GAME",
+  "newsDate": "19 NOV 2026",
+  "icon": "gamepad-2",
+  "title": "Harga GTA 6 dan PPN 11%",
+  "headline": "GTA 6: Rp1,19 juta di berita, Rp1,32 juta di keranjang.",
+  "lead": "Selisihnya Rp131.000. Hampir persis 11% dari harga awal.",
+  "hero": {
+   "kind": "versus",
+   "badge": "+11%",
+   "rows": [
+    [
+     "Harga yang ramai dikutip",
+     "Rp1.190.000"
+    ],
+    [
+     "PlayStation Store Indonesia",
+     "Rp1.321.000"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Hitungannya sederhana",
+   "items": [
+    [
+     "Rp1.190.000",
+     "Harga Standard Edition yang dikutip sejumlah media sejak pre-order dibuka."
+    ],
+    [
+     "Rp1.321.000",
+     "Harga yang tercantum di PlayStation Store Indonesia saat rilis, 19 November."
+    ],
+    [
+     "× 1,11",
+     "Rp1.190.000 × 1,11 = Rp1.320.900. Polanya cocok dengan harga sebelum dan sesudah PPN."
+    ]
+   ],
+   "source": "Sumber harga: Kompas.com (19/11). Sony tidak merinci komponen pajaknya; angka 11% hitungan kami."
+  },
+  "bridge": {
+   "title": "Kalau usahamu PKP, pelanggan juga bisa kaget",
+   "items": [
+    [
+     "Tulis harga dengan jelas",
+     "Sebutkan apakah harga sudah termasuk PPN atau belum."
+    ],
+    [
+     "Pisahkan DPP dan PPN",
+     "Di faktur, nilai barang dan pajaknya punya baris sendiri."
+    ],
+    [
+     "PPN bukan omzet",
+     "Pajak yang kamu pungut itu titipan untuk disetor."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Faktur dengan PPN, langsung terpisah.",
+   "body": "Pasang kode pajak di faktur penjualan. Accounting menghitung DPP, DPP nilai lain 11/12, dan PPN 12%, lalu menyiapkan ekspor e-Faktur.",
+   "path": [
+    "Kode Pajak",
+    "Faktur Penjualan",
+    "e-Faktur Coretax"
+   ],
+   "capture": "acc-pajak.png",
+   "focus": [
+    660,
+    215,
+    1641,
+    368
+   ],
+   "captureAlt": "Daftar faktur pajak keluaran dengan kolom DPP, DPP nilai lain, dan PPN 12%",
+   "cta": "Trial 14 hari di accounting.lokakasir.id"
+  },
+  "caption": "Loka Kasir Accounting · Harga GTA 6 dan PPN 11%\n\nGTA 6 rilis 19 November. Sebelum rilis, banyak yang mengutip harga Rp1.190.000. Di PlayStation Store Indonesia, yang tertulis Rp1.321.000.\n\nSelisihnya Rp131.000. Coba hitung: Rp1.190.000 × 1,11 = Rp1.320.900. Polanya cocok dengan harga sebelum dan sesudah PPN (tarif 12% × DPP nilai lain 11/12 = 11% dari harga). Sony tidak merinci komponen pajaknya, jadi ini hitungan kami.\n\nPelajarannya buat usaha yang sudah PKP: tulis jelas apakah harga sudah termasuk PPN, pisahkan DPP dan PPN di faktur, dan ingat PPN yang dipungut bukan omzet.\n\nDi Loka Kasir Accounting, kode pajak di faktur penjualan menghitung DPP dan PPN, lalu menyiapkan ekspor e-Faktur.\n\nTrial 14 hari:\nhttps://accounting.lokakasir.id/\n\nSumber harga: Kompas.com, 19 November 2026.\n\n#LokaKasirAccounting #GTA6 #PPN #PembukuanBisnis",
+  "threads": "Loka Kasir Accounting · GTA 6: Rp1.190.000 di berita, Rp1.321.000 di PlayStation Store Indonesia.\n\nRp1.190.000 × 1,11 = Rp1.320.900. Polanya cocok dengan harga sebelum dan sesudah PPN. Ini hitungan kami; Sony tidak merinci pajaknya.\n\nKalau usahamu PKP: tulis jelas harga sudah termasuk PPN atau belum.\n\nhttps://accounting.lokakasir.id/",
+  "productName": "Loka Kasir Accounting"
+ },
+ {
+  "number": 3,
+  "code": "03-hris-dokter-online-shift",
+  "folder": "media/03-hris-dokter-online-shift",
+  "scheduled_at": "2026-11-24T11:00:00+07:00",
+  "format": "foto",
+  "media": [
+   "slide-01.jpg",
+   "slide-02.jpg",
+   "slide-03.jpg",
+   "slide-04.jpg"
+  ],
+  "slug": "hris-dokter-online-shift",
+  "product": "hris",
+  "date": "2026-11-24",
+  "time": "11:00",
+  "theme": "ink",
+  "category": "VIRAL DI THREADS",
+  "newsDate": "17–21 NOV 2026",
+  "icon": "stethoscope",
+  "title": "Dokter online 24 jam dan jadwal shift",
+  "headline": "Dokter online 24 jam? Jawabannya ada di jadwal.",
+  "lead": "Ramai di Threads: benarkah ada dokter telemedicine yang online terus?",
+  "hero": {
+   "kind": "stat",
+   "big": "24 jam",
+   "label": "Status online yang bikin warganet penasaran",
+   "minis": [
+    [
+     "17 Nov",
+     "mulai ramai dibahas"
+    ],
+    [
+     "PB IDI",
+     "ikut menanggapi"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Yang sebenarnya terjadi",
+   "items": [
+    [
+     "Awalnya",
+     "Seorang pengguna Threads heran melihat dokter telemedicine yang tampak online sampai larut malam."
+    ],
+    [
+     "Kata dokter",
+     "Jam praktik disepakati sejak awal dan diisi di dashboard, termasuk shift malam."
+    ],
+    [
+     "Kata PB IDI",
+     "Telemedicine untuk keluhan ringan. Bila perlu pemeriksaan fisik, pasien dirujuk."
+    ]
+   ],
+   "source": "Sumber: detikHealth, 17–21 November 2026."
+  },
+  "bridge": {
+   "title": "Di toko juga sama: jadwalnya harus jelas",
+   "items": [
+    [
+     "Satu orang, satu shift sehari",
+     "Jadwal yang bertumpuk bikin orang capek dan pelanggan menunggu."
+    ],
+    [
+     "Jam kerja tertulis",
+     "Pagi, sore, atau malam: semua tahu kapan mulai dan selesai."
+    ],
+    [
+     "Hadirnya tercatat",
+     "Absen masuk dan pulang dicocokkan dengan jadwalnya."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Susun shift 7 hari per outlet.",
+   "body": "Satu shift per karyawan per tanggal. Minggu ini beres? Salin ke pekan depan. Karyawan melihat jadwalnya di Portal Saya.",
+   "path": [
+    "Jadwal Shift",
+    "Atur Shift",
+    "Salin ke pekan depan"
+   ],
+   "capture": "hris-shift.png",
+   "photoFocus": [
+    0,
+    150,
+    1120,
+    650
+   ],
+   "captureAlt": "Jadwal shift tujuh hari: shift pagi dan sore tiap karyawan per outlet",
+   "cta": "Coba mode demo di hris.lokakasir.id"
+  },
+  "caption": "Loka Kasir HRIS · Dokter online 24 jam dan jadwal shift\n\nMinggu ini Threads ramai membahas dokter telemedicine yang kelihatan online terus. Ada yang menduga pakai admin, ada yang menduga AI.\n\nMenurut para dokter yang diwawancarai detikHealth, jam praktik disepakati sejak awal dan diisi di dashboard, termasuk yang sengaja mengambil shift malam. PB IDI mengingatkan telemedicine ditujukan untuk keluhan ringan.\n\nDi toko atau kafe, pertanyaannya mirip: siapa jaga jam berapa? Kalau jadwalnya tertulis, tidak ada yang perlu menebak.\n\nDi Loka Kasir HRIS, jadwal shift disusun 7 hari per outlet, satu shift per karyawan per tanggal, dan bisa disalin ke pekan depan. Karyawan melihat jadwalnya di Portal Saya.\n\nCoba mode demo:\nhttps://hris.lokakasir.id/\n\nSumber: detikHealth, 17–21 November 2026.\n\n#LokaKasirHRIS #JadwalShift #Telemedicine #HRIS",
+  "threads": "Loka Kasir HRIS · Dokter telemedicine “online 24 jam” lagi ramai di sini.\n\nKata para dokter ke detikHealth: jam praktik disepakati sejak awal dan diisi di dashboard, termasuk shift malam.\n\nDi toko juga sama. Kalau jadwal shift tertulis, tidak ada yang perlu menebak siapa jaga jam berapa.\n\nhttps://hris.lokakasir.id/",
+  "productName": "Loka Kasir HRIS"
+ },
+ {
+  "number": 4,
+  "code": "04-acc-uu-perampasan-aset",
+  "folder": "media/04-acc-uu-perampasan-aset",
+  "scheduled_at": "2026-11-25T11:00:00+07:00",
+  "format": "video",
+  "media": [
+   "video.mp4"
+  ],
+  "slug": "acc-uu-perampasan-aset",
+  "product": "accounting",
+  "date": "2026-11-25",
+  "time": "11:00",
+  "theme": "navy",
+  "video": {
+   "kind": "count",
+   "value": 74,
+   "suffix": " pasal",
+   "label": "UU Perampasan Aset, disahkan DPR",
+   "minis": [
+    [
+     "19 Nov 2026",
+     "rapat paripurna DPR"
+    ],
+    [
+     "18 tahun",
+     "menunggu pengesahan"
+    ]
+   ]
+  },
+  "category": "HUKUM",
+  "newsDate": "19 NOV 2026",
+  "icon": "scale",
+  "title": "UU Perampasan Aset dan catatan asal-usul aset",
+  "headline": "Setelah 18 tahun, UU Perampasan Aset disahkan.",
+  "lead": "Pengingat yang bagus buat pemilik usaha: aset sebaiknya punya catatan asal-usul.",
+  "hero": {
+   "kind": "stat",
+   "big": "74 pasal",
+   "label": "UU Perampasan Aset, disahkan DPR",
+   "minis": [
+    [
+     "19 Nov 2026",
+     "rapat paripurna DPR"
+    ],
+    [
+     "18 tahun",
+     "menunggu pengesahan"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Yang disahkan DPR",
+   "items": [
+    [
+     "19 November",
+     "Rapat paripurna DPR menyetujui RUU Perampasan Aset menjadi undang-undang."
+    ],
+    [
+     "74 pasal",
+     "Mengatur perampasan aset terkait tindak pidana korupsi dan tindak pidana lainnya."
+    ],
+    [
+     "Tujuannya",
+     "Memulihkan kerugian negara dan korban dari aset hasil tindak pidana."
+    ]
+   ],
+   "source": "Sumber: CNN Indonesia, Kompas.com, dan DPR RI, 19 November 2026."
+  },
+  "bridge": {
+   "title": "Tiga catatan yang sebaiknya selalu ada",
+   "items": [
+    [
+     "Dari mana uangnya",
+     "Setoran modal, pinjaman, dan hasil usaha dicatat terpisah."
+    ],
+    [
+     "Kapan dan berapa belinya",
+     "Tanggal, harga perolehan, dan bukti pembelian tiap aset."
+    ],
+    [
+     "Siapa yang mencatat",
+     "Setiap perubahan data punya nama dan waktunya."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Kartu aset lengkap dengan buktinya.",
+   "body": "Catat aset tetap dengan tanggal dan harga perolehan. Lampirkan bukti di faktur pembeliannya, dan lihat riwayat perubahan di log aktivitas.",
+   "path": [
+    "Aset Tetap",
+    "Faktur Pembelian",
+    "Log Aktivitas"
+   ],
+   "capture": "acc-aset.png",
+   "captureAlt": "Daftar aset: kode, nama aset, metode, perolehan, akumulasi penyusutan, dan nilai buku",
+   "cta": "Trial 14 hari di accounting.lokakasir.id"
+  },
+  "caption": "Loka Kasir Accounting · UU Perampasan Aset dan catatan asal-usul aset\n\nRapat paripurna DPR pada 19 November 2026 mengesahkan RUU Perampasan Aset Terkait Tindak Pidana Korupsi dan Tindak Pidana Lainnya menjadi undang-undang. Isinya 74 pasal, setelah sekitar 18 tahun menunggu.\n\nUndang-undang ini menyasar aset hasil tindak pidana. Buat pemilik usaha, ini pengingat yang bagus soal kebiasaan sederhana: setiap aset punya catatan asal-usul.\n\nTiga catatan yang sebaiknya selalu ada: dari mana uangnya, kapan dan berapa harga belinya, dan siapa yang mencatat.\n\nDi Loka Kasir Accounting, aset tetap dicatat dengan tanggal dan harga perolehan, bukti dilampirkan di faktur pembeliannya, dan riwayat perubahan ada di log aktivitas.\n\nIni bukan nasihat hukum.\n\nTrial 14 hari:\nhttps://accounting.lokakasir.id/\n\nSumber: CNN Indonesia, Kompas.com, dan DPR RI, 19 November 2026.\n\n#LokaKasirAccounting #UUPerampasanAset #AsetTetap #PembukuanBisnis",
+  "threads": "Loka Kasir Accounting · Setelah sekitar 18 tahun, UU Perampasan Aset disahkan DPR pada 19 November. Isinya 74 pasal.\n\nBuat pemilik usaha, ini pengingat sederhana: setiap aset sebaiknya punya catatan asal-usul. Dari mana uangnya, kapan dibeli, berapa harganya, dan mana buktinya.\n\nhttps://accounting.lokakasir.id/",
+  "productName": "Loka Kasir Accounting"
+ },
+ {
+  "number": 5,
+  "code": "05-acc-wapres-dua-tahap",
+  "folder": "media/05-acc-wapres-dua-tahap",
+  "scheduled_at": "2026-11-26T11:00:00+07:00",
+  "format": "foto",
+  "media": [
+   "slide-01.jpg",
+   "slide-02.jpg",
+   "slide-03.jpg",
+   "slide-04.jpg"
+  ],
+  "slug": "acc-wapres-dua-tahap",
+  "product": "accounting",
+  "date": "2026-11-26",
+  "time": "11:00",
+  "theme": "navy",
+  "category": "POLITIK",
+  "newsDate": "17 NOV 2026",
+  "icon": "landmark",
+  "title": "Pemilihan wakil presiden dan persetujuan pembayaran",
+  "headline": "Presiden mengusulkan dua nama. MPR memilih satu.",
+  "lead": "Kursi wakil presiden diisi lewat dua tahap. Uang usaha juga sebaiknya begitu.",
+  "hero": {
+   "kind": "stat",
+   "big": "9 Des",
+   "label": "Jadwal sidang paripurna MPR memilih wakil presiden",
+   "minis": [
+    [
+     "2 nama",
+     "diusulkan Presiden"
+    ],
+    [
+     "14 hari",
+     "sebelum sidang"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Aturan mainnya",
+   "items": [
+    [
+     "Dua nama",
+     "Presiden mengusulkan dua calon wakil presiden kepada MPR."
+    ],
+    [
+     "14 hari",
+     "Usulan diserahkan paling lambat dua pekan sebelum sidang paripurna."
+    ],
+    [
+     "9 Desember",
+     "MPR menjadwalkan sidang untuk memilih, menetapkan, dan melantik wakil presiden."
+    ]
+   ],
+   "source": "Sumber: CNN Indonesia dan Kompas.com, 17 November 2026."
+  },
+  "bridge": {
+   "title": "Yang mengusulkan bukan yang memutuskan",
+   "items": [
+    [
+     "Pengaju",
+     "Staf membuat perintah pembayaran lengkap dengan tagihannya."
+    ],
+    [
+     "Penyetuju",
+     "Orang lain memeriksa, lalu menyetujui atau menolak."
+    ],
+    [
+     "Jejaknya tersimpan",
+     "Siapa mengajukan dan siapa menyetujui tercatat."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Pembayaran lewat dua tangan.",
+   "body": "Buat perintah pembayaran untuk tagihan pemasok. Pengguna yang berwenang menyetujuinya sebelum transfer. Log aktivitas mencatat setiap langkah.",
+   "path": [
+    "Peran & Hak Akses",
+    "Perintah Pembayaran",
+    "Log Aktivitas"
+   ],
+   "capture": "acc-audit.png",
+   "photoFocus": [
+    0,
+    60,
+    840,
+    430
+   ],
+   "captureAlt": "Log aktivitas: waktu, pengguna, aksi, dan entitas yang diubah",
+   "cta": "Trial 14 hari di accounting.lokakasir.id"
+  },
+  "caption": "Loka Kasir Accounting · Pemilihan wakil presiden dan persetujuan pembayaran\n\nMPR menjadwalkan sidang paripurna 9 Desember 2026 untuk memilih, menetapkan, dan melantik wakil presiden. Aturannya: Presiden mengusulkan dua nama paling lambat 14 hari sebelum sidang, lalu MPR memilih satu.\n\nTerlepas dari siapa yang terpilih, mekanismenya menarik: yang mengusulkan dan yang memutuskan adalah dua pihak berbeda.\n\nUang usaha juga lebih aman kalau begitu. Satu orang mengajukan pembayaran, orang lain menyetujui, dan keduanya tercatat.\n\nDi Loka Kasir Accounting, perintah pembayaran dibuat untuk tagihan pemasok dan disetujui pengguna yang berwenang sebelum transfer. Log aktivitas mencatat setiap langkah.\n\nTrial 14 hari:\nhttps://accounting.lokakasir.id/\n\nSumber: CNN Indonesia dan Kompas.com, 17 November 2026.\n\n#LokaKasirAccounting #KontrolInternal #PembukuanBisnis",
+  "threads": "Loka Kasir Accounting · Wakil presiden baru dipilih lewat dua tahap: Presiden mengusulkan dua nama, MPR memilih satu. Sidangnya dijadwalkan 9 Desember.\n\nPembayaran usaha juga lebih aman kalau yang mengajukan dan yang menyetujui bukan orang yang sama, dan dua-duanya tercatat.\n\nhttps://accounting.lokakasir.id/",
+  "productName": "Loka Kasir Accounting"
+ },
+ {
+  "number": 6,
+  "code": "06-hris-timnas-debut-onboarding",
+  "folder": "media/06-hris-timnas-debut-onboarding",
+  "scheduled_at": "2026-11-27T11:00:00+07:00",
+  "format": "video",
+  "media": [
+   "video.mp4"
+  ],
+  "slug": "hris-timnas-debut-onboarding",
+  "product": "hris",
+  "date": "2026-11-27",
+  "time": "11:00",
+  "theme": "sky",
+  "video": {
+   "kind": "match",
+   "home": "Timnas Indonesia",
+   "away": "Bali United",
+   "note": "Uji coba tertutup, 15 November 2026",
+   "events": [
+    [
+     1,
+     0,
+     "Gol Arlyansyah Abdulmanan, babak pertama"
+    ],
+    [
+     1,
+     1,
+     "Bali United menyamakan, babak kedua"
+    ]
+   ]
+  },
+  "category": "OLAHRAGA",
+  "newsDate": "15 NOV 2026",
+  "icon": "goal",
+  "title": "Debutan Timnas dan hari pertama karyawan baru",
+  "headline": "Panggilan pertama, langsung cetak gol.",
+  "lead": "Arlyansyah Abdulmanan, 20 tahun, mencetak gol di uji coba Timnas. Karyawan barumu disambut bagaimana?",
+  "hero": {
+   "kind": "stat",
+   "big": "1–1",
+   "label": "Timnas Indonesia vs Bali United, uji coba 15 November",
+   "minis": [
+    [
+     "20 tahun",
+     "usia Arlyansyah"
+    ],
+    [
+     "22 pemain",
+     "dipanggil ke TC Bali"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Dari pemusatan latihan di Bali",
+   "items": [
+    [
+     "Debutan",
+     "Arlyansyah Abdulmanan dari Persija mendapat panggilan pertama ke Timnas senior."
+    ],
+    [
+     "Gol",
+     "Ia membuka skor di uji coba tertutup melawan Bali United yang berakhir 1–1."
+    ],
+    [
+     "Kata pelatih",
+     "John Herdman memakai TC ini untuk menilai kedalaman skuad."
+    ]
+   ],
+   "source": "Sumber: CNN Indonesia (10/11 dan 17/11), tvOnenews (15/11), detikSport (11/11)."
+  },
+  "bridge": {
+   "title": "Hari pertama menentukan",
+   "items": [
+    [
+     "Tahu tugasnya",
+     "Jabatan, lokasi kerja, dan atasannya jelas sejak awal."
+    ],
+    [
+     "Tahu jadwalnya",
+     "Shift minggu pertama sudah ada sebelum ia datang."
+    ],
+    [
+     "Pegang perlengkapannya",
+     "Seragam dan kunci diserahkan, lalu dicatat."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Checklist masuk untuk karyawan baru.",
+   "body": "Tambahkan karyawan, mulai checklist masuk dengan tenggatnya, dan catat serah terima aset. Undangan Portal Saya dibuat dari Akses Tim.",
+   "path": [
+    "Karyawan",
+    "Siklus Karyawan",
+    "Akses Tim"
+   ],
+   "capture": "hris-siklus.png",
+   "focus": [
+    0,
+    0,
+    1682,
+    560
+   ],
+   "captureAlt": "Halaman Siklus Karyawan: perhatian kontrak, checklist masuk dan keluar, serta tombol Mulai Checklist",
+   "cta": "Coba mode demo di hris.lokakasir.id"
+  },
+  "caption": "Loka Kasir HRIS · Debutan Timnas dan hari pertama karyawan baru\n\nDi pemusatan latihan Timnas Indonesia di Bali, Arlyansyah Abdulmanan (20 tahun, Persija) mendapat panggilan pertamanya dan langsung mencetak gol saat uji coba tertutup melawan Bali United, 15 November. Skor akhir 1–1.\n\nPemain baru bisa langsung berkontribusi kalau tahu perannya. Karyawan baru juga.\n\nHari pertama lebih lancar kalau tugas dan lokasinya jelas, shift minggu pertama sudah ada, dan perlengkapan kerja diserahkan lalu dicatat.\n\nDi Loka Kasir HRIS, tambahkan karyawan, mulai checklist masuk dengan tenggatnya di Siklus Karyawan, dan catat serah terima aset. Undangan Portal Saya dibuat dari Akses Tim.\n\nCoba mode demo:\nhttps://hris.lokakasir.id/\n\nSumber: CNN Indonesia (17/11), tvOnenews (15/11).\n\n#LokaKasirHRIS #TimnasIndonesia #Onboarding #HRIS",
+  "threads": "Loka Kasir HRIS · Arlyansyah Abdulmanan, 20 tahun, dipanggil Timnas untuk pertama kali dan langsung cetak gol di uji coba lawan Bali United (1–1).\n\nKaryawan baru juga bisa cepat nyetel kalau hari pertamanya jelas: tugas, jadwal shift, dan perlengkapan kerja.\n\nhttps://hris.lokakasir.id/",
+  "productName": "Loka Kasir HRIS"
+ },
+ {
+  "number": 7,
+  "code": "07-acc-rupiah-18245",
+  "folder": "media/07-acc-rupiah-18245",
+  "scheduled_at": "2026-11-28T11:00:00+07:00",
+  "format": "foto",
+  "media": [
+   "slide-01.jpg",
+   "slide-02.jpg",
+   "slide-03.jpg",
+   "slide-04.jpg"
+  ],
+  "slug": "acc-rupiah-18245",
+  "product": "accounting",
+  "date": "2026-11-28",
+  "time": "11:00",
+  "theme": "paper",
+  "category": "EKONOMI",
+  "newsDate": "18 NOV 2026",
+  "icon": "circle-dollar-sign",
+  "title": "Rupiah Rp18.245 dan tagihan dalam dolar",
+  "headline": "Dolar Rp18.245. Tagihan impormu ikut berubah?",
+  "lead": "Tagihan dalam dolar nilainya bergerak sampai hari dibayar.",
+  "hero": {
+   "kind": "stat",
+   "big": "Rp18.245",
+   "label": "Per dolar AS, 17 November 2026",
+   "minis": [
+    [
+     "0,66%",
+     "melemah dari akhir Oktober"
+    ],
+    [
+     "Rp18.278",
+     "JISDOR 20 November"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Posisi rupiah",
+   "items": [
+    [
+     "Rp18.245",
+     "Nilai tukar per dolar AS pada 17 November menurut Bank Indonesia."
+    ],
+    [
+     "0,66%",
+     "Pelemahan dibanding akhir Oktober 2026."
+    ],
+    [
+     "Rp18.278",
+     "Kurs referensi JISDOR pada 20 November 2026."
+    ]
+   ],
+   "source": "Sumber: Bank Indonesia, konferensi pers 18 November 2026 dan data JISDOR."
+  },
+  "bridge": {
+   "kicker": "CONTOH HITUNGAN",
+   "title": "Kalau kamu beli barang dalam dolar",
+   "items": [
+    [
+     "Saat faktur diterima",
+     "Tagihan US$1.000 dicatat Rp18.245.000."
+    ],
+    [
+     "Saat dibayar",
+     "Kalau kurs jadi Rp18.500, yang keluar Rp18.500.000."
+    ],
+    [
+     "Selisihnya",
+     "Rp255.000 itu rugi kurs, bukan harga barang."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Catat valas dengan kursnya.",
+   "body": "Atur mata uang dan kurs, lalu catat faktur pembelian dalam valuta asing. Revaluasi kurs menyesuaikan saldo yang belum dibayar.",
+   "path": [
+    "Mata Uang",
+    "Faktur Pembelian",
+    "Kurs KMK"
+   ],
+   "capture": "acc-pembelian.png",
+   "photoFocus": [
+    0,
+    110,
+    840,
+    400
+   ],
+   "captureAlt": "Daftar faktur pembelian dengan nomor, tanggal, status, dan nilai",
+   "cta": "Trial 14 hari di accounting.lokakasir.id"
+  },
+  "caption": "Loka Kasir Accounting · Rupiah Rp18.245 dan tagihan dalam dolar\n\nBank Indonesia mencatat nilai tukar Rp18.245 per dolar AS pada 17 November 2026, melemah 0,66% dari akhir Oktober. Kurs JISDOR 20 November: Rp18.278.\n\nKalau kamu membeli barang dari luar negeri, tagihan dalam dolar nilainya bergerak sampai hari dibayar.\n\nContoh hitungan: tagihan US$1.000 dicatat Rp18.245.000 saat faktur diterima. Kalau saat dibayar kurs jadi Rp18.500, yang keluar Rp18.500.000. Selisih Rp255.000 itu rugi kurs, bukan harga barang. Kalau dicampur, harga pokok jadi keliru.\n\nDi Loka Kasir Accounting, atur mata uang dan kursnya, catat faktur pembelian dalam valuta asing, lalu jalankan revaluasi kurs untuk saldo yang belum dibayar.\n\nTrial 14 hari:\nhttps://accounting.lokakasir.id/\n\nSumber: Bank Indonesia, 18 November 2026 dan data JISDOR.\n\n#LokaKasirAccounting #Rupiah #SelisihKurs #PembukuanBisnis",
+  "threads": "Loka Kasir Accounting · Dolar Rp18.245 pada 17 November (Bank Indonesia), melemah 0,66% dari akhir Oktober.\n\nContoh: tagihan US$1.000 dicatat Rp18.245.000. Dibayar saat kurs Rp18.500, keluar Rp18.500.000. Selisih Rp255.000 itu rugi kurs, bukan harga barang.\n\nhttps://accounting.lokakasir.id/",
+  "productName": "Loka Kasir Accounting"
+ },
+ {
+  "number": 8,
+  "code": "08-acc-persib-jdt-identik",
+  "folder": "media/08-acc-persib-jdt-identik",
+  "scheduled_at": "2026-11-29T11:00:00+07:00",
+  "format": "video",
+  "media": [
+   "video.mp4"
+  ],
+  "slug": "acc-persib-jdt-identik",
+  "product": "accounting",
+  "date": "2026-11-29",
+  "time": "11:00",
+  "theme": "cobalt",
+  "video": {
+   "kind": "table",
+   "head": [
+    "Main",
+    "Menang",
+    "Gol",
+    "Poin"
+   ],
+   "badge": "Identik",
+   "rows": [
+    [
+     "Johor Darul Ta’zim",
+     "2",
+     "2",
+     "9–1",
+     "6"
+    ],
+    [
+     "Persib Bandung",
+     "2",
+     "2",
+     "9–1",
+     "6"
+    ]
+   ],
+   "note": "Grup B ASEAN Club Championship, setelah dua laga"
+  },
+  "category": "OLAHRAGA",
+  "newsDate": "19 NOV 2026",
+  "icon": "trophy",
+  "title": "Persib, JDT, dan omzet yang sama",
+  "headline": "Persib dan JDT: 6 poin, gol 9–1. Identik.",
+  "lead": "Angka yang sama belum tentu cerita yang sama. Di laporan usaha juga begitu.",
+  "hero": {
+   "kind": "versus",
+   "badge": "6 poin",
+   "rows": [
+    [
+     "Johor Darul Ta’zim",
+     "9–1"
+    ],
+    [
+     "Persib Bandung",
+     "9–1"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Grup B setelah dua laga",
+   "items": [
+    [
+     "6–0",
+     "Persib mengalahkan Shan United di GBLA, Kamis 19 November."
+    ],
+    [
+     "Sama persis",
+     "Persib dan JDT sama-sama 6 poin, mencetak 9 gol, kebobolan 1."
+    ],
+    [
+     "Urutannya",
+     "JDT ditempatkan di posisi pertama, Persib kedua."
+    ]
+   ],
+   "source": "Sumber: ANTARA dan Tirto.id, 19 November 2026 (ASEAN Club Championship)."
+  },
+  "bridge": {
+   "kicker": "CONTOH HITUNGAN",
+   "title": "Dua toko, omzet sama. Sehatnya belum tentu.",
+   "items": [
+    [
+     "Omzet",
+     "Sama-sama Rp100 juta sebulan."
+    ],
+    [
+     "Biaya",
+     "Toko A keluar Rp60 juta. Toko B keluar Rp85 juta."
+    ],
+    [
+     "Laba",
+     "Rp40 juta dan Rp15 juta. Baru kelihatan bedanya."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Lihat laba, bukan cuma omzet.",
+   "body": "Dashboard menampilkan pendapatan dan laba bersih bulan berjalan. Rinciannya ada di laporan laba rugi.",
+   "path": [
+    "Dashboard",
+    "Daftar Laporan",
+    "Laba rugi"
+   ],
+   "capture": "acc-dashboard.png",
+   "captureAlt": "Dashboard: pendapatan bulan ini, laba bersih, total aset, dan total kewajiban",
+   "cta": "Trial 14 hari di accounting.lokakasir.id"
+  },
+  "caption": "Loka Kasir Accounting · Persib, JDT, dan omzet yang sama\n\nPersib menang 6–0 atas Shan United di GBLA, 19 November. Setelah dua laga Grup B ASEAN Club Championship, Persib dan Johor Darul Ta’zim sama persis: 6 poin, mencetak 9 gol, kebobolan 1.\n\nAngka yang sama belum tentu cerita yang sama. Di usaha juga begitu.\n\nContoh hitungan: dua toko sama-sama beromzet Rp100 juta sebulan. Toko A keluar biaya Rp60 juta, Toko B Rp85 juta. Labanya Rp40 juta dan Rp15 juta. Dari omzet saja, bedanya tidak kelihatan.\n\nDi Loka Kasir Accounting, dashboard menampilkan pendapatan dan laba bersih bulan berjalan. Rinciannya ada di laporan laba rugi.\n\nTrial 14 hari:\nhttps://accounting.lokakasir.id/\n\nSumber: ANTARA dan Tirto.id, 19 November 2026.\n\n#LokaKasirAccounting #Persib #LabaRugi #PembukuanBisnis",
+  "threads": "Loka Kasir Accounting · Persib dan JDT setelah dua laga: 6 poin, gol 9–1. Identik.\n\nAngka sama belum tentu cerita sama. Dua toko beromzet Rp100 juta, biayanya Rp60 juta dan Rp85 juta. Labanya Rp40 juta dan Rp15 juta (contoh hitungan).\n\nLihat laba, bukan cuma omzet.\n\nhttps://accounting.lokakasir.id/",
+  "productName": "Loka Kasir Accounting"
+ },
+ {
+  "number": 9,
+  "code": "09-hris-ump-2027",
+  "folder": "media/09-hris-ump-2027",
+  "scheduled_at": "2026-11-30T11:00:00+07:00",
+  "format": "foto",
+  "media": [
+   "slide-01.jpg",
+   "slide-02.jpg",
+   "slide-03.jpg",
+   "slide-04.jpg"
+  ],
+  "slug": "hris-ump-2027",
+  "product": "hris",
+  "date": "2026-11-30",
+  "time": "11:00",
+  "theme": "ink",
+  "category": "KETENAGAKERJAAN",
+  "newsDate": "21 NOV 2026",
+  "icon": "wallet",
+  "title": "UMP 2027 dan payroll Januari",
+  "headline": "UMP 2027 sudah keluar. Payroll Januari sudah disesuaikan?",
+  "lead": "Jakarta naik 7,1%. Bali naik 42,15%.",
+  "hero": {
+   "kind": "stat",
+   "big": "7,1%",
+   "label": "Kenaikan UMP Jakarta 2027",
+   "minis": [
+    [
+     "Rp6.136.941",
+     "UMP Jakarta 2027"
+    ],
+    [
+     "25 Nov",
+     "batas penetapan UMK"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Angka yang sudah ditetapkan",
+   "items": [
+    [
+     "Jakarta",
+     "Rp6.136.941, naik Rp407.065 dari Rp5.729.876."
+    ],
+    [
+     "Bali",
+     "Rp4.559.287, naik 42,15% dari Rp3.207.459."
+    ],
+    [
+     "Jadwalnya",
+     "UMP paling lambat 21 November, UMK paling lambat 25 November 2026."
+    ]
+   ],
+   "source": "Sumber: Kompas.com, 20–21 November 2026; ANTARA, 17 November 2026."
+  },
+  "bridge": {
+   "title": "Sebelum gaji Januari dibayar",
+   "items": [
+    [
+     "Cek upah minimum lokasimu",
+     "Pakai angka provinsi atau kabupaten/kota tempat karyawan bekerja."
+    ],
+    [
+     "Bandingkan dengan gaji sekarang",
+     "Siapa saja yang upahnya masih di bawah angka baru?"
+    ],
+    [
+     "Catat bulan berlakunya",
+     "Supaya payroll Desember dan Januari memakai angka yang benar."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Atur upah minimum per karyawan.",
+   "body": "Di Profil Payroll, isi bulan berlaku dan upah minimum lokasi tiap karyawan, bersama status PTKP dan program BPJS-nya.",
+   "path": [
+    "Aturan Payroll",
+    "Atur Profil",
+    "Upah minimum lokasi"
+   ],
+   "capture": "hris-profil-upah.png",
+   "captureAlt": "Form Profil Payroll dengan isian Berlaku mulai dan Upah minimum lokasi",
+   "cta": "Coba mode demo di hris.lokakasir.id"
+  },
+  "caption": "Loka Kasir HRIS · UMP 2027 dan payroll Januari\n\nBatas penetapan UMP 2027 jatuh pada 21 November. Jakarta menetapkan Rp6.136.941, naik 7,1% atau Rp407.065. Bali naik 42,15% menjadi Rp4.559.287. UMK ditetapkan paling lambat 25 November.\n\nSebelum gaji Januari dibayar, cek tiga hal: upah minimum di lokasi kerja karyawan, siapa yang upahnya masih di bawah angka baru, dan mulai bulan apa angka itu dipakai.\n\nDi Loka Kasir HRIS, Profil Payroll tiap karyawan punya isian bulan berlaku dan upah minimum lokasi, bersama status PTKP dan program BPJS-nya.\n\nCek angka resmi daerahmu di keputusan gubernur masing-masing.\n\nCoba mode demo:\nhttps://hris.lokakasir.id/\n\nSumber: Kompas.com, 20–21 November 2026; ANTARA, 17 November 2026.\n\n#LokaKasirHRIS #UMP2027 #Payroll #HRIS",
+  "threads": "Loka Kasir HRIS · UMP 2027 sudah ditetapkan. Jakarta Rp6.136.941 (naik 7,1%), Bali Rp4.559.287 (naik 42,15%). UMK menyusul paling lambat 25 November.\n\nSebelum gaji Januari dibayar: cek upah minimum lokasi kerja, lalu lihat siapa yang masih di bawah angka baru.\n\nhttps://hris.lokakasir.id/",
+  "productName": "Loka Kasir HRIS"
+ },
+ {
+  "number": 10,
+  "code": "10-hris-gta6-cuti",
+  "folder": "media/10-hris-gta6-cuti",
+  "scheduled_at": "2026-12-01T11:00:00+07:00",
+  "format": "video",
+  "media": [
+   "video.mp4"
+  ],
+  "slug": "hris-gta6-cuti",
+  "product": "hris",
+  "date": "2026-12-01",
+  "time": "11:00",
+  "theme": "sky",
+  "video": {
+   "kind": "versus",
+   "badge": "peak viewers",
+   "rows": [
+    [
+     "IShowSpeed",
+     371840
+    ],
+    [
+     "Windah Basudara",
+     392505
+    ]
+   ]
+  },
+  "category": "GAME",
+  "newsDate": "19 NOV 2026",
+  "icon": "gamepad-2",
+  "title": "GTA 6 rilis dan pengajuan cuti",
+  "headline": "GTA 6 rilis. Mendadak banyak yang izin?",
+  "lead": "392.505 orang menonton satu siaran Windah Basudara pada saat bersamaan.",
+  "hero": {
+   "kind": "versus",
+   "badge": "peak viewers",
+   "rows": [
+    [
+     "IShowSpeed",
+     "371.840"
+    ],
+    [
+     "Windah Basudara",
+     "392.505"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Rekor dari Indonesia",
+   "items": [
+    [
+     "392.505",
+     "Penonton serentak siaran GTA 6 Windah Basudara di YouTube. Tertinggi versi Streams Charts."
+    ],
+    [
+     "371.840",
+     "Angka IShowSpeed di posisi kedua. Selisihnya 20.665 penonton."
+    ],
+    [
+     "00.00 WIB",
+     "GTA 6 bisa dimainkan di Indonesia sejak 19 November di PS5 dan Xbox Series X|S."
+    ]
+   ],
+   "source": "Sumber: Kompas.com, 19 November 2026 (data Streams Charts)."
+  },
+  "bridge": {
+   "title": "Hobi boleh. Izinnya lewat jalur yang jelas.",
+   "items": [
+    [
+     "Ajukan sebelum hari-H",
+     "Cuti yang direncanakan lebih mudah disetujui dan dicarikan pengganti."
+    ],
+    [
+     "Sisa kuota kelihatan",
+     "Karyawan tahu jatahnya. Atasan tahu siapa yang sedang cuti."
+    ],
+    [
+     "Jadwal ikut menyesuaikan",
+     "Shift yang kosong bisa diisi sebelum toko buka."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Cuti diajukan dari Portal Saya.",
+   "body": "Karyawan mengajukan cuti dan melihat sisa kuota tahunannya. Atasan meninjau, lalu menyetujui atau menolak.",
+   "path": [
+    "Portal Saya",
+    "Ajukan Cuti",
+    "Cuti & Izin"
+   ],
+   "capture": "hris-dialog-cuti.png",
+   "captureAlt": "Detail pengajuan cuti tahunan dengan tombol Tolak dan Setujui",
+   "cta": "Coba mode demo di hris.lokakasir.id"
+  },
+  "caption": "Loka Kasir HRIS · GTA 6 rilis dan pengajuan cuti\n\nGTA 6 bisa dimainkan di Indonesia sejak 19 November pukul 00.00 WIB. Siaran Windah Basudara mencatat 392.505 penonton serentak, tertinggi di daftar Streams Charts, di atas IShowSpeed dengan 371.840.\n\nKalau hari itu ada yang mendadak izin, kamu tidak sendirian. Hobi boleh. Yang bikin repot itu izin dadakan tanpa pengganti.\n\nLebih enak kalau cuti diajukan sebelum hari-H, sisa kuotanya kelihatan, dan jadwal shift bisa disesuaikan sebelum toko buka.\n\nDi Loka Kasir HRIS, karyawan mengajukan cuti dari Portal Saya dan melihat sisa kuota tahunannya. Atasan meninjau, lalu menyetujui atau menolak.\n\nCoba mode demo:\nhttps://hris.lokakasir.id/\n\nSumber: Kompas.com, 19 November 2026 (data Streams Charts).\n\n#LokaKasirHRIS #GTA6 #CutiKaryawan #HRIS",
+  "threads": "Loka Kasir HRIS · GTA 6 rilis 19 November. Siaran Windah Basudara ditonton 392.505 orang bersamaan, tertinggi versi Streams Charts.\n\nHari itu ada yang mendadak izin? Hobi boleh. Lebih enak kalau cuti diajukan sebelum hari-H dan sisa kuotanya kelihatan.\n\nhttps://hris.lokakasir.id/",
+  "productName": "Loka Kasir HRIS"
+ },
+ {
+  "number": 11,
+  "code": "11-hris-dana-pesangon-cek-fakta",
+  "folder": "media/11-hris-dana-pesangon-cek-fakta",
+  "scheduled_at": "2026-12-02T11:00:00+07:00",
+  "format": "foto",
+  "media": [
+   "slide-01.jpg",
+   "slide-02.jpg",
+   "slide-03.jpg",
+   "slide-04.jpg"
+  ],
+  "slug": "hris-dana-pesangon-cek-fakta",
+  "product": "hris",
+  "date": "2026-12-02",
+  "time": "11:00",
+  "theme": "sun",
+  "category": "CEK FAKTA",
+  "newsDate": "17 NOV 2026",
+  "icon": "shield-check",
+  "title": "Dana cadangan pesangon dan kabar Danantara",
+  "headline": "Dana pesangon wajib disetor ke Danantara? Kemnaker: tidak benar.",
+  "lead": "Lembaga pengelolanya belum ditetapkan. Aturan pelaksananya masih disusun.",
+  "hero": {
+   "kind": "stat",
+   "big": "Tidak benar",
+   "label": "Kabar setoran dana pesangon ke Danantara, menurut Kemnaker",
+   "minis": [
+    [
+     "Pasal 253",
+     "UU 27/2026"
+    ],
+    [
+     "Belum ada",
+     "lembaga pengelola"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Yang sudah pasti dan yang belum",
+   "items": [
+    [
+     "Sudah ada",
+     "UU 27/2026 Pasal 253 mengamanatkan Dana Cadangan Pesangon."
+    ],
+    [
+     "Belum ada",
+     "Lembaga pengelola dan mekanisme setoran. Peraturan turunannya sedang disiapkan."
+    ],
+    [
+     "Tidak benar",
+     "Kabar bahwa pengusaha wajib menyetor ke Danantara mulai Oktober 2027."
+    ]
+   ],
+   "source": "Sumber: ANTARA (15/11), Kompas.com (17/11), Jabar Saber Hoaks (17/11)."
+  },
+  "bridge": {
+   "title": "Sambil menunggu aturannya, rapikan dasarnya",
+   "items": [
+    [
+     "Tanggal bergabung",
+     "Masa kerja dihitung dari sini."
+    ],
+    [
+     "Upah dan tunjangan tetap",
+     "Catat angkanya beserta bulan berlakunya."
+    ],
+    [
+     "Status dan kontrak",
+     "Tetap, kontrak, atau paruh waktu, lengkap dengan akhir kontraknya."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Data karyawan yang siap dihitung.",
+   "body": "Simpan tanggal bergabung, jenis pekerjaan, akhir kontrak, dan gaji pokok tiap karyawan. Unduh data karyawan dalam CSV saat dibutuhkan.",
+   "path": [
+    "Karyawan",
+    "Tambah Karyawan",
+    "Laporan"
+   ],
+   "capture": "hris-karyawan-form.png",
+   "captureAlt": "Form karyawan: jenis pekerjaan, akhir kontrak, tanggal bergabung, status, dan gaji pokok bulanan",
+   "cta": "Coba mode demo di hris.lokakasir.id"
+  },
+  "caption": "Loka Kasir HRIS · Dana cadangan pesangon dan kabar Danantara\n\nBeredar kabar bahwa pengusaha wajib menyetor dana cadangan pesangon ke Danantara. Kemnaker menyatakan kabar itu tidak benar.\n\nYang sudah ada: UU 27/2026 Pasal 253 mengamanatkan Dana Cadangan Pesangon. Yang belum ada: lembaga pengelola dan mekanisme setorannya. Peraturan turunannya masih disiapkan dan akan melalui konsultasi publik.\n\nSambil menunggu, yang bisa dirapikan sekarang adalah datanya: tanggal bergabung, upah dan tunjangan tetap, serta status dan akhir kontrak tiap karyawan.\n\nDi Loka Kasir HRIS, data itu tersimpan di profil karyawan dan bisa diunduh dalam CSV.\n\nCoba mode demo:\nhttps://hris.lokakasir.id/\n\nSumber: ANTARA (15/11), Kompas.com (17/11), Jabar Saber Hoaks (17/11).\n\n#LokaKasirHRIS #CekFakta #Pesangon #HRIS",
+  "threads": "Loka Kasir HRIS · Cek fakta: kabar pengusaha wajib setor dana pesangon ke Danantara itu tidak benar, kata Kemnaker.\n\nUU 27/2026 memang mengamanatkan Dana Cadangan Pesangon, tapi lembaga pengelola dan mekanismenya belum ditetapkan.\n\nSambil menunggu, rapikan data masa kerja dan upah karyawan.\n\nhttps://hris.lokakasir.id/",
+  "productName": "Loka Kasir HRIS"
+ },
+ {
+  "number": 12,
+  "code": "12-acc-bi-rate-6-persen",
+  "folder": "media/12-acc-bi-rate-6-persen",
+  "scheduled_at": "2026-12-03T11:00:00+07:00",
+  "format": "video",
+  "media": [
+   "video.mp4"
+  ],
+  "slug": "acc-bi-rate-6-persen",
+  "product": "accounting",
+  "date": "2026-12-03",
+  "time": "11:00",
+  "theme": "cobalt",
+  "video": {
+   "kind": "steps",
+   "label": "BI-Rate sepanjang 2026",
+   "suffix": "%",
+   "decimals": 2,
+   "points": [
+    [
+     "Apr",
+     4.75
+    ],
+    [
+     "Mei",
+     5.25
+    ],
+    [
+     "9 Jun",
+     5.5
+    ],
+    [
+     "18 Jun",
+     5.75
+    ],
+    [
+     "Nov",
+     6
+    ]
+   ]
+  },
+  "category": "EKONOMI",
+  "newsDate": "18 NOV 2026",
+  "icon": "trending-up",
+  "title": "BI-Rate naik ke 6%",
+  "headline": "BI-Rate naik ke 6%. Cicilan usahamu ikut naik?",
+  "lead": "Sejak April, suku bunga acuan sudah naik 125 basis poin.",
+  "hero": {
+   "kind": "stat",
+   "big": "6,00%",
+   "label": "BI-Rate per 18 November 2026",
+   "minis": [
+    [
+     "+25 bps",
+     "dari 5,75%"
+    ],
+    [
+     "4,75%",
+     "posisi April 2026"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Keputusan Bank Indonesia",
+   "items": [
+    [
+     "6,00%",
+     "BI-Rate naik 25 basis poin dalam Rapat Dewan Gubernur 17–18 November."
+    ],
+    [
+     "Alasannya",
+     "Memperkuat stabilitas rupiah dan menjaga inflasi 2026–2027 di sasaran 2,5±1%."
+    ],
+    [
+     "Sejak April",
+     "BI-Rate naik bertahap dari 4,75% menjadi 6,00%."
+    ]
+   ],
+   "source": "Sumber: Bank Indonesia, siaran pers dan data BI-Rate, 18 November 2026."
+  },
+  "bridge": {
+   "title": "Tiga hal yang layak dicek bulan ini",
+   "items": [
+    [
+     "Pinjaman bunga mengambang",
+     "Tanyakan ke bank apakah cicilan bulan depan berubah."
+    ],
+    [
+     "Pisahkan pokok dan bunga",
+     "Pokok mengurangi utang. Bunga masuk beban bulan itu."
+    ],
+    [
+     "Hitung ulang anggaran",
+     "Kalau beban bunga naik, pos mana yang ditahan dulu?"
+    ]
+   ]
+  },
+  "app": {
+   "title": "Catat cicilan, pantau bebannya.",
+   "body": "Buat jurnal berulang untuk cicilan bulanan, lalu bandingkan anggaran dengan realisasi per akun.",
+   "path": [
+    "Jurnal Berulang",
+    "Anggaran",
+    "Daftar Laporan"
+   ],
+   "capture": "acc-anggaran.png",
+   "zoom": 1.7,
+   "captureAlt": "Tabel anggaran, realisasi, selisih, dan capaian per akun beban",
+   "cta": "Trial 14 hari di accounting.lokakasir.id"
+  },
+  "caption": "Loka Kasir Accounting · BI-Rate naik ke 6%\n\nBank Indonesia menaikkan BI-Rate 25 basis poin menjadi 6,00% pada 18 November 2026. Sejak April, suku bunga acuan sudah naik dari 4,75%.\n\nBunga pinjaman tidak otomatis ikut naik. Tapi kalau pinjaman usahamu berbunga mengambang, tanyakan ke bank apakah cicilan bulan depan berubah.\n\nDi pembukuan, pisahkan pokok dan bunga. Pokok mengurangi utang, bunga masuk beban bulan itu. Dari situ kelihatan seberapa besar kenaikan bunga memakan laba.\n\nDi Loka Kasir Accounting, cicilan bulanan bisa dibuat sebagai jurnal berulang, lalu anggaran dibandingkan dengan realisasi per akun.\n\nTrial 14 hari:\nhttps://accounting.lokakasir.id/\n\nSumber: Bank Indonesia, 18 November 2026.\n\n#LokaKasirAccounting #BIRate #SukuBunga #PembukuanBisnis",
+  "threads": "Loka Kasir Accounting · BI-Rate naik 25 bps jadi 6,00% (18 November). Sejak April sudah naik dari 4,75%.\n\nPunya pinjaman usaha berbunga mengambang? Tanyakan ke bank soal cicilan bulan depan. Di pembukuan, pisahkan pokok dan bunga supaya kelihatan berapa yang jadi beban.\n\nhttps://accounting.lokakasir.id/",
+  "productName": "Loka Kasir Accounting"
+ },
+ {
+  "number": 13,
+  "code": "13-acc-pph-final-umkm-2027",
+  "folder": "media/13-acc-pph-final-umkm-2027",
+  "scheduled_at": "2026-12-04T11:00:00+07:00",
+  "format": "foto",
+  "media": [
+   "slide-01.jpg",
+   "slide-02.jpg",
+   "slide-03.jpg",
+   "slide-04.jpg"
+  ],
+  "slug": "acc-pph-final-umkm-2027",
+  "product": "accounting",
+  "date": "2026-12-04",
+  "time": "11:00",
+  "theme": "paper",
+  "category": "PAJAK",
+  "newsDate": "11 NOV 2026",
+  "icon": "receipt-text",
+  "title": "PPh final UMKM berakhir untuk sebagian badan usaha",
+  "headline": "PT pakai PPh final UMKM sejak 2024? Tahun depan berubah.",
+  "lead": "Mulai tahun pajak 2027, sebagian badan usaha pindah ke ketentuan umum.",
+  "hero": {
+   "kind": "stat",
+   "big": "2027",
+   "label": "Sebagian badan usaha keluar dari PPh final UMKM",
+   "minis": [
+    [
+     "PT",
+     "pakai sejak tahun pajak 2024"
+    ],
+    [
+     "CV, firma, BUMDes",
+     "pakai sejak 2023"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Ketentuan peralihan PP 20/2026",
+   "items": [
+    [
+     "PT",
+     "Yang memakai PPh final UMKM sejak tahun pajak 2024 beralih ke ketentuan umum mulai 2027."
+    ],
+    [
+     "CV, firma, BUMDes",
+     "Yang memakainya sejak tahun pajak 2023 juga beralih mulai 2027."
+    ],
+    [
+     "Yang tetap",
+     "Orang pribadi dan perseroan perorangan, selama omzet setahun belum lebih dari Rp4,8 miliar."
+    ]
+   ],
+   "source": "Sumber: DDTCNews, 11 November 2026. Cek kondisi usahamu ke konsultan pajak."
+  },
+  "bridge": {
+   "title": "Ketentuan umum: pajak dihitung dari laba",
+   "items": [
+    [
+     "Butuh laporan laba rugi",
+     "Dasarnya laba, bukan lagi omzet."
+    ],
+    [
+     "Biaya harus punya bukti",
+     "Nota dan faktur pembelian menentukan beban yang bisa diakui."
+    ],
+    [
+     "Mulai dari saldo awal",
+     "Januari lebih ringan kalau saldo akhir Desember sudah rapi."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Mulai pembukuan sebelum Januari.",
+   "body": "Isi saldo awal, catat penjualan dan pembelian, lalu kunci periode tiap bulan. Laba rugi dan neraca tersusun dari jurnal yang sama.",
+   "path": [
+    "Persiapan Data Perusahaan",
+    "Tutup Buku",
+    "Daftar Laporan"
+   ],
+   "capture": "acc-tutup-buku.png",
+   "captureAlt": "Periode terkunci: Oktober 2026, status Terkunci",
+   "cta": "Trial 14 hari di accounting.lokakasir.id"
+  },
+  "caption": "Loka Kasir Accounting · PPh final UMKM berakhir untuk sebagian badan usaha\n\nMenurut ketentuan peralihan PP 20/2026 yang dikutip DDTCNews, PT yang memakai PPh final UMKM sejak tahun pajak 2024, serta CV, firma, dan BUMDes yang memakainya sejak 2023, beralih ke ketentuan umum mulai tahun pajak 2027.\n\nOrang pribadi dan perseroan perorangan tetap bisa memakai PPh final selama omzet setahun belum lebih dari Rp4,8 miliar.\n\nDi ketentuan umum, pajak dihitung dari laba. Artinya usaha perlu laporan laba rugi, bukti biaya, dan saldo awal yang rapi.\n\nDi Loka Kasir Accounting, isi saldo awal, catat penjualan dan pembelian, lalu kunci periode tiap bulan. Laba rugi dan neraca tersusun dari jurnal yang sama.\n\nIni ringkasan berita, bukan nasihat pajak. Cek kondisi usahamu ke konsultan pajak.\n\nTrial 14 hari:\nhttps://accounting.lokakasir.id/\n\n#LokaKasirAccounting #PPhFinal #PajakUMKM #PembukuanBisnis",
+  "threads": "Loka Kasir Accounting · PT yang pakai PPh final UMKM sejak tahun pajak 2024, serta CV, firma, dan BUMDes sejak 2023, beralih ke ketentuan umum mulai 2027 (PP 20/2026, via DDTCNews).\n\nKetentuan umum = pajak dihitung dari laba. Butuh laporan laba rugi dan bukti biaya. Mulai rapikan sebelum Januari.\n\nhttps://accounting.lokakasir.id/",
+  "productName": "Loka Kasir Accounting"
+ },
+ {
+  "number": 14,
+  "code": "14-hris-bsu-data-upah",
+  "folder": "media/14-hris-bsu-data-upah",
+  "scheduled_at": "2026-12-05T11:00:00+07:00",
+  "format": "video",
+  "media": [
+   "video.mp4"
+  ],
+  "slug": "hris-bsu-data-upah",
+  "product": "hris",
+  "date": "2026-12-05",
+  "time": "11:00",
+  "theme": "sun",
+  "video": {
+   "kind": "count",
+   "prefix": "Rp",
+   "value": 900,
+   "suffix": " ribu",
+   "chips": [
+    "Rp300 ribu",
+    "Rp300 ribu",
+    "Rp300 ribu"
+   ],
+   "label": "BSU 2026, dibayar sekaligus",
+   "minis": [
+    [
+     "Rp3,5 juta",
+     "batas upah per bulan"
+    ],
+    [
+     "Agustus 2026",
+     "peserta aktif sampai"
+    ]
+   ]
+  },
+  "category": "KETENAGAKERJAAN",
+  "newsDate": "5 NOV 2026",
+  "icon": "banknote",
+  "title": "BSU 2026 dan data upah dari pemberi kerja",
+  "headline": "BSU Rp900 ribu: yang dicek data dari kantor.",
+  "lead": "Pekerja tidak perlu mendaftar. Penentunya upah dan kepesertaan yang dilaporkan pemberi kerja.",
+  "hero": {
+   "kind": "stat",
+   "big": "Rp900 ribu",
+   "label": "BSU 2026, dibayar sekaligus",
+   "minis": [
+    [
+     "Rp300 ribu",
+     "× 3 bulan"
+    ],
+    [
+     "Rp3,5 juta",
+     "batas upah per bulan"
+    ]
+   ]
+  },
+  "facts": {
+   "title": "Syarat penerima BSU 2026",
+   "items": [
+    [
+     "Peserta aktif",
+     "Terdaftar di BPJS Ketenagakerjaan sampai Agustus 2026."
+    ],
+    [
+     "Batas upah",
+     "Paling banyak Rp3,5 juta per bulan, atau setara upah minimum setempat bila lebih tinggi."
+    ],
+    [
+     "Dasar datanya",
+     "Upah terakhir yang dilaporkan pemberi kerja: gaji pokok dan tunjangan tetap."
+    ]
+   ],
+   "source": "Sumber: Kemnaker, 5 November 2026 (Permenaker 16/2026). Cek status di bsu.kemnaker.go.id."
+  },
+  "bridge": {
+   "title": "Bagian pemberi kerja: datanya harus benar",
+   "items": [
+    [
+     "Upah yang dilaporkan sesuai",
+     "Gaji pokok dan tunjangan tetap sama dengan yang dibayarkan."
+    ],
+    [
+     "Kepesertaan tidak putus",
+     "Karyawan baru didaftarkan, iuran dibayar tiap bulan."
+    ],
+    [
+     "Rekap siap dibuka",
+     "Saat karyawan bertanya, angkanya bisa ditunjukkan."
+    ]
+   ]
+  },
+  "app": {
+   "title": "Rekap payroll dan BPJS tiap bulan.",
+   "body": "Atur program BPJS dan dasar upah di profil payroll tiap karyawan. Setelah payroll final, unduh rekap payroll dan iuran BPJS dalam CSV.",
+   "path": [
+    "Aturan Payroll",
+    "Payroll",
+    "Laporan"
+   ],
+   "capture": "hris-laporan.png",
+   "captureAlt": "Halaman Laporan: rekap lembur dan klaim, rekap payroll, rekap PPh 21 final, dan rekap iuran BPJS final",
+   "cta": "Coba mode demo di hris.lokakasir.id"
+  },
+  "caption": "Loka Kasir HRIS · BSU 2026 dan data upah dari pemberi kerja\n\nBSU 2026 sebesar Rp300 ribu per bulan untuk tiga bulan, dibayar sekaligus Rp900 ribu. Pekerja tidak perlu mendaftar.\n\nSyaratnya menurut Kemnaker: WNI, peserta aktif BPJS Ketenagakerjaan sampai Agustus 2026, dan upah paling banyak Rp3,5 juta per bulan atau setara upah minimum setempat. Yang dipakai adalah upah terakhir yang dilaporkan pemberi kerja: gaji pokok dan tunjangan tetap.\n\nJadi bagian pemberi kerja jelas: upah yang dilaporkan sesuai dengan yang dibayarkan, dan kepesertaan tidak putus.\n\nDi Loka Kasir HRIS, program BPJS dan dasar upah diatur di profil payroll tiap karyawan. Setelah payroll final, rekap payroll dan iuran BPJS bisa diunduh dalam CSV. Pelaporan ke BPJS tetap dilakukan di kanal resminya.\n\nCek status BSU di bsu.kemnaker.go.id.\n\nCoba mode demo:\nhttps://hris.lokakasir.id/\n\nSumber: Kemnaker, 5 November 2026.\n\n#LokaKasirHRIS #BSU2026 #BPJSKetenagakerjaan #Payroll",
+  "threads": "Loka Kasir HRIS · BSU 2026: Rp900 ribu dibayar sekaligus, tanpa perlu mendaftar.\n\nYang dicek: peserta aktif BPJS Ketenagakerjaan sampai Agustus 2026 dan upah terakhir yang dilaporkan pemberi kerja (maks. Rp3,5 juta atau setara upah minimum setempat).\n\nPemberi kerja, pastikan datanya sesuai.\n\nhttps://hris.lokakasir.id/",
+  "productName": "Loka Kasir HRIS"
+ }
+]

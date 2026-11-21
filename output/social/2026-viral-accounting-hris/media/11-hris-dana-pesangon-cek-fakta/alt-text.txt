@@ -1,0 +1,7 @@
+Slide 1: Loka Kasir HRIS. CEK FAKTA, 17 NOV 2026. Dana pesangon wajib disetor ke Danantara? Kemnaker: tidak benar. Lembaga pengelolanya belum ditetapkan. Aturan pelaksananya masih disusun. Tidak benar: Kabar setoran dana pesangon ke Danantara, menurut Kemnaker. Pasal 253 UU 27/2026; Belum ada lembaga pengelola.
+
+Slide 2: Yang sudah pasti dan yang belum. Sudah ada: UU 27/2026 Pasal 253 mengamanatkan Dana Cadangan Pesangon. Belum ada: Lembaga pengelola dan mekanisme setoran. Peraturan turunannya sedang disiapkan. Tidak benar: Kabar bahwa pengusaha wajib menyetor ke Danantara mulai Oktober 2027. Sumber: ANTARA (15/11), Kompas.com (17/11), Jabar Saber Hoaks (17/11).
+
+Slide 3: Sambil menunggu aturannya, rapikan dasarnya. Tanggal bergabung. Masa kerja dihitung dari sini. Upah dan tunjangan tetap. Catat angkanya beserta bulan berlakunya. Status dan kontrak. Tetap, kontrak, atau paruh waktu, lengkap dengan akhir kontraknya.
+
+Slide 4: Data karyawan yang siap dihitung. Simpan tanggal bergabung, jenis pekerjaan, akhir kontrak, dan gaji pokok tiap karyawan. Unduh data karyawan dalam CSV saat dibutuhkan. Menu: Karyawan, Tambah Karyawan, Laporan. Tangkapan layar: Form karyawan: jenis pekerjaan, akhir kontrak, tanggal bergabung, status, dan gaji pokok bulanan. Coba mode demo di hris.lokakasir.id.

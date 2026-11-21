@@ -1,0 +1,61 @@
+{
+ "checked_at": "2026-11-21T16:17:55.640Z",
+ "videos": [
+  {
+   "code": "02-acc-gta6-harga-ppn",
+   "seconds": 28.01,
+   "megabytes": 8.09,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  },
+  {
+   "code": "04-acc-uu-perampasan-aset",
+   "seconds": 28.01,
+   "megabytes": 8,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  },
+  {
+   "code": "06-hris-timnas-debut-onboarding",
+   "seconds": 28.01,
+   "megabytes": 8.45,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  },
+  {
+   "code": "08-acc-persib-jdt-identik",
+   "seconds": 28.01,
+   "megabytes": 7.78,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  },
+  {
+   "code": "10-hris-gta6-cuti",
+   "seconds": 28.01,
+   "megabytes": 8.74,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  },
+  {
+   "code": "12-acc-bi-rate-6-persen",
+   "seconds": 28.01,
+   "megabytes": 8.13,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  },
+  {
+   "code": "14-hris-bsu-data-upah",
+   "seconds": 28.01,
+   "megabytes": 8.81,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-21",
+  "note": "Setiap angka berita di content.cjs berasal dari halaman berikut, dibaca pada 21 November 2026. Posting tetap mencantumkan tanggal beritanya karena angka bisa berubah.",
+  "posts": {
+    "01-hris-kenalan": [
+      "https://money.kompas.com/read/2026/11/20/151538126/ump-jakarta-2027-naik-71-persen-jadi-rp-613-juta",
+      "https://www.kemnaker.go.id/news/detail/kemnaker-tetapkan-ketentuan-bsu-2026-pekerja-berhak-terima-bantuan-rp900-ribu",
+      "https://www.antaranews.com/berita/5854991/kemenaker-pemerintah-belum-tetapkan-pengelola-dana-cadangan-pesangon"
+    ],
+    "02-acc-gta6-harga-ppn": [
+      "https://tekno.kompas.com/read/2026/11/19/12010017/gamer-indonesia-coba-gta-6-kompak-bilang-grafiknya-gila-",
+      "https://www.digidang.com/id/blog/gta-6-rilis-harga-indonesia",
+      "https://www.gimbot.com/gta-vi-terjual-32-5-juta-kopi-hari-pertama/"
+    ],
+    "03-hris-dokter-online-shift": [
+      "https://health.detik.com/berita-detikhealth/d-8757668/viral-dituding-pakai-admin-ini-pengakuan-para-dokter-soal-praktik-telemedicine",
+      "https://health.detik.com/berita-detikhealth/d-8762714/viral-fenomena-dokter-online-24-jam-bagaimana-aturan-jam-praktik-telemedicine",
+      "https://health.detik.com/berita-detikhealth/d-8756921/viral-spekulasi-admin-di-balik-dokter-online-terus-ini-wanti-wanti-pb-idi"
+    ],
+    "04-acc-bi-rate-6-persen": [
+      "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2825426.aspx",
+      "https://www.bi.go.id/en/statistik/indikator/bi-rate.aspx"
+    ],
+    "05-acc-pph-final-umkm-2027": [
+      "https://news.ddtc.co.id/berita/nasional/1824026/mulai-2027-sejumlah-wp-badan-tak-bisa-lagi-pakai-pph-final-umkm"
+    ],
+    "06-hris-gta6-cuti": [
+      "https://tekno.kompas.com/read/2026/11/19/09050067/windah-basudara-jadi-streamer-gta-6-paling-banyak-ditonton-lampaui-ishowspeed",
+      "https://tekno.kompas.com/read/2026/11/19/12010017/gamer-indonesia-coba-gta-6-kompak-bilang-grafiknya-gila-"
+    ],
+    "07-acc-wapres-dua-tahap": [
+      "https://www.cnnindonesia.com/nasional/20261117071748-32-1427944/alasan-jadwal-pemilihan-wapres-baru-mundur-jadi-9-desember",
+      "https://nasional.kompas.com/read/2026/11/17/07073321/siap-siap-mpr-pilih-pengganti-gibran-2-tim-dibentuk-deadline-disepakati"
+    ],
+    "08-hris-bsu-data-upah": [
+      "https://www.kemnaker.go.id/news/detail/kemnaker-tetapkan-ketentuan-bsu-2026-pekerja-berhak-terima-bantuan-rp900-ribu",
+      "https://jdih.kemnaker.go.id/peraturan/detail/3117/peraturan-menteri-ketenagakerjaan-nomor-16-tahun-2026"
+    ],
+    "09-hris-ump-2027": [
+      "https://megapolitan.kompas.com/read/2026/11/20/11024431/pramono-tetapkan-ump-jakarta-2027-rp-613-juta-naik-rp-407000",
+      "https://megapolitan.kompas.com/read/2026/11/21/09102001/daftar-12-provinsi-sudah-menetapkan-ump-2027-jakarta-rp-61-juta-sumut-rp",
+      "https://www.antaranews.com/berita/5859051/menaker-batas-penetapan-ump-2027-pada-21-november-2026"
+    ],
+    "10-acc-persib-jdt-identik": [
+      "https://jabar.antaranews.com/berita/720207/klasemen-shopee-cup-di-grup-b-usai-skor-persib-vs-shan-united-6-0",
+      "https://tirto.id/update-klasemen-asean-club-2026-persib-jdt-ranking-berapa-idZ1"
+    ],
+    "11-acc-rupiah-18245": [
+      "https://www.ntvnews.id/ekonomi/01126650/bi-rupiah-melemah-066-persen-ke-rp18245-per-dolar-as",
+      "https://www.bi.go.id/id/statistik/informasi-kurs/jisdor/default.aspx"
+    ],
+    "12-hris-timnas-debut-onboarding": [
+      "https://www.cnnindonesia.com/olahraga/20261117133927-142-1428092/shin-tae-yong-bangga-wonderkid-persija-cetak-gol-di-timnas-indonesia",
+      "https://www.tvonenews.com/bola/timnas/478533-hasil-uji-coba-tertutup-timnas-indonesia-vs-bali-united-garuda-ditahan-imbang",
+      "https://www.cnnindonesia.com/olahraga/20261110172024-142-1425527/struick-kembali-ke-timnas-indonesia-thom-haye-dan-jay-idzes-absen",
+      "https://sport.detik.com/sepakbola/liga-indonesia/d-8748017/timnas-indonesia-akan-gelar-uji-coba-lawan-bali-united"
+    ],
+    "13-hris-dana-pesangon-cek-fakta": [
+      "https://www.antaranews.com/berita/5854991/kemenaker-pemerintah-belum-tetapkan-pengelola-dana-cadangan-pesangon",
+      "https://money.kompas.com/read/2026/11/17/130424926/menaker-bantah-danantara-ditunjuk-jadi-pengelola-dana-cadangan-pesangon",
+      "https://saberhoaks.jabarprov.go.id/v2/klarifikasi/detail/ADN016825/PERUSAHAAN-DIWAJIBKAN-SETOR-DANA-PESAGON-KE-DANANTARA"
+    ],
+    "14-acc-uu-perampasan-aset": [
+      "https://www.cnnindonesia.com/nasional/20261119104313-32-1428898/dpr-resmi-sahkan-ruu-perampasan-aset-jadi-undang-undang",
+      "https://nasional.kompas.com/read/2026/11/19/10480361/breaking-news-dpr-sahkan-ruu-perampasan-aset-menjadi-undang-undang",
+      "https://emedia.dpr.go.id/news/2026/11/19/dpr-sahkan-ruu-perampasan-aset-habiburokhman-instrumen-baru-pemulihan-kerugian-negara-dan-korban"
+    ]
+  }
+}
