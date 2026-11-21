@@ -379,7 +379,7 @@ Lihat laba, bukan cuma omzet.
 ${ACC_URL}`,
   },
   {
-    slug: 'hris-ump-2027', product: 'hris', date: '2026-11-30', time: '11:00', theme: 'ink',
+    slug: 'hris-ump-2027', product: 'hris', date: '2026-12-07', time: '11:00', theme: 'ink',
     category: 'KETENAGAKERJAAN', newsDate: '21 NOV 2026', icon: 'wallet',
     title: 'UMP 2027 dan payroll Januari',
     headline: 'UMP 2027 sudah keluar. Payroll Januari sudah disesuaikan?',
@@ -416,7 +416,7 @@ ${HRIS_URL}
 Sumber: Kompas.com, 20–21 November 2026; ANTARA, 17 November 2026.
 
 #LokaKasirHRIS #UMP2027 #Payroll #HRIS`,
-    threads: `Loka Kasir HRIS · UMP 2027 sudah ditetapkan. Jakarta Rp6.136.941 (naik 7,1%), Bali Rp4.559.287 (naik 42,15%). UMK menyusul paling lambat 25 November.
+    threads: `Loka Kasir HRIS · UMP 2027 sudah ditetapkan. Jakarta Rp6.136.941 (naik 7,1%), Bali Rp4.559.287 (naik 42,15%). Batas penetapan UMK: 25 November.
 
 Sebelum gaji Januari dibayar: cek upah minimum lokasi kerja, lalu lihat siapa yang masih di bawah angka baru.
 
@@ -562,7 +562,7 @@ Punya pinjaman usaha berbunga mengambang? Tanyakan ke bank soal cicilan bulan de
 ${ACC_URL}`,
   },
   {
-    slug: 'acc-pph-final-umkm-2027', product: 'accounting', date: '2026-12-04', time: '11:00', theme: 'paper',
+    slug: 'acc-pph-final-umkm-2027', product: 'accounting', date: '2026-12-10', time: '11:00', theme: 'paper',
     category: 'PAJAK', newsDate: '11 NOV 2026', icon: 'receipt-text',
     title: 'PPh final UMKM berakhir untuk sebagian badan usaha',
     headline: 'PT pakai PPh final UMKM sejak 2024? Tahun depan berubah.',

@@ -1,0 +1,190 @@
+<!doctype html><html lang="id"><meta charset="utf-8"><title>Carousel · Loka Kasir Billing</title><style>@font-face{font-family:Jakarta;src:url('assets/Jakarta-Medium.ttf');font-weight:500}
+@font-face{font-family:Jakarta;src:url('assets/Jakarta-SemiBold.ttf');font-weight:600}
+@font-face{font-family:Jakarta;src:url('assets/Jakarta-Bold.ttf');font-weight:700}
+@font-face{font-family:Jakarta;src:url('assets/Jakarta-ExtraBold.ttf');font-weight:800}
+*{box-sizing:border-box}
+html,body,p,h1,h2,h3,figure,ol,ul{margin:0;padding:0}
+ol,ul{list-style:none}
+body{font-family:Jakarta,sans-serif;font-weight:500;background:#0b1f42}
+
+/* Warna merek: biru #0D5DF3, kuning #FFC93C, tinta #231F20. Accounting memakai keluarga biru; HRIS kuning-hitam. */
+.t-navy{--bg:#0b1f3b;--ink:#fff;--muted:#c9d8f2;--accent:#FFC93C;--on-accent:#231F20;--panel:#143465;--panel-ink:#fff;--panel-accent:#FFC93C;--bridge:#e6efff;--bridge-ink:#11274c;--bridge-accent:#0D5DF3}
+.t-cobalt{--bg:#0D5DF3;--ink:#fff;--muted:#dfe9ff;--accent:#FFC93C;--on-accent:#231F20;--panel:#fff;--panel-ink:#11274c;--panel-accent:#0D5DF3;--bridge:#0b1f3b;--bridge-ink:#fff;--bridge-accent:#FFC93C}
+.t-paper{--bg:#f5eddb;--ink:#11274c;--muted:#44566f;--accent:#0D5DF3;--on-accent:#fff;--panel:#11274c;--panel-ink:#fff;--panel-accent:#FFC93C;--bridge:#0D5DF3;--bridge-ink:#fff;--bridge-accent:#FFC93C}
+.t-sun{--bg:#FFC93C;--ink:#231F20;--muted:#4b3d12;--accent:#0D5DF3;--on-accent:#fff;--panel:#231F20;--panel-ink:#fff;--panel-accent:#FFC93C;--bridge:#231F20;--bridge-ink:#fff;--bridge-accent:#FFC93C}
+.t-ink{--bg:#1b1c22;--ink:#fff;--muted:#cdd0da;--accent:#FFC93C;--on-accent:#231F20;--panel:#FFC93C;--panel-ink:#231F20;--panel-accent:#0D5DF3;--bridge:#FFC93C;--bridge-ink:#231F20;--bridge-accent:#0D5DF3}
+.t-sky{--bg:#e6efff;--ink:#11274c;--muted:#3c5278;--accent:#0D5DF3;--on-accent:#fff;--panel:#0D5DF3;--panel-ink:#fff;--panel-accent:#FFC93C;--bridge:#0D5DF3;--bridge-ink:#fff;--bridge-accent:#FFC93C}
+
+.slide{width:1080px;height:1350px;padding:64px 72px 54px;position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;background:var(--bg);color:var(--ink)}
+.slide>header,.slide>main,.slide>footer{position:relative;z-index:1}
+.brand{display:flex;align-items:center;justify-content:space-between;gap:24px;height:76px;flex:none}
+.wordmark{display:flex;align-items:center;gap:20px}
+.wordmark img{width:64px;height:64px;border-radius:15px;display:block}
+.wordmark strong,.wordmark small{display:block}
+.wordmark strong{font-size:38px;font-weight:800;line-height:1.1;letter-spacing:-.035em}
+.wordmark small{font-size:22px;font-weight:600;margin-top:5px;line-height:1.2;opacity:.8}
+.pagination{font-size:24px;font-weight:700;opacity:.8}
+.slide main{flex:1;min-height:0;display:flex;flex-direction:column}
+.slide footer{height:36px;flex:none;display:flex;align-items:center;justify-content:space-between;font-size:24px;font-weight:700;opacity:.92}
+.kicker{font-weight:800;font-size:24px;letter-spacing:.11em;line-height:1.25;text-transform:uppercase}
+
+/* 1. Sampul */
+.cover main{padding-top:44px}
+.chips{display:flex;flex-wrap:wrap;gap:12px;flex:none}
+.chip{display:inline-flex;align-items:center;gap:10px;height:50px;padding:0 22px;border-radius:100px;font-size:22px;font-weight:800;letter-spacing:.08em;border:2px solid color-mix(in srgb,var(--ink) 38%,transparent)}
+.chip.live{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.chip.live i{width:12px;height:12px;border-radius:50%;background:currentColor}
+.cover h1{font-size:82px;line-height:1.07;letter-spacing:-.05em;font-weight:800;margin-top:26px;text-wrap:balance;flex:none}
+.cover .lead{font-size:33px;line-height:1.36;letter-spacing:-.015em;color:var(--muted);margin-top:22px;max-width:900px;flex:none;text-wrap:pretty}
+.hero{margin-top:auto;margin-bottom:34px;flex:none;position:relative;overflow:hidden;border-radius:34px;background:var(--panel);color:var(--panel-ink);padding:40px 46px 42px}
+.hero .icon{position:absolute;right:-34px;top:-38px;width:290px;height:290px;opacity:.13;transform:rotate(-14deg)}
+.hero .icon svg{width:100%;height:100%;display:block}
+.hero .big{font-weight:800;line-height:1;letter-spacing:-.06em;color:var(--panel-accent);white-space:nowrap;position:relative}
+.hero .label{font-size:31px;font-weight:700;line-height:1.3;margin-top:16px;max-width:760px;position:relative;text-wrap:balance}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:30px;position:relative}
+.mini{border:2px solid color-mix(in srgb,var(--panel-ink) 26%,transparent);border-radius:20px;padding:16px 22px}
+.mini b{display:block;font-size:34px;font-weight:800;letter-spacing:-.03em;line-height:1.15}
+.mini span{display:block;font-size:23px;line-height:1.3;margin-top:4px;opacity:.86}
+.hero.versus{padding:34px 46px 38px}
+.versus .row{position:relative}
+.versus .row+.row{margin-top:22px;padding-top:22px;border-top:2px dashed color-mix(in srgb,var(--panel-ink) 30%,transparent)}
+.versus .row span{display:block;font-size:26px;font-weight:700;opacity:.86}
+.versus .row b{display:block;font-size:112px;font-weight:800;letter-spacing:-.055em;line-height:1.05;margin-top:4px;white-space:nowrap}
+.versus .row:first-child b{opacity:.62}
+.versus .row:last-child b{color:var(--panel-accent)}
+.versus .badge{position:absolute;right:38px;top:50%;transform:translateY(-50%) rotate(-9deg);min-width:176px;height:176px;padding:0 18px;border-radius:50%;background:var(--panel-accent);color:var(--panel);display:grid;place-items:center;text-align:center;font-size:44px;font-weight:800;letter-spacing:-.03em;line-height:1.05;box-shadow:0 14px 34px #00000038}
+.versus .badge.long{font-size:30px}
+/* Sampul tanpa angka besar: daftar mengisi sisa tinggi supaya tidak ada ruang kosong di tengah. */
+.hero.ticker{padding:14px 46px;flex:1;max-height:600px;margin-top:44px;display:grid;grid-auto-rows:1fr}
+.hero.shot{padding:16px 16px 20px;margin-top:40px}
+.hero.shot img{display:block;width:100%;border-radius:22px}
+.hero.shot p{font-size:26px;font-weight:700;line-height:1.3;padding:16px 12px 0;opacity:.9}
+.ticker .row{display:grid;grid-template-columns:292px 1fr;align-items:center;gap:26px;padding:27px 0;position:relative}
+.ticker .row+.row{border-top:2px solid color-mix(in srgb,var(--panel-ink) 20%,transparent)}
+.ticker .row b{font-size:42px;font-weight:800;letter-spacing:-.03em;color:var(--panel-accent);line-height:1.15}
+.ticker .row span{font-size:34px;font-weight:600;line-height:1.3}
+
+/* 2. Fakta */
+.facts{background:#fbf8f1;color:#11274c}
+.facts main{padding-top:52px}
+.facts .kicker{color:#0D5DF3}
+.facts h2,.bridge h2{font-size:68px;line-height:1.1;letter-spacing:-.048em;font-weight:800;margin-top:18px;text-wrap:balance}
+/* Tiga baris berbagi sisa tinggi slide secara rata supaya halaman terisi sampai baris sumber. */
+.facts ol{margin-top:36px;border-top:3px solid #11274c;flex:1;min-height:0;display:grid;grid-auto-rows:1fr}
+.facts li{display:grid;grid-template-columns:286px 1fr;gap:30px;align-items:center;padding:24px 0;border-bottom:2px solid #d9d2c1}
+.facts li b{font-size:42px;font-weight:800;letter-spacing:-.035em;line-height:1.18;color:#0D5DF3;text-wrap:balance}
+.facts li p{font-size:36px;line-height:1.38;letter-spacing:-.012em;color:#22395d}
+.facts .source{margin-top:26px;margin-bottom:30px;flex:none;font-size:23px;line-height:1.4;color:#5a6a82}
+.facts.p-hris li b{color:#231F20}
+.facts.p-hris .kicker{color:#231F20}
+.facts.p-hris ol{border-top-color:#231F20}
+.facts.p-hris li b::before{content:'';display:block;width:54px;height:9px;border-radius:5px;background:#FFC93C;margin-bottom:14px}
+
+/* 3. Jembatan ke usaha */
+.bridge{background:var(--bridge);color:var(--bridge-ink)}
+.bridge main{padding-top:52px}
+.bridge .kicker{color:var(--bridge-accent)}
+.bridge ol{margin-top:38px;margin-bottom:34px;display:grid;gap:22px;flex:1;min-height:0;grid-auto-rows:1fr}
+.bridge li{display:flex;align-items:center;gap:30px;min-height:176px;background:#fff;color:#11274c;border-radius:30px;padding:26px 36px;box-shadow:0 12px 30px #0a1d3f1c}
+.bridge .number{display:grid;place-items:center;width:92px;height:92px;flex:none;border-radius:26px;background:#0D5DF3;color:#fff;font-size:42px;font-weight:800}
+.bridge.p-hris .number{background:#FFC93C;color:#231F20}
+.bridge h3{font-size:43px;line-height:1.18;font-weight:800;letter-spacing:-.035em}
+.bridge li p{font-size:33px;line-height:1.36;color:#3a4f72;margin-top:10px}
+
+/* 4. Produk */
+.app{background:linear-gradient(150deg,#0e2b5c,#0b1c3a 78%);color:#fff;--cta:#fff;--cta-ink:#0b3aa0}
+.app.p-hris{background:linear-gradient(150deg,#1166ff,#0a47c9 82%);--cta:#FFC93C;--cta-ink:#231F20}
+.app main{padding-top:46px;align-items:flex-start}
+.app .kicker{color:#FFC93C}
+.app h2{font-size:66px;line-height:1.1;letter-spacing:-.048em;font-weight:800;margin-top:16px;text-wrap:balance}
+.app .lead{font-size:32px;line-height:1.4;color:#e4edff;margin-top:20px;text-wrap:pretty}
+.path{display:flex;flex-wrap:wrap;align-items:center;gap:10px 12px;margin-top:28px;margin-bottom:26px;flex:none}
+.path li{font-size:26px;font-weight:800;line-height:1.2;padding:12px 20px;border-radius:14px;background:#ffffff1c;border:1.5px solid #ffffff4a}
+.path li.sep{padding:0;background:none;border:0;font-size:30px;opacity:.7}
+.app figure{background:#f5f8ff;border-radius:22px;margin:auto 0;padding:12px;width:100%;box-shadow:0 20px 50px #06112b70;flex:none}
+.app figure img{display:block;margin:0 auto;max-width:100%;max-height:var(--shot-h,430px);width:auto;height:auto;border-radius:12px}
+.app figure .crop{width:912px;max-height:440px;overflow:hidden;border-radius:12px;background:#fff;margin:0 auto}
+.app figure .crop img{max-width:none;max-height:none;margin:0;border-radius:0}
+.app figcaption{padding:10px 6px 2px;color:#3a5a86;font-size:20px;font-weight:700}
+.app .cta{margin-top:0;margin-bottom:30px;flex:none;background:var(--cta);color:var(--cta-ink);border-radius:100px;padding:20px 34px;font-size:31px;font-weight:800;line-height:1.2;box-shadow:0 14px 34px #06112b50}
+.app .cta span{padding-left:8px}
+</style><body><article class="slide cover t-navy p-billing" data-file="media/01-billing-kenalan/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>BARU</span><span class="chip">RENTAL PS &amp; WARNET</span></div><h1>Rental PS: timernya jalan sendiri di tiap TV.</h1><p class="lead">Kenalan dengan Loka Kasir Billing, sistem billing untuk rental PlayStation dan warnet.</p><div class="hero shot"><img src="assets/shots/tv-playing.png" alt="Layar TV saat sesi berjalan: cincin sisa waktu, rincian tagihan, dan tombol Pesan Makanan, Tambah Waktu, Panggil Kasir"><p>Tampilan di TV saat sesi berjalan · data contoh</p></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-navy p-billing" data-file="media/01-billing-kenalan/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Cara kerjanya</p><h2>Satu sistem, tiga layar</h2><ol><li><b>Android TV</b><p>Aplikasi di tiap TV menampilkan sisa waktu dan tagihan. PlayStation tetap tersambung lewat HDMI.</p></li><li><b>Kasir web</b><p>Mulai, tambah waktu, jeda, dan stop sesi dari browser PC, laptop, atau tablet.</p></li><li><b>PC warnet</b><p>Aplikasi Windows mengunci layar saat PC kosong dan menampilkan timer saat sesi berjalan.</p></li></ol><p class="source">Fitur per November 2026. Rinciannya di billing.lokakasir.id.</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-navy p-billing" data-file="media/01-billing-kenalan/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">Di rental</p><h2>Yang biasanya bikin repot</h2><ol><li><span class="number">1</span><div><h3>Waktu dicatat manual</h3><p>Stopwatch dan buku gampang terlewat saat rental ramai.</p></div></li><li><span class="number">2</span><div><h3>Bolak-balik ke TV</h3><p>Kasir mengingatkan pemain satu per satu.</p></div></li><li><span class="number">3</span><div><h3>Rekap tiap malam</h3><p>Pendapatan dihitung ulang dari catatan.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-navy p-billing" data-file="media/01-billing-kenalan/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir Billing</p><h2>Semua stasiun di satu layar.</h2><p class="lead">Monitor Stasiun menampilkan sisa waktu, status, dan tagihan berjalan tiap TV. Perubahan di kasir langsung tampil di TV.</p><ul class="path"><li>Perangkat</li><li class="sep">›</li><li>Stasiun &amp; Tarif</li><li class="sep">›</li><li>Monitor Stasiun</li></ul><figure><div class="crop" style="height:445px"><img src="assets/shots/kasir-monitor.png" alt="Monitor Stasiun: tiga TV dengan cincin hitung mundur, nama pemain, dan tagihan berjalan" style="width:1808.7px;margin:-636.1px 0 0 -413.8px"></div><figcaption>Tampilan Loka Kasir Billing · Data contoh</figcaption></figure><p class="cta">Gratis 14 hari di billing.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>billing.lokakasir.id</span></footer>
+</article>
+<article class="slide cover t-cobalt p-billing" data-file="media/03-billing-menit-bocor/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>CONTOH HITUNGAN</span><span class="chip">RENTAL PS</span></div><h1>“Lima menit lagi, Bang.” Sebulan jadi berapa?</h1><p class="lead">Menit yang lewat tanpa tercatat kelihatannya kecil.</p><div class="hero stat"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 14v2.2l1.6 1"/><path d="M16 2v3"/><path d="M21 7.338V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h2.338"/><path d="M3 9h5.859"/><path d="M8 2v3"/><circle cx="16" cy="16" r="6"/></svg></div><div class="big" style="font-size:150px">Rp1,6 juta</div><p class="label">Contoh: 10 menit lewat di tiap sesi, selama sebulan</p><div class="minis"><div class="mini"><b>8 TV</b><span>5 sesi sehari per TV</span></div><div class="mini"><b>Rp8.000</b><span>tarif per jam</span></div></div></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-cobalt p-billing" data-file="media/03-billing-menit-bocor/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Contoh hitungan</p><h2>Dari mana Rp1,6 juta?</h2><ol><li><b>40 sesi</b><p>8 TV, masing-masing 5 sesi sehari.</p></li><li><b>400 menit</b><p>Tiap sesi lewat 10 menit: hampir 7 jam main tanpa tagihan per hari.</p></li><li><b>Rp53.333</b><p>400 menit × Rp8.000 per jam. Dikali 30 hari: Rp1,6 juta.</p></li></ol><p class="source">Contoh hitungan, bukan data rental. Coba dengan angka rentalmu sendiri.</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-cobalt p-billing" data-file="media/03-billing-menit-bocor/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">Di rental</p><h2>Bukan salah kasirnya</h2><ol><li><span class="number">1</span><div><h3>Rental lagi ramai</h3><p>Satu kasir memantau banyak TV sekaligus.</p></div></li><li><span class="number">2</span><div><h3>Nggak enak menegur</h3><p>Mengingatkan pemain berkali-kali itu canggung.</p></div></li><li><span class="number">3</span><div><h3>Stopwatch bisa lupa</h3><p>Sekali terlewat, menitnya hilang.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-cobalt p-billing" data-file="media/03-billing-menit-bocor/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir Billing</p><h2>Waktu habis, layar TV yang bilang.</h2><p class="lead">Beberapa menit sebelum habis, peringatan muncul di TV. Saat waktu habis, layar Waktu Habis menutup game dan menampilkan tagihan.</p><ul class="path"><li>Peringatan di TV</li><li class="sep">›</li><li>Waktu Habis</li><li class="sep">›</li><li>Bayar di kasir</li></ul><figure><img src="assets/shots/tv-timeup.png" alt="Layar TV Waktu Habis dengan total tagihan dan tombol Panggil Kasir"><figcaption>Tampilan Loka Kasir Billing · Data contoh</figcaption></figure><p class="cta">Gratis 14 hari di billing.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>billing.lokakasir.id</span></footer>
+</article>
+<article class="slide cover t-ink p-billing" data-file="media/05-billing-pesan-dari-tv/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>FITUR</span><span class="chip">F&amp;B DI RENTAL</span></div><h1>Lagi seru main, lapar. Pesannya dari TV.</h1><p class="lead">Pemain memilih menu pakai remote. Kasir tinggal menyetujui.</p><div class="hero shot"><img src="assets/shots/tv-order_menu.png" alt="Layar TV Pesan Makanan &amp; Minuman dengan daftar menu dan tombol Kirim Pesanan"><p>Menu pesan makanan di TV · data contoh</p></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-ink p-billing" data-file="media/05-billing-pesan-dari-tv/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Alurnya</p><h2>Dari remote sampai struk</h2><ol><li><b>Pesan</b><p>Pemain membuka Pesan Makanan di TV dan memilih menu.</p></li><li><b>Setujui</b><p>Pesanan muncul di kasir. Satu klik, langsung masuk tagihan sesi.</p></li><li><b>Bayar</b><p>Sewa dan makanan dibayar sekaligus. Stok berkurang otomatis.</p></li></ol><p class="source">Menu dan harga di gambar adalah data contoh.</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-ink p-billing" data-file="media/05-billing-pesan-dari-tv/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">Di rental</p><h2>Yang berubah di rental</h2><ol><li><span class="number">1</span><div><h3>Pemain tetap di kursi</h3><p>Pesanan dikirim tanpa meninggalkan permainan.</p></div></li><li><span class="number">2</span><div><h3>Kasir tidak perlu mencatat</h3><p>Pesanan sudah tertulis dan terikat ke stasiunnya.</p></div></li><li><span class="number">3</span><div><h3>Tagihan tidak tercecer</h3><p>Makanan dan sewa ada di satu struk.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-ink p-billing" data-file="media/05-billing-pesan-dari-tv/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir Billing</p><h2>Makanan masuk ke tagihan sesi.</h2><p class="lead">Untuk pembeli yang tidak sedang main, pakai Kasir F&amp;B. Menu dan stoknya diatur di Produk F&amp;B.</p><ul class="path"><li>Pesan Makanan</li><li class="sep">›</li><li>Kasir F&amp;B</li><li class="sep">›</li><li>Produk F&amp;B</li></ul><figure><div class="crop" style="height:450px"><img src="assets/shots/kasir-pos.png" alt="Halaman Kasir F&amp;B: daftar makanan dan minuman dengan stok dan harga" style="width:1898.0px;margin:-241.3px 0 0 -398.9px"></div><figcaption>Tampilan Loka Kasir Billing · Data contoh</figcaption></figure><p class="cta">Gratis 14 hari di billing.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>billing.lokakasir.id</span></footer>
+</article>
+<article class="slide cover t-sky p-billing" data-file="media/07-billing-internet-mati/slide-01.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">1 / 4</span></header>
+<main><div class="chips"><span class="chip live"><i></i>SERING DITANYA</span><span class="chip">INTERNET &amp; LISTRIK</span></div><h1>Internet mati. Timer di TV ikut mati?</h1><p class="lead">Jawabannya tergantung letak servernya.</p><div class="hero ticker"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div><div class="row"><b>Server lokal</b><span>Kasir, TV, dan PC tetap jalan lewat jaringan lokal</span></div><div class="row"><b>Server internet</b><span>Sesi paket tetap terkunci tepat waktu</span></div><div class="row"><b>Mati lampu</b><span>Sesi dijeda otomatis sejak server mati</span></div></div></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide facts t-sky p-billing" data-file="media/07-billing-internet-mati/slide-02.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">2 / 4</span></header>
+<main><p class="kicker">Jawabannya</p><h2>Tiga keadaan</h2><ol><li><b>Server di PC rental</b><p>Internet putus, kasir web, TV, dan PC tetap berjalan lewat Wi-Fi atau LAN.</p></li><li><b>Server di internet saja</b><p>Kasir tidak bisa memulai atau menutup sesi. Sesi paket yang berjalan tetap terkunci tepat waktu.</p></li><li><b>Mati lampu</b><p>Setelah server menyala lagi, kasir memilih: waktu mati diganti atau tetap dihitung.</p></li></ol><p class="source">Sumber: panduan Loka Kasir Billing. Server lokal bersifat opsional.</p></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide bridge t-sky p-billing" data-file="media/07-billing-internet-mati/slide-03.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">3 / 4</span></header>
+<main><p class="kicker">Buat rentalmu</p><h2>Saran pemasangan</h2><ol><li><span class="number">1</span><div><h3>Mau jalan tanpa internet</h3><p>Pasang server lokal di PC rental.</p></div></li><li><span class="number">2</span><div><h3>Pakai UPS</h3><p>Untuk PC server dan router.</p></div></li><li><span class="number">3</span><div><h3>IP server tetap</h3><p>Atur di router supaya TV selalu menemukan server.</p></div></li></ol></main>
+<footer><span>@lokakasir.id</span><span>Geser →</span></footer>
+</article>
+<article class="slide app t-sky p-billing" data-file="media/07-billing-internet-mati/slide-04.jpg">
+<header class="brand"><div class="wordmark"><img src="assets/lokakasir-mark.svg" alt=""><div><strong>Loka Kasir Billing</strong><small>Billing rental PS &amp; warnet</small></div></div><span class="pagination">4 / 4</span></header>
+<main><p class="kicker">Di Loka Kasir Billing</p><h2>TV tetap menghitung mundur.</h2><p class="lead">Aplikasi TV menampilkan sisa waktu dan tagihan, dengan tombol Pesan Makanan, Tambah Waktu, dan Panggil Kasir.</p><ul class="path"><li>Pesan Makanan</li><li class="sep">›</li><li>Tambah Waktu</li><li class="sep">›</li><li>Panggil Kasir</li></ul><figure><img src="assets/shots/tv-playing.png" alt="Layar TV saat sesi berjalan: cincin sisa waktu 01:30:00, rincian tagihan, dan tombol aksi"><figcaption>Tampilan Loka Kasir Billing · Data contoh</figcaption></figure><p class="cta">Gratis 14 hari di billing.lokakasir.id <span>→</span></p></main>
+<footer><span>@lokakasir.id</span><span>billing.lokakasir.id</span></footer>
+</article></body></html>

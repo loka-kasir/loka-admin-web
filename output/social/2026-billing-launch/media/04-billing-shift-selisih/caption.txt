@@ -1,0 +1,14 @@
+Loka Kasir Billing · Selisih kas per shift
+
+Laci kurang Rp20 ribu. Kalau baru ketahuan akhir minggu, sudah susah dicari penyebabnya.
+
+Contoh hitungan satu shift: modal awal Rp300.000, isi ulang saldo member yang dibayar tunai Rp400.000. Kas yang seharusnya ada Rp700.000. Saat dihitung ternyata Rp680.000. Selisih Rp20.000 langsung kelihatan di hari yang sama.
+
+Tiga kebiasaan yang membantu: buka shift tiap jaga, hitung uang fisik saat tutup, dan satu kasir satu shift.
+
+Di Loka Kasir Billing, Shift Kasir menghitung kas yang seharusnya dari modal awal dan transaksi tunai. Hasil hitung dimasukkan saat tutup shift, selisihnya tampil dan bisa dicetak.
+
+Gratis 14 hari, tanpa kartu kredit:
+https://billing.lokakasir.id/
+
+#LokaKasirBilling #RentalPS #ShiftKasir #BillingRental

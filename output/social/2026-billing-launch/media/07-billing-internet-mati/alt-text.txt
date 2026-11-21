@@ -1,0 +1,7 @@
+Slide 1: Loka Kasir Billing. INTERNET & LISTRIK. Internet mati. Timer di TV ikut mati? Jawabannya tergantung letak servernya. Server lokal: Kasir, TV, dan PC tetap jalan lewat jaringan lokal; Server internet: Sesi paket tetap terkunci tepat waktu; Mati lampu: Sesi dijeda otomatis sejak server mati.
+
+Slide 2: Tiga keadaan. Server di PC rental: Internet putus, kasir web, TV, dan PC tetap berjalan lewat Wi-Fi atau LAN. Server di internet saja: Kasir tidak bisa memulai atau menutup sesi. Sesi paket yang berjalan tetap terkunci tepat waktu. Mati lampu: Setelah server menyala lagi, kasir memilih: waktu mati diganti atau tetap dihitung. Sumber: panduan Loka Kasir Billing. Server lokal bersifat opsional.
+
+Slide 3: Saran pemasangan. Mau jalan tanpa internet. Pasang server lokal di PC rental. Pakai UPS. Untuk PC server dan router. IP server tetap. Atur di router supaya TV selalu menemukan server.
+
+Slide 4: TV tetap menghitung mundur. Aplikasi TV menampilkan sisa waktu dan tagihan, dengan tombol Pesan Makanan, Tambah Waktu, dan Panggil Kasir. Menu: Pesan Makanan, Tambah Waktu, Panggil Kasir. Tangkapan layar: Layar TV saat sesi berjalan: cincin sisa waktu 01:30:00, rincian tagihan, dan tombol aksi. Gratis 14 hari di billing.lokakasir.id.

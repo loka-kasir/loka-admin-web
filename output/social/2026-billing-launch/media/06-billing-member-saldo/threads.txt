@@ -1,0 +1,5 @@
+Loka Kasir Billing · Pelanggan tetap bisa menyimpan saldo di rentalmu: isi ulang di kasir, main dan jajan dipotong dari saldo.
+
+Ingat: saldo itu titipan, belum jadi pendapatan sampai dipakai. Bonus isi ulang itu biaya. Setiap mutasi harus tercatat.
+
+https://billing.lokakasir.id/

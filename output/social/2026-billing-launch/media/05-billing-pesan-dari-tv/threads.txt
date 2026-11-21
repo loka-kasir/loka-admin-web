@@ -1,0 +1,5 @@
+Loka Kasir Billing · Lagi seru main, lapar.
+
+Pemain memesan makanan dari TV pakai remote. Kasir menyetujui satu klik, pesanan masuk ke tagihan sesi, dan stok berkurang otomatis. Sewa dan makanan dibayar sekaligus.
+
+https://billing.lokakasir.id/

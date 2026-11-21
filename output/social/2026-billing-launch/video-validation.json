@@ -1,0 +1,37 @@
+{
+ "checked_at": "2026-11-21T17:45:42.322Z",
+ "videos": [
+  {
+   "code": "02-billing-gta6-rental-ramai",
+   "seconds": 28.01,
+   "megabytes": 8.49,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  },
+  {
+   "code": "04-billing-shift-selisih",
+   "seconds": 28.01,
+   "megabytes": 8.39,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  },
+  {
+   "code": "06-billing-member-saldo",
+   "seconds": 28.01,
+   "megabytes": 8.98,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  },
+  {
+   "code": "08-billing-tarif-per-jam",
+   "seconds": 28.01,
+   "megabytes": 8.28,
+   "codec": "h264",
+   "audio": "aac",
+   "brand": "isom"
+  }
+ ]
+}

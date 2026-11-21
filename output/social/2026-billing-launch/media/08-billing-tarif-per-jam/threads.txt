@@ -1,0 +1,7 @@
+Loka Kasir Billing · Siang sepi, malam penuh. Tarifnya masih sama?
+
+Tarif bisa berbeda menurut jam dan hari: happy hour siang, tarif malam, akhir pekan. Main per jam dihitung menit demi menit sesuai tarif yang berlaku.
+
+Lihat dulu jam ramai di Laporan sebelum mengubah tarif.
+
+https://billing.lokakasir.id/

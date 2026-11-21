@@ -1,0 +1,18 @@
+Loka Kasir Billing · Internet mati dan mati lampu
+
+Pertanyaan yang sering muncul: kalau internet mati, timer di TV ikut mati?
+
+Jawabannya tergantung letak server.
+
+Server di PC rental (lokal): kasir web, TV, dan PC tetap berjalan lewat Wi-Fi atau LAN walau internet putus.
+
+Server di internet saja: kasir tidak bisa memulai atau menutup sesi selama internet putus. Sesi paket yang sedang berjalan tetap terkunci tepat waktu.
+
+Mati lampu: setelah server menyala lagi, sesi yang tadi berjalan dijeda otomatis sejak server mati. Kasir memilih apakah waktu mati diganti atau tetap dihitung.
+
+Saran: kalau mau tetap jalan tanpa internet, pasang server lokal. Pakai UPS untuk PC server dan router, dan atur IP server tetap di router.
+
+Gratis 14 hari, tanpa kartu kredit:
+https://billing.lokakasir.id/
+
+#LokaKasirBilling #RentalPS #Warnet #BillingRental

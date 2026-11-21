@@ -1,0 +1,17 @@
+Loka Kasir Billing · Member dan saldo deposit
+
+Pelanggan tetap bisa menyimpan saldo di rentalmu. Isi ulang di kasir, lalu main dan jajan dipotong dari saldo.
+
+Contoh: isi Rp100 ribu dengan bonus promo Rp10 ribu, saldonya jadi Rp110 ribu. Besar bonus ditentukan pemilik rental.
+
+Tiga hal yang perlu diingat pemilik:
+1. Saldo itu titipan. Belum jadi pendapatan sampai dipakai.
+2. Bonus itu biaya. Hitung dulu sebelum dijadikan promo.
+3. Setiap mutasi harus tercatat supaya saldo pelanggan dan kas cocok.
+
+Di Loka Kasir Billing, halaman Member & Saldo menampilkan saldo yang beredar, riwayat mutasi, jumlah kunjungan, dan total belanja tiap member. Refund saat transaksi dibatalkan tercatat otomatis.
+
+Gratis 14 hari, tanpa kartu kredit:
+https://billing.lokakasir.id/
+
+#LokaKasirBilling #RentalPS #Member #BillingRental

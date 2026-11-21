@@ -1,0 +1,14 @@
+Loka Kasir Billing · Tarif berdasarkan jam
+
+Siang sepi, malam penuh. Kalau tarifnya sama sepanjang hari, jam sepi tetap sepi.
+
+Di Loka Kasir Billing, tarif bisa berbeda menurut jam dan hari: happy hour siang, tarif malam, dan akhir pekan. Untuk main per jam (argo), tagihan dihitung menit demi menit sesuai tarif yang berlaku saat itu. Tarif yang sedang berlaku tampil di monitor kasir dan di TV.
+
+Contoh: Rp6 ribu per jam di siang hari, Rp8 ribu sore, Rp10 ribu malam. Angkanya contoh; tarif ditentukan pemilik rental.
+
+Sebelum mengubah tarif, lihat dulu jam ramai di Laporan. Ubah satu rentang jam, lalu bandingkan hasilnya.
+
+Gratis 14 hari, tanpa kartu kredit:
+https://billing.lokakasir.id/
+
+#LokaKasirBilling #RentalPS #HappyHour #BillingRental

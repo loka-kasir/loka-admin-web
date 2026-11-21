@@ -1,4 +1,6 @@
-# Isu terkini: Loka Kasir Accounting dan HRIS, 22 November–5 Desember 2026
+# Isu terkini: Loka Kasir Accounting dan HRIS, 22 November–10 Desember 2026
+
+> Pembaruan 22 November: dua posting yang isinya tahan lama pindah jadwal saat [kalender ditata dua posting per hari](../2026-kalender-2x-sehari/README.md): UMP 2027 ke 7 Desember dan PPh final UMKM ke 10 Desember. `kalender.csv` dan `content.cjs` sudah mengikuti.
 
 **14 posting terjadwal di Loka Admin** untuk Instagram dan Threads @lokakasir.id, satu per hari pukul 11.00 WIB. Tujuh berupa foto (empat gambar 1080 × 1350) dan tujuh berupa video Reels 9:16 berdurasi 28 detik; keduanya bergantian dan tidak dicampur dalam satu posting. Hasil baca ulang API: [verifikasi-jadwal.json](verifikasi-jadwal.json). Posting lain di kalender tidak diubah.
 

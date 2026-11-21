@@ -1,0 +1,7 @@
+Slide 1: Loka Kasir Billing. RENTAL PS & WARNET. Rental PS: timernya jalan sendiri di tiap TV. Kenalan dengan Loka Kasir Billing, sistem billing untuk rental PlayStation dan warnet. Gambar: Layar TV saat sesi berjalan: cincin sisa waktu, rincian tagihan, dan tombol Pesan Makanan, Tambah Waktu, Panggil Kasir. Tampilan di TV saat sesi berjalan · data contoh
+
+Slide 2: Satu sistem, tiga layar. Android TV: Aplikasi di tiap TV menampilkan sisa waktu dan tagihan. PlayStation tetap tersambung lewat HDMI. Kasir web: Mulai, tambah waktu, jeda, dan stop sesi dari browser PC, laptop, atau tablet. PC warnet: Aplikasi Windows mengunci layar saat PC kosong dan menampilkan timer saat sesi berjalan. Fitur per November 2026. Rinciannya di billing.lokakasir.id.
+
+Slide 3: Yang biasanya bikin repot. Waktu dicatat manual. Stopwatch dan buku gampang terlewat saat rental ramai. Bolak-balik ke TV. Kasir mengingatkan pemain satu per satu. Rekap tiap malam. Pendapatan dihitung ulang dari catatan.
+
+Slide 4: Semua stasiun di satu layar. Monitor Stasiun menampilkan sisa waktu, status, dan tagihan berjalan tiap TV. Perubahan di kasir langsung tampil di TV. Menu: Perangkat, Stasiun & Tarif, Monitor Stasiun. Tangkapan layar: Monitor Stasiun: tiga TV dengan cincin hitung mundur, nama pemain, dan tagihan berjalan. Gratis 14 hari di billing.lokakasir.id.

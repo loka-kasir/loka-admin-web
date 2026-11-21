@@ -1,0 +1,7 @@
+Loka Kasir Billing · Internet mati, timer di TV ikut mati?
+
+Server lokal di PC rental: semua tetap jalan lewat LAN. Server di internet saja: kasir tidak bisa mulai atau tutup sesi, tapi sesi paket tetap terkunci tepat waktu.
+
+Saran: server lokal + UPS untuk PC server dan router.
+
+https://billing.lokakasir.id/

@@ -1,0 +1,117 @@
+{
+ "account": "@lokakasir.id",
+ "verified_at": "2026-11-22T00:46:50.080020+07:00",
+ "created": 8,
+ "media_reachable": 20,
+ "scheduled_in_range": 60,
+ "posts": [
+  {
+   "code": "01-billing-kenalan",
+   "id": "14534f6d-ec02-40c4-a481-8f0dbb5fb221",
+   "title": "Kenalan dengan Loka Kasir Billing",
+   "format": "foto",
+   "scheduled_at": "2026-11-24T20:00:00+07:00",
+   "media_ids": [
+    "4fcb056b-4e20-4eb5-86c2-76ce1f0396e5",
+    "8ee38843-6cf9-4b20-8822-db9c1d5dade1",
+    "fc20dd39-530e-4bb4-8164-d11260d0e58e",
+    "6e66753e-d432-49f8-92d6-00680cb31f19"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "02-billing-gta6-rental-ramai",
+   "id": "5b51cbab-0247-42b0-a407-048747150523",
+   "title": "GTA 6 dan rental PS5 yang ramai",
+   "format": "video",
+   "scheduled_at": "2026-11-28T20:00:00+07:00",
+   "media_ids": [
+    "f63a25c8-ba9b-46b3-8de8-8b3bde98644d"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "03-billing-menit-bocor",
+   "id": "493f8219-9c67-4201-b19a-ecd73bac2c2a",
+   "title": "Menit yang lewat tanpa tagihan",
+   "format": "foto",
+   "scheduled_at": "2026-12-04T11:00:00+07:00",
+   "media_ids": [
+    "78bb6afe-84f4-4b82-89a4-513981980965",
+    "f58dc9f0-0c5d-4566-8b1e-ab79d35b23f5",
+    "40f89096-5300-43f2-8505-343c5ba19e45",
+    "c1e26050-53fc-408a-8e2a-66e3136add1a"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "04-billing-shift-selisih",
+   "id": "40a55a5e-7d34-4535-b30d-0ac53f569fe5",
+   "title": "Selisih kas per shift",
+   "format": "video",
+   "scheduled_at": "2026-12-06T11:00:00+07:00",
+   "media_ids": [
+    "4bf2a803-5a10-47ca-b31c-88287eb2c182"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "05-billing-pesan-dari-tv",
+   "id": "e1a763f2-525b-4a0f-98b5-0a607ef07735",
+   "title": "Pesan makanan dari TV",
+   "format": "foto",
+   "scheduled_at": "2026-12-09T11:00:00+07:00",
+   "media_ids": [
+    "c19c7239-2713-43b8-836c-10644987cfa0",
+    "6f9fc4df-db38-4e06-9921-50521bbf06d5",
+    "a2435fa5-0467-482d-af9c-191a77d2ac44",
+    "d1716915-1ed0-4100-b918-b235b7a67091"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "06-billing-member-saldo",
+   "id": "dc63cab7-b4d8-4ad2-80e7-dbfc1b29d739",
+   "title": "Member dan saldo deposit",
+   "format": "video",
+   "scheduled_at": "2026-12-13T11:00:00+07:00",
+   "media_ids": [
+    "7378b846-27a0-42b6-a76a-c250ce97791e"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "07-billing-internet-mati",
+   "id": "e558b182-cda9-4581-8f77-968765cf7882",
+   "title": "Internet mati dan mati lampu",
+   "format": "foto",
+   "scheduled_at": "2026-12-16T11:00:00+07:00",
+   "media_ids": [
+    "34ebd83c-0074-4e7c-a15c-7291e9fe7c50",
+    "da757b72-7086-4398-b09c-9c5ed07fd933",
+    "10e0ad5e-8c41-4ede-a701-3a6a33d186b6",
+    "7233b9ac-091c-455f-95d9-42db1a065c5f"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  },
+  {
+   "code": "08-billing-tarif-per-jam",
+   "id": "e2e477c5-8def-4074-bdad-297f05f86c0a",
+   "title": "Tarif berdasarkan jam",
+   "format": "video",
+   "scheduled_at": "2026-12-19T11:00:00+07:00",
+   "media_ids": [
+    "d35d6511-6853-4560-83e6-94448993a868"
+   ],
+   "instagram_status": "scheduled",
+   "threads_status": "waiting"
+  }
+ ]
+}

@@ -1,5 +1,9 @@
 # Materi Instagram Loka Kasir
 
+Pada 22 November 2026, kalender @lokakasir.id ditata ulang menjadi [maksimal dua posting per hari](2026-kalender-2x-sehari/README.md): siang untuk isu terkini dan produk (Accounting, HRIS, Billing), malam untuk cerita toko Loka Kasir. 42 posting pindah jadwal tanpa perubahan isi, dan [delapan posting perkenalan Loka Kasir Billing](2026-billing-launch/README.md) masuk pada 24 November–19 Desember. Kalender sekarang berisi 112 posting sampai 16 Januari 2027.
+
+[Lihat kalender gabungan](2026-kalender-2x-sehari/kalender-gabungan.csv).
+
 Pada 22 November 2026 dini hari, slide isi 84 posting Loka Kasir yang masih antre (25 November–5 Januari) diganti dengan [versi 4](2026-nov-dec-v4/README.md): 316 slide yang terisi penuh, dengan layar aplikasi di slide penutup. Sampul, caption, teks Threads, dan jadwal tetap.
 
 Pada 21 November 2026, 14 posting isu terkini untuk Loka Kasir Accounting dan Loka Kasir HRIS dijadwalkan pada 22 November–5 Desember, satu per hari pukul 11.00 WIB: tujuh foto dan tujuh video Reels 28 detik yang dibuat dengan Remotion. Posting pukul 14.00 dan 20.00 tidak diubah.

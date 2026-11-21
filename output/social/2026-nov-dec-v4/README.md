@@ -4,6 +4,8 @@
 
 [Contoh empat carousel](preview.jpg) · [Daftar posting dan berkasnya](plan.json)
 
+> Pembaruan 22 November: jadwal sebagian posting ini berubah saat [kalender ditata dua posting per hari](../2026-kalender-2x-sehari/README.md); 22 di antaranya pindah ke 6–16 Januari 2027. Slide tidak berubah. `plan.json` dan `before.json` mencatat jadwal saat slide dipasang.
+
 ## Kenapa dirombak
 
 Tinjauan antrean pada 21 November menemukan sampul yang bagus tetapi slide isi yang kosong: median area tanpa isi 45% di slide tengah dan 68% di slide terakhir, penutup tanpa tampilan produk, dan dua label bagian yang sama di hampir semua posting. Dua posting (Hari Guru, Tanggal Tua) masih memakai templat lama.

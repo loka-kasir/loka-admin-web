@@ -101,7 +101,7 @@ def ts(raw):
     return datetime.fromisoformat(raw.replace('Z', '+00:00')).astimezone(WIB) if raw else None
 
 def calendar():
-    query = urlencode({'from': '2026-11-21T00:00:00+07:00', 'to': '2026-12-07T00:00:00+07:00'})
+    query = urlencode({'from': '2026-11-21T00:00:00+07:00', 'to': '2026-12-12T00:00:00+07:00'})
     return api('GET', '/admin/social/posts?' + query) or []
 
 def save(path, value):
