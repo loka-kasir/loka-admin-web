@@ -1,0 +1,1167 @@
+{
+ "account": "@lokakasir.id",
+ "verified_at": "2026-11-22T00:07:18.504222+07:00",
+ "updated_posts": 84,
+ "new_slides": 316,
+ "media_reachable": 398,
+ "captions_threads_schedule_preserved": true,
+ "other_posts_unchanged": 22,
+ "total_in_calendar": 106,
+ "skipped": [],
+ "posts": [
+  {
+   "id": "566c7644-4bbe-4798-9081-361a2519bbf9",
+   "code": "L01",
+   "title": "Selamat Hari Guru Nasional, 25 November 🙏",
+   "scheduled_at": "2026-11-25T15:00:00+08:00",
+   "cover_kept": false,
+   "media_ids": [
+    "2792a032-197f-4290-9dff-953023a8593c",
+    "2a087346-4f07-4359-a293-1a12f373648b"
+   ]
+  },
+  {
+   "id": "5c580bd3-5551-4032-b851-00b63552c19f",
+   "code": "014",
+   "title": "Kemarin kehabisan. Hari ini malah kebanyakan.",
+   "scheduled_at": "2026-11-25T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "53d5d15a-7965-4e8d-b702-98b571893961",
+    "6b65d673-79d0-46ab-af5a-04870806201d",
+    "89cd99ef-839f-4e73-bd05-f6597a74f8af",
+    "fdda24c3-eafb-459f-bcf6-ffef678dd50a",
+    "69abf5b4-c121-4fbc-8f54-280e743a50eb"
+   ]
+  },
+  {
+   "id": "97dbc398-7490-4080-8f5f-8a093a7f66b5",
+   "code": "015",
+   "title": "Turis mau bayar. Tim kasir sudah tahu caranya?",
+   "scheduled_at": "2026-11-26T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "ff955429-6c3d-4942-adcf-11b84e702444",
+    "31bb7c97-f415-47dd-b273-0ca22bf98782",
+    "1b1e869a-ce95-4452-9c26-dd7cc6c61a17",
+    "b9c9c7b0-0436-4ef4-bf47-3702b2e561c9"
+   ]
+  },
+  {
+   "id": "e51c7391-42f8-4942-bb57-d63c23b89781",
+   "code": "016",
+   "title": "Menu sama. Dijual online. Sisanya beda.",
+   "scheduled_at": "2026-11-26T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "a5b36227-754a-44e9-9e21-32e74f9280d7",
+    "23823fc8-fc4a-47a7-81e6-f81e4e3de21c",
+    "58695bdf-5e76-45e5-a900-a30756f78bd3",
+    "32bbadb4-bb58-41e5-adb5-ee5328fbbf8d",
+    "69524b80-b909-4ad8-bf72-a91bc58ee040"
+   ]
+  },
+  {
+   "id": "b404bdb0-0d0e-4cf1-8cec-dd86c2b1b5d3",
+   "code": "017",
+   "title": "“Diskonnya buat semua, kan?” Mulai dari sini ributnya.",
+   "scheduled_at": "2026-11-27T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "020698bb-d5ac-4226-9d42-b628ce69629f",
+    "7c7fbe03-ea3c-4f2a-af62-bd51ccbb29a2",
+    "ebdb16b7-e029-41b9-a22f-976cc11ccb7e",
+    "46ace0ca-f651-487f-b1a5-50f38e19f071"
+   ]
+  },
+  {
+   "id": "afc0ea8e-19d8-4ea3-a426-827b7d24469e",
+   "code": "L02",
+   "title": "Tanggal tua, dompet pembeli menipis. Warung tetap harus jalan 💪",
+   "scheduled_at": "2026-11-27T21:00:00+08:00",
+   "cover_kept": false,
+   "media_ids": [
+    "981caf4a-38b2-4c44-b03b-7854f82e04d5",
+    "d3794eb2-8531-479d-8ca0-4caf7fce559e",
+    "7e6186cb-c9c6-4a6e-b407-5063c6617d08"
+   ]
+  },
+  {
+   "id": "4685a145-e629-433a-85ef-f940eeaada93",
+   "code": "019",
+   "title": "Toko buka. Pemasok libur. Bahan tinggal sedikit.",
+   "scheduled_at": "2026-11-28T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "abd2e0e6-57e9-4382-b54b-62b082544a6c",
+    "0a1e3847-a8ed-403d-8606-381754fe8f78",
+    "5816815f-701b-4d9e-9b1e-07138d6b6d0d",
+    "dbeea403-3983-44be-a3c0-bbb8b05bcf06",
+    "49fbb41e-25d2-4b6a-8cdb-0ba1fbfd474d"
+   ]
+  },
+  {
+   "id": "4250e5a1-8063-469d-8437-c011cd8a7d2c",
+   "code": "020",
+   "title": "Pelanggan pertama datang karena promo. Balik lagi karena apa?",
+   "scheduled_at": "2026-11-28T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "4acec95d-210b-4492-b522-adf2d8d47a73",
+    "5d43b1bd-4d74-4ff5-8e58-78915f15fed3",
+    "8164d305-cd6a-4e30-af34-7fc262fddf2b",
+    "3f478239-b29f-4e36-bc2e-37db1e714210",
+    "bfa0c9b8-dd40-4b07-b06e-a44fe19e8378"
+   ]
+  },
+  {
+   "id": "92dc4a68-f40b-4f79-abef-3fa2d5fc5ece",
+   "code": "021",
+   "title": "Menu favorit owner otomatis layak ditambah stok?",
+   "scheduled_at": "2026-11-29T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "a3ef03e4-eb40-4280-9486-65a9b624635c",
+    "d717e824-1020-46cd-bbf2-02ff104cc4c3",
+    "aa89d001-23ca-492b-985a-034732b17c2a",
+    "1fd6fea8-aeeb-4b49-8504-96bbb875752b",
+    "7abd40df-a9cc-42b2-a596-041662aa9f7b"
+   ]
+  },
+  {
+   "id": "6571422d-b8ef-4f6e-a290-1960a8ae820d",
+   "code": "022",
+   "title": "Di layar ada 20. Di rak tinggal 17.",
+   "scheduled_at": "2026-11-29T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "36efa3d6-7d7f-4b3c-a4ec-0f80aeb632e8",
+    "c38fe63a-b86b-4dab-acf0-28a1eda1c54d",
+    "8485f9c5-f6ef-4860-9245-3e67972137d3",
+    "724e45bd-fbbb-4bb3-976a-142f9b490fb7",
+    "7cbccc4e-51fe-47f9-b95d-6f7993b5c0b0"
+   ]
+  },
+  {
+   "id": "2f34220c-bc60-4916-932d-1cd33dbcd87d",
+   "code": "023",
+   "title": "Sebelum tutup November, jawab 3 hal ini.",
+   "scheduled_at": "2026-11-30T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "04ffd526-b902-4e87-a419-8f0c00b3a361",
+    "6cacfdc2-805f-42f1-bcd4-aa9aa9d6c9ed",
+    "fc87a27c-75e9-4cfe-958a-bc91bc42d30c",
+    "b6b7c587-6ba6-491b-afea-69318b4a9101"
+   ]
+  },
+  {
+   "id": "45feae9d-1a39-486c-b151-dea6f5070953",
+   "code": "024",
+   "title": "Besok Desember. Malam ini masih bisa merapikan satu hal.",
+   "scheduled_at": "2026-11-30T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "3f1f07be-a246-4d62-b532-8a60f1147bcc",
+    "7aef55d1-4505-4a4a-ba53-a830b6e1f549",
+    "8d9903f5-bc35-4d8b-8e39-13c4c07a648e",
+    "585ddaeb-2f14-4c0a-9209-fe28f55e5edc",
+    "56933c51-ec20-4ff5-b2b3-455b5f5b6869"
+   ]
+  },
+  {
+   "id": "6c343fea-0eda-48eb-addc-6812ae67707e",
+   "code": "025",
+   "title": "Target Rp600 ribu. Butuh berapa transaksi?",
+   "scheduled_at": "2026-12-01T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "54eed130-ac5b-4fab-a1a6-7d2f25d60a5a",
+    "5610a68a-4d43-49d1-948b-9cacaf0e8e72",
+    "c44f8cea-7223-4cb9-b8e4-dc0c460152a1",
+    "f1f64911-b49e-4820-8b67-7beec818dc0f",
+    "343110b3-d11c-47e3-b504-ffee04b0324b",
+    "53ad48ac-9202-4318-9367-0b6573d4a6b1"
+   ]
+  },
+  {
+   "id": "902d574e-409b-4d33-b0d0-7f19f601fb47",
+   "code": "026",
+   "title": "Omzet naik. Usaha pasti lebih sehat?",
+   "scheduled_at": "2026-12-01T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "d50662c7-1915-4465-9817-0d3d5f9690dc",
+    "245f27b6-6f16-4d99-9567-3e341be302f1",
+    "09e483ef-c22a-48d7-a88d-0f097168daa8",
+    "50061ea3-f382-4f2f-9f2f-afc800466aa4",
+    "f1a44423-a9e2-4bc5-88a0-c48cf6859e41"
+   ]
+  },
+  {
+   "id": "0b2c46a6-6e22-408a-ad70-c9de7bbb99a4",
+   "code": "027",
+   "title": "12.12 dekat. Semua produk perlu diborong?",
+   "scheduled_at": "2026-12-02T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "0d9093ab-57dc-4c06-9533-617a5cb36372",
+    "a7afc9bc-6ff5-4ad3-8e09-f29d349a6d8a",
+    "47f63b33-3b02-4be3-abb6-541bede6d11b",
+    "ad49b753-7e87-43b5-8548-469efeb30ae1"
+   ]
+  },
+  {
+   "id": "efc15727-cdfc-474a-8f4f-e65f3a4079b0",
+   "code": "028",
+   "title": "“Yang 30 kotak itu ambil jam berapa?” Chat-nya tenggelam.",
+   "scheduled_at": "2026-12-02T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "1a64a4a0-7724-434c-8532-ea604f216f6f",
+    "699355e0-e596-4b41-b020-c8848da288d8",
+    "00a83417-a9a9-48f0-a2d4-dc80df8c9b82",
+    "9eb03a4a-645b-44b5-8965-8754ea5a577a",
+    "23dd50c3-3503-4d7a-b9d3-7b0364a5bf65"
+   ]
+  },
+  {
+   "id": "3ed4e4df-44ff-487d-b031-bb619221c499",
+   "code": "029",
+   "title": "Diskon 12%. Sisanya tinggal Rp4 ribu.",
+   "scheduled_at": "2026-12-03T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "fdb46889-ec05-433a-a6ef-2f314cd670e0",
+    "b60919f6-0fb6-46c6-adbd-3c09a10ccaa2",
+    "38f64ab3-39c0-4b75-bb41-57c352cb2ae9",
+    "dbbbdb88-a1ec-4d39-860e-87f7390bc9b0",
+    "dc1e303a-d414-4d26-ab7e-49d8e0aa3912",
+    "901c7e30-6103-48b1-b380-799d92e7c137"
+   ]
+  },
+  {
+   "id": "298e43dc-eecf-43fc-9344-62c8612d3193",
+   "code": "030",
+   "title": "Es Rp8 ribu sehari. Sebulan jadi berapa?",
+   "scheduled_at": "2026-12-03T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "0bf4296f-d763-432e-9303-c0bda7427b39",
+    "5c84c2c0-77b6-4fe0-abfa-b1603dfd2c72",
+    "d8929578-d5b3-44b8-b5c8-dd3414b830b1",
+    "4b699604-566b-4024-9983-578b3c60570c",
+    "ec65e535-62d2-4292-98f0-f11e2344711d",
+    "4b7e7c43-676a-4c94-9a91-479427bfacd5"
+   ]
+  },
+  {
+   "id": "39cade5d-3256-4271-a001-a28e89390c20",
+   "code": "031",
+   "title": "Satu orang masak, bungkus, sekaligus terima uang?",
+   "scheduled_at": "2026-12-04T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "d6bbd306-bb23-4944-b3de-ce195954158b",
+    "4dade8fc-3e29-4970-a610-911036474ef5",
+    "7c7f88f1-f456-4277-8182-9cea7707911c",
+    "a0724d89-ac82-4325-a942-4c61d91fd15f",
+    "bde39691-39aa-49e8-a6dd-d46c6b880c39"
+   ]
+  },
+  {
+   "id": "a1e58882-855e-4a03-a172-0241b505b467",
+   "code": "032",
+   "title": "“Bisa jadi sejam lagi?” Jangan jawab sebelum cek.",
+   "scheduled_at": "2026-12-04T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "ff32c038-1a5b-49f4-8d16-274a7f293ad6",
+    "8b0368ae-d0ed-45e1-bee4-2e7844e83cc7",
+    "5ccd0380-d0d7-4863-bb26-356e4c3ae0d6",
+    "362be94b-249c-4ee7-95d9-833d2d0acd94",
+    "612a8238-f5a1-4f2b-a0fc-91f839d3a773"
+   ]
+  },
+  {
+   "id": "89d63894-a348-436d-bf59-2bf558c93dd3",
+   "code": "033",
+   "title": "Sisa 6 botol. Jual 4 sehari. Aman sampai kiriman datang?",
+   "scheduled_at": "2026-12-05T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "d825ee4c-9d86-43ec-84d3-bf3445f98a1a",
+    "56bdca9b-c90f-42c1-8d9a-ea95e9975bc0",
+    "7b7ae71c-ab0c-495f-8bd4-9fb6cb84f345",
+    "01fb44fe-4078-4d86-9aa4-f0a089f80005",
+    "8d8c48ba-75f6-4caf-ab19-e0d606880a6a"
+   ]
+  },
+  {
+   "id": "3cdfc2a8-db02-4c4e-b5bf-7b70588ba4f2",
+   "code": "034",
+   "title": "Poster Rp18 ribu. Kasir menagih Rp20 ribu.",
+   "scheduled_at": "2026-12-05T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "f4aaf404-12e2-4969-ac75-f5732ca23baa",
+    "0d6c59d3-4e86-49ad-8911-5d58a273bef2",
+    "e361da8b-a4d0-4cf3-8349-4778407ad8a9",
+    "2fcb1433-6036-4470-b030-1e25bae8ecdd",
+    "be445c93-c6ec-4bf1-a2e9-b4f748d118cb"
+   ]
+  },
+  {
+   "id": "ee6118d2-befb-4a60-a101-b6dc1e0fa5d1",
+   "code": "035",
+   "title": "Hampers cantik. Kotaknya sudah masuk hitungan?",
+   "scheduled_at": "2026-12-06T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "81e9cf83-bb37-47b8-b207-2a22c0f40d47",
+    "1d625b6e-92ca-40ba-abc6-750de51063f6",
+    "15cdc383-17a6-40e6-9b8e-4953d4626c41",
+    "a125776e-5b91-4372-8998-85599eef5fe3",
+    "a56bc780-1306-456b-b02b-2174dd45c098",
+    "e695893a-b276-4dbe-bf2e-2bcff7bb3c01"
+   ]
+  },
+  {
+   "id": "97df5ce5-e0bd-479e-a4fb-9678df0fe83d",
+   "code": "036",
+   "title": "Minggu pertama kurang bagus. Ubah semuanya sekaligus?",
+   "scheduled_at": "2026-12-06T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "572b71f1-7593-477f-9fbc-635ff6a8b0e7",
+    "35c0d602-8885-4ba7-ab92-e2546504f510",
+    "4b7c5624-0a96-4593-97a0-14d87831a52b",
+    "52c1cdc7-f1f6-437c-ada7-57b2408a6153",
+    "8943cb7d-fb46-462b-b230-867490ac108b"
+   ]
+  },
+  {
+   "id": "fa082ac3-b48c-43a9-bade-c89258dfe977",
+   "code": "037",
+   "title": "Foto menu bikin lapar. Pilihannya bikin bingung?",
+   "scheduled_at": "2026-12-07T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "543fa260-2336-4acf-a32c-c30a24ca9285",
+    "519980d5-167c-407c-aa58-1d93ee07ed05",
+    "0e04ba28-fefc-4ad4-9084-30fb3f6c4b1d",
+    "86b3ba3a-e09d-41f1-a79d-1ab9dd2430ac",
+    "64ca5052-3c8a-465c-bfe9-cf839c1a9917"
+   ]
+  },
+  {
+   "id": "60ac4805-c63b-4f6c-baed-baa56fef18fd",
+   "code": "038",
+   "title": "Dua meja pesan menu sama. Yang tanpa gula buat siapa?",
+   "scheduled_at": "2026-12-07T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "e903eed5-6faa-4111-9115-00007ec92900",
+    "e7a63930-1a21-4527-ac8f-8fe5782df679",
+    "e3154b49-52ed-4947-ac36-099cdf931083",
+    "b73a982a-1d0f-47d3-9e05-4d5302b1d7ad",
+    "e9e33a75-de7f-4fd7-aa57-40f445fc7a34"
+   ]
+  },
+  {
+   "id": "c4211bdd-4d1f-4a47-9c04-10ca49f954b5",
+   "code": "039",
+   "title": "Bahan segar dibeli banyak. Ramainya belum tentu.",
+   "scheduled_at": "2026-12-08T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "a461089d-7427-4882-9dec-7c7fc255adfe",
+    "cc16da3d-aa86-49bd-88bb-029299d37d39",
+    "a045c0ac-6185-43dc-87dd-37724ab08475",
+    "af10ccd5-0521-4aec-8780-793e42dd715b",
+    "0c94221f-4f01-4767-8d6d-5b212bb1a878"
+   ]
+  },
+  {
+   "id": "7ad08f48-0f85-4164-951e-74f2f5743088",
+   "code": "040",
+   "title": "Kasir baru sudah dilatih. Sudah pernah mencoba?",
+   "scheduled_at": "2026-12-08T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "e680fc27-d031-4e5b-8cf1-9e5bac8e959a",
+    "c24f9f10-5cc6-4ac2-80dd-8acbb50a082c",
+    "365eb74e-ea76-4a81-8326-5a2ccccda991",
+    "5a83a83e-63a1-4690-ae5e-6bcec2d07ffa"
+   ]
+  },
+  {
+   "id": "e748e2d9-c36c-42f9-ae1c-fb169f585873",
+   "code": "041",
+   "title": "Promo siap tayang. Kasir bisa menjelaskan aturannya?",
+   "scheduled_at": "2026-12-09T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "48600d7d-68af-4b6f-8964-e06d0cb004ee",
+    "a9034367-7f7a-41ac-96c4-40e643314fe2",
+    "60238e1e-df27-4c47-ac2a-a45560b5e32c",
+    "ea94a585-f11b-4289-afc6-8f238776b00f"
+   ]
+  },
+  {
+   "id": "2f57a006-151e-43a4-a1ef-e3fe65cbde7c",
+   "code": "042",
+   "title": "“Saya buru-buru.” Pemeriksaan pembayaran tetap bisa ramah.",
+   "scheduled_at": "2026-12-09T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "5d34d12f-32be-4c98-b69f-fe6419e447a1",
+    "5a3c05ac-c641-475d-87a0-75847753ab05",
+    "d77d01d4-f81d-4f5e-bc5a-3a6e652b71c2",
+    "fb907cb8-dd79-4c87-b893-c17bf7e4251e",
+    "67a207b7-5fe3-410e-a4d6-884d737e187c"
+   ]
+  },
+  {
+   "id": "fe0a0b12-7d59-4179-acce-1035520570af",
+   "code": "043",
+   "title": "Promo masih tayang. Barangnya sudah habis.",
+   "scheduled_at": "2026-12-10T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "7926a6ad-7ade-4d31-b7c9-9555d5116d65",
+    "1251e92f-9556-45f9-ad69-f8dde6e6f01b",
+    "b962968d-b759-4605-b62d-59219a4328a2",
+    "108fbc0e-97a3-466f-9a77-c528936816bc",
+    "18bd579f-efba-44a3-b15a-bc8ba6cc4b3f"
+   ]
+  },
+  {
+   "id": "b00c7d93-2eb8-45ce-ae39-b6171ea481bc",
+   "code": "044",
+   "title": "Uang di laci banyak. Semuanya boleh dibawa pulang?",
+   "scheduled_at": "2026-12-10T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "9ec11bb8-5124-434c-a2f9-cf74f3376fed",
+    "72351062-471e-4c4a-8a85-9aa5c9d492e7",
+    "a8a6503b-57b3-4cbe-b9d9-668fd66dda05",
+    "373859f0-cbbf-4aa5-91bc-489e28b0b010",
+    "fd1c608a-233d-4802-80bf-2c191da3ab22"
+   ]
+  },
+  {
+   "id": "1ba88aee-c43f-4047-bd91-d26cf107a96e",
+   "code": "045",
+   "title": "Besok 12.12. Malam ini pura-pura jadi pelanggan.",
+   "scheduled_at": "2026-12-11T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "efcd8064-db4c-46c9-9672-c15449556477",
+    "17eb82e4-8e79-42b8-9a70-f59af43c7efd",
+    "b5771bc6-dec9-4515-b629-0edee39f2fd0",
+    "b58014a5-7f1a-498c-adb9-135b1677c369",
+    "5c5ca82a-6611-4ad5-bda7-a2a28ef1b5d8"
+   ]
+  },
+  {
+   "id": "06792af5-45ea-407b-b495-0595a5c603ba",
+   "code": "046",
+   "title": "Chat bilang kosong. Petugas bilang sudah dipesan.",
+   "scheduled_at": "2026-12-11T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "2fceb0cd-d9f8-46d5-8d65-1f5ca50aa649",
+    "de202f6e-ea23-411e-8052-3f544d56993c",
+    "c3f5d568-1d7b-4507-96b5-124f6f7d248e",
+    "2f084e5d-6206-49ec-a257-68c2d5038dcd",
+    "2b1e5bcd-d76c-45aa-bc1c-1c5971cc0c90"
+   ]
+  },
+  {
+   "id": "9f0189d8-1cce-4875-b041-ec9449a5dc4c",
+   "code": "047",
+   "title": "12.12 ramai. Diskon salah bisa ikut berulang.",
+   "scheduled_at": "2026-12-12T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "24a7df31-e2ec-4c52-8299-d536b0de9cf1",
+    "bbbbf0aa-0cec-49d2-94e7-18a409aada2a",
+    "f5ff913b-7af1-41c4-8c7d-8b4254d53e45",
+    "5d974033-4034-439d-8fe1-78d38b727ee5"
+   ]
+  },
+  {
+   "id": "db98ef0b-9589-43c5-bdb5-9c0ab286596b",
+   "code": "048",
+   "title": "Toko tutup. Ada 10 menit yang jangan langsung dilewati.",
+   "scheduled_at": "2026-12-12T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "30214f05-b58c-4984-80a6-9af126109d7f",
+    "3eeabb9c-5846-4eed-8690-40fce7fadcf3",
+    "8ac5025b-59d7-4555-8549-44fed1c3b8f5",
+    "522ab22f-ef49-4af7-b08c-15426aa367bc",
+    "5cc35c81-6e50-45c9-893a-d05ce46d1843"
+   ]
+  },
+  {
+   "id": "edc4cc81-30f5-42c6-a127-a75c9a142b44",
+   "code": "049",
+   "title": "Laris pas promo. Besok restok sebanyak kemarin?",
+   "scheduled_at": "2026-12-13T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "3ecdb440-17a5-45d0-a5b6-d14a7eb148c0",
+    "0ee5b67c-1502-4d00-9ba0-1f0ed4306b67",
+    "64af4c44-b8ca-4122-b386-e7b08f9b5afc",
+    "b8da8bdf-0a6a-4fce-be45-5745f6a7b7a0",
+    "88e1f840-e323-4158-9187-5c77ec53c93e"
+   ]
+  },
+  {
+   "id": "dfc75641-dac7-45e4-b79c-c696a061732c",
+   "code": "050",
+   "title": "Owner istirahat. Tim masih bisa jalan?",
+   "scheduled_at": "2026-12-13T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "b19a6fe0-369b-4082-b0bf-ab3200b332ba",
+    "d942a470-c247-4019-bd9e-fa34faded25d",
+    "b8440ab3-885d-4ff1-afdd-fb3adc5815f2",
+    "0c0f67fa-f089-492c-894d-a6425435a3dc"
+   ]
+  },
+  {
+   "id": "20f72a65-00fa-469e-8abb-b1587b389d80",
+   "code": "051",
+   "title": "Hampers besok diambil. Detailnya sudah dicocokkan ulang?",
+   "scheduled_at": "2026-12-14T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "01e2eec8-1c4a-4b13-9f40-3037d3ff3117",
+    "48d15178-e78c-47ad-9883-5d56233b739c",
+    "d72978de-0055-44d1-aa21-898c6ec66cdd",
+    "a658d46a-fa77-4c3c-be22-78db3c9c7fcc"
+   ]
+  },
+  {
+   "id": "fed7fccf-cb30-4f57-988a-c995da000676",
+   "code": "052",
+   "title": "Nota pemasok sudah baru. Harga promosimu pakai biaya kapan?",
+   "scheduled_at": "2026-12-14T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "4685330b-2afb-4ea9-9b83-b16e4bac64ec",
+    "42b4583f-99f4-45ad-a5a8-79f7c1eadb57",
+    "c99f2631-19b1-42d8-bc80-75a341b8fa67",
+    "c8ba082e-0f7f-4143-89bd-5df58f2fa0ef",
+    "07ad9b78-923e-4d80-a62d-c2326577a860"
+   ]
+  },
+  {
+   "id": "164de743-f2ee-4b74-a2e8-9faacc9b0775",
+   "code": "053",
+   "title": "Stok opname nggak harus menunggu semua rak kosong.",
+   "scheduled_at": "2026-12-15T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "0252fc71-28be-4fd4-8f21-7e3a6baa0774",
+    "74c7c487-757a-40ec-918f-17e6ed93ff3d",
+    "ba215e02-78f9-493c-8714-53e386b20295",
+    "2bbe5a01-82ab-4f2d-9678-9ca16ae1f602"
+   ]
+  },
+  {
+   "id": "ba9dc31b-78e4-4159-9907-c24e6b9da035",
+   "code": "054",
+   "title": "Member top-up. Semuanya sudah jadi hasil jualan?",
+   "scheduled_at": "2026-12-15T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "341fb10c-8485-4203-a3ed-47fbf8542212",
+    "a13dcec2-41e5-4b07-90dc-a082fb57fcde",
+    "d7cfc7b3-7b96-4d04-aa15-3906a09dce6d",
+    "502694a5-de6a-430e-8f2c-c7cf3d125780",
+    "8eb559fa-a06a-46e2-95c9-4810945ddc40"
+   ]
+  },
+  {
+   "id": "af3aa3b0-2900-4850-a410-0f0490d34e8f",
+   "code": "055",
+   "title": "Promo selesai. Jangan cuma simpan angka omzet.",
+   "scheduled_at": "2026-12-16T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "7ec27459-6405-4fb4-b460-0db52b260704",
+    "8427869e-018b-4063-aa1b-d4cb505da15f",
+    "ff32c0cd-3f12-46a1-a9da-72a51f82c931",
+    "93650fe8-efbd-4f26-b724-17e55fb1eb2a"
+   ]
+  },
+  {
+   "id": "03a18818-7881-4b20-8968-f74bf30b8f84",
+   "code": "056",
+   "title": "Omzet naik. Kok uang belanja tetap seret?",
+   "scheduled_at": "2026-12-16T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "f3561753-56dd-42d6-bf0d-73aceca079ad",
+    "21d2e21a-9d1b-4456-9bb2-e1386a059068",
+    "4b693174-34b7-4554-b8dd-d29891260e34",
+    "48d9e8c5-614c-4826-a20b-0a6ead35b011",
+    "7eb51235-79da-4291-bb63-11a09ed7265c"
+   ]
+  },
+  {
+   "id": "dbb5d1b7-5e61-4618-bfb7-bbc697f5286b",
+   "code": "057",
+   "title": "“Pengiriman libur mulai kapan, Pak?” Tanya sekarang.",
+   "scheduled_at": "2026-12-17T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "d0acc212-42b4-4fa6-b719-adc907e4ea3d",
+    "be2448ea-d18b-4a35-83ca-78a94fe47e90",
+    "562eb9dc-dcfc-4716-a80d-1683d16f3473",
+    "26f060d3-618d-430f-9bce-4aee33d5fb40",
+    "86e3634d-3dae-4e50-b908-d4e20a5ab7cb"
+   ]
+  },
+  {
+   "id": "53535a5a-624d-45da-818e-6dba3033721d",
+   "code": "058",
+   "title": "Beli 3 dus, isi 24. Catat stok masuk 3 atau 72?",
+   "scheduled_at": "2026-12-17T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "63768224-4a53-48c7-818e-0c317724f1e7",
+    "1ef26471-aca1-4f25-a850-cca5035bb09c",
+    "8a5697ee-2617-4bc8-854d-3492a3bcb4dd",
+    "f71d4e10-0d0a-4292-b3d7-80fcdc88c4db",
+    "8417361a-a144-4c4a-a56e-d355b58a809b"
+   ]
+  },
+  {
+   "id": "832536dd-ccec-4f27-83d6-ac95be79b653",
+   "code": "059",
+   "title": "Order 100 porsi. Otomatis bisa kasih diskon besar?",
+   "scheduled_at": "2026-12-18T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "306a9d76-c7ff-45c6-86dd-1d28c8e072e0",
+    "2f3d459e-5083-4249-98ba-6d7457b91af8",
+    "25a99c06-72a9-409d-8df7-eb0fa74fc684",
+    "9391d183-f385-434c-aa1b-8d8abf083511",
+    "10e417aa-6631-4ed2-8ce4-4b58b40a2cb9"
+   ]
+  },
+  {
+   "id": "156d2c70-9856-437b-8b32-1f2669997631",
+   "code": "060",
+   "title": "Kasir sering ditanya harga? Coba lihat menunya.",
+   "scheduled_at": "2026-12-18T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "0fe5803f-7618-4360-b565-9e5e4d645d85",
+    "fc370193-0d00-4f5b-accb-a64f1624c483",
+    "0546bb67-5601-400d-b741-1312733d6ab2",
+    "8b23470c-08db-4fce-95da-35a30733f8e0",
+    "76ed2dc0-5628-49ab-b7dd-c9a76b67970d"
+   ]
+  },
+  {
+   "id": "86ce7104-96f0-40b0-a7a1-d3fc196d66c4",
+   "code": "061",
+   "title": "“Lewat 15 menit dihitung berapa?” Harus jelas sebelum sewa.",
+   "scheduled_at": "2026-12-19T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "58f5acc1-0fe3-4ce9-87d7-e283b91fc577",
+    "7bfeed3a-4cd4-49eb-8cd2-be992a340215",
+    "3359b586-c7ee-4ed1-b1ff-c108ab68a473",
+    "6b645fde-efd6-443e-bcec-ddfc22639e09",
+    "645a44c2-80ba-4b95-8e97-cfe16b08c1e0"
+   ]
+  },
+  {
+   "id": "e05a6beb-9d97-42ab-8988-5cd8bc0e139f",
+   "code": "062",
+   "title": "Pemasok diskon. Gudang penuh. Tetap ambil?",
+   "scheduled_at": "2026-12-19T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "328c3d60-e09f-4e5e-9a14-37c411f7cf70",
+    "b3260abc-39f7-45ba-9b84-f8f1a0a5affb",
+    "c7480a38-0cca-4fb3-a32e-16e1e1b7aa8e",
+    "2b880ebc-050d-4629-9180-921a4727a829",
+    "12d5a948-bce3-4e4c-beab-b5c0be3d6f3d"
+   ]
+  },
+  {
+   "id": "a0f9ac46-9830-4ad0-b10e-ce6487d468db",
+   "code": "063",
+   "title": "Jam buka libur berubah. Pelanggan tahunya dari mana?",
+   "scheduled_at": "2026-12-20T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "8d4987cf-fca1-4bd8-9d51-2db96b99ea87",
+    "571613ab-bcb9-464d-a526-bd5dd32119ec",
+    "ffbd2a56-5bcc-423e-bcd5-94de86c51dd5",
+    "8408f8c6-f85b-4ba5-81ad-27050b2fbc6f"
+   ]
+  },
+  {
+   "id": "a6d8b1aa-6bf4-4c64-a5a5-058fe80dd775",
+   "code": "064",
+   "title": "Rak milik toko. Isinya belum tentu semua milik toko.",
+   "scheduled_at": "2026-12-20T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "2b7ffc7e-c1ea-4118-9fe7-fb2a8d6695e4",
+    "cd2f4ae0-7d81-4cd9-b3ab-05ce6f0444aa",
+    "d1bddcaf-ea42-405b-adac-a588aa807944",
+    "111fbb32-0a37-4c5e-9ba3-11b3569ac730",
+    "85ca29e3-07ef-40f6-b903-2903218c11ee"
+   ]
+  },
+  {
+   "id": "b0fbad0f-5a70-49a6-b973-fdc993a416f3",
+   "code": "065",
+   "title": "Kopinya ada. Tutup gelasnya habis.",
+   "scheduled_at": "2026-12-21T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "4af9e7b1-1f54-4dcb-97bf-f4fd3fb3af46",
+    "0f7bef2e-4cd4-4c0b-a672-d98cd46b835f",
+    "b9368da9-2a3c-4cd3-8a27-8bbd4da50917",
+    "8e0e5e05-60fd-4bc6-a053-c8e5ddcdaf50",
+    "115b39bd-a80b-4b87-ba6d-8e2c158f7df0"
+   ]
+  },
+  {
+   "id": "0cbeb356-6550-4bd8-95e8-2140d148c269",
+   "code": "066",
+   "title": "Pelanggan mau tambah pesanan. Kasir masih sibuk.",
+   "scheduled_at": "2026-12-21T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "620f995a-9899-40a9-901d-00996dabe0ba",
+    "749b8ab2-b01d-4b37-aa28-d67d9a45ccf6",
+    "4d92bba8-7f01-415d-a97e-c83098a8d45d",
+    "ef90cf68-0cdf-4b3e-96f4-184c0b48bb5a",
+    "f9b170d5-47d1-46c0-b948-82365067ac2f"
+   ]
+  },
+  {
+   "id": "563640ec-1d8e-4a8a-ae30-307a4b0f33b6",
+   "code": "067",
+   "title": "Ibu juga owner. Hadiahnya bisa berupa waktu istirahat.",
+   "scheduled_at": "2026-12-22T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "60b633f8-8a33-410f-adb9-227379d31314",
+    "95ebe10a-447b-45a2-907d-0e060d7513ae",
+    "ae7ac73e-7fc7-48dc-86da-57d796ea2189",
+    "4f109ae7-f3d3-48a5-8d18-109f345f0354"
+   ]
+  },
+  {
+   "id": "3e5521db-02d0-48e0-b3e4-4e05dedc6fca",
+   "code": "068",
+   "title": "Yang jaga saudara sendiri. Aturannya tetap perlu jelas?",
+   "scheduled_at": "2026-12-22T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "2d280f5d-9429-47cd-9646-b072ae529e0f",
+    "d7ccf6af-926c-48a6-90c8-f1b8b890abe4",
+    "4698a0d7-63bd-4fe5-a459-befc4543ce54",
+    "2c3a5220-2d30-4694-b9d0-6885d51c7e1f",
+    "0d216b71-7ac1-4c69-93f1-1146a47f621a"
+   ]
+  },
+  {
+   "id": "29685963-affe-4312-9020-cd7a4ffa10e2",
+   "code": "069",
+   "title": "Dua hampers mirip. Satu salah ambil, dua pesanan kena.",
+   "scheduled_at": "2026-12-23T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "6f96d1b6-8c22-4707-9336-ac52c5112bee",
+    "97703cba-0156-4282-b4b6-7e693d46b4fa",
+    "32db998f-2686-46ec-ac6c-dd846bd34b9e",
+    "f5453575-ed35-4b30-9e25-c968b004f4c2"
+   ]
+  },
+  {
+   "id": "9b3d41e2-d997-4e9b-96d2-04fa74da4079",
+   "code": "070",
+   "title": "Pembayaran berhasil. Dananya sudah bisa dipakai?",
+   "scheduled_at": "2026-12-23T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "bfc84b32-e1ac-49c9-9c78-a94523045b5a",
+    "5cec62df-23eb-4ee0-acb7-e17a305d24f1",
+    "266424d5-058c-4d49-987d-c6617fd93714",
+    "8328f3e0-0c84-41cc-884f-65890eeacc3e",
+    "95ef77bd-f8ef-41bc-81bf-87bfa9921e0f"
+   ]
+  },
+  {
+   "id": "6f2768c0-3477-41f1-9344-3ed2288565ac",
+   "code": "071",
+   "title": "“Masih bisa satu pesanan lagi?” Cek kapasitas terakhir.",
+   "scheduled_at": "2026-12-24T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "71419499-d625-468c-9037-0833afd9346d",
+    "fa0409d9-4cdd-4853-930b-de067eb469d7",
+    "781784a6-13a5-46b1-86a5-db4c649e2c3d",
+    "b72ffbf0-f5cd-4491-bbaf-5f2e90bf84dc",
+    "a31ecd8e-d5aa-44d3-888a-5c3d57ba48e3"
+   ]
+  },
+  {
+   "id": "3e79e5e4-0062-4770-bf8e-974ce33c6eac",
+   "code": "072",
+   "title": "Besok libur. Ada yang masih perlu dibereskan malam ini?",
+   "scheduled_at": "2026-12-24T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "23e1a3b8-e073-4965-8588-161d97dd4116",
+    "748f2b33-2709-425d-beda-33ef85061962",
+    "c4ee2bba-7994-48ee-b9c8-9039e0eac415",
+    "29bed0e4-2044-4363-8508-3ba42c8f018f"
+   ]
+  },
+  {
+   "id": "dac490f7-ad91-4c16-befc-b0eb5bc79d7e",
+   "code": "073",
+   "title": "Selamat Natal. Semoga ada waktu untuk pulang dan berkumpul.",
+   "scheduled_at": "2026-12-25T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "174421d6-8875-4c7a-934c-80c3d41f1561",
+    "b5bd3ed2-d6fa-481e-b905-a633ba1dd879",
+    "c06ca913-d705-46e2-aef6-8d2c21c1cb1e",
+    "4d7560a9-e986-48c9-b137-a6594cdd6187"
+   ]
+  },
+  {
+   "id": "629c3b00-9774-482f-8947-dc951dac1c89",
+   "code": "074",
+   "title": "Menu habis. Pelanggan kecewa. Mulai dari kalimat apa?",
+   "scheduled_at": "2026-12-25T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "5c12f82b-45a8-40b8-848c-ece6c5bd12a3",
+    "600a6e3b-15a8-400c-8bf8-a78149306fde",
+    "13281ea5-4045-4644-a700-8e2f05cd1c25",
+    "3c1df526-1075-49ed-be28-49113bd5f4f9",
+    "21ac3947-0aa0-4fc9-8289-094f5cacf3d9"
+   ]
+  },
+  {
+   "id": "ccd1c722-e237-416c-bfa4-0e89095f7237",
+   "code": "075",
+   "title": "Buka setelah libur. Jangan langsung percaya angka stok.",
+   "scheduled_at": "2026-12-26T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "5b66acef-5445-488c-a25b-b72a415b7e96",
+    "cc39ee9c-bdd6-45fd-b4f7-d1844b87d0d9",
+    "ca94d930-0057-47e8-a69a-8513988a3a27",
+    "ba8adcac-04bc-4ffb-b759-6add549fa243"
+   ]
+  },
+  {
+   "id": "5a8ee9ea-16ac-401f-9769-ca2dfbf7bdcf",
+   "code": "076",
+   "title": "“Sekalian camilannya?” Cara nawarin juga menentukan.",
+   "scheduled_at": "2026-12-26T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "cf2f7b6b-a3e5-4625-bc95-0370110fd883",
+    "cb139661-b7e6-4efd-8c75-a0956a812abd",
+    "f5230618-1c0c-4705-b4fc-8c68431718c5",
+    "e19e8f80-f507-465d-92cb-91b418b0497f",
+    "6ab7b2c0-5af4-45ef-9452-f5b2c843c5f3"
+   ]
+  },
+  {
+   "id": "067ed91e-eeec-4c54-85b7-703e025ddbab",
+   "code": "077",
+   "title": "10 pesanan jam 7 malam. Siap barengan atau antre?",
+   "scheduled_at": "2026-12-27T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "6be4ba22-6036-4d0a-b8b8-5381bb880694",
+    "c0286c23-ee2f-495b-b50c-79061177d0f7",
+    "72071622-22d7-4083-a029-1e317ac10f05",
+    "3ea60447-61b2-4010-91f8-973edcf95096",
+    "025272a5-41e3-4985-8132-b6d380688cab",
+    "9a5e39ec-cebe-485b-9098-06d087d1bef0"
+   ]
+  },
+  {
+   "id": "6100b2b3-23bc-4ed7-933d-d1777d8ed98e",
+   "code": "078",
+   "title": "Kas kurang. Hal pertama: cari siapa yang salah?",
+   "scheduled_at": "2026-12-27T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "686bf721-dca1-4e97-abb4-456d5b120a38",
+    "494a9e64-5bb0-402b-952b-2c10afbb681c",
+    "c92bbdd5-aa89-47ba-8965-1cafee891647",
+    "7695e648-aad5-46b8-a6f0-6c7a74f4fd64",
+    "d540abb6-2250-4406-a775-1badec899451"
+   ]
+  },
+  {
+   "id": "458fb4de-ed1d-447d-878c-e3f407b7df4b",
+   "code": "079",
+   "title": "Produk paling laris otomatis jadi andalan tahun depan?",
+   "scheduled_at": "2026-12-28T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "28339419-a982-4cbd-bb5a-10c355ce32e9",
+    "72823e4a-d7de-458a-acc1-71420bcf1e22",
+    "9264fdef-8c15-466f-a2ff-5279c0da4c95",
+    "97ce141e-a3e3-496d-a7d3-d84b0bd8211f",
+    "f7d4b352-e81e-4715-86ae-78ff7fe95af0"
+   ]
+  },
+  {
+   "id": "cfed12d2-2af1-45fd-9225-a80c4b09d3ab",
+   "code": "080",
+   "title": "Pelanggan balik lagi. Pernah tanya hal yang dia suka?",
+   "scheduled_at": "2026-12-28T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "b41640af-980f-4bf2-9da6-1b4c2034c43b",
+    "66af5528-bb11-4d70-bc4c-8ceaf82c98a3",
+    "54664f5b-aba1-43f5-841c-85bb3b585858",
+    "23eae49e-68bb-4553-9039-865746025b83"
+   ]
+  },
+  {
+   "id": "e3ac4a51-3bbb-43e2-babc-4f847a384a1a",
+   "code": "081",
+   "title": "Sisa stok akhir tahun. Harus habis lewat diskon?",
+   "scheduled_at": "2026-12-29T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "9e831be6-a1d9-4900-8d26-f202e4f1f2df",
+    "c2d1c2ce-a2c0-4754-bc6a-a8b78e8727da",
+    "d1b841ab-b84f-499c-8de6-a65d3a8e04b6",
+    "50f5c42a-7c8f-4a8f-b38f-c9aaabadf8af",
+    "4ebdbd67-680d-4279-b076-67e26b8e00f1"
+   ]
+  },
+  {
+   "id": "5baa10c6-f321-4698-a6ca-6e0192613879",
+   "code": "082",
+   "title": "“Kayaknya sudah bayar.” Tahun boleh ganti, catatan jangan putus.",
+   "scheduled_at": "2026-12-29T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "918a0ba8-eeae-4243-bc2e-3ffe6f8f0891",
+    "a0246532-ca58-454f-889a-b0b181a9a900",
+    "16db82c8-1293-45eb-b761-d9186e113666",
+    "a6855a09-dd91-4bb4-8bb3-6911afe51428",
+    "7ec8d373-53fd-4764-ac93-eee41b90a43e"
+   ]
+  },
+  {
+   "id": "1ea8e7b9-fc46-4212-a1f3-1bd19a84adf2",
+   "code": "083",
+   "title": "Besok 31 Desember. Kertas struk tinggal berapa?",
+   "scheduled_at": "2026-12-30T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "375fb937-5856-429d-b0a9-ec5062e581e4",
+    "76670f28-e1bc-42e6-a53f-aebe51ebcdaa",
+    "6cbefec2-f284-4907-9124-0142fe6c9301",
+    "29ada89b-b9bb-484e-ae88-dc944a6248ad"
+   ]
+  },
+  {
+   "id": "d4e2b204-b86f-4ee1-9187-1f79b0574837",
+   "code": "084",
+   "title": "Resolusi usaha 2027. Pilih 10 target atau 1 rutinitas?",
+   "scheduled_at": "2026-12-30T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "637c4c02-477e-4e7b-b95b-886ae90af8dd",
+    "ddc40d22-c922-4cc9-92ca-106923f6074b",
+    "b6b8c54f-19bb-4b98-83fc-d92205de67cb",
+    "d1cd15a0-3176-4cec-9b51-782174125728",
+    "15fea9db-74b8-4e87-bec0-b1dcad14866a"
+   ]
+  },
+  {
+   "id": "999a259e-eb41-4f11-8be1-781e34b8ca95",
+   "code": "085",
+   "title": "31 Desember. Semua minta selesai di jam yang sama?",
+   "scheduled_at": "2026-12-31T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "2299355f-fa3e-4b75-93e4-5e72c3a4fe0a",
+    "b1bb2f93-9a16-4740-ab8e-2ea3f42ab3e6",
+    "a97348fb-417c-4060-bcc1-39c878e03067",
+    "5833e12c-b3c5-4b21-99a4-dda2dffd0f39"
+   ]
+  },
+  {
+   "id": "2ec825f3-70e7-458f-a8d8-ddcb9943c9aa",
+   "code": "086",
+   "title": "Ada hari ramai. Ada hari kamu cuma berusaha tetap buka.",
+   "scheduled_at": "2026-12-31T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "25f6d505-ebaa-4c89-9116-46b3784c3482",
+    "0e6a5f4b-4bc2-44b4-8cb6-d329a9453686",
+    "261db8aa-c21e-4c60-a7f6-9f624b9ce4ad",
+    "290409bd-bd42-49e5-b412-b2a1da64d006"
+   ]
+  },
+  {
+   "id": "d513324d-9bbc-4612-a2b1-4dd0b7037229",
+   "code": "013",
+   "title": "Paket Rp12 ribu. Minum gratisnya dibayar siapa?",
+   "scheduled_at": "2027-01-01T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "518d65b0-5c84-47ab-8cc3-d9b4a86b0f71",
+    "5d7d88c4-d289-45d0-9668-51df37ad5b66",
+    "6a410d40-b95b-47a7-ba5e-eefb581d1363",
+    "09e6ae91-f894-43a7-9fd4-af37311cdf8b",
+    "ea44fbe2-d527-406a-9486-0a2bad3a2c9d",
+    "95f224b8-da4f-4015-96f1-92abeff58b94"
+   ]
+  },
+  {
+   "id": "e18f945f-849e-4c13-893e-dc94057a1663",
+   "code": "018",
+   "title": "Owner bukan tempat penyimpanan semua ingatan.",
+   "scheduled_at": "2027-01-01T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "af47bb2c-562c-4b4e-a1ed-a127257c1824",
+    "f6531858-02aa-4042-94e8-6e02ae345f2d",
+    "49548795-5b2c-4712-afd6-5f3cbc6b0ac5",
+    "2d6b8b67-bcaa-44db-8e00-c79205910854"
+   ]
+  },
+  {
+   "id": "1de3b232-b85f-491a-b33e-97f431b688f2",
+   "code": "005",
+   "title": "Tokonya kecil. Kenapa catatannya harus rapi?",
+   "scheduled_at": "2027-01-02T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "4716f720-e8ad-4f94-a621-0e90479448ce",
+    "ac1e3765-159e-4527-a531-56207fc18868",
+    "6ea1f8b7-2936-4141-8529-82c4d3bfb6ce",
+    "5c5366f2-ad0d-4e96-854d-57702a8ae96a",
+    "4afd4723-8531-40a1-ad18-ac111a156e30"
+   ]
+  },
+  {
+   "id": "14e0f559-f8fb-445b-bd45-9dd3c1add59c",
+   "code": "006",
+   "title": "Tetangga diskon 30%. Kamu harus ikut?",
+   "scheduled_at": "2027-01-02T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "f1c10f48-099d-474e-ab76-023375f84e51",
+    "cc25d3a5-d904-41a8-9fdd-65a9049d76fa",
+    "3429de75-6bef-426f-9b02-6a9043945abf",
+    "e86882f3-434d-43ad-b06e-925f1fc06ca4",
+    "e0d7eb8d-0620-4ed5-9d15-c8cfc9e1ac73"
+   ]
+  },
+  {
+   "id": "e6f73785-463a-4965-ac7c-59abe99cea7c",
+   "code": "007",
+   "title": "30 hampers masuk. Uang belanja harian malah habis.",
+   "scheduled_at": "2027-01-03T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "d8593254-a01a-44fa-9bce-4545f332161c",
+    "81de673d-f7f1-4a3a-bb6d-7c76afd0bab7",
+    "bbcc74ae-b3b2-4faa-9837-fd53adce111f",
+    "e8f13153-9d54-44e2-8f6b-7159ee12ba96",
+    "b849afca-8ac2-4624-8129-0b0240c66ecf"
+   ]
+  },
+  {
+   "id": "10708706-05ca-417a-89f2-c62e8a9ac495",
+   "code": "008",
+   "title": "Antrean panjang. Satu pertanyaan bisa menyelamatkan pesanan.",
+   "scheduled_at": "2027-01-03T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "866f6d48-5243-47a6-aca2-e62ead861d85",
+    "2d2bc3d7-1d93-4115-b4b1-d2ff088d0d07",
+    "66594841-10d0-4afc-9dba-84346ed23617",
+    "4a5f1836-f01f-42dd-a05f-0e76b79886f8",
+    "0101d645-e7e1-4f7f-9c12-ec856fee1c8a"
+   ]
+  },
+  {
+   "id": "c740ab9a-67de-4800-b771-2fea27cdad89",
+   "code": "009",
+   "title": "Beli 3 dus lebih murah. Kalau 2 dus diam?",
+   "scheduled_at": "2027-01-04T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "83d0c35c-026d-4c73-beb4-2ea8081e8cc3",
+    "06f98614-c5a1-4fcf-b5d7-f8b05f50b46c",
+    "27666a3f-b627-45cc-aaa5-25a1ee7f5f3b",
+    "0a12ecde-e6c2-48e4-847f-8ff99e093cfd",
+    "82873068-1977-4e9e-9ea5-5d984e6338ef"
+   ]
+  },
+  {
+   "id": "757ecb15-0b95-45d3-aa1f-223085436d24",
+   "code": "010",
+   "title": "Toko sepi hari ini. Langsung ganti menu?",
+   "scheduled_at": "2027-01-04T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "1642ab15-8ab8-40c6-98e2-0ed3db30a40e",
+    "f5122ae6-b467-4a33-9f32-8ca6b21be404",
+    "d24abaf4-acd4-430e-9c48-1b0f36282316",
+    "e66f1bbf-1d10-4b65-92da-3a20adc87540",
+    "c693cda8-f6c3-490c-ae8a-0c3f841065de"
+   ]
+  },
+  {
+   "id": "5e1e3c9a-4576-4d4a-8061-2a5ca255cc75",
+   "code": "011",
+   "title": "“Udah transfer, Kak.” Yang dicek layar siapa?",
+   "scheduled_at": "2027-01-05T15:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "740a3fce-dad8-448b-9ba4-b4a2cdc17cbe",
+    "ec44f912-542c-4afb-8dfc-01427349a84a",
+    "c69e285c-5e65-4882-94df-a6df1f59849e",
+    "fb544879-2d61-4d01-94df-97979a2d0081",
+    "128bdc22-b2b4-4c7e-a276-1d2e1aefd388"
+   ]
+  },
+  {
+   "id": "b267b6e3-89f6-442c-8621-63f1ef85b04c",
+   "code": "012",
+   "title": "Shift berganti. Pesanan gantung ikut pindah nggak?",
+   "scheduled_at": "2027-01-05T21:00:00+08:00",
+   "cover_kept": true,
+   "media_ids": [
+    "a720cb98-18c1-414f-855f-201a248faccb",
+    "296dbc8e-dfe9-428b-9ced-8476804dd362",
+    "c64183e5-3869-4911-a26a-b0e66365a80d",
+    "d1cd965a-c67b-4195-9bc0-5dabc32806f2"
+   ]
+  }
+ ]
+}

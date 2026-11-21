@@ -1,0 +1,129 @@
+{
+ "beranda": {
+  "label": "Beranda",
+  "width": 820,
+  "height": 617,
+  "background": "#ffffff",
+  "fade_right": false,
+  "source": "loka-landing-web/public/images/site/app-beranda.webp",
+  "box": [
+   340,
+   228,
+   1160,
+   845
+  ],
+  "masked": [
+   [
+    1086,
+    420,
+    1160,
+    845
+   ]
+  ]
+ },
+ "bukakasir": {
+  "label": "Persiapan Kasir",
+  "width": 760,
+  "height": 615,
+  "background": "#ffffff",
+  "fade_right": false,
+  "source": "loka-landing-web/public/images/site/app-bukakasir.webp",
+  "box": [
+   420,
+   85,
+   1180,
+   700
+  ],
+  "masked": []
+ },
+ "dapur": {
+  "label": "Pesanan Berjalan",
+  "width": 930,
+  "height": 946,
+  "background": "#ffffff",
+  "fade_right": true,
+  "source": "loka-landing-web/public/images/site/app-dapur.webp",
+  "box": [
+   340,
+   105,
+   1270,
+   1051
+  ],
+  "masked": []
+ },
+ "jamramai": {
+  "label": "Jam Ramai",
+  "width": 1245,
+  "height": 946,
+  "background": "#ffffff",
+  "fade_right": false,
+  "source": "loka-landing-web/public/images/site/app-jamramai.webp",
+  "box": [
+   340,
+   105,
+   1585,
+   1051
+  ],
+  "masked": []
+ },
+ "produk": {
+  "label": "Produk",
+  "width": 955,
+  "height": 861,
+  "background": "#ffffff",
+  "fade_right": true,
+  "source": "loka-landing-web/public/images/site/app-produk.webp",
+  "box": [
+   340,
+   190,
+   1295,
+   1051
+  ],
+  "masked": []
+ },
+ "riwayat": {
+  "label": "Riwayat Penjualan",
+  "width": 932,
+  "height": 871,
+  "background": "#ffffff",
+  "fade_right": true,
+  "source": "loka-landing-web/public/images/site/app-riwayat.webp",
+  "box": [
+   340,
+   180,
+   1272,
+   1051
+  ],
+  "masked": []
+ },
+ "transaksi": {
+  "label": "Kasir",
+  "width": 1000,
+  "height": 946,
+  "background": "#fdfffd",
+  "fade_right": false,
+  "source": "loka-landing-web/public/images/site/app-transaksi.webp",
+  "box": [
+   600,
+   105,
+   1600,
+   1051
+  ],
+  "masked": []
+ },
+ "tutupkasir": {
+  "label": "Tutup Kasir",
+  "width": 840,
+  "height": 655,
+  "background": "#ffffff",
+  "fade_right": false,
+  "source": "loka-landing-web/public/images/site/app-tutupkasir.webp",
+  "box": [
+   20,
+   105,
+   860,
+   760
+  ],
+  "masked": []
+ }
+}

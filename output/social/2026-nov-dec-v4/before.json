@@ -1,0 +1,2986 @@
+{
+ "observed_at": "2026-11-21T23:27:00+07:00",
+ "account": "@lokakasir.id",
+ "posts": [
+  {
+   "id": "87bf3371-ef30-4a7f-a5e2-205518f85b52",
+   "when": "2026-11-22 14:00",
+   "scheduled_at": "2026-11-22T15:00:00+08:00",
+   "caption": "Loka Kasir Accounting · Minimum stok dan pemindahan antargudang\n\nSatu SKU di demo masih punya 20 unit di Gudang Bekasi, sementara minimumnya 24 unit. Kekurangannya 4 unit terhadap batas minimum.\n\nBuka Persediaan → Barang Stok Minimum. Cek saldo Gudang Jakarta dulu untuk melihat apakah barang bisa dipindah. Jika perlu restok, buat permintaan pembelian dari kebutuhan yang terlihat.\n\nLihat stok per gudang di\nhttps://accounting.lokakasir.id/\n\n#LokaKasirAccounting #PembukuanBisnis",
+   "threads_enabled": true,
+   "threads_text": "Loka Kasir Accounting · Minimum stok dan pemindahan antargudang\n\nGudang Bekasi punya 20 unit dan batas minimumnya 24. Ada kekurangan 4 unit. Lihat Barang Stok Minimum, cek gudang lain, lalu pilih pemindahan atau permintaan pembelian sesuai kebutuhan.\n\nhttps://accounting.lokakasir.id/",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795146995/loka-social/vjvwoalb7oym8w6nwdfd.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795146997/loka-social/kbqhj9ar2egzzcoa9hix.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795146998/loka-social/lkd7nqwdp4rtvllt2jeh.jpg"
+    }
+   ]
+  },
+  {
+   "id": "b582c469-85c7-4323-a68a-2777fc544a1e",
+   "when": "2026-11-22 20:00",
+   "scheduled_at": "2026-11-22T21:00:00+08:00",
+   "caption": "Loka Kasir Accounting · Aset tetap dan penyusutan\n\nRak dalam akun demo diperoleh seharga Rp4.800.000. Dengan residu Rp0 dan umur manfaat 48 bulan, ilustrasi penyusutan garis lurusnya Rp100.000 sebulan. Setelah satu bulan penuh, nilai bukunya Rp4.700.000.\n\nBuka Aset Tetap untuk melihat kartu dan penyusutannya. Gunakan Pindah Aset untuk mencatat lokasi baru jika rak dipindahkan.\n\nCoba modulnya di\nhttps://accounting.lokakasir.id/\n\n#LokaKasirAccounting #PembukuanBisnis",
+   "threads_enabled": true,
+   "threads_text": "Loka Kasir Accounting · Aset tetap dan penyusutan\n\nRak Rp4,8 juta, umur manfaat 48 bulan, residu Rp0. Ilustrasi penyusutan garis lurus Rp100 ribu sebulan. Lihat nilai buku dan riwayat lokasi dari kartu Aset Tetap.\n\nhttps://accounting.lokakasir.id/",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147000/loka-social/jflojhe2aihbyuy4unrp.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147002/loka-social/sfb4hja2suqdrkkx8pqq.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147003/loka-social/os9nutdlt9wkxjwvbyli.jpg"
+    }
+   ]
+  },
+  {
+   "id": "efe680f8-3427-4569-9afc-7285812ea396",
+   "when": "2026-11-23 14:00",
+   "scheduled_at": "2026-11-23T15:00:00+08:00",
+   "caption": "Loka Kasir Accounting · Pemeriksaan e-Faktur sebelum unggah\n\nSebelum ekspor XML faktur keluaran, periksa profil pajak, faktur penjualan yang terposting, dan nilai PPN.\n\nBuka Pajak → e-Faktur Coretax untuk menyiapkan XML. Unggah berkas lewat Coretax, lalu catat nomor faktur yang terbit di Accounting.\n\nLihat menunya di\nhttps://accounting.lokakasir.id/\n\n#LokaKasirAccounting #PembukuanBisnis",
+   "threads_enabled": true,
+   "threads_text": "Loka Kasir Accounting · Pemeriksaan e-Faktur sebelum unggah\n\nDi e-Faktur Coretax, cek identitas pajak, faktur yang terposting, dan nilai PPN. Ekspor XML dari Accounting, unggah lewat Coretax, lalu simpan nomor faktur yang terbit.\n\nhttps://accounting.lokakasir.id/",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147004/loka-social/xwwo3bdkucooowijwk8i.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147006/loka-social/iwmjxsktnmizuiep6b4w.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147007/loka-social/ogsaw7iomtrgnua0xlkc.jpg"
+    }
+   ]
+  },
+  {
+   "id": "9a441c3e-d030-471f-a770-8550d381dd41",
+   "when": "2026-11-23 20:00",
+   "scheduled_at": "2026-11-23T21:00:00+08:00",
+   "caption": "Loka Kasir Accounting · Checklist menjelang tutup buku\n\nSebelum mengunci bulan, cocokkan kas dan bank, tinjau piutang dan utang terbuka, lalu cek stok dan penyusutan.\n\nSetelah angka ditinjau di neraca saldo, laba rugi, dan neraca, buka Buku Besar → Tutup Buku. Di demo, Oktober sudah dikunci dan November masih terbuka.\n\nLihat alurnya di\nhttps://accounting.lokakasir.id/\n\n#LokaKasirAccounting #PembukuanBisnis",
+   "threads_enabled": true,
+   "threads_text": "Loka Kasir Accounting · Checklist menjelang tutup buku\n\nSebelum kunci periode: cocokkan kas dan bank, cek tagihan terbuka, lalu tinjau stok dan penyusutan. Periksa neraca saldo, laba rugi, dan neraca sebelum membuka menu Tutup Buku.\n\nhttps://accounting.lokakasir.id/",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147008/loka-social/bppe7tpcvogqc2rwkunu.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147009/loka-social/ti4usvjjrneme6jbj0ir.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147011/loka-social/cnjbmv9iuyf1nidzkugy.jpg"
+    }
+   ]
+  },
+  {
+   "id": "f64a6dbe-2be5-40ae-b991-4e8ff25ce336",
+   "when": "2026-11-24 14:00",
+   "scheduled_at": "2026-11-24T15:00:00+08:00",
+   "caption": "Loka Kasir Accounting · Anggaran versus realisasi\n\nAnggaran biaya logistik Oktober di demo Rp500.000. Realisasinya Rp375.000 atau 75% dari anggaran. Selisihnya Rp125.000.\n\nBuka Buku Besar → Anggaran → Lihat realisasi untuk membandingkan angka per akun dan bulan.\n\nLihat contohnya di\nhttps://accounting.lokakasir.id/\n\n#LokaKasirAccounting #PembukuanBisnis",
+   "threads_enabled": true,
+   "threads_text": "Loka Kasir Accounting · Anggaran versus realisasi\n\nAnggaran logistik Rp500 ribu, realisasi Rp375 ribu, selisih Rp125 ribu. Pilih Lihat realisasi di menu Anggaran untuk membandingkan angka per akun dan bulan.\n\nhttps://accounting.lokakasir.id/",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147012/loka-social/kcppwrq78mrzdfnawtoo.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147013/loka-social/elypkcoa9ppztbomcrcd.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147014/loka-social/kwvgfc6f7e0zjmhltt58.jpg"
+    }
+   ]
+  },
+  {
+   "id": "cabd960e-f9c2-4fc5-8311-09c0ba8b89d3",
+   "when": "2026-11-24 20:00",
+   "scheduled_at": "2026-11-24T21:00:00+08:00",
+   "caption": "Loka Kasir Accounting · Jejak audit pembukuan\n\nSaat angka berubah, cek dulu catatan waktunya, pengguna yang tercantum, dan keterangan tindakan. Untuk koreksi pelunasan, bandingkan Log aktivitas dengan Riwayat pelunasan pada tagihan.\n\nBuka Pengaturan → Log Aktivitas untuk mencari aksi dan melihat rinciannya.\n\nKenali fiturnya di\nhttps://accounting.lokakasir.id/\n\n#LokaKasirAccounting #PembukuanBisnis",
+   "threads_enabled": true,
+   "threads_text": "Loka Kasir Accounting · Jejak audit pembukuan\n\nSaat angka pembukuan berubah, mulai dari waktu, pengguna, dan rincian tindakan di Log Aktivitas. Untuk koreksi pembayaran, cocokkan dengan Riwayat pelunasan tagihan.\n\nhttps://accounting.lokakasir.id/",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147016/loka-social/yn7bcni138qn5hv4b7gv.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147017/loka-social/yzimffxf7mvvifwa7l7r.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1795147018/loka-social/hvsdvnugzxoepkxusb1y.jpg"
+    }
+   ]
+  },
+  {
+   "id": "566c7644-4bbe-4798-9081-361a2519bbf9",
+   "when": "2026-11-25 14:00",
+   "scheduled_at": "2026-11-25T15:00:00+08:00",
+   "caption": "Selamat Hari Guru Nasional, 25 November 🙏\n\nTerima kasih untuk para guru yang terus mengajar dengan sabar, termasuk yang mengajari kita berhitung, menabung, dan berani bermimpi.\n\n#HariGuruNasional #SelamatHariGuru #TerimaKasihGuru #LokaKasir",
+   "threads_enabled": true,
+   "threads_text": "",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1793790734/loka-social/qgzu60tfyk4adqtk1i91.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1793790735/loka-social/eunr63tl7nb2y9brqxsa.jpg"
+    }
+   ]
+  },
+  {
+   "id": "5c580bd3-5551-4032-b851-00b63552c19f",
+   "when": "2026-11-25 20:00",
+   "scheduled_at": "2026-11-25T21:00:00+08:00",
+   "caption": "Kemarin kehabisan. Hari ini malah kebanyakan.\n\nBesok langsung belanja dua kali lipat. Ternyata pesanan kemarin hanya acara sekali.\n\nCari pola, jangan cuma momen.\nTandai pesanan khusus dan bandingkan beberapa hari yang relevan sebelum menentukan belanja rutin.\n\nBiar pengalaman jadi pegangan.\n• Pilih satu kesalahan berulang\n• Baca transaksi yang terkait\n• Ubah satu cara kerja besok\n\nSimpan jejak penjualan dan stok di Loka Kasir agar evaluasi punya pegangan.\n\nApa pelajaran usaha terbaikmu bulan ini?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Kemarin kehabisan. Hari ini malah kebanyakan.\n\nTandai pesanan khusus dan bandingkan beberapa hari yang relevan sebelum menentukan belanja rutin.\n\nApa pelajaran usaha terbaikmu bulan ini?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873392/loka-social/ctsvpjjg0mhtvjfgnbu1.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873393/loka-social/u1yyt3lin0llddykxlsm.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873393/loka-social/km21aatd6vlwvllh3zgi.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873394/loka-social/qeg6tclykflwz99rzrle.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873394/loka-social/zlsoqvcqfbrzskele6pz.jpg"
+    }
+   ]
+  },
+  {
+   "id": "97dbc398-7490-4080-8f5f-8a093a7f66b5",
+   "when": "2026-11-26 14:00",
+   "scheduled_at": "2026-11-26T15:00:00+08:00",
+   "caption": "Turis mau bayar. Tim kasir sudah tahu caranya?\n\nDukungan pembayaran bisa berbeda menurut penyedia dan negara asal pelanggan. Pastikan dari penyedia tokomu.\n\nSatu tim, satu jawaban.\nTahu pilihan yang tersedia, cara mengecek pembayaran, dan alternatifnya membantu kasir menjelaskan dengan tenang.\n\nLatih sebelum jam ramai.\n• Tampilkan metode yang tersedia\n• Pastikan nama penerima benar\n• Periksa dana sebelum lunas\n\nLoka Kasir membantu mencatat metode pembayaran; dukungan lintas negara mengikuti penyedia pembayaranmu.\n\nToko kamu sering kedatangan wisatawan?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Turis mau bayar. Tim kasir sudah tahu caranya?\n\nTahu pilihan yang tersedia, cara mengecek pembayaran, dan alternatifnya membantu kasir menjelaskan dengan tenang.\n\nToko kamu sering kedatangan wisatawan?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873395/loka-social/kplo4uxy3ltttxko9gep.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873395/loka-social/yk95zt20xvpmlwjbq5xi.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873396/loka-social/hbxm9bnmtab94f7cqjwy.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873396/loka-social/wtyt7yy1ysuvolsagukd.jpg"
+    }
+   ]
+  },
+  {
+   "id": "e51c7391-42f8-4942-bb57-d63c23b89781",
+   "when": "2026-11-26 20:00",
+   "scheduled_at": "2026-11-26T21:00:00+08:00",
+   "caption": "Menu sama. Dijual online. Sisanya beda.\n\nDatang langsung: biaya produk dan layanan toko.\nPesanan online: cek juga kemasan serta biaya kanal yang berlaku.\n\nBaca yang tersisa setelah biaya.\nAngka penjualan saja belum menjelaskan hasil tiap kanal. Daftar biaya membantu menentukan harga dan promo.\n\nBandingkan per kanal.\n• Rinci biaya tiap kanal\n• Hitung selisih per pesanan\n• Periksa hasil tiap periode\n\nAtur harga kanal yang sesuai di Loka Kasir, lalu tinjau catatan penjualannya.\n\nSimpan sebelum menyamakan semua harga.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Menu sama. Dijual online. Sisanya beda.\n\nAngka penjualan saja belum menjelaskan hasil tiap kanal. Daftar biaya membantu menentukan harga dan promo.\n\nSimpan sebelum menyamakan semua harga.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873397/loka-social/tpqz4cvf4nveekol7vlm.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873397/loka-social/kn9swythx6dtpwr5w0jc.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873398/loka-social/savf33ahjwhz7simthlk.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873398/loka-social/yjetmrbyzfkoez93wiga.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873399/loka-social/wiv1q4xg3makkdvl2kwn.jpg"
+    }
+   ]
+  },
+  {
+   "id": "b404bdb0-0d0e-4cf1-8cec-dd86c2b1b5d3",
+   "when": "2026-11-27 14:00",
+   "scheduled_at": "2026-11-27T15:00:00+08:00",
+   "caption": "“Diskonnya buat semua, kan?” Mulai dari sini ributnya.\n\nProduk mana, berlaku kapan, ada kuota atau minimum belanja? Tim dan pelanggan perlu membaca aturan yang sama.\n\nSyarat yang jelas mengurangi debat.\nCoba satu transaksi sesuai syarat dan satu di luar syarat. Pastikan tim bisa menjelaskan bedanya.\n\nCek promo sebelum ditawarkan.\n• Tulis periode dan syarat\n• Uji satu transaksi promo\n• Briefing tim sebelum buka\n\nAtur diskon dan periksa hasil transaksi percobaan di Loka Kasir.\n\nAturan promo apa yang paling sering ditanya?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "“Diskonnya buat semua, kan?” Mulai dari sini ributnya.\n\nCoba satu transaksi sesuai syarat dan satu di luar syarat. Pastikan tim bisa menjelaskan bedanya.\n\nAturan promo apa yang paling sering ditanya?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873399/loka-social/eatx0ctbsamwopmr6dvl.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873400/loka-social/qwlkib9ohti6zft5ldyt.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873400/loka-social/nrh6fys7fuzidudjd6wv.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873401/loka-social/w5ypqraxdzj9l7j7dqdu.jpg"
+    }
+   ]
+  },
+  {
+   "id": "afc0ea8e-19d8-4ea3-a426-827b7d24469e",
+   "when": "2026-11-27 20:00",
+   "scheduled_at": "2026-11-27T21:00:00+08:00",
+   "caption": "Tanggal tua, dompet pembeli menipis. Warung tetap harus jalan 💪\n\nCoba sediakan pilihan yang ramah kantong:\n1️⃣ Porsi mini, lebih murah tapi tetap kenyang\n2️⃣ Paket hemat Rp10.000: nasi, lauk, dan teh\n3️⃣ Taruh menu murah di tempat paling kelihatan\n\nKamu biasanya bikin strategi apa pas tanggal tua?\n\n#TanggalTua #TipsJualan #Warung #UMKM #LokaKasir",
+   "threads_enabled": true,
+   "threads_text": "",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1793790729/loka-social/adwt6tkaxrm3jbanrrwq.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1793790730/loka-social/w6o24pl8rdivfkf6dbjq.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1793790731/loka-social/clcb6szxl28idqs9bg5h.jpg"
+    }
+   ]
+  },
+  {
+   "id": "4685a145-e629-433a-85ef-f940eeaada93",
+   "when": "2026-11-28 14:00",
+   "scheduled_at": "2026-11-28T15:00:00+08:00",
+   "caption": "Toko buka. Pemasok libur. Bahan tinggal sedikit.\n\nPemasok sudah tutup pengiriman. Bahan utama tinggal untuk sebagian pesanan.\n\nTanya dua tanggal sekarang.\nKapan batas pesan terakhir? Kapan pengiriman mulai lagi? Cocokkan dengan laju jual dan pesanan yang sudah pasti.\n\nHubungi pemasok sebelum stok tipis.\n• Tanya hari kirim terakhir\n• Hitung kebutuhan sampai kirim berikutnya\n• Siapkan alternatif bahan yang sesuai\n\nCatatan pembelian dan supplier Loka Kasir membantu menelusuri kebutuhan belanja.\n\nSudah tanya jadwal pemasokmu?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Toko buka. Pemasok libur. Bahan tinggal sedikit.\n\nKapan batas pesan terakhir? Kapan pengiriman mulai lagi? Cocokkan dengan laju jual dan pesanan yang sudah pasti.\n\nSudah tanya jadwal pemasokmu?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873404/loka-social/bd7zicdpilueeflcpobx.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873404/loka-social/dwlimy87amjtmgilqbj9.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873405/loka-social/fjygtkspqy3bg80ightp.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873406/loka-social/oy2igvzaiiuoqtmscgh2.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873406/loka-social/yixq1uyt7vxvjiioxuqb.jpg"
+    }
+   ]
+  },
+  {
+   "id": "4250e5a1-8063-469d-8437-c011cd8a7d2c",
+   "when": "2026-11-28 20:00",
+   "scheduled_at": "2026-11-28T21:00:00+08:00",
+   "caption": "Pelanggan pertama datang karena promo. Balik lagi karena apa?\n\nHarga murah, tapi pesanan salah dan keluhan menggantung.\nHarga jelas, pesanan tepat, masalah ditangani.\n\nMulai dari janji yang terpenuhi.\nPeriksa satu hal yang sering bikin pelanggan harus bertanya ulang atau menunggu tanpa kabar.\n\nPerbaiki pengalaman hari ini.\n• Pastikan pesanan sesuai\n• Berikan struk yang jelas\n• Dengar masukan pelanggan\n\nCatatan transaksi Loka Kasir membantu menelusuri belanja saat ada pertanyaan.\n\nApa yang bikin kamu balik ke sebuah warung?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Pelanggan pertama datang karena promo. Balik lagi karena apa?\n\nPeriksa satu hal yang sering bikin pelanggan harus bertanya ulang atau menunggu tanpa kabar.\n\nApa yang bikin kamu balik ke sebuah warung?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873407/loka-social/lwjd4mmzg6abraluxpyy.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873407/loka-social/rxsq5e4rhu6lavb5pbli.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873407/loka-social/zcwtpwj99uvzsgkhdjml.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873408/loka-social/rfxxms8voxhrjnkhccpf.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873408/loka-social/o4de0pijczv2uwjcdgds.jpg"
+    }
+   ]
+  },
+  {
+   "id": "92dc4a68-f40b-4f79-abef-3fa2d5fc5ece",
+   "when": "2026-11-29 14:00",
+   "scheduled_at": "2026-11-29T15:00:00+08:00",
+   "caption": "Menu favorit owner otomatis layak ditambah stok?\n\nA. Owner paling suka menu ini.\nB. Sering diposting di story.\nC. Penjualan dan biayanya mendukung.\n\nC. Lihat permintaan dan biaya.\nProduk yang jarang terjual bisa menyita bahan serta waktu. Nilai perannya sebelum menambah stok atau menghapusnya.\n\nPilih satu menu untuk ditinjau.\n• Urutkan produk terjual\n• Tinjau biaya tiap menu\n• Uji menu baru secukupnya\n\nLaporan produk terlaris Loka Kasir membantu membaca pilihan pelanggan.\n\nMenu mana yang paling mengejutkan hasilnya?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Menu favorit owner otomatis layak ditambah stok?\n\nProduk yang jarang terjual bisa menyita bahan serta waktu. Nilai perannya sebelum menambah stok atau menghapusnya.\n\nMenu mana yang paling mengejutkan hasilnya?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873921/loka-social/ei3puwwxqumdorronj52.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873921/loka-social/anizibzwpkbpj2mkiv6x.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873922/loka-social/dcz8xaspsj6lai1hwcqq.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873922/loka-social/bhoc1xydbicegofdlsdz.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873922/loka-social/mwitlughg9awza6j2tqm.jpg"
+    }
+   ]
+  },
+  {
+   "id": "6571422d-b8ef-4f6e-a290-1960a8ae820d",
+   "when": "2026-11-29 20:00",
+   "scheduled_at": "2026-11-29T21:00:00+08:00",
+   "caption": "Di layar ada 20. Di rak tinggal 17.\n\nCatatan: jumlah berdasarkan transaksi yang masuk.\nRak: barang yang benar-benar masih ada.\n\nHitung fisik, lalu telusuri.\nAda barang rusak, dipakai, atau transaksi yang belum dicatat? Cari sebab sebelum merapikan jumlah stok.\n\nJadwalkan satu rak dulu.\n• Pilih waktu toko lebih tenang\n• Hitung barang dengan satuan sama\n• Catat alasan penyesuaian stok\n\nGunakan stok opname Loka Kasir untuk menyimpan hasil penghitungan.\n\nSimpan untuk jadwal hitung stok.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Di layar ada 20. Di rak tinggal 17.\n\nAda barang rusak, dipakai, atau transaksi yang belum dicatat? Cari sebab sebelum merapikan jumlah stok.\n\nSimpan untuk jadwal hitung stok.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873411/loka-social/cu3hfn4w3ft8gljentap.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873411/loka-social/ls7e5x8o4urfppt4kzjk.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873411/loka-social/bsyaj7fph4ttrgl7tf1k.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873412/loka-social/qd72nek8ovkx3ubkjcc9.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873413/loka-social/eo569pjeqydslyowb3zi.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2f34220c-bc60-4916-932d-1cd33dbcd87d",
+   "when": "2026-11-30 14:00",
+   "scheduled_at": "2026-11-30T15:00:00+08:00",
+   "caption": "Sebelum tutup November, jawab 3 hal ini.\n\nApa yang paling bergerak, kapan melambat, dan biaya mana yang perlu perhatian?\n\nPilih satu keputusan untuk Desember.\nHasil evaluasi perlu berujung tindakan: ubah belanja, rapikan menu, atau perbaiki cara mencatat.\n\nBawa hasilnya ke rencana besok.\n• Baca penjualan November\n• Tinjau pembelian dan biaya\n• Pilih satu fokus Desember\n\nBuka laporan periode November di Loka Kasir sebagai bahan evaluasi.\n\nSatu hal apa yang mau kamu benahi?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Sebelum tutup November, jawab 3 hal ini.\n\nHasil evaluasi perlu berujung tindakan: ubah belanja, rapikan menu, atau perbaiki cara mencatat.\n\nSatu hal apa yang mau kamu benahi?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873413/loka-social/mnil4xojy4vx0yszsre5.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873414/loka-social/cuqozsolmepvgybyfena.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873414/loka-social/u1g0vx8rb7ky5kwrhduo.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873414/loka-social/mc6t0v49tfroxsx3m6gx.jpg"
+    }
+   ]
+  },
+  {
+   "id": "45feae9d-1a39-486c-b151-dea6f5070953",
+   "when": "2026-11-30 20:00",
+   "scheduled_at": "2026-11-30T21:00:00+08:00",
+   "caption": "Besok Desember. Malam ini masih bisa merapikan satu hal.\n\nTim belum tahu produk utama, belanja belum dibatasi, kapasitas belum disepakati.\n\nUbah target jadi keputusan harian.\nApa yang dijual, berapa yang mampu dilayani, dan belanja mana yang didahulukan? Jawab sebelum hari ramai.\n\nTutup November dengan pegangan.\n• Pilih produk yang diandalkan\n• Sepakati tugas tim\n• Cek stok awal bulan\n\nGunakan data penjualan dan stok Loka Kasir untuk menyusun rencana toko.\n\nSimpan dan cek lagi saat buka besok.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Besok Desember. Malam ini masih bisa merapikan satu hal.\n\nApa yang dijual, berapa yang mampu dilayani, dan belanja mana yang didahulukan? Jawab sebelum hari ramai.\n\nSimpan dan cek lagi saat buka besok.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873415/loka-social/nsvdaivppxgqbz6hvkvh.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873415/loka-social/aqirpy0aqw7pybdo6wr8.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873416/loka-social/veohudnzagylh2vlpxqt.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873416/loka-social/rqniq6drbmzoseiqfjuf.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873417/loka-social/duhhs9cti3cv5xy2vtzi.jpg"
+    }
+   ]
+  },
+  {
+   "id": "6c343fea-0eda-48eb-addc-6812ae67707e",
+   "when": "2026-12-01 14:00",
+   "scheduled_at": "2026-12-01T15:00:00+08:00",
+   "caption": "Target Rp600 ribu. Butuh berapa transaksi?\n\nSimulasi: target penjualan Rp600.000 per hari. Rata-rata belanja Rp30.000 per transaksi.\n\nSekitar 20 transaksi per hari.\nRp600.000 dibagi Rp30.000 = 20. Ini perkiraan volume, lalu cek biaya, jam layanan, dan kapasitas tim.\n\nTargetnya bisa dikerjakan hari ini?\n• Lihat rata-rata belanja\n• Hitung transaksi yang dibutuhkan\n• Cocokkan dengan kapasitas toko\n\nLaporan Loka Kasir membantu membaca jumlah transaksi dan nilai penjualan.\n\nTarget harianmu lebih sering pakai angka atau feeling?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Target Rp600 ribu. Butuh berapa transaksi?\n\nRp600.000 dibagi Rp30.000 = 20. Ini perkiraan volume, lalu cek biaya, jam layanan, dan kapasitas tim.\n\nTarget harianmu lebih sering pakai angka atau feeling?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873417/loka-social/hrlkiyu3ocrpjf6jdtqx.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873418/loka-social/vuzbxfp9em1imixqzbh5.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873418/loka-social/m9zuosxrm8elft64tgdk.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873419/loka-social/u0r0xv1tcsvsdtbkkaeb.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873419/loka-social/cbypuypfiljcdxbiy8vd.jpg"
+    },
+    {
+     "position": 5,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873420/loka-social/lgnt910gpmxdramfxsuz.jpg"
+    }
+   ]
+  },
+  {
+   "id": "902d574e-409b-4d33-b0d0-7f19f601fb47",
+   "when": "2026-12-01 20:00",
+   "scheduled_at": "2026-12-01T21:00:00+08:00",
+   "caption": "Omzet naik. Usaha pasti lebih sehat?\n\nA. Diskon dan biaya yang ikut naik.\nB. Warna grafiknya saja.\nC. Langsung tambah target lagi.\n\nA. Baca yang ikut berubah.\nPenjualan naik bisa datang bersama potongan lebih besar atau biaya bahan yang meningkat. Lihat beberapa angka bersama.\n\nBuka laporan dengan pertanyaan.\n• Cek jumlah transaksi\n• Tinjau diskon dan biaya\n• Bandingkan periode setara\n\nGunakan laporan penjualan dan pembelian Loka Kasir untuk melihat konteksnya.\n\nKirim ke teman yang cuma mengecek omzet.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Omzet naik. Usaha pasti lebih sehat?\n\nPenjualan naik bisa datang bersama potongan lebih besar atau biaya bahan yang meningkat. Lihat beberapa angka bersama.\n\nKirim ke teman yang cuma mengecek omzet.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873420/loka-social/eojhe52a3epcywgxifbe.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873421/loka-social/wzwwmargkknpmtjamyxw.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873422/loka-social/ouviigcrt84mh6d2ottz.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873422/loka-social/g6ebkr9a8knfrx3nns6i.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873422/loka-social/ahzq7mtmp6ykiwjwxaof.jpg"
+    }
+   ]
+  },
+  {
+   "id": "0b2c46a6-6e22-408a-ad70-c9de7bbb99a4",
+   "when": "2026-12-02 14:00",
+   "scheduled_at": "2026-12-02T15:00:00+08:00",
+   "caption": "12.12 dekat. Semua produk perlu diborong?\n\nRiwayat jual, stok yang tersedia, pesanan pasti, dan kemampuan menyimpan perlu dibaca bersama.\n\nFokus bikin belanja lebih terarah.\nMulai dari sedikit produk utama. Tinjau pergerakannya sebelum menyebar uang ke semua barang.\n\nSiapkan stok dengan alasan.\n• Pilih sedikit produk utama\n• Periksa stok dan laju jual\n• Tentukan batas belanja\n\nCek laporan produk dan stok Loka Kasir sebelum menghubungi pemasok.\n\nSimpan untuk persiapan tanggal kembar.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "12.12 dekat. Semua produk perlu diborong?\n\nMulai dari sedikit produk utama. Tinjau pergerakannya sebelum menyebar uang ke semua barang.\n\nSimpan untuk persiapan tanggal kembar.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873423/loka-social/gyxqtc9vdlcadrpdow5u.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873424/loka-social/idwvpsgk6a9xw8mmp438.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873424/loka-social/gygmsoua3hlypan3kkke.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873425/loka-social/njmnxusr3qbuwnyfqwdm.jpg"
+    }
+   ]
+  },
+  {
+   "id": "efc15727-cdfc-474a-8f4f-e65f3a4079b0",
+   "when": "2026-12-02 20:00",
+   "scheduled_at": "2026-12-02T21:00:00+08:00",
+   "caption": "“Yang 30 kotak itu ambil jam berapa?” Chat-nya tenggelam.\n\nTim: Isinya campur atau sama semua?\nOwner: Coba cari chat hari Selasa.\nTim: Yang sudah bayar yang mana?\n\nSatu pesanan, satu pegangan.\nNama, isi, jumlah, waktu ambil, dan pembayaran perlu terkumpul. Periksa kembali bersama pemesan.\n\nRapikan sebelum mulai produksi.\n• Ulangi detail ke pemesan\n• Catat jadwal pemenuhan\n• Periksa pembayaran tersisa\n\nProduk pre-order Loka Kasir membantu mencatat pesanan yang disiapkan belakangan.\n\nPesanan kelompokmu paling sering lupa detail apa?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "“Yang 30 kotak itu ambil jam berapa?” Chat-nya tenggelam.\n\nNama, isi, jumlah, waktu ambil, dan pembayaran perlu terkumpul. Periksa kembali bersama pemesan.\n\nPesanan kelompokmu paling sering lupa detail apa?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873425/loka-social/fi54jjhqrr2wrofuqfr3.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873425/loka-social/aqgu7nwvdd3s8uilnvpn.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873426/loka-social/fh0gcoxfcdptn66csnqz.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873426/loka-social/la6uduocguaqaheldevd.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873427/loka-social/juo5e3dpoyshpsttpxlm.jpg"
+    }
+   ]
+  },
+  {
+   "id": "3ed4e4df-44ff-487d-b031-bb619221c499",
+   "when": "2026-12-03 14:00",
+   "scheduled_at": "2026-12-03T15:00:00+08:00",
+   "caption": "Diskon 12%. Sisanya tinggal Rp4 ribu.\n\nBiaya produk Rp18.000. Diskon 12% berarti potongan Rp3.000.\n\nDari Rp7.000 menjadi Rp4.000.\nHarga setelah diskon Rp22.000, dikurangi Rp18.000 biaya produk. Sisa ini belum dikurangi biaya lain.\n\nCek sebelum promo ditayangkan.\n• Hitung harga setelah potongan\n• Kurangi biaya produk\n• Perhitungkan biaya lainnya\n\nCek harga dan HPP di Loka Kasir sebelum memasang promo.\n\nSimpan hitungannya untuk tim promo.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Diskon 12%. Sisanya tinggal Rp4 ribu.\n\nHarga setelah diskon Rp22.000, dikurangi Rp18.000 biaya produk. Sisa ini belum dikurangi biaya lain.\n\nSimpan hitungannya untuk tim promo.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873427/loka-social/bcrs8r8ko3ghlkjekgpq.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873428/loka-social/onb7i7lgxfrmonj6finr.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873428/loka-social/wqlgineuwqftz7lbakzd.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873430/loka-social/zmhmjsjmo7zcdevnxz1u.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873430/loka-social/afva1yxfblwovkqdsp8s.jpg"
+    },
+    {
+     "position": 5,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873430/loka-social/pnw24arpifihzr78lvbr.jpg"
+    }
+   ]
+  },
+  {
+   "id": "298e43dc-eecf-43fc-9344-62c8612d3193",
+   "when": "2026-12-03 20:00",
+   "scheduled_at": "2026-12-03T21:00:00+08:00",
+   "caption": "Es Rp8 ribu sehari. Sebulan jadi berapa?\n\nSimulasi: pengeluaran Rp8.000 yang terjadi setiap hari selama 30 hari.\n\nRp240.000 tetap perlu jejak.\nRp8.000 × 30 = Rp240.000. Catat saat uang keluar supaya laci kas punya penjelasan saat dicocokkan.\n\nMulai dari pengeluaran hari ini.\n• Catat saat uang keluar\n• Tulis kebutuhan yang dibayar\n• Simpan bukti jika ada\n\nCatatan kas keluar Loka Kasir membantu menjelaskan perubahan uang di laci.\n\nReceh apa yang paling sering luput dicatat?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Es Rp8 ribu sehari. Sebulan jadi berapa?\n\nRp8.000 × 30 = Rp240.000. Catat saat uang keluar supaya laci kas punya penjelasan saat dicocokkan.\n\nReceh apa yang paling sering luput dicatat?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873431/loka-social/bktfn4ncpvbj11ji8cld.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873432/loka-social/xlglafflva6gua2x5yih.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873432/loka-social/ma7lsycpjz57mjvd9x5j.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873432/loka-social/ifutjhiivt5bxcqjtsy8.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873434/loka-social/w9lduf9vij1oaub2mfum.jpg"
+    },
+    {
+     "position": 5,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873434/loka-social/noocdh2exldhvile8d0i.jpg"
+    }
+   ]
+  },
+  {
+   "id": "39cade5d-3256-4271-a001-a28e89390c20",
+   "when": "2026-12-04 14:00",
+   "scheduled_at": "2026-12-04T15:00:00+08:00",
+   "caption": "Satu orang masak, bungkus, sekaligus terima uang?\n\nSemua dikerjakan bergantian tanpa pembagian.\nPeran dibagi sesuai jumlah orang dan kondisi toko.\n\nTentukan siapa pegang bagian mana.\nPembagian sederhana membantu tim tahu kapan menyerahkan pekerjaan dan siapa yang mengecek pesanan.\n\nSepakati sebelum akhir pekan.\n• Tetapkan penerima pesanan\n• Tentukan penyiap produk\n• Sepakati pengecekan sebelum serah\n\nGunakan akun karyawan yang sesuai di Loka Kasir agar akses dan catatan lebih teratur.\n\nKirim ke grup tim sebelum buka.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Satu orang masak, bungkus, sekaligus terima uang?\n\nPembagian sederhana membantu tim tahu kapan menyerahkan pekerjaan dan siapa yang mengecek pesanan.\n\nKirim ke grup tim sebelum buka.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873434/loka-social/anc4cmv8kftd6i1lauco.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873435/loka-social/oufj03fgwxcgvhuiudaz.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873435/loka-social/qllst0pjxojdbcm3kqjr.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873436/loka-social/orxejsplrtbjffiqugun.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873437/loka-social/e5ojullomzefhzxc4wfr.jpg"
+    }
+   ]
+  },
+  {
+   "id": "a1e58882-855e-4a03-a172-0241b505b467",
+   "when": "2026-12-04 20:00",
+   "scheduled_at": "2026-12-04T21:00:00+08:00",
+   "caption": "“Bisa jadi sejam lagi?” Jangan jawab sebelum cek.\n\nPelanggan: Bisa jadi sejam lagi, Kak?\nTim: Saya cek antrean dan bahan dulu. Nanti saya kabari waktu yang bisa kami penuhi.\n\nJanji pakai kapasitas yang tersedia.\nPeriksa pesanan berjalan, bahan, dan waktu packing sebelum menyepakati jadwal.\n\nBeri waktu yang bisa dipegang.\n• Cek kapasitas yang tersedia\n• Sebutkan waktu siap realistis\n• Konfirmasi perubahan lebih awal\n\nCatat pesanan di Loka Kasir agar tim punya rujukan transaksi yang sama.\n\nPernah terlalu optimistis menjanjikan waktu selesai?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "“Bisa jadi sejam lagi?” Jangan jawab sebelum cek.\n\nPeriksa pesanan berjalan, bahan, dan waktu packing sebelum menyepakati jadwal.\n\nPernah terlalu optimistis menjanjikan waktu selesai?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873437/loka-social/ovln7fcwfluzffntbxmp.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873437/loka-social/nfvsdgtw99dp6dfzebnx.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873438/loka-social/ic2jafccntnqp1jlyeci.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873438/loka-social/hzdmnujzjlcb2hmp675w.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873439/loka-social/bxuyzggumvk7nd5i3ivx.jpg"
+    }
+   ]
+  },
+  {
+   "id": "89d63894-a348-436d-bf59-2bf558c93dd3",
+   "when": "2026-12-05 14:00",
+   "scheduled_at": "2026-12-05T15:00:00+08:00",
+   "caption": "Sisa 6 botol. Jual 4 sehari. Aman sampai kiriman datang?\n\nA. Cukup, masih ada enam.\nB. Perlu dicek, kebutuhan perkiraan delapan.\nC. Langsung beli sepuluh dus.\n\nB. Perkiraan kebutuhan 8 botol.\nDengan pola 4 per hari selama 2 hari, stok 6 kurang 2 botol. Ini simulasi; cek pola, waktu kirim, dan kondisi tokomu.\n\nPakai angka tokomu sendiri.\n• Lihat rata-rata terjual\n• Tanya jadwal kirim\n• Tentukan stok minimum\n\nAtur pengingat stok minimum di Loka Kasir sesuai kebutuhan produk.\n\nProduk apa yang paling cepat habis di tokomu?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Sisa 6 botol. Jual 4 sehari. Aman sampai kiriman datang?\n\nDengan pola 4 per hari selama 2 hari, stok 6 kurang 2 botol. Ini simulasi; cek pola, waktu kirim, dan kondisi tokomu.\n\nProduk apa yang paling cepat habis di tokomu?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873439/loka-social/cezvqtd9paawxs56idpw.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873440/loka-social/jsqlt65y9kmirehceb6g.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873441/loka-social/zeo65avqyjyw80fanwlf.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873441/loka-social/cvbdjfdkxqeij4ue111t.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873442/loka-social/wxp4qmgxs6vssapzrzvr.jpg"
+    }
+   ]
+  },
+  {
+   "id": "3cdfc2a8-db02-4c4e-b5bf-7b70588ba4f2",
+   "when": "2026-12-05 20:00",
+   "scheduled_at": "2026-12-05T21:00:00+08:00",
+   "caption": "Poster Rp18 ribu. Kasir menagih Rp20 ribu.\n\nDi poster: versi lama belum diturunkan.\nDi katalog kasir: harga baru sudah dipakai.\n\nSamakan sebelum buka.\nPerubahan harga perlu sampai ke katalog, menu, poster, dan orang yang melayani pelanggan.\n\nKeliling toko, cocokkan sekali.\n• Perbarui katalog produk\n• Ganti informasi harga lama\n• Uji satu transaksi\n\nPeriksa harga produk dan struk di Loka Kasir setelah perubahan.\n\nSimpan setiap kali mengganti harga.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Poster Rp18 ribu. Kasir menagih Rp20 ribu.\n\nPerubahan harga perlu sampai ke katalog, menu, poster, dan orang yang melayani pelanggan.\n\nSimpan setiap kali mengganti harga.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873442/loka-social/go5902x8ftudkkgfclqk.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873442/loka-social/tatnzfpbwk6rq56sqdgp.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873443/loka-social/shxqbydcgmdhu8yd2keq.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873443/loka-social/zqgbym9rndfhk0uaqmzm.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873444/loka-social/ghu1cbhjriyvpfeeop2x.jpg"
+    }
+   ]
+  },
+  {
+   "id": "ee6118d2-befb-4a60-a101-b6dc1e0fa5d1",
+   "when": "2026-12-06 14:00",
+   "scheduled_at": "2026-12-06T15:00:00+08:00",
+   "caption": "Hampers cantik. Kotaknya sudah masuk hitungan?\n\nSimulasi: isi produk Rp40.000. Kotak, pita, kartu, dan pelindung Rp10.000.\n\nBiaya paket jadi Rp50.000.\nKalau hanya menghitung isi produk, ada Rp10.000 biaya yang belum terbaca. Cek juga biaya lain sebelum menentukan harga.\n\nHitung satu paket sampai lengkap.\n• Rinci isi dan kemasan\n• Catat biaya per paket\n• Sisakan ruang untuk biaya lain\n\nCatat pembelian dan cek HPP produk di Loka Kasir sebagai bahan menentukan harga.\n\nApa komponen kemasan yang sering terlupakan?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Hampers cantik. Kotaknya sudah masuk hitungan?\n\nKalau hanya menghitung isi produk, ada Rp10.000 biaya yang belum terbaca. Cek juga biaya lain sebelum menentukan harga.\n\nApa komponen kemasan yang sering terlupakan?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873444/loka-social/ayhfjd47mygfegjqcjpr.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873445/loka-social/lkcyytjkjcgflmq9ri8q.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873445/loka-social/qyndkiqmrrandhlyzari.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873446/loka-social/rb57fop4puock4gs5qlz.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873447/loka-social/yp7mqferrtrwzeupwayq.jpg"
+    },
+    {
+     "position": 5,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873447/loka-social/jiybvr50mbrtz3mwwdda.jpg"
+    }
+   ]
+  },
+  {
+   "id": "97df5ce5-e0bd-479e-a4fb-9678df0fe83d",
+   "when": "2026-12-06 20:00",
+   "scheduled_at": "2026-12-06T21:00:00+08:00",
+   "caption": "Minggu pertama kurang bagus. Ubah semuanya sekaligus?\n\nA. Ubah menu, harga, dan jam buka bersamaan.\nB. Pilih satu masalah yang berulang.\nC. Tutup laporan, tunggu bulan depan.\n\nB. Mulai dari satu masalah.\nTentukan satu perubahan, catat kapan dimulai, lalu bandingkan hasil pada periode yang relevan.\n\nBuat percobaan yang bisa dibaca.\n• Cari pola penjualan\n• Pilih satu perubahan\n• Bandingkan hasil pekan depan\n\nFilter periode laporan Loka Kasir untuk membantu evaluasi mingguan.\n\nSatu perbaikan apa yang mau dicoba pekan ini?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Minggu pertama kurang bagus. Ubah semuanya sekaligus?\n\nTentukan satu perubahan, catat kapan dimulai, lalu bandingkan hasil pada periode yang relevan.\n\nSatu perbaikan apa yang mau dicoba pekan ini?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873448/loka-social/fy7ftdgpnbngmm8u8c1p.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873448/loka-social/lnbllafpgakrrcghg5ru.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873449/loka-social/gvfetd01p8f7gnwkaxrz.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873450/loka-social/aicz7boqunpv39bmpwp3.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873450/loka-social/hfhhrldsfwkwsxfzfcot.jpg"
+    }
+   ]
+  },
+  {
+   "id": "fa082ac3-b48c-43a9-bade-c89258dfe977",
+   "when": "2026-12-07 14:00",
+   "scheduled_at": "2026-12-07T15:00:00+08:00",
+   "caption": "Foto menu bikin lapar. Pilihannya bikin bingung?\n\nFoto bagus, tapi ukuran dan ekstra tidak jelas.\nFoto jelas, pilihan lengkap, harga terbaca.\n\nBantu pelanggan memilih sekali jalan.\nCek nama, ukuran, pilihan rasa atau gula, ekstra, dan ketersediaan sesuai yang benar-benar dijual.\n\nBuka menumu seperti pelanggan baru.\n• Rapikan nama produk\n• Jelaskan varian yang tersedia\n• Cek harga tambahannya\n\nAtur varian dan grup ekstra di Loka Kasir sesuai pilihan yang dijual.\n\nMenu mana yang paling sering ditanya ulang?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Foto menu bikin lapar. Pilihannya bikin bingung?\n\nCek nama, ukuran, pilihan rasa atau gula, ekstra, dan ketersediaan sesuai yang benar-benar dijual.\n\nMenu mana yang paling sering ditanya ulang?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873451/loka-social/ki0ph4oxruj6aotccjsl.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873451/loka-social/q8hiq5gisj13ad5cdrp9.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873451/loka-social/gphfcm5pxlve504gbpgf.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873452/loka-social/azm7iumyrnfzshni3vr3.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873452/loka-social/s82tuiwq4yjwpq0sf1uy.jpg"
+    }
+   ]
+  },
+  {
+   "id": "60ac4805-c63b-4f6c-baed-baa56fef18fd",
+   "when": "2026-12-07 20:00",
+   "scheduled_at": "2026-12-07T21:00:00+08:00",
+   "caption": "Dua meja pesan menu sama. Yang tanpa gula buat siapa?\n\nPetugas: Es tehnya, Kak.\nPelanggan: Ini tanpa gula, kan?\nPetugas: Sebentar, saya cek pesanan mejanya.\n\nIdentitas meja ikut membawa detail.\nCocokkan meja, produk, dan catatan sebelum mengantar. Nama menu saja belum cukup untuk membedakan pesanan.\n\nBiar pesanan sampai dengan tepat.\n• Pastikan nomor meja benar\n• Periksa detail pesanan\n• Cocokkan sebelum diantar\n\nDenah meja dan pesanan meja Loka Kasir membantu tim mengikuti alurnya.\n\nTag teman yang paling hafal nomor meja.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Dua meja pesan menu sama. Yang tanpa gula buat siapa?\n\nCocokkan meja, produk, dan catatan sebelum mengantar. Nama menu saja belum cukup untuk membedakan pesanan.\n\nTag teman yang paling hafal nomor meja.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873453/loka-social/r27gsnwfgnod2dgedytx.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873453/loka-social/umcczxu0aynvpqvxqqkt.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873454/loka-social/klmvqcj3m4dp3maf8nyn.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873454/loka-social/mszovwdolf3qjnbbnkfr.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873454/loka-social/nhwoyqb94pqwzmtncm9h.jpg"
+    }
+   ]
+  },
+  {
+   "id": "c4211bdd-4d1f-4a47-9c04-10ca49f954b5",
+   "when": "2026-12-08 14:00",
+   "scheduled_at": "2026-12-08T15:00:00+08:00",
+   "caption": "Bahan segar dibeli banyak. Ramainya belum tentu.\n\nSusu, sayur, dan bahan segar tetap berubah kondisinya saat menunggu pembeli.\n\nSesuaikan belanja dan penyimpanan.\nMulai dari laju jual, masa simpan, serta kemampuan menyimpan sesuai kebutuhan bahan.\n\nCek stok sebelum belanja lagi.\n• Cek kondisi bahan harian\n• Lihat pemakaian dan penjualan\n• Belanja bertahap sesuai kebutuhan\n\nCatatan stok dan pembelian Loka Kasir membantu membaca pergerakan bahan.\n\nBahan apa yang paling perlu perhatian di usahamu?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Bahan segar dibeli banyak. Ramainya belum tentu.\n\nMulai dari laju jual, masa simpan, serta kemampuan menyimpan sesuai kebutuhan bahan.\n\nBahan apa yang paling perlu perhatian di usahamu?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873455/loka-social/qzfv4ldfqcz2yllpudit.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873455/loka-social/hxgbkz9xqb002ybedzay.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873456/loka-social/txn48v3obfhflifs3das.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873457/loka-social/rhulshpgzk8fbq5nnpgp.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873457/loka-social/jcrby9ju0xuw1nbnbcfx.jpg"
+    }
+   ]
+  },
+  {
+   "id": "7ad08f48-0f85-4164-951e-74f2f5743088",
+   "when": "2026-12-08 20:00",
+   "scheduled_at": "2026-12-08T21:00:00+08:00",
+   "caption": "Kasir baru sudah dilatih. Sudah pernah mencoba?\n\nCoba pilih produk, ubah ekstra, pakai diskon yang sesuai, lalu selesaikan pembayaran.\n\nCari bingungnya saat latihan.\nMinta tim menjelaskan langkahnya. Bagian yang terlewat lebih mudah dibenahi sebelum antrean terbentuk.\n\nSisihkan waktu latihan singkat.\n• Tunjukkan satu transaksi\n• Coba beberapa metode bayar\n• Jelaskan siapa yang dihubungi\n\nGunakan akun karyawan Loka Kasir sesuai perannya saat latihan dan bekerja.\n\nSimpan untuk hari pertama tim baru.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Kasir baru sudah dilatih. Sudah pernah mencoba?\n\nMinta tim menjelaskan langkahnya. Bagian yang terlewat lebih mudah dibenahi sebelum antrean terbentuk.\n\nSimpan untuk hari pertama tim baru.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873458/loka-social/a8tbizknbvojvmiadban.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873458/loka-social/rtihf2lyatffjczxt6ao.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873459/loka-social/wpnpjo20djiravdaiu1l.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873459/loka-social/awjh0okldll5ftrzam2v.jpg"
+    }
+   ]
+  },
+  {
+   "id": "e748e2d9-c36c-42f9-ae1c-fb169f585873",
+   "when": "2026-12-09 14:00",
+   "scheduled_at": "2026-12-09T15:00:00+08:00",
+   "caption": "Promo siap tayang. Kasir bisa menjelaskan aturannya?\n\nBerlaku kapan, produk apa, minimum belanja berapa, dan bagaimana kalau syaratnya belum terpenuhi?\n\nPoster dan praktik harus cocok.\nKalau penjelasan tim masih berbeda, rapikan aturannya sebelum pelanggan menagih janji promo.\n\nCek pemahaman sebelum mulai.\n• Tetapkan produk dan kuota\n• Tulis periode promo\n• Coba transaksi sebelum tayang\n\nPeriksa pengaturan diskon dan struk Loka Kasir agar penagihan sesuai penawaran.\n\nKirim ke rekan yang menyiapkan promo.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Promo siap tayang. Kasir bisa menjelaskan aturannya?\n\nKalau penjelasan tim masih berbeda, rapikan aturannya sebelum pelanggan menagih janji promo.\n\nKirim ke rekan yang menyiapkan promo.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873459/loka-social/s7rynxozokdr2mdkx69u.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873460/loka-social/fupatqjsyb0as6c95uox.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873460/loka-social/dmwuzb4ck8xaetlperos.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873461/loka-social/czorvtfkmipzdgedhlbw.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2f57a006-151e-43a4-a1ef-e3fe65cbde7c",
+   "when": "2026-12-09 20:00",
+   "scheduled_at": "2026-12-09T21:00:00+08:00",
+   "caption": "“Saya buru-buru.” Pemeriksaan pembayaran tetap bisa ramah.\n\nKasir: Sebentar ya, Kak. Saya cocokkan nominal dan statusnya supaya tagihannya selesai dengan benar.\nPelanggan: Oke, Kak.\n\nSingkat, jelas, lalu periksa.\nPelanggan tahu alasan menunggu. Tim tetap punya waktu mencocokkan pembayaran dari sisi toko.\n\nLatih kalimatnya bersama tim.\n• Sebutkan total tagihan\n• Periksa pembayaran masuk\n• Berikan bukti transaksi\n\nPilih metode bayar yang benar dan simpan transaksi di Loka Kasir.\n\nTim kasirmu punya kalimat andalan saat mengecek pembayaran?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "“Saya buru-buru.” Pemeriksaan pembayaran tetap bisa ramah.\n\nPelanggan tahu alasan menunggu. Tim tetap punya waktu mencocokkan pembayaran dari sisi toko.\n\nTim kasirmu punya kalimat andalan saat mengecek pembayaran?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873462/loka-social/tp8jq2nvle7k019ip59y.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873462/loka-social/qiptdy2bmddkjvbgy5xs.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873462/loka-social/ebiawttebj5miwza7crq.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873463/loka-social/gorlttgjsdovk7lcjpnn.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873463/loka-social/q6zhpqgl2bm9l7snpbwy.jpg"
+    }
+   ]
+  },
+  {
+   "id": "fe0a0b12-7d59-4179-acce-1035520570af",
+   "when": "2026-12-10 14:00",
+   "scheduled_at": "2026-12-10T15:00:00+08:00",
+   "caption": "Promo masih tayang. Barangnya sudah habis.\n\nEtalase: produk promo masih ditawarkan.\nDi rak: produk sudah habis sejak siang.\n\nPerbarui penawaran saat berubah.\nTandai ketersediaan dan sampaikan pilihan pengganti dengan harga yang jelas sebelum pelanggan membayar.\n\nCek produk promo sepanjang hari.\n• Cek stok sebelum buka\n• Pantau produk yang menipis\n• Beritahu saat produk habis\n\nGunakan catatan stok Loka Kasir untuk membantu tim memeriksa ketersediaan.\n\nSimpan untuk pengecekan saat jam ramai.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Promo masih tayang. Barangnya sudah habis.\n\nTandai ketersediaan dan sampaikan pilihan pengganti dengan harga yang jelas sebelum pelanggan membayar.\n\nSimpan untuk pengecekan saat jam ramai.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873464/loka-social/croqgtv9sditnvsjjowc.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873464/loka-social/pbeckmdaocjeeipdxm46.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873465/loka-social/xu3f2pdmyo5wfkb34its.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873465/loka-social/itanzcd7tyvj3izfitig.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873466/loka-social/lao84qavr2bhu5r6dzx9.jpg"
+    }
+   ]
+  },
+  {
+   "id": "b00c7d93-2eb8-45ce-ae39-b6171ea481bc",
+   "when": "2026-12-10 20:00",
+   "scheduled_at": "2026-12-10T21:00:00+08:00",
+   "caption": "Uang di laci banyak. Semuanya boleh dibawa pulang?\n\nDi dalamnya bisa ada dana untuk belanja besok dan kebutuhan usaha yang belum dibayar.\n\nAmbilan pribadi perlu dicatat.\nPisahkan kebutuhan pribadi dan usaha. Catat uang yang diambil supaya pergerakan kas bisa ditelusuri.\n\nBeri nama pada setiap uang keluar.\n• Tentukan kebutuhan dekat\n• Catat setiap kas keluar\n• Pisahkan ambilan pribadi\n\nPakai catatan kas Loka Kasir agar perubahan uang lebih mudah ditelusuri.\n\nKirim ke teman yang sering mengambil uang laci tanpa catatan.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Uang di laci banyak. Semuanya boleh dibawa pulang?\n\nPisahkan kebutuhan pribadi dan usaha. Catat uang yang diambil supaya pergerakan kas bisa ditelusuri.\n\nKirim ke teman yang sering mengambil uang laci tanpa catatan.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873467/loka-social/jksrmiqnreaq1se4947h.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873467/loka-social/wiqzfauqhmdrdvzrfbyu.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873468/loka-social/cufn839833d3wanchlzd.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873468/loka-social/b0uubr1art9ucujqlwzk.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873468/loka-social/maaupshoqk0hqodkib13.jpg"
+    }
+   ]
+  },
+  {
+   "id": "1ba88aee-c43f-4047-bd91-d26cf107a96e",
+   "when": "2026-12-11 14:00",
+   "scheduled_at": "2026-12-11T15:00:00+08:00",
+   "caption": "Besok 12.12. Malam ini pura-pura jadi pelanggan.\n\nDua produk, satu ekstra, satu diskon. Ada pilihan bungkus dan metode pembayaran berbeda.\n\nLatihan menangkap hambatan kecil.\nLihat di mana tim harus bertanya ulang, harga belum cocok, atau perlengkapan kurang. Rapikan malam ini.\n\nSatu simulasi sebelum tutup.\n• Cek harga dan pilihan\n• Latih alur pembayaran\n• Pastikan printer siap\n\nUji alur kerja kasir Loka Kasir bersama tim sebelum toko buka.\n\nBagian mana yang paling perlu dicoba di tokomu?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Besok 12.12. Malam ini pura-pura jadi pelanggan.\n\nLihat di mana tim harus bertanya ulang, harga belum cocok, atau perlengkapan kurang. Rapikan malam ini.\n\nBagian mana yang paling perlu dicoba di tokomu?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873469/loka-social/jpmqvhznu2vudpoblwxj.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873469/loka-social/jmuqjrfcrhkzrktvpyjf.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873470/loka-social/xxmbxyihv6snbpp56tqh.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873471/loka-social/wtacf598fh3bwrjjx2dk.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873471/loka-social/svqh2nd2jyjwom9xqy06.jpg"
+    }
+   ]
+  },
+  {
+   "id": "06792af5-45ea-407b-b495-0595a5c603ba",
+   "when": "2026-12-11 20:00",
+   "scheduled_at": "2026-12-11T21:00:00+08:00",
+   "caption": "Chat bilang kosong. Petugas bilang sudah dipesan.\n\nDari chat: owner menerima pesanan.\nDatang langsung: petugas menerima slot yang sama.\n\nCek pegangan yang sama dulu.\nPeriksa tanggal, jam, durasi, dan unit atau layanan sebelum mengonfirmasi reservasi.\n\nSepakati tempat mencatatnya.\n• Cek tanggal dan jam\n• Konfirmasi durasi\n• Perbarui catatan pemesanan\n\nFitur booking lapangan Loka Kasir membantu merapikan jadwal reservasi.\n\nKirim ke teman pemilik lapangan atau tempat sewa.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Chat bilang kosong. Petugas bilang sudah dipesan.\n\nPeriksa tanggal, jam, durasi, dan unit atau layanan sebelum mengonfirmasi reservasi.\n\nKirim ke teman pemilik lapangan atau tempat sewa.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873923/loka-social/qjsg2lukrknfrjnt70g8.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873924/loka-social/uh5xj3r3jbsv3dyzephd.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873924/loka-social/nfkysl7nsksir8bifbvt.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873925/loka-social/nlgmmlv6rfy04p5o8rtc.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873925/loka-social/tuql6eqdjoxolcxrn0us.jpg"
+    }
+   ]
+  },
+  {
+   "id": "9f0189d8-1cce-4875-b041-ec9449a5dc4c",
+   "when": "2026-12-12 14:00",
+   "scheduled_at": "2026-12-12T15:00:00+08:00",
+   "caption": "12.12 ramai. Diskon salah bisa ikut berulang.\n\nApakah produk dan syarat sudah tepat? Ada diskon yang diterapkan keliru? Stok promonya masih ada?\n\nBetulkan saat ketemu.\nCatat pola kesalahan dan sampaikan perbaikannya ke tim supaya transaksi berikutnya lebih rapi.\n\nPantau di sela jam ramai.\n• Cek transaksi promo pertama\n• Pantau sisa produk\n• Catat koreksi dengan jelas\n\nPeriksa diskon dan transaksi di Loka Kasir saat pergantian shift.\n\nSimpan untuk tim yang bertugas hari ini.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "12.12 ramai. Diskon salah bisa ikut berulang.\n\nCatat pola kesalahan dan sampaikan perbaikannya ke tim supaya transaksi berikutnya lebih rapi.\n\nSimpan untuk tim yang bertugas hari ini.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873926/loka-social/u14ig138hgbjpibwgzbq.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873926/loka-social/xktv5uvizcpv895gwmhk.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873927/loka-social/spehc4nhxynveiiikipx.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873927/loka-social/wid95y8yrnlyzkwlkvxy.jpg"
+    }
+   ]
+  },
+  {
+   "id": "db98ef0b-9589-43c5-bdb5-9c0ab286596b",
+   "when": "2026-12-12 20:00",
+   "scheduled_at": "2026-12-12T21:00:00+08:00",
+   "caption": "Toko tutup. Ada 10 menit yang jangan langsung dilewati.\n\nKas belum dicocokkan. Pembayaran non-tunai belum dicek. Besok detailnya bisa lebih susah dicari.\n\nTutup hari dengan jejak yang jelas.\nHitung uang, cocokkan catatan, lalu tulis selisih dan hal yang perlu ditelusuri. Nggak harus selesai ditebak malam ini.\n\nBeri shift besok pegangan.\n• Hitung kas fisik\n• Cocokkan penerimaan non-tunai\n• Tulis penyebab selisih yang diketahui\n\nTutup kasir Loka Kasir membantu membandingkan kas tercatat dan uang yang dihitung.\n\nTag teman shift malam yang tetap teliti.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Toko tutup. Ada 10 menit yang jangan langsung dilewati.\n\nHitung uang, cocokkan catatan, lalu tulis selisih dan hal yang perlu ditelusuri. Nggak harus selesai ditebak malam ini.\n\nTag teman shift malam yang tetap teliti.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873927/loka-social/bkejhrrfgrxhd1g4as4g.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873928/loka-social/anp0s2g7mqtpwfk39adx.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873929/loka-social/z77wb2qozgch999agpkw.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873929/loka-social/abmamrht485n2gkpyzlf.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873930/loka-social/ikczyud71qgpedbltrhe.jpg"
+    }
+   ]
+  },
+  {
+   "id": "edc4cc81-30f5-42c6-a127-a75c9a142b44",
+   "when": "2026-12-13 14:00",
+   "scheduled_at": "2026-12-13T15:00:00+08:00",
+   "caption": "Laris pas promo. Besok restok sebanyak kemarin?\n\nA. Penjualan promo saja.\nB. Sisa stok dan pola hari biasa.\nC. Semua produk dibeli lebih banyak.\n\nB. Cek yang masih tersisa.\nPromo bisa mengubah pola beli sementara. Bandingkan sebelum mengunci uang dalam stok tambahan.\n\nBelanja setelah membaca sisa.\n• Pisahkan periode promo\n• Lihat stok tersisa\n• Restok sesuai kebutuhan berikutnya\n\nFilter laporan penjualan Loka Kasir untuk membandingkan periode yang relevan.\n\nSimpan sebelum belanja setelah promo.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Laris pas promo. Besok restok sebanyak kemarin?\n\nPromo bisa mengubah pola beli sementara. Bandingkan sebelum mengunci uang dalam stok tambahan.\n\nSimpan sebelum belanja setelah promo.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873931/loka-social/jwroxhqacfrke3vxo8ky.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873930/loka-social/rfea7rcjddvmj3khao3t.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873931/loka-social/k5tc2pmqhqqjt8osmgfc.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873932/loka-social/vhuda6k7j4hg0hkmdhbb.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873932/loka-social/pr5cbohr3q9qqcdz1frh.jpg"
+    }
+   ]
+  },
+  {
+   "id": "dfc75641-dac7-45e4-b79c-c696a061732c",
+   "when": "2026-12-13 20:00",
+   "scheduled_at": "2026-12-13T21:00:00+08:00",
+   "caption": "Owner istirahat. Tim masih bisa jalan?\n\nTim perlu tahu harga terbaru, pesanan berjalan, dan barang yang tersedia. Apakah mereka bisa menemukannya sendiri?\n\nIstirahat butuh pegangan bersama.\nTuliskan satu hal yang paling sering ditanyakan. Bagikan ke orang yang perlu mengaksesnya.\n\nApa yang paling sering ditanya saat kamu sedang libur?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Owner istirahat. Tim masih bisa jalan?\n\nTuliskan satu hal yang paling sering ditanyakan. Bagikan ke orang yang perlu mengaksesnya.\n\nApa yang paling sering ditanya saat kamu sedang libur?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873933/loka-social/ekbs8kau2erwazdvs166.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873933/loka-social/useozrogedlcfoqammeo.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873934/loka-social/ojgh1aha5xfqppwghrjw.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873934/loka-social/gnk0tf4ct7corc4vzjf3.jpg"
+    }
+   ]
+  },
+  {
+   "id": "20f72a65-00fa-469e-8abb-b1587b389d80",
+   "when": "2026-12-14 14:00",
+   "scheduled_at": "2026-12-14T15:00:00+08:00",
+   "caption": "Hampers besok diambil. Detailnya sudah dicocokkan ulang?\n\nNama, jumlah, isi, waktu ambil, dan pembayaran. Cocokkan dengan catatan yang disepakati.\n\nYang mirip belum tentu sama.\nDua paket berukuran sama bisa punya isi berbeda. Beri penanda yang membantu saat serah terima.\n\nCek sebelum packing ditutup.\n• Konfirmasi isi ke pemesan\n• Kelompokkan waktu ambil\n• Cocokkan jumlah sebelum serah\n\nBuka catatan produk pre-order Loka Kasir saat mengecek pesanan.\n\nSimpan sebagai pengingat pemeriksaan hampers.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Hampers besok diambil. Detailnya sudah dicocokkan ulang?\n\nDua paket berukuran sama bisa punya isi berbeda. Beri penanda yang membantu saat serah terima.\n\nSimpan sebagai pengingat pemeriksaan hampers.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873935/loka-social/ovrm1bof1xaoikqmpgba.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873935/loka-social/iqk1s5nxxmiq8g8w6hep.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873935/loka-social/un7utyebdffubx1aklnx.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873936/loka-social/fpxsenoz2ebxllitwyfq.jpg"
+    }
+   ]
+  },
+  {
+   "id": "fed7fccf-cb30-4f57-988a-c995da000676",
+   "when": "2026-12-14 20:00",
+   "scheduled_at": "2026-12-14T21:00:00+08:00",
+   "caption": "Nota pemasok sudah baru. Harga promosimu pakai biaya kapan?\n\nNota sebelumnya: biaya yang dipakai saat menentukan harga.\nNota terbaru: biaya yang benar-benar keluar sekarang.\n\nPerbarui biaya sebelum tambah promo.\nMulai dari bahan yang berubah dan menu yang sering terjual. Lihat dampaknya per porsi.\n\nBuka nota terbaru hari ini.\n• Cek harga beli terbaru\n• Tinjau biaya tiap produk\n• Hitung ulang ruang diskon\n\nRiwayat pembelian dan HPP Loka Kasir membantu meninjau perubahan biaya.\n\nBarang apa yang harga belinya paling sering berubah?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Nota pemasok sudah baru. Harga promosimu pakai biaya kapan?\n\nMulai dari bahan yang berubah dan menu yang sering terjual. Lihat dampaknya per porsi.\n\nBarang apa yang harga belinya paling sering berubah?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873937/loka-social/uvrz0asqqrgxc4v7av2v.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873937/loka-social/qytotey589gxuoxvcgxv.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873938/loka-social/mosirhaaeps392pixa2z.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873938/loka-social/vm7jvzy6gs4xx9lri9og.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873938/loka-social/icfaybuduhrfhzvrzrgv.jpg"
+    }
+   ]
+  },
+  {
+   "id": "164de743-f2ee-4b74-a2e8-9faacc9b0775",
+   "when": "2026-12-15 14:00",
+   "scheduled_at": "2026-12-15T15:00:00+08:00",
+   "caption": "Stok opname nggak harus menunggu semua rak kosong.\n\nBarang bernilai tinggi, cepat bergerak, atau sering selisih bisa diperiksa lebih dahulu.\n\nAtur supaya layanan tetap jalan.\nTentukan area dan waktu hitung. Pastikan pergerakan barang selama pemeriksaan ikut dicatat.\n\nPilih satu rak untuk mulai.\n• Pilih kelompok produk\n• Hitung dengan satuan konsisten\n• Telusuri selisih sebelum koreksi\n\nGunakan stok opname Loka Kasir untuk mencatat hasil penghitungan fisik.\n\nKelompok produk mana yang mau dicek dulu?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Stok opname nggak harus menunggu semua rak kosong.\n\nTentukan area dan waktu hitung. Pastikan pergerakan barang selama pemeriksaan ikut dicatat.\n\nKelompok produk mana yang mau dicek dulu?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873939/loka-social/seuerswmnsnopmuqvnpy.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873940/loka-social/oa0ihedcmhs2cjpokrgn.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873941/loka-social/huqngthk8l8u7zz8j6ia.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873941/loka-social/hcunojqmqtotkvhrm1tn.jpg"
+    }
+   ]
+  },
+  {
+   "id": "ba9dc31b-78e4-4159-9907-c24e6b9da035",
+   "when": "2026-12-15 20:00",
+   "scheduled_at": "2026-12-15T21:00:00+08:00",
+   "caption": "Member top-up. Semuanya sudah jadi hasil jualan?\n\nSaldo yang belum dipakai berbeda dari transaksi produk yang sudah selesai.\n\nLihat pemakaian dan sisa saldo.\nCocokkan riwayat pengisian, penggunaan, dan sisa hak pelanggan sebelum membaca hasil penjualan.\n\nPisahkan pertanyaannya saat mengecek.\n• Catat top-up dengan tepat\n• Periksa penggunaan saldo\n• Cocokkan sisa saldo pelanggan\n\nFitur saldo pelanggan Loka Kasir membantu mencatat top-up dan penggunaannya.\n\nSimpan untuk tim yang melayani member.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Member top-up. Semuanya sudah jadi hasil jualan?\n\nCocokkan riwayat pengisian, penggunaan, dan sisa hak pelanggan sebelum membaca hasil penjualan.\n\nSimpan untuk tim yang melayani member.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873941/loka-social/vhzxefvud40yqe9n31zf.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873942/loka-social/jmjobo6kdzcaysm7jixz.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873942/loka-social/anbkwxamtwzlseybj99t.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873943/loka-social/g1duyveejyhusamzntit.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873943/loka-social/ot5senejplzmar2qytae.jpg"
+    }
+   ]
+  },
+  {
+   "id": "af3aa3b0-2900-4850-a410-0f0490d34e8f",
+   "when": "2026-12-16 14:00",
+   "scheduled_at": "2026-12-16T15:00:00+08:00",
+   "caption": "Promo selesai. Jangan cuma simpan angka omzet.\n\nProduk yang bergerak, potongan yang diberikan, biaya yang keluar, dan kendala yang terjadi.\n\nAmbil satu pelajaran yang bisa dipakai.\nPilih apa yang layak diulang dan apa yang perlu diubah. Tulis alasan dari catatan selama promo.\n\nBikin evaluasi jadi keputusan.\n• Bandingkan penjualan\n• Tinjau selisih setelah biaya\n• Catat satu keputusan berikutnya\n\nLaporan Loka Kasir membantu menyiapkan data untuk evaluasi toko.\n\nApa satu pelajaran terbesar dari promo kali ini?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Promo selesai. Jangan cuma simpan angka omzet.\n\nPilih apa yang layak diulang dan apa yang perlu diubah. Tulis alasan dari catatan selama promo.\n\nApa satu pelajaran terbesar dari promo kali ini?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873944/loka-social/pxfovr7fr6q0wi3ycjcm.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873944/loka-social/lwoizdpm0tk1ey4bahaw.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873944/loka-social/gorjeyiehuuthaeyo0ix.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873945/loka-social/qvsjodke3acmw2qzjwb7.jpg"
+    }
+   ]
+  },
+  {
+   "id": "03a18818-7881-4b20-8968-f74bf30b8f84",
+   "when": "2026-12-16 20:00",
+   "scheduled_at": "2026-12-16T21:00:00+08:00",
+   "caption": "Omzet naik. Kok uang belanja tetap seret?\n\nSebagian uang langsung dipakai menambah stok. Barang lama masih memenuhi rak. Tagihan lain mulai mendekat.\n\nKas juga dipengaruhi waktu.\nLihat kapan uang masuk, kapan biaya harus dibayar, dan berapa dana masih tertahan dalam barang.\n\nCek sebelum menambah belanja.\n• Lihat kebutuhan bayar dekat\n• Periksa barang lambat terjual\n• Batasi belanja tambahan\n\nCatatan pembelian, stok, dan kas Loka Kasir bisa dibaca bersama untuk evaluasi.\n\nPernah merasa ramai tapi uang belanja tetap seret?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Omzet naik. Kok uang belanja tetap seret?\n\nLihat kapan uang masuk, kapan biaya harus dibayar, dan berapa dana masih tertahan dalam barang.\n\nPernah merasa ramai tapi uang belanja tetap seret?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873945/loka-social/sqadqk7sffo1bm0gp4ay.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873946/loka-social/zucopgu1arb1daovygik.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873947/loka-social/ia73wczwmv0pbrnljxzl.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873947/loka-social/jvbl1ocqnp1d30ghpgfz.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873947/loka-social/y5ufxfymdkkiezwkod6b.jpg"
+    }
+   ]
+  },
+  {
+   "id": "dbb5d1b7-5e61-4618-bfb7-bbc697f5286b",
+   "when": "2026-12-17 14:00",
+   "scheduled_at": "2026-12-17T15:00:00+08:00",
+   "caption": "“Pengiriman libur mulai kapan, Pak?” Tanya sekarang.\n\nToko: Kapan batas pesan sebelum libur?\nToko: Pengiriman berikutnya mulai tanggal berapa?\n\nDua tanggal buat rencana belanja.\nCocokkan jawabannya dengan pesanan pasti, laju jual, dan ruang penyimpanan. Jadwal tiap pemasok bisa berbeda.\n\nHubungi pemasok utama dulu.\n• Hubungi pemasok utama\n• Catat jadwal pengiriman\n• Siapkan pilihan cadangan\n\nCatatan supplier dan pembelian Loka Kasir membantu merapikan kebutuhan belanja.\n\nKirim pengingat ini ke rekan belanjamu.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "“Pengiriman libur mulai kapan, Pak?” Tanya sekarang.\n\nCocokkan jawabannya dengan pesanan pasti, laju jual, dan ruang penyimpanan. Jadwal tiap pemasok bisa berbeda.\n\nKirim pengingat ini ke rekan belanjamu.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873948/loka-social/sjm5en3eizbjeilwf8zj.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873948/loka-social/c7qie19kl0psssl0ob96.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873948/loka-social/kpczn8gxbc0uqloy81fj.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873949/loka-social/lonms6vunir0cqqa10em.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873950/loka-social/aidagxcvxphxfohykzuw.jpg"
+    }
+   ]
+  },
+  {
+   "id": "53535a5a-624d-45da-818e-6dba3033721d",
+   "when": "2026-12-17 20:00",
+   "scheduled_at": "2026-12-17T21:00:00+08:00",
+   "caption": "Beli 3 dus, isi 24. Catat stok masuk 3 atau 72?\n\nA. Masuk 3 botol.\nB. Masuk 24 botol.\nC. Masuk 72 botol.\n\nC. Tiga kali 24 = 72 botol.\nIni simulasi isi kemasan. Periksa jumlah sebenarnya dan satuan yang dipakai sebelum mencatat stok masuk.\n\nBaca satuan sebelum simpan.\n• Cek isi setiap kemasan\n• Gunakan konversi yang benar\n• Cocokkan barang diterima\n\nAtur satuan produk di Loka Kasir sesuai cara membeli dan menjualnya.\n\nProduk apa yang paling sering bikin bingung satuannya?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Beli 3 dus, isi 24. Catat stok masuk 3 atau 72?\n\nIni simulasi isi kemasan. Periksa jumlah sebenarnya dan satuan yang dipakai sebelum mencatat stok masuk.\n\nProduk apa yang paling sering bikin bingung satuannya?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873950/loka-social/nakc8zcqxkb8kdtvnaz1.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873950/loka-social/kqra75ztwrijnzohilcq.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873951/loka-social/lan7stdnwzcpav43djqe.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873951/loka-social/z7ujkgirh0e6vbuwlpl2.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873952/loka-social/yv9kc9cw2f9pysqhuz21.jpg"
+    }
+   ]
+  },
+  {
+   "id": "832536dd-ccec-4f27-83d6-ac95be79b653",
+   "when": "2026-12-18 14:00",
+   "scheduled_at": "2026-12-18T15:00:00+08:00",
+   "caption": "Order 100 porsi. Otomatis bisa kasih diskon besar?\n\nBisa ada kemasan khusus, tambahan tenaga, dan pengantaran yang perlu disiapkan.\n\nHitung kebutuhan sebelum deal.\nTanyakan isi, jadwal, kemasan, dan pengiriman. Susun harga dari kebutuhan pesanan yang sebenarnya.\n\nBesar pesanan, jelas hitungannya.\n• Pastikan spesifikasi pesanan\n• Hitung kebutuhan tambahan\n• Konfirmasi total dan waktu\n\nSimpan detail transaksi di Loka Kasir sebagai rujukan saat menyiapkan pesanan.\n\nPertanyaan apa yang selalu kamu ajukan sebelum menerima order besar?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Order 100 porsi. Otomatis bisa kasih diskon besar?\n\nTanyakan isi, jadwal, kemasan, dan pengiriman. Susun harga dari kebutuhan pesanan yang sebenarnya.\n\nPertanyaan apa yang selalu kamu ajukan sebelum menerima order besar?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873952/loka-social/fgrctzte8mbajrv05xlp.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873952/loka-social/utbrj2frzjveuqbsnevv.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873953/loka-social/gcsejkcvqn4ek7j8rl3n.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873953/loka-social/yuwaaalbpfmn5how8uiv.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873954/loka-social/f5f8uovpd8fihmngtwfp.jpg"
+    }
+   ]
+  },
+  {
+   "id": "156d2c70-9856-437b-8b32-1f2669997631",
+   "when": "2026-12-18 20:00",
+   "scheduled_at": "2026-12-18T21:00:00+08:00",
+   "caption": "Kasir sering ditanya harga? Coba lihat menunya.\n\nNama kreatif, tapi ukuran dan harga sulit dicari.\nNama jelas, ukuran terlihat, harga lengkap.\n\nKurangi hal yang perlu ditebak.\nMinta orang yang belum hafal menu memilih satu pesanan. Dengarkan bagian yang masih membingungkan.\n\nUji menunya ke orang baru.\n• Rapikan nama menu\n• Kelompokkan pilihan\n• Jelaskan harga tambahan\n\nKatalog dan grup ekstra Loka Kasir membantu kasir memasukkan pilihan sesuai pesanan.\n\nMenu mana yang paling perlu diperjelas?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Kasir sering ditanya harga? Coba lihat menunya.\n\nMinta orang yang belum hafal menu memilih satu pesanan. Dengarkan bagian yang masih membingungkan.\n\nMenu mana yang paling perlu diperjelas?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873955/loka-social/dco7ebawv98dwfrtn7bg.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873955/loka-social/d9wtqdqvysdbgxbzv5pc.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873956/loka-social/ogbxiftxkiqrpcynxo44.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873957/loka-social/cwlcaopdrgvhjjuqwgwb.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873957/loka-social/vxxr9oo5feb5upu4lgy1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "86ce7104-96f0-40b0-a7a1-d3fc196d66c4",
+   "when": "2026-12-19 14:00",
+   "scheduled_at": "2026-12-19T15:00:00+08:00",
+   "caption": "“Lewat 15 menit dihitung berapa?” Harus jelas sebelum sewa.\n\nPelanggan: Saya kira dihitung dari jam tadi.\nPetugas: Di catatan mulai lebih awal.\nKeduanya: Jadi tambahnya berapa?\n\nJelaskan sebelum waktu berjalan.\nCatat paket, mulai, durasi, dan ketentuan tambahan yang disepakati. Konfirmasi lagi ke pelanggan.\n\nBiar selesai tanpa beda hitungan.\n• Konfirmasi paket yang dipilih\n• Pastikan waktu mulai\n• Jelaskan tambahan durasi\n\nTimer rental Loka Kasir membantu mencatat waktu penggunaan sesuai pengaturan usaha.\n\nSimpan untuk tim tempat sewa.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "“Lewat 15 menit dihitung berapa?” Harus jelas sebelum sewa.\n\nCatat paket, mulai, durasi, dan ketentuan tambahan yang disepakati. Konfirmasi lagi ke pelanggan.\n\nSimpan untuk tim tempat sewa.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873957/loka-social/yw8na152bfpdmgc5hihe.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873958/loka-social/hcue9l3tyv76jizpvn09.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873958/loka-social/l3k5eyhnsktpfiev2gbi.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873958/loka-social/wfaoai1lrbrbyacvdz6w.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873960/loka-social/ywd3mbbl8hlvwbgxg9rf.jpg"
+    }
+   ]
+  },
+  {
+   "id": "e05a6beb-9d97-42ab-8988-5cd8bc0e139f",
+   "when": "2026-12-19 20:00",
+   "scheduled_at": "2026-12-19T21:00:00+08:00",
+   "caption": "Pemasok diskon. Gudang penuh. Tetap ambil?\n\nA. Bisa disimpan dan memang dibutuhkan.\nB. Potongannya paling besar saja.\nC. Tumpuk di mana pun dulu.\n\nA. Cek kebutuhan dan ruang.\nTambahan barang perlu bisa diperiksa serta disimpan sesuai kondisinya. Harga murah belum menjawab dua hal itu.\n\nLihat ruang sebelum pesan.\n• Lihat ruang yang tersedia\n• Periksa stok lama\n• Sesuaikan jumlah pesanan\n\nCatatan stok Loka Kasir membantu melihat jumlah barang sebelum belanja.\n\nKapan terakhir merapikan rak belakang toko?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Pemasok diskon. Gudang penuh. Tetap ambil?\n\nTambahan barang perlu bisa diperiksa serta disimpan sesuai kondisinya. Harga murah belum menjawab dua hal itu.\n\nKapan terakhir merapikan rak belakang toko?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873960/loka-social/nkfr6djwevl0chdbfrd3.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873960/loka-social/ofhrhp2rkecje9kn6ble.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873961/loka-social/irqqlddsoto1h9ew1nhb.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873961/loka-social/opfv8i4o8cmuips0pend.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873962/loka-social/jtrke1dlm6wgkgwjbie2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "a0f9ac46-9830-4ad0-b10e-ce6487d468db",
+   "when": "2026-12-20 14:00",
+   "scheduled_at": "2026-12-20T15:00:00+08:00",
+   "caption": "Jam buka libur berubah. Pelanggan tahunya dari mana?\n\nProfil usaha, pesan otomatis, pemberitahuan toko, dan tim yang membalas pelanggan.\n\nPesanan lama ikut diperiksa.\nPastikan jadwal yang sudah dijanjikan masih bisa dipenuhi. Hubungi pemesan jika ada perubahan yang perlu disepakati.\n\nUmumkan sebelum pelanggan datang.\n• Tetapkan jam operasional\n• Umumkan di kanal toko\n• Cek pesanan yang terdampak\n\nGunakan catatan pesanan Loka Kasir untuk meninjau transaksi yang perlu ditindaklanjuti.\n\nSimpan sebelum mengubah jam buka.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Jam buka libur berubah. Pelanggan tahunya dari mana?\n\nPastikan jadwal yang sudah dijanjikan masih bisa dipenuhi. Hubungi pemesan jika ada perubahan yang perlu disepakati.\n\nSimpan sebelum mengubah jam buka.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873962/loka-social/vlb5jfevkki0rkz5t99k.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873962/loka-social/rudrkb8tnphdqx0bj1jh.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873963/loka-social/edi3yeivi8b79kevnxkm.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873964/loka-social/ixcqu0rdln9mag9ckxov.jpg"
+    }
+   ]
+  },
+  {
+   "id": "a6d8b1aa-6bf4-4c64-a5a5-058fe80dd775",
+   "when": "2026-12-20 20:00",
+   "scheduled_at": "2026-12-20T21:00:00+08:00",
+   "caption": "Rak milik toko. Isinya belum tentu semua milik toko.\n\nStok milik toko: dibeli untuk dijual lagi.\nBarang titipan: ada kesepakatan dengan pemiliknya.\n\nSetoran perlu bisa ditelusuri.\nCatat barang masuk, terjual, tersisa, retur, dan ketentuan pembagiannya sesuai kesepakatan.\n\nCocokkan sebelum menyetor.\n• Catat barang yang diterima\n• Cocokkan jumlah terjual\n• Periksa sisa dan perhitungan setoran\n\nFitur barang titipan Loka Kasir membantu mencatat konsinyasi usaha.\n\nKirim ke teman yang menjual produk titipan.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Rak milik toko. Isinya belum tentu semua milik toko.\n\nCatat barang masuk, terjual, tersisa, retur, dan ketentuan pembagiannya sesuai kesepakatan.\n\nKirim ke teman yang menjual produk titipan.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873964/loka-social/a3vdbyryftfqp7aa36lq.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873965/loka-social/gfa3wu5hmyfe0ghv5zjy.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873965/loka-social/kk1mweaqtla4b1ndrq5o.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873966/loka-social/hem41kjwdgdbxmwx4ll4.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873966/loka-social/mdsfppdqvj25zslyvcjc.jpg"
+    }
+   ]
+  },
+  {
+   "id": "b0fbad0f-5a70-49a6-b973-fdc993a416f3",
+   "when": "2026-12-21 14:00",
+   "scheduled_at": "2026-12-21T15:00:00+08:00",
+   "caption": "Kopinya ada. Tutup gelasnya habis.\n\nMinuman sudah jadi. Tim mencari tutup gelas yang ternyata tinggal sedikit sejak pagi.\n\nHitung perlengkapan ikut kebutuhan.\nGelas, tutup, kantong, dan kertas struk perlu dicek bersama produk. Jangan menunggu kotaknya terlihat kosong.\n\nTambahkan ke cek sebelum buka.\n• Cek kemasan yang tersedia\n• Hitung kebutuhan pesanan dekat\n• Belanja kekurangan yang diperlukan\n\nCatatan pembelian dan stok Loka Kasir membantu menyiapkan kebutuhan usaha.\n\nApa perlengkapan yang pernah habis di jam ramai?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Kopinya ada. Tutup gelasnya habis.\n\nGelas, tutup, kantong, dan kertas struk perlu dicek bersama produk. Jangan menunggu kotaknya terlihat kosong.\n\nApa perlengkapan yang pernah habis di jam ramai?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873966/loka-social/a2xlfbpzftehksttlwqq.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873967/loka-social/jnpmdwiz9iiij0l0z0uw.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873968/loka-social/lgu1ec73orzdophyucvw.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873968/loka-social/pq1qronf7abeovtumtir.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873968/loka-social/vi2mms0aul8rdqgeb4ns.jpg"
+    }
+   ]
+  },
+  {
+   "id": "0cbeb356-6550-4bd8-95e8-2140d148c269",
+   "when": "2026-12-21 20:00",
+   "scheduled_at": "2026-12-21T21:00:00+08:00",
+   "caption": "Pelanggan mau tambah pesanan. Kasir masih sibuk.\n\nPelanggan: Bisa tambah pesan dari sini?\nTim: Bisa lewat kode ini. Kalau perlu bantuan, kami bantu langsung, ya.\n\nPindai, pilih, lalu cek alurnya.\nPastikan kode terbaca, menu sesuai, dan tim tahu cara menangani pesanan yang masuk.\n\nCoba dari meja sebelum buka.\n• Cek kode di setiap meja\n• Periksa produk dan harga\n• Jelaskan alur pesanan ke tim\n\nQR order Loka Kasir membantu pelanggan memesan dari HP ke sistem kasir; koneksi internet diperlukan.\n\nSimpan untuk pengecekan sebelum kedai buka.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Pelanggan mau tambah pesanan. Kasir masih sibuk.\n\nPastikan kode terbaca, menu sesuai, dan tim tahu cara menangani pesanan yang masuk.\n\nSimpan untuk pengecekan sebelum kedai buka.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873969/loka-social/g7xeinfryfz7tzwghuqv.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873969/loka-social/yd6dksy51qazslyut6xv.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873970/loka-social/hcdwciqog8pxzmlzudt9.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873971/loka-social/fglo8nn9l1k5w0ytplvv.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873971/loka-social/lsu4dznfeezc7znw65w3.jpg"
+    }
+   ]
+  },
+  {
+   "id": "563640ec-1d8e-4a8a-ae30-307a4b0f33b6",
+   "when": "2026-12-22 14:00",
+   "scheduled_at": "2026-12-22T15:00:00+08:00",
+   "caption": "Ibu juga owner. Hadiahnya bisa berupa waktu istirahat.\n\nMungkin mencatat belanja. Mungkin packing. Mungkin jaga sebentar supaya Ibu bisa duduk tanpa dipanggil.\n\nAmbil satu tugas sampai selesai.\nTanyakan yang dibutuhkan, lalu bantu dengan jelas. Ruang istirahat juga berarti untuk orang yang menjaga usaha setiap hari.\n\nTag ibu atau sosok ibu yang usahanya kamu dukung.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Ibu juga owner. Hadiahnya bisa berupa waktu istirahat.\n\nTanyakan yang dibutuhkan, lalu bantu dengan jelas. Ruang istirahat juga berarti untuk orang yang menjaga usaha setiap hari.\n\nTag ibu atau sosok ibu yang usahanya kamu dukung.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873972/loka-social/chnm8qpxt2iw4hiljg6u.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873972/loka-social/ucbsamnomb65jqzsi8tn.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873972/loka-social/gb6pp4vs8xjsgh7265zl.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873973/loka-social/jvvrce3zcnx3fnqf7cuy.jpg"
+    }
+   ]
+  },
+  {
+   "id": "3e5521db-02d0-48e0-b3e4-4e05dedc6fca",
+   "when": "2026-12-22 20:00",
+   "scheduled_at": "2026-12-22T21:00:00+08:00",
+   "caption": "Yang jaga saudara sendiri. Aturannya tetap perlu jelas?\n\n“Jaga dulu, ya.” Harga dan cara catat belum dijelaskan.\nJelaskan harga, pembayaran, dan kas keluar sebelum berganti.\n\nBikin bantuan lebih mudah dijalankan.\nCatatan yang bisa dibaca bersama mengurangi pertanyaan serta beda kebiasaan saat menjaga toko.\n\nSepakati sebelum menitipkan kasir.\n• Tunjukkan alur transaksi\n• Sepakati kas keluar\n• Cocokkan hasil saat bergantian\n\nAkun karyawan dan catatan kas Loka Kasir membantu menjaga jejak kerja.\n\nTugas toko apa yang paling sering dibagi di keluargamu?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Yang jaga saudara sendiri. Aturannya tetap perlu jelas?\n\nCatatan yang bisa dibaca bersama mengurangi pertanyaan serta beda kebiasaan saat menjaga toko.\n\nTugas toko apa yang paling sering dibagi di keluargamu?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873974/loka-social/nofev59h7ogbv7g4brgk.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873974/loka-social/hjwtfullqk13cezjh8hh.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873975/loka-social/jyitrccostegdjmm9ikm.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873975/loka-social/za9guodgxe2sx6dnfxdj.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873976/loka-social/rzytfsa8lhj6lytcnkgu.jpg"
+    }
+   ]
+  },
+  {
+   "id": "29685963-affe-4312-9020-cd7a4ffa10e2",
+   "when": "2026-12-23 14:00",
+   "scheduled_at": "2026-12-23T15:00:00+08:00",
+   "caption": "Dua hampers mirip. Satu salah ambil, dua pesanan kena.\n\nPeriksa nama, isi, jumlah, dan penanda paket bersama catatan pesanan.\n\nSerah terima jadi cek terakhir.\nBacakan detail singkat dan pastikan penerima membawa paket yang sesuai sebelum meninggalkan toko.\n\nTempel penanda yang mudah dibaca.\n• Baca nama pemesan\n• Cocokkan isi dan jumlah\n• Periksa status pembayaran\n\nBuka catatan pre-order Loka Kasir saat menyerahkan pesanan.\n\nSimpan untuk meja pengambilan pesanan.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Dua hampers mirip. Satu salah ambil, dua pesanan kena.\n\nBacakan detail singkat dan pastikan penerima membawa paket yang sesuai sebelum meninggalkan toko.\n\nSimpan untuk meja pengambilan pesanan.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873976/loka-social/hhnxiepyti1ewrafmktj.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873976/loka-social/m1ixxkyulvu2nzyyrpo4.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873977/loka-social/foynnrrwyflgkl0i33yc.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873977/loka-social/bxxlp7knwchsx3ngu9j5.jpg"
+    }
+   ]
+  },
+  {
+   "id": "9b3d41e2-d997-4e9b-96d2-04fa74da4079",
+   "when": "2026-12-23 20:00",
+   "scheduled_at": "2026-12-23T21:00:00+08:00",
+   "caption": "Pembayaran berhasil. Dananya sudah bisa dipakai?\n\nPembayaran: sudah berhasil menurut penyedia.\nDana tersedia: mengikuti proses dan jadwal penyedia.\n\nCek kapan dana bisa digunakan.\nBaca ketentuan layanan yang dipakai tokomu, terutama menjelang perubahan hari operasional.\n\nCocokkan dengan rencana belanja.\n• Cek ketentuan penyedia\n• Cocokkan penerimaan\n• Siapkan kas operasional yang cukup\n\nCatat metode bayar dengan tepat di Loka Kasir, lalu cocokkan dengan laporan penyedia.\n\nKirim ke rekan yang mengurus belanja stok.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Pembayaran berhasil. Dananya sudah bisa dipakai?\n\nBaca ketentuan layanan yang dipakai tokomu, terutama menjelang perubahan hari operasional.\n\nKirim ke rekan yang mengurus belanja stok.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873978/loka-social/o82nxqqcg673g4fxvil9.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873978/loka-social/nlsrampipp0ecjgzb3t4.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873980/loka-social/fhbiii89qge4q3fkuvfe.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873980/loka-social/tuosfsgpzkgvmilcekzg.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873981/loka-social/dciwtqer3dp3xz7slqum.jpg"
+    }
+   ]
+  },
+  {
+   "id": "6f2768c0-3477-41f1-9344-3ed2288565ac",
+   "when": "2026-12-24 14:00",
+   "scheduled_at": "2026-12-24T15:00:00+08:00",
+   "caption": "“Masih bisa satu pesanan lagi?” Cek kapasitas terakhir.\n\nPelanggan: Masih bisa untuk hari ini?\nTim: Saya cek yang sedang dikerjakan dulu, ya. Kami pastikan waktu yang bisa dipenuhi.\n\nSisa kapasitas perlu dihitung.\nPeriksa bahan, waktu persiapan, dan pesanan berjalan. Sampaikan pilihan yang benar-benar bisa dilayani.\n\nKonfirmasi sebelum menerima.\n• Cek detail transaksi\n• Pastikan kemasan sesuai\n• Konfirmasi waktu pengambilan\n\nCatatan pesanan Loka Kasir membantu tim menyiapkan barang sesuai permintaan.\n\nTag rekan yang menjaga ketelitian sampai order terakhir.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "“Masih bisa satu pesanan lagi?” Cek kapasitas terakhir.\n\nPeriksa bahan, waktu persiapan, dan pesanan berjalan. Sampaikan pilihan yang benar-benar bisa dilayani.\n\nTag rekan yang menjaga ketelitian sampai order terakhir.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873981/loka-social/dgcpxjiz4otycnppchkr.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873982/loka-social/uxsfqwc7x7sr4s9j1hke.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873982/loka-social/ageasdriblkmekee1wnz.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873982/loka-social/mngxavubeniqohovb890.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873983/loka-social/z8gj9u2x4bafegmlhjga.jpg"
+    }
+   ]
+  },
+  {
+   "id": "3e79e5e4-0062-4770-bf8e-974ce33c6eac",
+   "when": "2026-12-24 20:00",
+   "scheduled_at": "2026-12-24T21:00:00+08:00",
+   "caption": "Besok libur. Ada yang masih perlu dibereskan malam ini?\n\nPeriksa barang yang ditinggal, pesanan yang belum selesai, dan catatan kas hari ini.\n\nTinggalkan catatan untuk hari buka.\nApa yang perlu dicek dulu? Pesanan mana yang masih berjalan? Tulis saat detailnya masih segar.\n\nTutup dengan pegangan yang jelas.\n• Amankan bahan sesuai kebutuhan\n• Catat pesanan berjalan\n• Cocokkan dan tutup kasir\n\nGunakan catatan stok serta tutup kasir Loka Kasir untuk merapikan akhir hari.\n\nSimpan untuk hari terakhir sebelum libur.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Besok libur. Ada yang masih perlu dibereskan malam ini?\n\nApa yang perlu dicek dulu? Pesanan mana yang masih berjalan? Tulis saat detailnya masih segar.\n\nSimpan untuk hari terakhir sebelum libur.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873984/loka-social/snyrfhhtxfeovvhtfezt.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873984/loka-social/lzprxdwqdfpmexrwvl5o.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873984/loka-social/uzpq0me09b4pabp1wriq.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873985/loka-social/qvnhuztxus9egc1jfjyt.jpg"
+    }
+   ]
+  },
+  {
+   "id": "dac490f7-ad91-4c16-befc-b0eb5bc79d7e",
+   "when": "2026-12-25 14:00",
+   "scheduled_at": "2026-12-25T15:00:00+08:00",
+   "caption": "Selamat Natal. Semoga ada waktu untuk pulang dan berkumpul.\n\nAda juga yang masih melayani pelanggan, menyiapkan pesanan, atau menunggu giliran istirahat.\n\nSemoga hangatnya sampai ke kalian.\nTerima kasih untuk kerja yang tetap berjalan hari ini. Semoga ada ruang untuk beristirahat dan menikmati kebersamaan.\n\nKirim ucapan baik untuk tim dan pelangganmu.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Selamat Natal. Semoga ada waktu untuk pulang dan berkumpul.\n\nTerima kasih untuk kerja yang tetap berjalan hari ini. Semoga ada ruang untuk beristirahat dan menikmati kebersamaan.\n\nKirim ucapan baik untuk tim dan pelangganmu.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873986/loka-social/ap2crggtjhcco9yxupt8.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873986/loka-social/x56albeisbol5qlnbvhd.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873987/loka-social/w98ppwsncgpiekxs2dkr.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873987/loka-social/obfpnis9q0hqoxvobox1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "629c3b00-9774-482f-8947-dc951dac1c89",
+   "when": "2026-12-25 20:00",
+   "scheduled_at": "2026-12-25T21:00:00+08:00",
+   "caption": "Menu habis. Pelanggan kecewa. Mulai dari kalimat apa?\n\nTim: Maaf, menu itu sudah habis. Yang masih tersedia ini, harganya sekian. Mau kami bantu pilih?\nPelanggan: Yang paling mirip yang mana?\n\nJelaskan keadaan dan pilihannya.\nSampaikan yang tersedia dengan harga jelas. Beri pelanggan ruang memutuskan tanpa janji yang belum pasti.\n\nLatih saat briefing tim.\n• Sebutkan kondisi sebenarnya\n• Tawarkan pilihan yang tersedia\n• Konfirmasi keputusan pelanggan\n\nCek ketersediaan produk di Loka Kasir sebelum menawarkan pengganti.\n\nKalimat ramah apa yang jadi andalan timmu?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Menu habis. Pelanggan kecewa. Mulai dari kalimat apa?\n\nSampaikan yang tersedia dengan harga jelas. Beri pelanggan ruang memutuskan tanpa janji yang belum pasti.\n\nKalimat ramah apa yang jadi andalan timmu?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873987/loka-social/lsq9pudzgjodklyzlclg.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873988/loka-social/zcnqrzccpsurffnqffgu.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873989/loka-social/jdfhoybpou9vn8swjvvs.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873989/loka-social/lu5rwsknhoiajdsu5y30.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873989/loka-social/fhrtyswkrfflmvszjbff.jpg"
+    }
+   ]
+  },
+  {
+   "id": "ccd1c722-e237-416c-bfa4-0e89095f7237",
+   "when": "2026-12-26 14:00",
+   "scheduled_at": "2026-12-26T15:00:00+08:00",
+   "caption": "Buka setelah libur. Jangan langsung percaya angka stok.\n\nJumlah tercatat bisa sama, tapi kondisi bahan dan barang tetap perlu dicek setelah ditinggal.\n\nCatat yang tidak bisa dipakai.\nTulis penyesuaian dan alasannya supaya jumlah berikutnya punya dasar yang jelas.\n\nMulai dari bahan yang perlu perhatian.\n• Periksa kondisi penyimpanan\n• Hitung barang yang perlu dicek\n• Catat penyesuaian beserta alasan\n\nStok opname Loka Kasir membantu merapikan jumlah berdasarkan hasil pemeriksaan.\n\nSimpan untuk hari pertama buka lagi.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Buka setelah libur. Jangan langsung percaya angka stok.\n\nTulis penyesuaian dan alasannya supaya jumlah berikutnya punya dasar yang jelas.\n\nSimpan untuk hari pertama buka lagi.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873990/loka-social/bslah08zepfmnbqjofbh.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873990/loka-social/l97v0zoeoylkfcb5f4dh.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873991/loka-social/zboncl5tbr3jgii7irma.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873991/loka-social/hensxwhpftce7tepeu3y.jpg"
+    }
+   ]
+  },
+  {
+   "id": "5a8ee9ea-16ac-401f-9769-ca2dfbf7bdcf",
+   "when": "2026-12-26 20:00",
+   "scheduled_at": "2026-12-26T21:00:00+08:00",
+   "caption": "“Sekalian camilannya?” Cara nawarin juga menentukan.\n\nKasir: Ada camilan yang cocok, harganya Rp10 ribu. Mau sekalian?\nPelanggan: Kopinya saja dulu.\nKasir: Siap, Kak.\n\nTawarkan, jelaskan, hormati pilihan.\nMasukkan tambahan setelah pelanggan setuju. Belanja yang nyaman memberi ruang untuk menjawab “nggak dulu”.\n\nPilih pelengkap yang memang cocok.\n• Pilih pelengkap yang sesuai\n• Sebutkan harganya\n• Konfirmasi sebelum menambah\n\nKeranjang Loka Kasir membantu memastikan tambahan hanya masuk setelah disetujui.\n\nPelengkap apa yang paling cocok dengan produk andalanmu?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "“Sekalian camilannya?” Cara nawarin juga menentukan.\n\nMasukkan tambahan setelah pelanggan setuju. Belanja yang nyaman memberi ruang untuk menjawab “nggak dulu”.\n\nPelengkap apa yang paling cocok dengan produk andalanmu?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873992/loka-social/kdojsjzwfae4olpxeai2.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873992/loka-social/xzeaheikvxusyaqblvkj.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873993/loka-social/ihdrgeda5nhy5m1eohp1.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873993/loka-social/tnsqc1mbkov3wv1wzqpc.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873994/loka-social/utzxzinltp0knnea6xlc.jpg"
+    }
+   ]
+  },
+  {
+   "id": "067ed91e-eeec-4c54-85b7-703e025ddbab",
+   "when": "2026-12-27 14:00",
+   "scheduled_at": "2026-12-27T15:00:00+08:00",
+   "caption": "10 pesanan jam 7 malam. Siap barengan atau antre?\n\nSatu pesanan butuh 3 menit untuk dicek dan diserahkan. Satu petugas melayani 10 pesanan berurutan.\n\nTotal waktu serah terima 30 menit.\n10 × 3 menit = 30 menit. Persiapan produk belum termasuk. Sepakati rentang ambil atau pembagian tugas sesuai kondisi.\n\nAtur waktu sebelum menerima semua.\n• Kelompokkan waktu ambil\n• Hitung kapasitas tiap rentang\n• Konfirmasi jadwal ke pemesan\n\nCatat produk pre-order di Loka Kasir sebagai rujukan pesanan yang harus disiapkan.\n\nSimpan sebelum menerima pesanan malam tahun baru.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "10 pesanan jam 7 malam. Siap barengan atau antre?\n\n10 × 3 menit = 30 menit. Persiapan produk belum termasuk. Sepakati rentang ambil atau pembagian tugas sesuai kondisi.\n\nSimpan sebelum menerima pesanan malam tahun baru.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873995/loka-social/eoarl33qpegvtujg7ctl.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873995/loka-social/imfiuuxfnmg1mtk8yu9o.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873995/loka-social/iymlmsw7gjbfjv0dgoyf.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873996/loka-social/j8f1f6kb3bjd5xo6wook.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873996/loka-social/o6yfyhxvjm2ex0lsstnp.jpg"
+    },
+    {
+     "position": 5,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873996/loka-social/rog5ca0y7rkfsmylmptr.jpg"
+    }
+   ]
+  },
+  {
+   "id": "6100b2b3-23bc-4ed7-933d-d1777d8ed98e",
+   "when": "2026-12-27 20:00",
+   "scheduled_at": "2026-12-27T21:00:00+08:00",
+   "caption": "Kas kurang. Hal pertama: cari siapa yang salah?\n\nA. Langsung menyalahkan kasir.\nB. Hitung ulang dan cocokkan catatan.\nC. Ubah angka supaya sama.\n\nB. Periksa bersama dulu.\nKembalian, kas keluar, atau metode bayar keliru bisa jadi penyebab. Cari jejak transaksi sebelum menyimpulkan.\n\nBawa catatan saat mengecek.\n• Hitung ulang uang fisik\n• Tinjau kas masuk dan keluar\n• Cocokkan metode pembayaran\n\nTutup kasir dan riwayat transaksi Loka Kasir membantu proses penelusuran.\n\nKirim ke tim sebagai pengingat untuk memeriksa bersama.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Kas kurang. Hal pertama: cari siapa yang salah?\n\nKembalian, kas keluar, atau metode bayar keliru bisa jadi penyebab. Cari jejak transaksi sebelum menyimpulkan.\n\nKirim ke tim sebagai pengingat untuk memeriksa bersama.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873997/loka-social/rp9fsorjcjk7rvxqn8ox.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873998/loka-social/p7grjoj1c9icfvwt8cfm.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873998/loka-social/jv9jmn3sc3w6yi1u4zpf.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873999/loka-social/ujelets6hbumnbb04mxi.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873999/loka-social/bvlkd8jdz0zmhgwhb9f4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "458fb4de-ed1d-447d-878c-e3f407b7df4b",
+   "when": "2026-12-28 14:00",
+   "scheduled_at": "2026-12-28T15:00:00+08:00",
+   "caption": "Produk paling laris otomatis jadi andalan tahun depan?\n\nPermintaan: berapa yang benar-benar dibeli.\nOperasional: biaya, bahan, dan waktu menyiapkan.\n\nPilih andalan dengan gambaran lengkap.\nProduk yang ramai perlu bisa dilayani dengan biaya serta kapasitas yang masuk akal untuk tokomu.\n\nBandingkan beberapa produk utama.\n• Lihat produk paling terjual\n• Tinjau biaya produknya\n• Cek kebutuhan operasional\n\nLaporan produk Loka Kasir membantu memulai evaluasi portofolio usahamu.\n\nProduk apa yang paling berjasa tahun ini?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Produk paling laris otomatis jadi andalan tahun depan?\n\nProduk yang ramai perlu bisa dilayani dengan biaya serta kapasitas yang masuk akal untuk tokomu.\n\nProduk apa yang paling berjasa tahun ini?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873999/loka-social/texh5y0elfdlbbklvydp.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874000/loka-social/xfdfkqeaeu5m0axpm39h.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874000/loka-social/czw5oqbsvyi9gq9thauu.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874001/loka-social/znyt1yzzmh8btu2hkihz.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874002/loka-social/ht4yg5jk7iyaofvpw05h.jpg"
+    }
+   ]
+  },
+  {
+   "id": "cfed12d2-2af1-45fd-9225-a80c4b09d3ab",
+   "when": "2026-12-28 20:00",
+   "scheduled_at": "2026-12-28T21:00:00+08:00",
+   "caption": "Pelanggan balik lagi. Pernah tanya hal yang dia suka?\n\nPesanan diingat. Respons jelas. Masalah diselesaikan. Kita belum tahu mana yang paling berarti buat pelanggan itu.\n\nTanya satu hal, dengarkan sampai selesai.\n“Apa yang bikin Kakak nyaman belanja di sini?” Jawabannya bisa membantu memilih layanan yang perlu dijaga.\n\nApa komentar pelanggan yang paling kamu ingat tahun ini?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Pelanggan balik lagi. Pernah tanya hal yang dia suka?\n\n“Apa yang bikin Kakak nyaman belanja di sini?” Jawabannya bisa membantu memilih layanan yang perlu dijaga.\n\nApa komentar pelanggan yang paling kamu ingat tahun ini?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874002/loka-social/kwqf52lm6u8mwercptn8.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874002/loka-social/rf8tr7ayyhpae5vokgab.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874004/loka-social/ty94e3lw4myofelwljae.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874004/loka-social/bfk11uwl5nfvvuksig5y.jpg"
+    }
+   ]
+  },
+  {
+   "id": "e3ac4a51-3bbb-43e2-babc-4f847a384a1a",
+   "when": "2026-12-29 14:00",
+   "scheduled_at": "2026-12-29T15:00:00+08:00",
+   "caption": "Sisa stok akhir tahun. Harus habis lewat diskon?\n\nBarang yang tersisa punya kondisi, umur simpan, dan laju jual yang berbeda.\n\nKelompokkan sebelum memutuskan.\nMana yang masih bergerak, perlu diperiksa, atau perlu tindakan lain? Lihat keadaan fisik bersama catatannya.\n\nPilih tindakan per kelompok.\n• Periksa kondisi fisik\n• Kelompokkan berdasarkan pergerakan\n• Tentukan tindakan tiap kelompok\n\nCatatan stok dan penjualan Loka Kasir membantu membaca barang yang perlu perhatian.\n\nSimpan untuk evaluasi stok akhir tahun.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Sisa stok akhir tahun. Harus habis lewat diskon?\n\nMana yang masih bergerak, perlu diperiksa, atau perlu tindakan lain? Lihat keadaan fisik bersama catatannya.\n\nSimpan untuk evaluasi stok akhir tahun.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874005/loka-social/cpsrxjidg4ombj5zi0pt.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874005/loka-social/q06unw4d1soqzp30pdae.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874005/loka-social/zpattek0t98szmh2c0ft.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874006/loka-social/yac6dwkdpltsxyogqbim.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874006/loka-social/mlovaxnjs2tc4bbkg740.jpg"
+    }
+   ]
+  },
+  {
+   "id": "5baa10c6-f321-4698-a6ca-6e0192613879",
+   "when": "2026-12-29 20:00",
+   "scheduled_at": "2026-12-29T21:00:00+08:00",
+   "caption": "“Kayaknya sudah bayar.” Tahun boleh ganti, catatan jangan putus.\n\nToko: Kami cocokkan sisa tagihannya, ya. Ini transaksi dan pembayaran yang tercatat.\nPelanggan: Saya cek bukti pembayaran sebelumnya.\n\nMulai dari rincian yang bisa dicocokkan.\nKonfirmasi transaksi, pembayaran, dan sisa yang disepakati. Jangan mengandalkan ingatan salah satu pihak.\n\nRapikan sebelum masuk tahun baru.\n• Periksa catatan tagihan\n• Cocokkan pembayaran sebelumnya\n• Konfirmasi sisa yang disepakati\n\nCatatan utang dan piutang Loka Kasir membantu menelusuri transaksi yang belum selesai.\n\nKirim ke rekan yang mengurus administrasi toko.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "“Kayaknya sudah bayar.” Tahun boleh ganti, catatan jangan putus.\n\nKonfirmasi transaksi, pembayaran, dan sisa yang disepakati. Jangan mengandalkan ingatan salah satu pihak.\n\nKirim ke rekan yang mengurus administrasi toko.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874007/loka-social/xw73fxfdgonwkjdyv1xg.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874008/loka-social/etkf2r5j1a3pevcprirn.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874008/loka-social/qqn4mzakb02bdz2lkuyg.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874008/loka-social/riall9pftuamr93qwqyx.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874009/loka-social/l4dzd5uqqxcmojqsoew7.jpg"
+    }
+   ]
+  },
+  {
+   "id": "1ea8e7b9-fc46-4212-a1f3-1bd19a84adf2",
+   "when": "2026-12-30 14:00",
+   "scheduled_at": "2026-12-30T15:00:00+08:00",
+   "caption": "Besok 31 Desember. Kertas struk tinggal berapa?\n\nPerlengkapan kasir, kemasan, pilihan ekstra, dan pesanan besok perlu siap dibaca tim.\n\nBeresi yang bisa diberesi sekarang.\nSisa waktu malam ini bisa dipakai merapikan detail yang berpotensi menghambat layanan besok.\n\nBuka checklist bareng tim.\n• Cek perlengkapan kasir\n• Siapkan kemasan sesuai pesanan\n• Briefing peran tim\n\nPeriksa katalog, stok, dan pesanan di Loka Kasir sebelum toko tutup.\n\nSimpan dan cek bersama tim malam ini.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Besok 31 Desember. Kertas struk tinggal berapa?\n\nSisa waktu malam ini bisa dipakai merapikan detail yang berpotensi menghambat layanan besok.\n\nSimpan dan cek bersama tim malam ini.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874009/loka-social/kvryax8obtixneafu1iu.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874010/loka-social/dzlz1pepgjc9afkinnvw.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874010/loka-social/yymiprmqxajqofisylox.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874010/loka-social/unwcnzk8bldkaby9oltj.jpg"
+    }
+   ]
+  },
+  {
+   "id": "d4e2b204-b86f-4ee1-9187-1f79b0574837",
+   "when": "2026-12-30 20:00",
+   "scheduled_at": "2026-12-30T21:00:00+08:00",
+   "caption": "Resolusi usaha 2027. Pilih 10 target atau 1 rutinitas?\n\nA. Semua hal dibenahi bersamaan.\nB. Satu kebiasaan dengan waktu yang jelas.\nC. Menunggu toko lebih senggang.\n\nB. Buat satu rutinitas yang nyata.\nMisalnya catat kas keluar saat terjadi atau cek stok sebelum pesan. Tentukan kapan dan siapa yang menjalankan.\n\nPilih satu yang paling membantu.\n• Pilih satu kebiasaan\n• Tentukan waktu menjalankan\n• Evaluasi setelah beberapa pekan\n\nLoka Kasir bisa jadi tempat menyimpan catatan rutin usahamu.\n\nKebiasaan apa yang ingin kamu bawa ke 2027?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Resolusi usaha 2027. Pilih 10 target atau 1 rutinitas?\n\nMisalnya catat kas keluar saat terjadi atau cek stok sebelum pesan. Tentukan kapan dan siapa yang menjalankan.\n\nKebiasaan apa yang ingin kamu bawa ke 2027?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874011/loka-social/ysuc0avps1dlwtodvner.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874012/loka-social/evvjnuad2k1yk8qzu4mw.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874012/loka-social/fc9qboffsbgypoelj9hw.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874012/loka-social/emwbgxitxbn6y34hlqes.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874013/loka-social/dmwnbetvbcrfkt4z0wjj.jpg"
+    }
+   ]
+  },
+  {
+   "id": "999a259e-eb41-4f11-8be1-781e34b8ca95",
+   "when": "2026-12-31 14:00",
+   "scheduled_at": "2026-12-31T15:00:00+08:00",
+   "caption": "31 Desember. Semua minta selesai di jam yang sama?\n\nPesanan hari ini, stok utama, waktu ambil, dan pembagian tugas perlu terlihat oleh tim.\n\nSampaikan batas kapasitas sejak awal.\nKalau sudah penuh, jelaskan pilihan waktu yang masih bisa dipenuhi. Pegang janji yang sudah diterima.\n\nSamakan pegangan tim hari ini.\n• Tinjau pesanan hari ini\n• Cek barang dan perlengkapan\n• Konfirmasi waktu ke pelanggan\n\nGunakan catatan pesanan dan transaksi Loka Kasir untuk membantu koordinasi tim.\n\nKirim ke tim yang bertugas hari ini.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "31 Desember. Semua minta selesai di jam yang sama?\n\nKalau sudah penuh, jelaskan pilihan waktu yang masih bisa dipenuhi. Pegang janji yang sudah diterima.\n\nKirim ke tim yang bertugas hari ini.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874013/loka-social/wnowmtcmyeycpugj6mwe.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874014/loka-social/efp2pccxabsdpn72tptt.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874014/loka-social/dbx7j0ekw3ornsolt845.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874015/loka-social/kn74jeozutrkxttuheqi.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2ec825f3-70e7-458f-a8d8-ddcb9943c9aa",
+   "when": "2026-12-31 20:00",
+   "scheduled_at": "2026-12-31T21:00:00+08:00",
+   "caption": "Ada hari ramai. Ada hari kamu cuma berusaha tetap buka.\n\nBangun lebih pagi. Beresin yang salah. Belajar hal baru. Tetap melayani saat tenaga tinggal sedikit.\n\nUsaha ini juga tentang orang yang menjaganya.\nTerima kasih untuk kamu dan orang-orang yang ikut membantu. Semoga tahun depan ada ruang tumbuh, juga waktu beristirahat.\n\nCeritakan satu hal yang paling kamu syukuri tahun ini.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Ada hari ramai. Ada hari kamu cuma berusaha tetap buka.\n\nTerima kasih untuk kamu dan orang-orang yang ikut membantu. Semoga tahun depan ada ruang tumbuh, juga waktu beristirahat.\n\nCeritakan satu hal yang paling kamu syukuri tahun ini.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874015/loka-social/x96sldykyteulfhzwqht.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874016/loka-social/gxgza4q1gxa0lruuha41.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874016/loka-social/qhhya0reitasbyhdcsc3.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794874017/loka-social/h1rvbf073nadrzmghjr4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "d513324d-9bbc-4612-a2b1-4dd0b7037229",
+   "when": "2027-01-01 14:00",
+   "scheduled_at": "2027-01-01T15:00:00+08:00",
+   "caption": "Paket Rp12 ribu. Minum gratisnya dibayar siapa?\n\nHarga Rp12.000, biaya makanan Rp8.000. Tersisa Rp4.000 sebelum biaya lain.\n\nTambah minum, hitung ulang.\nSimulasi: biaya minum Rp2.000 membuat biaya paket Rp10.000. Sisa per paket menjadi Rp2.000 sebelum biaya lain.\n\nHitung seluruh isi paket.\n• Hitung semua isi paket\n• Batasi pilihan yang ditawarkan\n• Evaluasi selisih setelah promo\n\nCatat penjualan paket di Loka Kasir untuk melihat apakah produknya benar-benar dipilih.\n\nKalau bikin paket, isi wajibnya apa?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Paket Rp12 ribu. Minum gratisnya dibayar siapa?\n\nSimulasi: biaya minum Rp2.000 membuat biaya paket Rp10.000. Sisa per paket menjadi Rp2.000 sebelum biaya lain.\n\nKalau bikin paket, isi wajibnya apa?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873390/loka-social/cjxx5wpad0q7toffhrda.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873390/loka-social/xvppqov1opkkhuoyo1zc.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873390/loka-social/ayvbvzizwg389zamottq.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873391/loka-social/nu23ckecmbiggioi1dqp.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873391/loka-social/m99oxuksfzbptsi1rcoe.jpg"
+    },
+    {
+     "position": 5,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873392/loka-social/wo5xy4vljrtuvvp7ri2g.jpg"
+    }
+   ]
+  },
+  {
+   "id": "e18f945f-849e-4c13-893e-dc94057a1663",
+   "when": "2027-01-01 20:00",
+   "scheduled_at": "2027-01-01T21:00:00+08:00",
+   "caption": "Owner bukan tempat penyimpanan semua ingatan.\n\nToko sudah tutup. Kepala masih mengulang: tadi siapa belum bayar, stok apa datang, uang keluar buat apa?\n\nPindahkan satu hal ke catatan.\nNggak perlu merapikan semuanya malam ini. Mulai dari hal yang paling sering bikin kamu harus mengingat ulang.\n\nKirim ke teman yang mengurus toko sendirian.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Owner bukan tempat penyimpanan semua ingatan.\n\nNggak perlu merapikan semuanya malam ini. Mulai dari hal yang paling sering bikin kamu harus mengingat ulang.\n\nKirim ke teman yang mengurus toko sendirian.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873401/loka-social/vjugnjjzvkadfqylyuhj.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873402/loka-social/qet8a88zsygyvsokrrxy.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873402/loka-social/rv7abseu9jwiqdicz5au.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873404/loka-social/yspmpv8rq17dpwlaqewd.jpg"
+    }
+   ]
+  },
+  {
+   "id": "1de3b232-b85f-491a-b33e-97f431b688f2",
+   "when": "2027-01-02 14:00",
+   "scheduled_at": "2027-01-02T15:00:00+08:00",
+   "caption": "Tokonya kecil. Kenapa catatannya harus rapi?\n\nMengandalkan ingatan: uang di laci terasa cukup.\nPunya catatan: tahu penjualan, kas keluar, dan selisihnya.\n\nBesok butuh angka yang mana?\nMulai dari transaksi hari ini. Catatan sederhana yang rutin lebih berguna daripada format rumit yang kosong.\n\nRapikan dari transaksi berikutnya.\n• Masukkan transaksi saat terjadi\n• Catat belanja stok\n• Baca hasil jualan tiap malam\n\nKasir, stok, dan laporan Loka Kasir membantu menjalankan kebiasaan itu dalam satu aplikasi.\n\nPilih satu kebiasaan untuk mulai hari ini.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Tokonya kecil. Kenapa catatannya harus rapi?\n\nMulai dari transaksi hari ini. Catatan sederhana yang rutin lebih berguna daripada format rumit yang kosong.\n\nPilih satu kebiasaan untuk mulai hari ini.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873369/loka-social/czw5wxligxghwb5h7u79.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873370/loka-social/zoy5agdsqe8ndkhnszhg.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873370/loka-social/vwkg5mhiwwqoizpxk8fn.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873371/loka-social/umqs8ztf0i7rl3uencfr.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873371/loka-social/y9koj92ejhl1nc7q3w3v.jpg"
+    }
+   ]
+  },
+  {
+   "id": "14e0f559-f8fb-445b-bd45-9dd3c1add59c",
+   "when": "2027-01-02 20:00",
+   "scheduled_at": "2027-01-02T21:00:00+08:00",
+   "caption": "Tetangga diskon 30%. Kamu harus ikut?\n\nA. Samakan supaya nggak kalah.\nB. Hitung biaya sendiri dulu.\nC. Kasih diskon lebih besar.\n\nB. Cek hitungan tokomu.\nSewa, porsi, biaya bahan, dan kapasitas bisa berbeda. Promo yang cocok di sebelah belum tentu cocok di kasmu.\n\nKalau mau ikut promo.\n• Kenali biaya produkmu\n• Tentukan batas potongan\n• Uji promo dalam jumlah kecil\n\nLihat data penjualan dan HPP di Loka Kasir untuk menilai pilihan promomu.\n\nPernah ikut promo cuma karena takut ketinggalan?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Tetangga diskon 30%. Kamu harus ikut?\n\nSewa, porsi, biaya bahan, dan kapasitas bisa berbeda. Promo yang cocok di sebelah belum tentu cocok di kasmu.\n\nPernah ikut promo cuma karena takut ketinggalan?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873372/loka-social/katcc8ouoalm02w7kyb8.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873373/loka-social/g6x3xvrchyzpzvxqsstc.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873373/loka-social/conrqamzotcidsf1aut3.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873373/loka-social/ep6ii6ym2jc6lllgk4f4.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873374/loka-social/u7hzhjcmyljynklqadal.jpg"
+    }
+   ]
+  },
+  {
+   "id": "e6f73785-463a-4965-ac7c-59abe99cea7c",
+   "when": "2027-01-03 14:00",
+   "scheduled_at": "2027-01-03T15:00:00+08:00",
+   "caption": "30 hampers masuk. Uang belanja harian malah habis.\n\nSiang: beli bahan, kotak, pita. Sore: uang belanja toko ikut terpakai. Pembayaran pesanan belum selesai.\n\nPisahkan kebutuhan pesanan.\nTulis biaya yang keluar sebelum barang diserahkan. Tentukan kesepakatan pembayaran sejak awal dengan pemesan.\n\nSebelum bilang “siap, Kak”.\n• Hitung kebutuhan tiap paket\n• Tentukan kapasitas per hari\n• Pisahkan catatan pesanan dan pelunasan\n\nGunakan produk pre-order Loka Kasir untuk mencatat pesanan yang pemenuhannya menyusul.\n\nSimpan untuk persiapan hampers.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "30 hampers masuk. Uang belanja harian malah habis.\n\nTulis biaya yang keluar sebelum barang diserahkan. Tentukan kesepakatan pembayaran sejak awal dengan pemesan.\n\nSimpan untuk persiapan hampers.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873375/loka-social/zi08e0fymka0tnbdanxc.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873376/loka-social/w0t5trktxd8wfri7rjze.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873376/loka-social/qxcyqsjpetfqyltjndps.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873376/loka-social/jrios3ti8egowq1vmdww.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873377/loka-social/p1ptyk7jum7bas6ufmwp.jpg"
+    }
+   ]
+  },
+  {
+   "id": "10708706-05ca-417a-89f2-c62e8a9ac495",
+   "when": "2027-01-03 20:00",
+   "scheduled_at": "2027-01-03T21:00:00+08:00",
+   "caption": "Antrean panjang. Satu pertanyaan bisa menyelamatkan pesanan.\n\nKasir: Dua kopi, satu tanpa gula, satu tambah susu. Betul, Kak?\nPelanggan: Yang tanpa gula untuk dibawa, ya.\n\nKoreksi sekarang lebih ringan.\nMenu, ekstra, bungkus atau makan di tempat, lalu total. Ringkas, tapi cukup untuk menangkap detail yang terlewat.\n\nCoba saat antrean berikutnya.\n• Baca ulang isi pesanan\n• Konfirmasi cara pembayaran\n• Serahkan struk yang sesuai\n\nKeranjang dan struk Loka Kasir membantu kasir mengecek detail transaksi.\n\nTag teman satu shift yang paling teliti.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Antrean panjang. Satu pertanyaan bisa menyelamatkan pesanan.\n\nMenu, ekstra, bungkus atau makan di tempat, lalu total. Ringkas, tapi cukup untuk menangkap detail yang terlewat.\n\nTag teman satu shift yang paling teliti.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873378/loka-social/nrbqfxii4rnpzszsnwcx.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873378/loka-social/zhhwhwaw3bacdz3wvclc.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873378/loka-social/ggt3txrmdrlayka0qsxs.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873379/loka-social/f2d7iqejzm8vl6jlkbz4.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873379/loka-social/llfocwrfabxhuff16sqe.jpg"
+    }
+   ]
+  },
+  {
+   "id": "c740ab9a-67de-4800-b771-2fea27cdad89",
+   "when": "2027-01-04 14:00",
+   "scheduled_at": "2027-01-04T15:00:00+08:00",
+   "caption": "Beli 3 dus lebih murah. Kalau 2 dus diam?\n\nUang keluar hari ini. Barangnya belum tentu terjual minggu ini.\n\nStok juga memakai ruang dan uang.\nBandingkan penghematan harga dengan kecepatan jual, masa simpan, dan kebutuhan belanja lain.\n\nSebelum tergoda harga per dus.\n• Cek laju penjualan produk\n• Periksa ruang dan umur simpan\n• Beli sesuai kebutuhan dekat\n\nLaporan produk dan catatan stok Loka Kasir membantu menyiapkan belanja yang lebih masuk akal.\n\nBarang apa yang paling lama tinggal di rakmu?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Beli 3 dus lebih murah. Kalau 2 dus diam?\n\nBandingkan penghematan harga dengan kecepatan jual, masa simpan, dan kebutuhan belanja lain.\n\nBarang apa yang paling lama tinggal di rakmu?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873919/loka-social/dre4fnrg8avz3qfozzvq.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873919/loka-social/e79juhkc2sjouc8hcbd2.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873919/loka-social/zws8ktxsr6s9gmxwizrf.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873920/loka-social/rxfglf5yigblgel705jq.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873920/loka-social/bf7ttbnyqvy9smye6yl7.jpg"
+    }
+   ]
+  },
+  {
+   "id": "757ecb15-0b95-45d3-aa1f-223085436d24",
+   "when": "2027-01-04 20:00",
+   "scheduled_at": "2027-01-04T21:00:00+08:00",
+   "caption": "Toko sepi hari ini. Langsung ganti menu?\n\nA. Penjualan hari yang sebanding.\nB. Menu baru sebanyak mungkin.\nC. Diskon semua produk malam ini.\n\nA. Cari pembanding yang masuk akal.\nBandingkan hari yang sama, jam buka, serta produk yang dibeli. Bisa jadi pelanggan datang di jam yang berbeda.\n\nBuka catatan sebelum mengubah banyak hal.\n• Bandingkan beberapa pekan\n• Catat perubahan jam buka\n• Uji satu perbaikan kecil\n\nRiwayat transaksi Loka Kasir bisa jadi tempat mulai membaca polanya.\n\nApa yang biasanya kamu evaluasi setelah hari sepi?\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Toko sepi hari ini. Langsung ganti menu?\n\nBandingkan hari yang sama, jam buka, serta produk yang dibeli. Bisa jadi pelanggan datang di jam yang berbeda.\n\nApa yang biasanya kamu evaluasi setelah hari sepi?",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873382/loka-social/w7ipadnqbjqcxew7s5om.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873383/loka-social/na2wkfywg8rzpfxffmxy.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873383/loka-social/ds6vm5en8vrpcklptszs.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873383/loka-social/ccfuj7unfzmgqhnnvlvo.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873384/loka-social/xlsybkdyskifsvzycbzh.jpg"
+    }
+   ]
+  },
+  {
+   "id": "5e1e3c9a-4576-4d4a-8061-2a5ca255cc75",
+   "when": "2027-01-05 14:00",
+   "scheduled_at": "2027-01-05T15:00:00+08:00",
+   "caption": "“Udah transfer, Kak.” Yang dicek layar siapa?\n\nPelanggan: Ini screenshot-nya, Kak.\nKasir: Sebentar, saya cocokkan pembayaran masuk dulu, ya.\n\nCek dari sisi toko.\nCocokkan nominal, penerima, dan status di layanan pembayaran toko sebelum menandai tagihan lunas.\n\nBiar pemeriksaannya jelas.\n• Cek rekening penerima\n• Cocokkan jumlah tagihan\n• Selesaikan transaksi setelah terverifikasi\n\nCatat metode pembayaran dengan tepat di Loka Kasir agar pemeriksaan akhir hari lebih mudah.\n\nBagikan ke tim yang jaga kasir.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "“Udah transfer, Kak.” Yang dicek layar siapa?\n\nCocokkan nominal, penerima, dan status di layanan pembayaran toko sebelum menandai tagihan lunas.\n\nBagikan ke tim yang jaga kasir.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873384/loka-social/qmpymvesmjkp01w1eslc.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873385/loka-social/husv086agmy5oifixevf.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873385/loka-social/ohx5bo6b9rhcd8487ygd.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873386/loka-social/neyiv1lwjvzzq1aszlkr.jpg"
+    },
+    {
+     "position": 4,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873387/loka-social/ehxxmqzhffebjdwxuqpr.jpg"
+    }
+   ]
+  },
+  {
+   "id": "b267b6e3-89f6-442c-8621-63f1ef85b04c",
+   "when": "2027-01-05 20:00",
+   "scheduled_at": "2027-01-05T21:00:00+08:00",
+   "caption": "Shift berganti. Pesanan gantung ikut pindah nggak?\n\nAda pesanan belum selesai? Kas keluar belum tercatat? Ada info yang harus diteruskan?\n\nTulis yang masih berjalan.\nShift berikutnya perlu tahu apa yang belum beres dan siapa yang menanganinya, tanpa menebak ulang.\n\nIsi sebelum meninggalkan kasir.\n• Hitung kas bersama\n• Catat pesanan yang masih berjalan\n• Sampaikan stok yang perlu perhatian\n\nBuka dan tutup kasir di Loka Kasir membantu menyimpan jejak kas per shift.\n\nSimpan sebagai pengingat serah terima.\n\n#LokaKasir #UMKM #TipsUsaha",
+   "threads_enabled": true,
+   "threads_text": "Shift berganti. Pesanan gantung ikut pindah nggak?\n\nShift berikutnya perlu tahu apa yang belum beres dan siapa yang menanganinya, tanpa menebak ulang.\n\nSimpan sebagai pengingat serah terima.",
+   "media": [
+    {
+     "position": 0,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873387/loka-social/bfodbfbxce7dwss1uo2q.jpg"
+    },
+    {
+     "position": 1,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873388/loka-social/e84ke1amstec5g9bc9zf.jpg"
+    },
+    {
+     "position": 2,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873388/loka-social/uau4e2ecqbrbnteiykxz.jpg"
+    },
+    {
+     "position": 3,
+     "kind": "image",
+     "url": "https://res.cloudinary.com/deydnvhbc/image/upload/v1794873389/loka-social/jmdmg9dqq6ysxbikw5xo.jpg"
+    }
+   ]
+  }
+ ]
+}
