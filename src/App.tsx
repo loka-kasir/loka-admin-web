@@ -24,6 +24,7 @@ const SalesPayoutsPage = lazy(() => import('./pages/SalesPayoutsPage'))
 const PaymentFeesPage = lazy(() => import('./pages/PaymentFeesPage'))
 const SocialPage = lazy(() => import('./pages/SocialPage'))
 const SocialPostPage = lazy(() => import('./pages/SocialPostPage'))
+const ProductMonitorPage = lazy(() => import('./pages/ProductMonitorPage'))
 
 function PageFallback() {
   return (
@@ -61,6 +62,7 @@ export default function App() {
             <Route path="/sales-agents/:id" element={<SalesAgentDetailPage />} />
             <Route path="/sales-payouts" element={<SalesPayoutsPage />} />
             <Route path="/payment-fees" element={<PaymentFeesPage />} />
+            <Route path="/monitor/:product" element={<ProductMonitorPage />} />
             <Route path="/social" element={<SocialPage />} />
             <Route path="/social/new" element={<SocialPostPage />} />
             <Route path="/social/:id" element={<SocialPostPage />} />

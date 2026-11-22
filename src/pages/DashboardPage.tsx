@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { getStats, getActiveUsers } from '../api/admin'
 import { getSales } from '../api/adminData'
 import { getMerchantHealth } from '../api/merchantHealth'
+import { getProductOverview } from '../api/productMonitor'
+import ProductOverview from '../components/products/ProductOverview'
 import type { RegionCount } from '../types'
 import {
   AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
@@ -30,6 +32,7 @@ const REGION_PREVIEW = 8
 const fetchHealth = () => getMerchantHealth({})
 const fetchSalesThisMonth = () => getSales({ ...monthToDateRanges().current, limit: 1 })
 const fetchSalesLastMonth = () => getSales({ ...monthToDateRanges().previous, limit: 1 })
+const fetchProducts = () => getProductOverview()
 
 /** Teks pengganti saat service belum mengirim angka baru. */
 const NEEDS_SERVICE = 'Menunggu pembaruan service'
@@ -82,6 +85,7 @@ export default function DashboardPage() {
   const healthQuery = useAnalytics(fetchHealth)
   const salesNow = useAnalytics(fetchSalesThisMonth)
   const salesPrev = useAnalytics(fetchSalesLastMonth)
+  const productsQuery = useAnalytics(fetchProducts)
   const [regionSource, setRegionSource] = useState<'ip' | 'profile'>('profile')
   const [showNotRenewed, setShowNotRenewed] = useState(false)
 
@@ -90,12 +94,12 @@ export default function DashboardPage() {
   const health = healthQuery.data?.summary
   const growth = stats?.growth
 
-  const anyLoading = [statsQuery, usageQuery, healthQuery, salesNow, salesPrev].some((q) => q.loading)
-  const refreshAll = () => [statsQuery, usageQuery, healthQuery, salesNow, salesPrev].forEach((q) => q.refresh())
+  const anyLoading = [statsQuery, usageQuery, healthQuery, salesNow, salesPrev, productsQuery].some((q) => q.loading)
+  const refreshAll = () => [statsQuery, usageQuery, healthQuery, salesNow, salesPrev, productsQuery].forEach((q) => q.refresh())
   const header = (
     <AnalyticsHeader
       title="Dashboard"
-      description="Yang perlu ditindak, pemakaian hari ini, dan pertumbuhan Loka Kasir."
+      description="Yang perlu ditindak, pemakaian hari ini, pertumbuhan Loka Kasir, dan produk lain."
       loading={anyLoading}
       updatedAt={statsQuery.updatedAt}
       refresh={refreshAll}
@@ -225,6 +229,9 @@ export default function DashboardPage() {
           />
         </div>
       </div>
+
+      {/* 3b. Produk lain: Billing, Accounting, HRIS */}
+      <ProductOverview items={productsQuery.data} error={productsQuery.error} />
 
       <Modal title="Pro tidak diperpanjang · 30 hari terakhir" open={showNotRenewed} onClose={() => setShowNotRenewed(false)}>
         {growth?.pro_not_renewed_businesses?.length ? (

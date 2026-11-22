@@ -5,9 +5,12 @@ import {
   CalendarClock,
   Bot,
   Boxes,
+  Calculator,
   Eraser,
+  Gamepad2,
   Handshake,
   HeartPulse,
+  IdCard,
   Landmark,
   LayoutDashboard,
   LogOut,
@@ -58,6 +61,14 @@ const navGroups: { title: string; items: NavItem[] }[] = [
       { to: '/prospects', label: 'Prospek', icon: Target },
       { to: '/sales-agents', label: 'Referral Sales', icon: Handshake },
       { to: '/sales-payouts', label: 'Pencairan Sales', icon: Landmark },
+    ],
+  },
+  {
+    title: 'Produk Lain',
+    items: [
+      { to: '/monitor/billing', label: 'Billing', icon: Gamepad2 },
+      { to: '/monitor/accounting', label: 'Accounting', icon: Calculator },
+      { to: '/monitor/hris', label: 'HRIS', icon: IdCard },
     ],
   },
   {
