@@ -1,7 +1,7 @@
 import DetailLink from '../ui/DetailLink'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import type { SocialPost } from '../../api/social'
-import { POST_STATUS, mediaPoster, monthGrid, wibDateKey, wibParts } from '../../lib/social'
+import { POST_STATUS, compareScheduledAt, mediaPoster, monthGrid, wibDateKey, wibParts } from '../../lib/social'
 
 const DOT: Record<string, string> = {
   success: 'bg-emerald-500', danger: 'bg-red-500', warning: 'bg-amber-500', info: 'bg-indigo-500', neutral: 'bg-slate-400',
@@ -22,6 +22,7 @@ export default function SocialCalendar({ year, month, posts, onMonth, today }: {
     const k = wibDateKey(p.scheduled_at)
     byDay.set(k, [...(byDay.get(k) ?? []), p])
   }
+  for (const items of byDay.values()) items.sort(compareScheduledAt)
   const title = new Intl.DateTimeFormat('id-ID', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(Date.UTC(year, month - 1, 1)))
   const shift = (d: number) => {
     const t = new Date(Date.UTC(year, month - 1 + d, 1))

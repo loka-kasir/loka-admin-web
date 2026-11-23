@@ -60,6 +60,13 @@ export function wibDateKey(iso: string | Date) {
   return `${p.y}-${pad(p.m)}-${pad(p.d)}`
 }
 
+/** Urutkan posting berdasarkan jadwal tayang secara kronologis (aman lintas offset zona waktu). */
+export function compareScheduledAt(a: Pick<SocialPost, 'scheduled_at'>, b: Pick<SocialPost, 'scheduled_at'>): number {
+  const ta = a.scheduled_at ? Date.parse(a.scheduled_at) : Number.POSITIVE_INFINITY
+  const tb = b.scheduled_at ? Date.parse(b.scheduled_at) : Number.POSITIVE_INFINITY
+  return (Number.isFinite(ta) ? ta : Number.POSITIVE_INFINITY) - (Number.isFinite(tb) ? tb : Number.POSITIVE_INFINITY)
+}
+
 /** Instan RFC3339 dari tanggal "YYYY-MM-DD" + jam "HH:MM" WIB. */
 export function wibToISO(date: string, time: string) {
   return `${date}T${time}:00+07:00`

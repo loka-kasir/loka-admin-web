@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-11-23T07:09:24.523Z",
+  "seconds": 42.01,
+  "megabytes": 10.01,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "codec": "h264",
+  "pix_fmt": "yuv420p",
+  "audio": "aac"
+}

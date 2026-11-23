@@ -1,0 +1,22 @@
+Sekarang Loka Kasir sudah punya bot bantuan di dalam aplikasi: kenalan dengan Tanya Loka ✨
+
+Mau cek angka toko atau bingung cari menu saat toko lagi ramai? Tidak perlu bolak-balik buka banyak halaman—tinggal tanya lewat chat dengan bahasa sehari-hari.
+
+Yang bisa dibantu Tanya Loka:
+1. Cek angka toko langsung lewat chat
+Ketik “omzet hari ini”, lalu lanjut “kalau kemarin?” atau “7 hari terakhir”. Bisa juga cek produk terlaris, stok menipis, kasbon belum lunas, jam ramai, status shift, sampai sisa masa langganan. Angka yang tampil tetap mengikuti hak akses peran (pemilik, manajer, kasir).
+
+2. Cari harga, stok & nota lebih cepat
+Ketik “harga kopi susu” atau “stok gula” (tetap jalan saat offline dari katalog perangkat), “cari nota 0142”, atau “kasbon Bu Rina”. Jawabannya langsung disertai tombol untuk membuka layarnya.
+
+3. Panduan cara pakai tetap jalan saat offline
+Tanya “printer tidak mencetak” atau “cara refund”—salah ketik ringan pun tetap dimengerti. Kalau butuh bantuan langsung dari tim kami, ada tombol Tanya admin via WhatsApp dengan pertanyaan dan nama toko yang terisi otomatis.
+
+Cara pakainya:
+1. Perbarui Loka Kasir ke versi terbaru di Android / Windows, atau buka Web Admin.
+2. Ketuk ikon bintang ✨ di bagian atas layar (sebelah pencarian), atau buka dari menu Lainnya / sidebar / Bantuan.
+3. Ketuk contoh pertanyaan cepat atau tulis langsung yang ingin dicek.
+
+Sudah coba Tanya Loka di tokomu? Coba ketik “omzet hari ini” atau “stok menipis” malam ini.
+
+#LokaKasir #TanyaLoka #AplikasiKasir #UMKMIndonesia #KelolaToko

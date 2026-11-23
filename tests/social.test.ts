@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
 import {
-  checkImageDims, checkVideoMeta, countHashtags, mediaPoster, monthGrid, monthRange, nextSlot, pollDelay, statusChanged, validateSocialDraft, wibDateKey, wibToISO,
+  checkImageDims, checkVideoMeta, compareScheduledAt, countHashtags, mediaPoster, monthGrid, monthRange, nextSlot, pollDelay, statusChanged, validateSocialDraft, wibDateKey, wibToISO,
 } from '../src/lib/social.ts'
 
 const now = new Date('2026-11-04T03:02:00Z') // 10:02 WIB
@@ -87,4 +87,13 @@ test('statusChanged: polling halaman ubah hanya menimpa form saat status berubah
   assert.equal(statusChanged({ status: 'scheduled', threads_status: 'waiting' }, { status: 'scheduled', threads_status: 'waiting' }), false)
   assert.equal(statusChanged({ status: 'scheduled', threads_status: 'waiting' }, { status: 'publishing', threads_status: 'waiting' }), true)
   assert.equal(statusChanged({ status: 'published', threads_status: 'waiting' }, { status: 'published', threads_status: 'published' }), true)
+})
+
+test('compareScheduledAt sorts chronologically across timezone offsets', () => {
+  const posts = [
+    { id: 'evening', scheduled_at: '2026-11-23T20:00:00+07:00' },
+    { id: 'noon', scheduled_at: '2026-11-23T13:00:00+08:00' }, // 12:00 WIB
+    { id: 'morning', scheduled_at: '2026-11-23T04:00:00Z' }, // 11:00 WIB
+  ]
+  assert.deepEqual(posts.sort(compareScheduledAt).map((p) => p.id), ['morning', 'noon', 'evening'])
 })

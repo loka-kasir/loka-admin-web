@@ -9,7 +9,7 @@ import { Card } from '../components/ui/Card'
 import AccountsPanel from '../components/social/AccountsPanel'
 import SocialCalendar from '../components/social/SocialCalendar'
 import { getSocialPosts, getSocialStatus, type SocialPost, type SocialStatus } from '../api/social'
-import { POST_STATUS, THREADS_STATUS, mediaPoster, monthRange, wibDateKey, wibParts } from '../lib/social'
+import { POST_STATUS, THREADS_STATUS, compareScheduledAt, mediaPoster, monthRange, wibDateKey, wibParts } from '../lib/social'
 import { formatDate } from '../lib/analytics'
 
 function PostRow({ p }: { p: SocialPost }) {
@@ -69,7 +69,7 @@ export default function SocialPage() {
 
   const upcoming = posts
     .filter((p) => p.status === 'scheduled' && p.scheduled_at && new Date(p.scheduled_at) > new Date())
-    .sort((a, b) => a.scheduled_at!.localeCompare(b.scheduled_at!))
+    .sort(compareScheduledAt)
     .slice(0, 6)
 
   return (

@@ -1,0 +1,8 @@
+Sekarang Loka Kasir sudah punya bot bantuan: Tanya Loka ✨
+
+Cukup ketuk ikon ✨ di bagian atas aplikasi, lalu tanya dengan bahasa sehari-hari:
+• “omzet hari ini” (lanjut “kalau kemarin?”)
+• “stok menipis”, “produk terlaris”, “kasbon belum lunas”, “status shift”
+• “harga kopi susu” / “cari nota” / panduan cara pakai (tetap jalan saat offline)
+
+Perbarui Loka Kasir ke versi terbaru di Android, Windows, atau buka Web Admin untuk langsung mencoba.

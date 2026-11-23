@@ -66,8 +66,11 @@ export default function TimePicker({ value, onChange, label, suffix = 'WIB', dis
   useLayoutEffect(() => {
     if (!open) return
     place()
-    // Gulir pilihan aktif ke tengah kolom saat dibuka.
-    panelRef.current?.querySelectorAll<HTMLElement>('[aria-selected="true"]').forEach((el) => el.scrollIntoView({ block: 'center' }))
+    // Gulir hanya kolom jam/menit sendiri agar modal atau halaman di belakangnya tidak ikut bergeser.
+    panelRef.current?.querySelectorAll<HTMLElement>('[role="listbox"]').forEach((list) => {
+      const active = list.querySelector<HTMLElement>('[aria-selected="true"]')
+      if (active) list.scrollTop = Math.max(0, active.offsetTop - (list.clientHeight - active.clientHeight) / 2)
+    })
     window.addEventListener('resize', place)
     window.addEventListener('scroll', place, true)
     return () => {
