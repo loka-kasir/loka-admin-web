@@ -68,7 +68,7 @@ export default function SalesAgentsPage() {
         <div>
           <h2 className="text-xl font-bold text-slate-800">Program Referral Sales</h2>
           <p className="text-sm text-slate-500 mt-0.5">
-            Pelanggan baru dengan kode sales dapat diskon 20% tagihan pertama. Sales mendapat 50% nilai bersih selama 12 bulan, lalu 20%.
+            Pelanggan baru dengan kode sales dapat potongan Rp10.000 (Pro bulanan) atau diskon 10% (Pro tahunan) di tagihan pertama. Sales mendapat 50% nilai bersih selama 12 bulan, lalu 20%.
           </p>
         </div>
         <button onClick={() => setCreateOpen(true)} disabled={reserved === undefined || reserved >= SALES_LIMIT || !!error}

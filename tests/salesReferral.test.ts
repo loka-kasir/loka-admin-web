@@ -44,9 +44,11 @@ test('percent ↔ basis points', () => {
 })
 
 test('fee and commission match the server formulas', () => {
-  // Contoh di docs/sales-referral.md: 47.200 via QRIS 0,7% → fee 330, komisi 23.435.
-  assert.equal(gatewayFee(47200, { flat_fee: 0, percent_bp: 70 }), 330)
-  assert.equal(commissionAmount(47200, 330, 50), 23435)
+  // Contoh di docs/sales-referral.md: bulanan 49.000 via QRIS 0,7% → fee 343, komisi 24.328; tahunan 531.000 → fee 3.717, komisi 263.641.
+  assert.equal(gatewayFee(49000, { flat_fee: 0, percent_bp: 70 }), 343)
+  assert.equal(commissionAmount(49000, 343, 50), 24328)
+  assert.equal(gatewayFee(531000, { flat_fee: 0, percent_bp: 70 }), 3717)
+  assert.equal(commissionAmount(531000, 3717, 50), 263641)
   assert.equal(gatewayFee(59000, { flat_fee: 2000, percent_bp: 290 }), 3711)
   assert.equal(commissionAmount(1000, 2000, 50), 0)
 })
