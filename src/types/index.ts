@@ -38,6 +38,8 @@ export interface AdminOwner {
   name: string | null
   email: string | null
   phone_number: string
+  /** Nomor WhatsApp pemilik (62…), satu-satunya nomor kontak; untuk akun lama berisi nomor HP-nya. */
+  whatsapp_number?: string
   is_verified: boolean
   is_email_verified: boolean
   is_active: boolean

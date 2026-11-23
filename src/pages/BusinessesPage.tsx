@@ -189,8 +189,11 @@ export default function BusinessesPage() {
                       {b.owner?.email && (
                         <p className="text-xs text-slate-500 break-all">{b.owner.email}</p>
                       )}
-                      {b.owner?.phone_number && (
-                        <p className="text-xs text-slate-400">{b.owner.phone_number}</p>
+                      {/* Satu nomor kontak pemilik: WhatsApp (nomor HP akun lama
+                          sudah digabung ke sini oleh server). */}
+                      {b.owner?.whatsapp_number && (
+                        <a href={`https://wa.me/${b.owner.whatsapp_number}`} target="_blank" rel="noopener noreferrer"
+                          className="text-xs text-emerald-600 hover:underline">WA {b.owner.whatsapp_number}</a>
                       )}
                     </td>
                     <td className="px-4 py-3 text-slate-600">

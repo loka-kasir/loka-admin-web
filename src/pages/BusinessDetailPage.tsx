@@ -435,8 +435,11 @@ export default function BusinessDetailPage({ recordId, onDismiss, onChanged }: D
               <p className="text-slate-700 mt-0.5">{business.owner.email ?? '-'}</p>
             </div>
             <div>
-              <p className="text-slate-400 text-xs">Nomor HP</p>
-              <p className="text-slate-700 mt-0.5">{business.owner.phone_number}</p>
+              <p className="text-slate-400 text-xs">WhatsApp</p>
+              {business.owner.whatsapp_number
+                ? <a href={`https://wa.me/${business.owner.whatsapp_number}`} target="_blank" rel="noopener noreferrer"
+                    className="text-emerald-600 hover:underline mt-0.5 inline-block">{business.owner.whatsapp_number}</a>
+                : <p className="text-slate-700 mt-0.5">-</p>}
             </div>
             <div>
               <p className="text-slate-400 text-xs">Status Akun</p>

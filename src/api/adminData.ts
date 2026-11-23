@@ -17,6 +17,8 @@ export interface DirectoryUser {
   name: string | null
   email: string | null
   phone_number: string | null
+  /** Nomor WhatsApp pemilik dari pendaftaran (62…); hanya akun bisnis, bukan karyawan. */
+  whatsapp_number?: string | null
   username: string | null
   role: string
   business_id: string
