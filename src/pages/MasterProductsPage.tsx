@@ -4,7 +4,10 @@ import ButtonIcon from '../components/ui/ButtonIcon'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Modal from '../components/ui/Modal'
 import Pagination from '../components/ui/Pagination'
-import { getBusinesses } from '../api/admin'
+import { SearchField } from '../components/ui/FilterBar'
+import { useListQuery, usePageBounds } from '../hooks/useListQuery'
+import { useAdminData } from '../hooks/useAdminData'
+import BusinessFilter from '../components/ui/BusinessFilter'
 import type { AdminBusiness } from '../types'
 import {
   createMasterProduct,
@@ -19,7 +22,6 @@ import {
   updateMasterProduct,
   type MasterProduct,
   type MasterProductPayload,
-  type MasterProductParams,
 } from '../api/masterProducts'
 
 /** Sub-jenis usaha, sesuai seeder/business_vertical_seeder.go di backend.
@@ -90,12 +92,20 @@ function errorMessage(err: unknown, fallback: string): string {
 }
 
 export default function MasterProductsPage() {
-  const [items, setItems] = useState<MasterProduct[]>([])
-  const [total, setTotal] = useState(0)
-  // Mulai dari true: render pertama SELALU sedang memuat, dan menyalakannya
-  // dari dalam effect akan memicu render bertingkat yang ditolak lint.
-  const [loading, setLoading] = useState(true)
-  const [params, setParams] = useState<MasterProductParams>({ page: 1, limit: 25, search: '', vertical: '' })
+  const { params, page, setPage, setFilters } = useListQuery()
+  const search = params.get('search') ?? ''
+  const vertical = params.get('vertical') ?? ''
+  const sort_by = params.get('sort_by') ?? ''
+  const limit = 25
+  const fetcher = useCallback(async () => {
+    const res = await getMasterProducts({ page, limit, search, vertical, sort_by })
+    if (!res.status) throw new Error(res.message)
+    return res
+  }, [page, search, vertical, sort_by])
+  const { data, loading, error: listError, refresh } = useAdminData(fetcher)
+  const items = data?.data ?? []
+  const total = data?.pagination.total ?? 0
+  usePageBounds(page, data?.pagination.total, limit, setPage)
   const [notice, setNotice] = useState('')
   const [error, setError] = useState('')
 
@@ -111,8 +121,7 @@ export default function MasterProductsPage() {
   // menolong toko yang sudah mendata 350 barang sendirian — ia menuntut TIGA
   // toko mengeja barang yang sama persis, dan setiap toko mengetik dengan
   // caranya sendiri.
-  const [businesses, setBusinesses] = useState<AdminBusiness[]>([])
-  const [sourceBusiness, setSourceBusiness] = useState('')
+  const [sourceBusiness, setSourceBusiness] = useState<AdminBusiness | null>(null)
   const fileRef = useRef<HTMLInputElement>(null)
   // Jumlah baris yang menunggu tinjau. Panen melahirkan baris dalam keadaan
   // PADAM — tanpa angka ini, satu-satunya cara tahu ada yang menunggu adalah
@@ -120,38 +129,16 @@ export default function MasterProductsPage() {
   // terbit.
   const [pending, setPending] = useState(0)
 
-  // reloadToken memaksa pemuatan ulang setelah simpan/hapus/panen. Pemuatannya
-  // ada DI DALAM effect, bukan di fungsi yang dipanggil effect: memanggil
-  // setState langsung dari badan effect memicu render bertingkat, dan aturan
-  // lint react-hooks menolaknya.
+  // Sesudah mutasi, perbarui daftar dan jumlah barang yang menunggu tinjau.
   const [reloadToken, setReloadToken] = useState(0)
-  const reload = useCallback(() => {
-    setLoading(true)
+  const reload = () => {
+    refresh()
     setReloadToken((n) => n + 1)
-  }, [])
+  }
 
   useEffect(() => {
     let active = true
-    getMasterProducts(params)
-      .then((res) => {
-        if (!active) return
-        setItems(res.data ?? [])
-        setTotal(res.pagination?.total ?? 0)
-      })
-      .catch((err) => {
-        if (active) setError(errorMessage(err, 'Gagal memuat katalog.'))
-      })
-      .finally(() => {
-        if (active) setLoading(false)
-      })
-    return () => {
-      active = false
-    }
-  }, [params, reloadToken])
-
-  useEffect(() => {
-    let active = true
-    getPendingMasterProductCount(params.vertical || undefined)
+    getPendingMasterProductCount(vertical || undefined)
       .then((res) => {
         if (active) setPending(res.data?.pending ?? 0)
       })
@@ -159,19 +146,7 @@ export default function MasterProductsPage() {
     return () => {
       active = false
     }
-  }, [params.vertical, reloadToken])
-
-  useEffect(() => {
-    let active = true
-    getBusinesses({ page: 1, limit: 200 })
-      .then((res) => {
-        if (active) setBusinesses(res.data ?? [])
-      })
-      .catch(() => undefined)
-    return () => {
-      active = false
-    }
-  }, [])
+  }, [vertical, reloadToken])
 
   /** Mengunduh daftar barang sebuah toko sebagai berkas kandidat.
    *
@@ -182,8 +157,8 @@ export default function MasterProductsPage() {
   const downloadCandidates = async () => {
     if (!sourceBusiness) return
     try {
-      const blob = await downloadBusinessCatalogCandidates(sourceBusiness)
-      const nama = businesses.find((b) => b.id === sourceBusiness)?.business_name ?? 'toko'
+      const blob = await downloadBusinessCatalogCandidates(sourceBusiness.id)
+      const nama = sourceBusiness.business_name
       const url = URL.createObjectURL(blob)
       const a = document.createElement('a')
       a.href = url
@@ -459,16 +434,7 @@ export default function MasterProductsPage() {
             foto. Rapikan namanya di spreadsheet, lalu unggah lewat Impor CSV.
           </p>
         </div>
-        <Select
-          value={sourceBusiness}
-          onChange={(e) => setSourceBusiness(e.target.value)}
-          className="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 min-w-56"
-        >
-          <option value="">Pilih toko…</option>
-          {businesses.map((b) => (
-            <option key={b.id} value={b.id}>{b.business_name}</option>
-          ))}
-        </Select>
+        <BusinessFilter sourcePicker value={sourceBusiness?.id ?? ''} onChange={(_, b) => setSourceBusiness(b ?? null)} className="w-full sm:w-64" />
         <button
           onClick={downloadCandidates}
           disabled={!sourceBusiness}
@@ -479,32 +445,18 @@ export default function MasterProductsPage() {
       </div>
 
       <div className="flex flex-col sm:flex-row gap-3">
-        <input
-          value={params.search ?? ''}
-          onChange={(e) => {
-            setLoading(true)
-            setParams((p) => ({ ...p, search: e.target.value, page: 1 }))
-          }}
-          placeholder="Cari nama barang…"
-          className="flex-1 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
-        />
+        <div className="flex-1"><SearchField value={search} onSearch={search => setFilters({ search })} label="Cari nama barang" placeholder="Cari nama barang…" /></div>
         <Select
-          value={params.sort_by ?? ''}
-          onChange={(e) => {
-            setLoading(true)
-            setParams((p) => ({ ...p, sort_by: e.target.value, page: 1 }))
-          }}
+          value={sort_by}
+          onChange={e => setFilters({ sort_by: e.target.value })}
           className="border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
         >
           <option value="">Semua status</option>
           <option value="pending">Menunggu tinjau</option>
         </Select>
         <Select
-          value={params.vertical ?? ''}
-          onChange={(e) => {
-            setLoading(true)
-            setParams((p) => ({ ...p, vertical: e.target.value, page: 1 }))
-          }}
+          value={vertical}
+          onChange={e => setFilters({ vertical: e.target.value })}
           className="border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
         >
           <option value="">Semua sub-jenis</option>
@@ -515,7 +467,7 @@ export default function MasterProductsPage() {
       </div>
 
       <div className="text-sm text-slate-500">
-        {total > 0 ? `${total.toLocaleString('id-ID')} barang di katalog` : 'Katalog masih kosong'}
+        {listError ? <p role="alert" className="text-red-700">{listError} <button onClick={refresh} className="underline">Coba lagi</button></p> : loading ? 'Memuat katalog…' : `${total.toLocaleString('id-ID')} barang sesuai filter`}
       </div>
 
       <div className="card overflow-hidden">
@@ -537,7 +489,7 @@ export default function MasterProductsPage() {
               {loading ? (
                 <tr><td colSpan={8} className="text-center py-10 text-slate-400">Memuat…</td></tr>
               ) : items.length === 0 ? (
-                <tr><td colSpan={8} className="text-center py-10 text-slate-400">Belum ada barang</td></tr>
+                <tr><td colSpan={8} className="text-center py-10 text-slate-400">{listError ? 'Katalog belum berhasil dimuat.' : 'Tidak ada barang sesuai filter.'}</td></tr>
               ) : (
                 items.map((item) => (
                   <tr key={item.id} className="hover:bg-slate-50 transition-colors">
@@ -627,13 +579,10 @@ export default function MasterProductsPage() {
       </div>
 
       <Pagination
-        page={params.page ?? 1}
+        page={page}
         total={total}
-        limit={params.limit ?? 25}
-        onChange={(page) => {
-          setLoading(true)
-          setParams((p) => ({ ...p, page }))
-        }}
+        limit={limit}
+        onChange={setPage}
       />
 
       <Modal

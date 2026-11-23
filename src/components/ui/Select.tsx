@@ -73,6 +73,7 @@ export default function Select({ value, onChange, children, className = '', disa
   const selected = options[selectedIndex]
 
   const [open, setOpen] = useState(false)
+  const [portalRoot, setPortalRoot] = useState<HTMLElement | null>(null)
   const [active, setActive] = useState(selectedIndex)
   const [style, setStyle] = useState<CSSProperties>({})
   const triggerRef = useRef<HTMLButtonElement>(null)
@@ -97,6 +98,7 @@ export default function Select({ value, onChange, children, className = '', disa
 
   const openList = () => {
     if (disabled) return
+    setPortalRoot(triggerRef.current?.closest('dialog') ?? document.body)
     setActive(selectedIndex)
     place()
     setOpen(true)
@@ -216,7 +218,7 @@ export default function Select({ value, onChange, children, className = '', disa
         />
       )}
 
-      {open && createPortal(
+      {open && portalRoot && createPortal(
         <ul
           ref={listRef}
           id={listId}
@@ -250,7 +252,7 @@ export default function Select({ value, onChange, children, className = '', disa
             )
           })}
         </ul>,
-        document.body,
+        portalRoot,
       )}
     </>
   )

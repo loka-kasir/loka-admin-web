@@ -6,6 +6,7 @@ import ButtonIcon from '../components/ui/ButtonIcon'
 import { InstagramIcon, ThreadsIcon } from '../components/ui/BrandIcons'
 import Badge from '../components/ui/Badge'
 import Modal from '../components/ui/Modal'
+import type { DetailProps } from '../components/ui/DetailModal'
 import { Card } from '../components/ui/Card'
 import Switch from '../components/ui/Switch'
 import TimePicker from '../components/ui/TimePicker'
@@ -53,9 +54,10 @@ function untilText(ms: number) {
   return [d && `${d} hari`, h && `${h} jam`, (m || (!d && !h)) && `${m} menit`].filter(Boolean).join(' ')
 }
 
-export default function SocialPostPage() {
-  const { id } = useParams()
-  const isNew = !id || id === 'new'
+export default function SocialPostPage({ recordId, onDismiss, onChanged }: DetailProps) {
+  const { id: routeId } = useParams()
+  const id = recordId ?? routeId
+  const isNew = !recordId && (!id || id === 'new')
   const navigate = useNavigate()
   const location = useLocation()
 
@@ -174,7 +176,7 @@ export default function SocialPostPage() {
         ? `Dijadwalkan untuk ${formatDate(r.data.scheduled_at, true)} WIB. Posting akan tayang otomatis.`
         : 'Draf tersimpan.'
       if (isNew) navigate(`/social/${r.data.id}`, { replace: true, state: { notice: msg } })
-      else setNotice(msg)
+      else { setNotice(msg); onChanged?.() }
     } catch (err) {
       setError(apiMessage(err, 'Posting gagal disimpan.'))
     } finally {
@@ -188,6 +190,7 @@ export default function SocialPostPage() {
     try {
       const r = await socialPostAction(id!, action)
       fill(r.data)
+      onChanged?.()
       setConfirm(null)
       setNotice(action === 'cancel' ? 'Jadwal dibatalkan.' : action === 'retry' ? 'Dijadwalkan ulang; akan dicoba dalam ±1 menit.' : 'Threads akan dicoba lagi dalam ±1 menit.')
     } catch (err) {
@@ -201,7 +204,9 @@ export default function SocialPostPage() {
     setSaving(true)
     try {
       await deleteSocialPost(id!)
-      navigate('/social', { replace: true })
+      onChanged?.()
+      if (onDismiss) onDismiss()
+      else navigate('/social', { replace: true })
     } catch (err) {
       setError(apiMessage(err, 'Draf gagal dihapus.'))
       setSaving(false)
@@ -209,6 +214,7 @@ export default function SocialPostPage() {
   }
 
   if (loading) return <div className="flex h-64 items-center justify-center text-sm text-slate-400">Memuat posting…</div>
+  if (!isNew && !post) return <p role="alert" className="rounded-lg bg-red-50 p-4 text-sm text-red-700">{error || 'Posting tidak ditemukan.'} <button onClick={() => { setLoading(true); void load() }} className="font-semibold underline">Coba lagi</button></p>
 
   const st = post ? POST_STATUS[post.status] : null
   const actions = post?.allowed_actions ?? []
@@ -217,7 +223,7 @@ export default function SocialPostPage() {
   return (
     <div className="space-y-6">
       <div className="flex flex-wrap items-center gap-3">
-        <Link to="/social" aria-label="Kembali" className="text-slate-400 hover:text-slate-600"><ArrowLeft size={20} aria-hidden /></Link>
+        {!onDismiss && <Link to="/social" aria-label="Kembali" className="text-slate-400 hover:text-slate-600"><ArrowLeft size={20} aria-hidden /></Link>}
         <h2 className="text-xl font-bold text-slate-900">{isNew ? 'Posting baru' : editable ? 'Ubah posting' : 'Detail posting'}</h2>
         {st && <Badge variant={st.variant}>{st.label}</Badge>}
       </div>

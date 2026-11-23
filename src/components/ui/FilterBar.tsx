@@ -20,7 +20,7 @@ export function FilterBar({ search, children, controls, summary }: {
   summary?: ReactNode
 }) {
   return (
-    <div className="card p-3 sm:p-4 flex flex-col gap-2 lg:flex-row lg:items-center">
+    <div className="card p-3 sm:p-4 flex flex-col gap-2 lg:flex-row lg:flex-wrap lg:items-center">
       {/* Cari dibatasi 384px: kontrol tetap berdekatan di layar lebar. */}
       {search && <div className="min-w-0 lg:w-96 lg:flex-none">{search}</div>}
       {children}
@@ -43,6 +43,11 @@ export function SearchField({ value, onSearch, placeholder, label, delay = 300 }
   delay?: number
 }) {
   const [input, setInput] = useState(value)
+  const [applied, setApplied] = useState(value)
+  if (applied !== value) {
+    setApplied(value)
+    setInput(value)
+  }
   const latest = useRef(onSearch)
   useEffect(() => { latest.current = onSearch })
 

@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import DetailLink from '../components/ui/DetailLink'
+import DetailModal from '../components/ui/DetailModal'
 import { Plus, RefreshCw } from 'lucide-react'
 import ButtonIcon from '../components/ui/ButtonIcon'
 import Badge from '../components/ui/Badge'
@@ -14,7 +16,7 @@ function PostRow({ p }: { p: SocialPost }) {
   const st = POST_STATUS[p.status]
   return (
     <li>
-      <Link to={`/social/${p.id}`} className="flex items-center gap-3 rounded-lg px-2 py-2 hover:bg-slate-50">
+      <DetailLink kind="post" id={p.id} className="flex items-center gap-3 rounded-lg px-2 py-2 hover:bg-slate-50">
         {p.media[0] ? <img src={mediaPoster(p.media[0].url)} alt="" className="h-10 w-10 shrink-0 rounded-md object-cover" /> : <span className="h-10 w-10 shrink-0 rounded-md bg-slate-100" />}
         <div className="min-w-0 flex-1">
           <p className="truncate text-sm text-slate-800">{p.caption || <span className="italic text-slate-400">Tanpa caption</span>}</p>
@@ -24,7 +26,7 @@ function PostRow({ p }: { p: SocialPost }) {
           </p>
         </div>
         <Badge variant={st.variant}>{st.label}</Badge>
-      </Link>
+      </DetailLink>
     </li>
   )
 }
@@ -72,6 +74,7 @@ export default function SocialPage() {
 
   return (
     <div className="space-y-6">
+      <DetailModal kind="post" onChanged={refresh} />
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <h2 className="text-2xl font-bold tracking-tight text-slate-900">Posting Sosial</h2>

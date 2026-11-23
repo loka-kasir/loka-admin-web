@@ -1,13 +1,16 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Navigate, useParams } from 'react-router-dom'
 import { ExternalLink } from 'lucide-react'
-import { getProductSummary, type ProductKey, type ProductPayment, type ProductSummary, type ProductTenant, type TenantStatus } from '../api/productMonitor'
+import { getProductSummary, type MonitorQuery, type PagedSummary, type ProductKey, type ProductPayment, type ProductTenant } from '../api/productMonitor'
+import { SearchField } from '../components/ui/FilterBar'
+import Pagination from '../components/ui/Pagination'
+import { useListQuery, usePageBounds } from '../hooks/useListQuery'
 import { AnalyticsHeader, AnalyticsState } from '../components/analytics/AnalyticsUI'
 import Badge from '../components/ui/Badge'
 import { Card, StatCard } from '../components/ui/Card'
 import { formatDate, formatNumber, percentage } from '../lib/analytics'
 import { formatMoneyShort } from '../lib/dashboard'
-import { STATUS_LABEL, STATUS_ORDER, STATUS_VARIANT, filterTenants, productInfo, statusCount, untilHint, type ProductInfo } from '../lib/productMonitor'
+import { STATUS_LABEL, STATUS_ORDER, STATUS_VARIANT, productInfo, statusCount, untilHint, type ProductInfo } from '../lib/productMonitor'
 import { formatMoney } from '../lib/sales'
 
 const METHOD_LABEL: Record<string, string> = { duitku: 'Duitku', cash: 'Tunai', transfer: 'Transfer', qris: 'QRIS' }
@@ -62,31 +65,34 @@ function Payments({ payments }: { payments: ProductPayment[] }) {
 }
 
 /** Seperti useAnalytics, tetapi menampilkan alasan dari server (mis. "belum dikonfigurasi") dan `fresh` saat diperbarui. */
-function useProductSummary(product: ProductKey) {
-  const [state, setState] = useState<{ data: ProductSummary | null; error: string | null; updatedAt: string | null }>({ data: null, error: null, updatedAt: null })
-  const [request, setRequest] = useState({ revision: 0, fresh: false })
-  const [loading, setLoading] = useState(true)
+function useProductSummary(product: ProductKey, filters: MonitorQuery) {
+  const [state, setState] = useState<{ filters: MonitorQuery | null; data: PagedSummary | null; error: string | null; updatedAt: string | null }>({ filters: null, data: null, error: null, updatedAt: null })
+  const [manual, setManual] = useState<{ filters: MonitorQuery } | null>(null)
   useEffect(() => {
     let current = true
-    getProductSummary(product, request.fresh)
-      .then((r) => { if (current) setState({ data: r.data, error: null, updatedAt: new Date().toISOString() }) })
+    getProductSummary(product, filters, manual?.filters === filters)
+      .then(data => { if (current) setState({ filters, data, error: null, updatedAt: new Date().toISOString() }) })
       .catch((e) => {
         const message = e?.response?.data?.message
-        if (current) setState((s) => ({ ...s, error: typeof message === 'string' && message ? message : 'Data gagal dimuat. Periksa koneksi, lalu coba lagi.' }))
+        if (current) setState(s => ({ ...s, filters, error: message || 'Halaman tenant gagal dimuat. Silakan coba lagi.' }))
       })
-      .finally(() => { if (current) setLoading(false) })
     return () => { current = false }
-  }, [product, request])
-  const refresh = () => { setLoading(true); setRequest((r) => ({ revision: r.revision + 1, fresh: true })) }
-  return { ...state, loading, refresh }
+  }, [product, filters, manual])
+  const refresh = () => { setState(s => ({ ...s, filters: null })); setManual({ filters }) }
+  const loading = state.filters !== filters
+  return { ...state, error: loading ? null : state.error, loading, refresh }
 }
 
 function ProductMonitor({ info }: { info: ProductInfo }) {
-  const query = useProductSummary(info.key)
-  const [status, setStatus] = useState<TenantStatus | ''>('')
-  const [search, setSearch] = useState('')
+  const { params, page, setPage, setFilters } = useListQuery()
+  const status = STATUS_ORDER.find(s => s === params.get('status')) ?? ''
+  const search = params.get('search') ?? ''
+  const limit = 20
+  const filters = useMemo<MonitorQuery>(() => ({ page, limit, status, search }), [page, status, search])
+  const query = useProductSummary(info.key, filters)
   const data = query.data
-  const tenants = useMemo(() => filterTenants(data?.tenants ?? [], status, search), [data, status, search])
+  const total = !query.loading && !query.error ? data?.pagination.total : undefined
+  usePageBounds(page, total, limit, setPage)
   const showEmployees = info.key === 'hris'
   const columns = ['Usaha', 'Pemilik', 'Status', 'Paket', ...(showEmployees ? ['Karyawan'] : []), 'Aktif s.d.', 'Daftar']
 
@@ -132,19 +138,17 @@ function ProductMonitor({ info }: { info: ProductInfo }) {
                   key={s || 'all'}
                   type="button"
                   aria-pressed={status === s}
-                  onClick={() => setStatus(s)}
+                  onClick={() => setFilters({ status: s })}
                   className={`px-3 py-1.5 rounded-lg text-xs font-medium border ${status === s ? 'bg-indigo-600 border-indigo-600 text-white' : 'border-slate-200 text-slate-600 hover:bg-slate-50'}`}
                 >
                   {s ? STATUS_LABEL[s] : 'Semua'} <span className="tabular-nums opacity-75">{formatNumber(s ? statusCount(c, s) : c.total)}</span>
                 </button>
               ))}
             </div>
-            <input
-              type="search"
+            <SearchField label={`Cari ${info.tenantNoun}`}
               placeholder={`Cari ${info.tenantNoun}, pemilik, kontak…`}
               value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="px-3 py-2 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              onSearch={search => setFilters({ search })}
             />
           </div>
           <div className="card overflow-hidden">
@@ -158,14 +162,14 @@ function ProductMonitor({ info }: { info: ProductInfo }) {
                   </tr>
                 </thead>
                 <tbody>
-                  {tenants.length ? tenants.map((t) => <TenantRow key={t.id} tenant={t} showEmployees={showEmployees} />) : (
+                  {total === undefined ? <tr><td colSpan={columns.length} className="px-4 py-10 text-center text-slate-500">{query.loading ? 'Memuat halaman…' : 'Daftar tenant belum berhasil dimuat.'}</td></tr> : data.tenants.length ? data.tenants.map((t) => <TenantRow key={t.id} tenant={t} showEmployees={showEmployees} />) : (
                     <tr><td colSpan={columns.length} className="px-4 py-10 text-center text-slate-400">Tidak ada {info.tenantNoun} sesuai filter</td></tr>
                   )}
                 </tbody>
               </table>
             </div>
+            {total !== undefined && total > limit && <div className="p-4 border-t border-slate-100"><Pagination page={page} limit={limit} total={total} onChange={setPage} /></div>}
           </div>
-          {data.tenants.length >= 500 && <p className="text-xs text-slate-400">Menampilkan 500 {info.tenantNoun} terbaru.</p>}
         </div>
         <div className="space-y-4 min-w-0">
           <Payments payments={data.payments} />

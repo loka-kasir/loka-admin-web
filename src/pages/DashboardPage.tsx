@@ -16,6 +16,8 @@ import { delta, formatMoneyShort, monthToDateRanges, monthlySeries, rate } from 
 import { formatMoney } from '../lib/sales'
 import { planBucketLabel } from '../lib/membership'
 import Modal from '../components/ui/Modal'
+import DetailLink from '../components/ui/DetailLink'
+import DetailModal from '../components/ui/DetailModal'
 
 // `free` dari server = usaha tanpa langganan berlaku (trial/Pro berakhir).
 const MEMBERSHIP_COLORS: Record<string, string> = {
@@ -238,7 +240,7 @@ export default function DashboardPage() {
           <ul className="divide-y divide-slate-100">
             {growth.pro_not_renewed_businesses.map((business) => (
               <li key={business.business_id} className="py-3 first:pt-0 last:pb-0">
-                <p className="font-medium text-sm text-slate-800">{business.business_name}</p>
+                <DetailLink kind="business" id={business.business_id} className="font-medium text-sm text-indigo-600 hover:underline">{business.business_name}</DetailLink>
                 <p className="mt-0.5 text-xs text-slate-500">Pemilik: {business.owner_name}</p>
                 {business.email && <p className="text-xs text-slate-500">{business.email}</p>}
                 {business.phone && <p className="text-xs text-slate-500">{business.phone}</p>}
@@ -250,6 +252,7 @@ export default function DashboardPage() {
           <p className="text-sm text-slate-500">Belum ada rincian bisnis untuk periode ini.</p>
         )}
       </Modal>
+      <DetailModal kind="business" onChanged={refreshAll} />
 
       {/* 4. Grafik */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">

@@ -127,18 +127,24 @@ export default function NotificationsPage() {
   const [logs, setLogs] = useState<NotificationLog[]>([])
   const [stats, setStats] = useState<NotificationStats | null>(null)
   const [logsLoading, setLogsLoading] = useState(true)
+  const [logsError, setLogsError] = useState(false)
   const [historyTick, setHistoryTick] = useState(0)
 
-  const refreshHistory = () => setHistoryTick((n) => n + 1)
+  const refreshHistory = () => { setLogsLoading(true); setHistoryTick(n => n + 1) }
 
   useEffect(() => {
+    let active = true
     Promise.all([getNotificationLogs(), getNotificationStats()])
       .then(([logsRes, statsRes]) => {
+        if (!active) return
+        if (!logsRes.status || !statsRes.status) throw new Error()
         setLogs(logsRes.data ?? [])
         setStats(statsRes.data)
-        setLogsLoading(false)
+        setLogsError(false)
       })
-      .catch(() => setLogsLoading(false))
+      .catch(() => { if (active) setLogsError(true) })
+      .finally(() => { if (active) setLogsLoading(false) })
+    return () => { active = false }
   }, [historyTick])
 
   const isPush = channel === 'push'
@@ -449,15 +455,17 @@ export default function NotificationsPage() {
           <div className="card overflow-hidden xl:sticky xl:top-6">
             <div className="px-5 py-4 border-b border-slate-100 flex items-center justify-between">
               <h3 className="text-sm font-semibold text-slate-700">Riwayat Pengiriman</h3>
-              <button onClick={refreshHistory}
+              <button onClick={refreshHistory} disabled={logsLoading}
                 className="text-xs text-indigo-600 hover:text-indigo-700 font-medium">
-                Refresh
+                Perbarui
               </button>
             </div>
 
             <div className="max-h-none xl:max-h-[calc(100vh-220px)] overflow-y-auto">
               {logsLoading ? (
                 <div className="py-12 text-center text-slate-400 text-sm">Memuat riwayat...</div>
+              ) : logsError ? (
+                <p role="alert" className="p-5 text-sm text-red-700">Riwayat pengiriman gagal dimuat. <button onClick={refreshHistory} className="underline">Coba lagi</button></p>
               ) : logs.length === 0 ? (
                 <div className="py-12 text-center">
                   <Inbox size={32} strokeWidth={1.5} className="mx-auto mb-2 text-slate-300" aria-hidden />

@@ -24,3 +24,4 @@ Push ke `main` menjalankan CI dan men-deploy panel ke `admin.lokakasir.id` (Clou
 
 - Menu "Produk Lain" (`/monitor/:product`) dan bagian "Produk lain" di Dashboard membaca `GET /admin/product-monitor[/:product]` di loka-kasir-service, yang meneruskan ke endpoint ringkasan hanya-baca tiap produk (`/api/v1/monitor/summary` Billing, `/api/v1/accounting/monitor/summary` Accounting, `/api/monitor/summary` HRIS) dengan token di env server (`<PRODUK>_MONITOR_URL`/`_MONITOR_TOKEN`). Token tidak pernah ke browser.
 - Bentuk data sama untuk ketiganya (`src/api/productMonitor.ts`); helper murni di `src/lib/productMonitor.ts`.
+- Daftar tenant memakai `page`, `limit` (maks. 100), `search`, dan `status` di endpoint per produk. `data.pagination.total` adalah jumlah setelah filter, sedangkan kartu statistik tetap global. Permintaan tanpa filter/pagination mempertahankan kontrak Dashboard lama. Rilis layanan produk lebih dulu, lalu proxy Kasir, terakhir panel.

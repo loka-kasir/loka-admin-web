@@ -1,6 +1,8 @@
 import { AlertTriangle, Check, ExternalLink, RefreshCw, RotateCcw, Trash2 } from 'lucide-react'
 import ButtonIcon from '../components/ui/ButtonIcon'
-import { useState, useEffect, useCallback } from 'react'
+import Pagination from '../components/ui/Pagination'
+import { lastPage } from '../lib/pagination'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { format } from 'date-fns'
 import { id as localeId } from 'date-fns/locale'
 import {
@@ -68,7 +70,7 @@ export default function ThreadsBotPage() {
 
   const handleGenerate = async () => {
     setBusy(true)
-    try { await generatePost(); flash('Draf postingan dibuat.') }
+    try { await generatePost(); setRefreshKey(v => v + 1); flash('Draf postingan dibuat.') }
     catch (e) { flash(errMsg(e)) }
     finally { setBusy(false) }
   }
@@ -106,7 +108,7 @@ export default function ThreadsBotPage() {
 
       {tab === 'queue' && <DraftList key="queue" status="pending" refreshKey={refreshKey} editable onAction={flash} />}
       {tab === 'replies' && <ReplyHistory />}
-      {tab === 'history' && <DraftList key="history" status="history" refreshKey={refreshKey} historyView onAction={flash} />}
+      {tab === 'history' && <DraftList key="history" status="history" refreshKey={refreshKey} onAction={flash} />}
       {tab === 'settings' && <SettingsPanel onSaved={() => flash('Pengaturan disimpan.')} />}
     </div>
   )
@@ -145,23 +147,37 @@ function BotConnection({ refreshKey }: { refreshKey: number }) {
   </div>
 }
 
-function DraftList({ status, editable, historyView, onAction, refreshKey }: {
-  status: string; editable?: boolean; historyView?: boolean; onAction: (m: string) => void; refreshKey: number
+function DraftList({ status, editable, onAction, refreshKey }: {
+  status: string; editable?: boolean; onAction: (m: string) => void; refreshKey: number
 }) {
   const [rows, setRows] = useState<ThreadsDraft[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
+  const [page, setPage] = useState(1)
+  const [total, setTotal] = useState(0)
+  const [revision, setRevision] = useState(0)
+  const limit = 50
+  const refresh = () => setRevision(n => n + 1)
+  useEffect(() => {
+    let version = 0
+    const load = async () => {
+      const mine = ++version
+      try {
+        const r = await getDrafts({ status, limit, page })
+        if (mine !== version) return
+        if (!r.status) throw new Error(r.message)
+        const last = lastPage(r.pagination.total, limit)
+        if (page > last) { setPage(last); setLoading(true); return }
+        setRows(r.data ?? []); setTotal(r.pagination.total); setError('')
+      } catch (e) { if (mine === version) setError(errMsg(e)) }
+      if (mine === version) setLoading(false)
+    }
+    void load()
+    const timer = setInterval(load, 15_000)
+    return () => { version++; clearInterval(timer) }
+  }, [status, page, refreshKey, revision])
 
-  const load = useCallback(() => {
-    getDrafts({ status, limit: 50 })
-      .then((r) => { setRows((r.data ?? []).filter((d) => historyView ? d.status !== 'pending' : true)); setError('') })
-      .catch((e) => setError(errMsg(e)))
-      .finally(() => setLoading(false))
-  }, [status, historyView])
-
-  useEffect(() => { load(); const timer = setInterval(load, 15_000); return () => clearInterval(timer) }, [load, refreshKey])
-
-  if (error) return <div role="alert" className="card p-4 text-sm text-red-600">{error}</div>
+  if (error) return <div role="alert" className="card p-4 text-sm text-red-600">{error} <button onClick={refresh} className="underline">Coba lagi</button></div>
   if (loading) return <div className="card py-16 text-center text-slate-400 text-sm">Memuat…</div>
   if (rows.length === 0) return (
     <div className="card py-16 text-center">
@@ -172,8 +188,9 @@ function DraftList({ status, editable, historyView, onAction, refreshKey }: {
   return (
     <div className="space-y-3">
       {rows.map((d) => (
-        <DraftCard key={`${d.id}:${d.updated_at}`} draft={d} editable={editable} onChanged={load} onAction={onAction} />
+        <DraftCard key={`${d.id}:${d.updated_at}`} draft={d} editable={editable} onChanged={refresh} onAction={onAction} />
       ))}
+      <Pagination page={page} total={total} limit={limit} onChange={next => { setLoading(true); setPage(next) }} />
     </div>
   )
 }
@@ -260,29 +277,33 @@ function ReplyHistory() {
   const [error, setError] = useState('')
   const [source, setSource] = useState<SourceFilter>('all')
   const [onlyPosted, setOnlyPosted] = useState(true)
+  const request = useRef<symbol | null>(null)
 
   const load = useCallback((p: number) => {
+    const mine = Symbol()
+    request.current = mine
     setLoading(true)
     setError('')
-    getDrafts({ kind: 'reply', status: onlyPosted ? 'posted' : '', page: p, limit: PAGE_SIZE })
+    getDrafts({ kind: 'reply', status: onlyPosted ? 'posted' : 'history', page: p, limit: PAGE_SIZE })
       .then((r) => {
-        const data = (r.data ?? []).filter((d) => d.status !== 'pending')
+        if (mine !== request.current) return
+        const data = r.data ?? []
         setRows((prev) => (p === 1 ? data : [...prev, ...data]))
         setTotal(r.pagination?.total ?? 0)
         setPage(p)
       })
-      .catch((e) => setError(errMsg(e)))
-      .finally(() => setLoading(false))
+      .catch((e) => { if (mine === request.current) setError(errMsg(e)) })
+      .finally(() => { if (mine === request.current) setLoading(false) })
   }, [onlyPosted])
 
   // eslint-disable-next-line react-hooks/set-state-in-effect
-  useEffect(() => { load(1) }, [load])
+  useEffect(() => { load(1); return () => { request.current = null } }, [load])
 
   const shown = rows.filter((d) => source === 'all' || d.source === source)
   const posted = rows.filter((d) => d.status === 'posted')
   const count = (src: string) => posted.filter((d) => d.source === src).length
   const appQuestions = posted.filter((d) => ['tanya_aplikasi', 'tanya_harga', 'tanya_fitur'].includes(d.intent)).length
-  const loadedAll = rows.length >= total || total === 0
+  const loadedAll = page * PAGE_SIZE >= total
 
   const stats: [string, number, string][] = [
     ['Balasan tayang', posted.length, 'text-slate-900'],
@@ -312,12 +333,12 @@ function ReplyHistory() {
           </button>
         ))}
         <label className="ml-auto flex items-center gap-2 text-xs text-slate-600 cursor-pointer">
-          <input type="checkbox" checked={onlyPosted} onChange={(e) => setOnlyPosted(e.target.checked)} className="w-4 h-4 accent-indigo-600" />
+          <input type="checkbox" checked={onlyPosted} onChange={(e) => { setRows([]); setPage(1); setTotal(0); setOnlyPosted(e.target.checked) }} className="w-4 h-4 accent-indigo-600" />
           Hanya yang sudah tayang
         </label>
       </div>
 
-      {error && <div className="card p-4 text-sm text-red-600">{error}</div>}
+      {error && <div role="alert" className="card p-4 text-sm text-red-600">{error} <button className="underline" onClick={() => load(rows.length ? page + 1 : 1)}>Coba lagi</button></div>}
 
       {loading && rows.length === 0 ? (
         <div className="card py-16 text-center text-slate-400 text-sm">Memuat…</div>

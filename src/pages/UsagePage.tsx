@@ -1,8 +1,10 @@
 import Select from '../components/ui/Select'
 import { ArrowRight } from 'lucide-react'
 import ButtonIcon from '../components/ui/ButtonIcon'
-import { useState } from 'react'
+import { useListQuery, usePageBounds } from '../hooks/useListQuery'
 import { Link } from 'react-router-dom'
+import DetailLink from '../components/ui/DetailLink'
+import DetailModal from '../components/ui/DetailModal'
 import { getActiveUsers } from '../api/admin'
 import type { BusinessActiveUsers } from '../api/admin'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
@@ -19,19 +21,17 @@ function PlanBadge({ plan }: { plan?: string }) {
   return <span className={`inline-flex rounded-md px-2 py-1 text-xs font-medium ${key?.startsWith('pro') ? 'bg-indigo-50 text-indigo-700' : key === 'trial' ? 'bg-amber-50 text-amber-700' : 'bg-slate-100 text-slate-500'}`}>{label}</span>
 }
 
-type Filter = 'all' | 'selling' | 'active' | 'quiet'
-type Sort = 'transactions' | 'recent' | 'users' | 'hours'
 function hasActivity(row: BusinessActiveUsers, period: 'day' | 'week') {
   return (period === 'day' ? row.active_today : row.active_this_week) > 0
 }
 
 export default function UsagePage() {
   const { data: stats, loading, error, updatedAt, refresh } = useAnalytics(getActiveUsers)
-  const [period, setPeriod] = useState<'day' | 'week'>('week')
-  const [search, setSearch] = useState('')
-  const [filter, setFilter] = useState<Filter>('all')
-  const [sort, setSort] = useState<Sort>('recent')
-  const [page, setPage] = useState(1)
+  const { params, page, setPage, setFilters } = useListQuery()
+  const period = params.get('period') === 'day' ? 'day' : 'week'
+  const search = params.get('search') ?? ''
+  const filter = params.get('activity') ?? 'all'
+  const sort = params.get('sort') ?? 'recent'
   const rows = stats?.businesses ?? []
   const activeKey = period === 'day' ? 'active_today' : 'active_this_week'
   const hoursKey = period === 'day' ? 'hours_today' : 'hours_this_week'
@@ -47,17 +47,18 @@ export default function UsagePage() {
     const score = (row: BusinessActiveUsers) => sort === 'transactions' ? row.trx_this_week ?? -1 : sort === 'users' ? row[activeKey] : sort === 'hours' ? row[hoursKey] : Date.parse(row.last_seen_at ?? '') || 0
     return score(b) - score(a) || a.business_name.localeCompare(b.business_name, 'id')
   })
-  const currentPage = Math.min(page, Math.max(1, Math.ceil(filtered.length / 15)))
+  usePageBounds(page, stats ? filtered.length : undefined, 15, setPage)
   const trend = dailySeries(stats?.daily_trend, 14, point => point.hours)
   const inconsistent = stats && (stats.active_today > stats.active_this_week || stats.active_this_week > stats.total_users || rows.some(row => row.active_today > row.active_this_week || row.active_this_week > row.total_users))
 
   return <div className="space-y-6">
+    <DetailModal kind="business" onChanged={refresh} />
     <AnalyticsHeader title="Aktivitas & Pemakaian" description="Pantau pengguna aplikasi, bisnis yang bertransaksi, dan jejak pemakaian." loading={loading} updatedAt={updatedAt} refresh={refresh} />
     <AnalyticsState loading={loading} error={error} hasData={!!stats} />
     {stats && <>
       <div className="flex flex-wrap items-center justify-between gap-3">
         <p className="text-sm text-slate-500">Akun demo dikecualikan dari statistik.</p>
-        <div className="inline-flex rounded-xl border border-slate-200 bg-white p-1">{(['day', 'week'] as const).map(key => <button key={key} type="button" aria-pressed={period === key} onClick={() => { setPeriod(key); setPage(1) }} className={`rounded-lg px-4 py-2 text-sm font-medium ${period === key ? 'bg-indigo-600 text-white' : 'text-slate-500 hover:bg-slate-50'}`}>{key === 'day' ? '24 jam terakhir' : '7 hari terakhir'}</button>)}</div>
+        <div className="inline-flex rounded-xl border border-slate-200 bg-white p-1">{(['day', 'week'] as const).map(key => <button key={key} type="button" aria-pressed={period === key} onClick={() => setFilters({ period: key })} className={`rounded-lg px-4 py-2 text-sm font-medium ${period === key ? 'bg-indigo-600 text-white' : 'text-slate-500 hover:bg-slate-50'}`}>{key === 'day' ? '24 jam terakhir' : '7 hari terakhir'}</button>)}</div>
       </div>
       {inconsistent && <div role="alert" className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">Hitungan pengguna dari server belum konsisten: pengguna aktif melebihi total, atau aktif 24 jam melebihi 7 hari. Angka asli tetap ditampilkan agar masalah data bisa ditelusuri.</div>}
       <div className="grid grid-cols-1 gap-4 min-[380px]:grid-cols-2 xl:grid-cols-4">
@@ -76,23 +77,23 @@ export default function UsagePage() {
           <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Aktivitas penjualan · 7 hari</p><p className="mt-4 text-4xl font-semibold tracking-tight text-slate-900">{transactionsAvailable ? formatNumber(sellingBusinesses) : '—'} <span className="text-lg font-normal text-slate-500">bisnis</span></p>
           <p className="mt-2 text-sm text-slate-600">{transactionsAvailable ? `${formatNumber(transactions)} transaksi penjualan tercatat` : 'Data transaksi belum tersedia lengkap.'}</p>
           <p className="mt-5 text-xs leading-5 text-slate-500">Transaksi berstatus penjualan, tanpa pembatalan atau refund. Pengguna yang membuka aplikasi belum tentu melakukan penjualan.</p>
-          <button type="button" onClick={() => { setFilter('selling'); setSort('transactions'); setPage(1) }} className="mt-5 text-sm font-semibold text-emerald-700 hover:underline">Lihat bisnis bertransaksi<ButtonIcon icon={ArrowRight} side="end" /></button>
+          <button type="button" onClick={() => setFilters({ activity: 'selling', sort: 'transactions' })} className="mt-5 text-sm font-semibold text-emerald-700 hover:underline">Lihat bisnis bertransaksi<ButtonIcon icon={ArrowRight} side="end" /></button>
         </div>
       </div>
       <div className="card overflow-hidden">
         <div className="space-y-4 border-b border-slate-200 p-5">
           <div className="flex flex-wrap items-center justify-between gap-2"><h3 className="font-semibold text-slate-800">Aktivitas per bisnis</h3><span className="text-xs text-slate-500">{formatNumber(filtered.length)} dari {formatNumber(rows.length)} bisnis</span></div>
           <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            <input type="search" aria-label="Cari bisnis" placeholder="Cari nama atau ID bisnis…" value={search} onChange={e => { setSearch(e.target.value); setPage(1) }} className="min-w-0 flex-1 rounded-lg border border-slate-200 px-3 py-2 text-sm sm:min-w-48" />
-            <Select aria-label="Filter aktivitas" value={filter} onChange={e => { setFilter(e.target.value as Filter); setPage(1) }} className="rounded-lg border border-slate-200 px-3 py-2 text-sm"><option value="all">Semua aktivitas</option><option value="selling">Bertransaksi · 7 hari</option><option value="active">Ada pengguna aktif</option><option value="quiet">Tanpa pengguna aktif</option></Select>
-            <Select aria-label="Urutkan bisnis" value={sort} onChange={e => { setSort(e.target.value as Sort); setPage(1) }} className="rounded-lg border border-slate-200 px-3 py-2 text-sm"><option value="recent">Terakhir aktif</option><option value="transactions">Transaksi terbanyak</option><option value="users">Pengguna aktif terbanyak</option><option value="hours">Durasi sesi terbanyak</option></Select>
+            <input type="search" aria-label="Cari bisnis" placeholder="Cari nama atau ID bisnis…" value={search} onChange={e => setFilters({ search: e.target.value })} className="min-w-0 flex-1 rounded-lg border border-slate-200 px-3 py-2 text-sm sm:min-w-48" />
+            <Select aria-label="Filter aktivitas" value={filter} onChange={e => setFilters({ activity: e.target.value })} className="rounded-lg border border-slate-200 px-3 py-2 text-sm"><option value="all">Semua aktivitas</option><option value="selling">Bertransaksi · 7 hari</option><option value="active">Ada pengguna aktif</option><option value="quiet">Tanpa pengguna aktif</option></Select>
+            <Select aria-label="Urutkan bisnis" value={sort} onChange={e => setFilters({ sort: e.target.value })} className="rounded-lg border border-slate-200 px-3 py-2 text-sm"><option value="recent">Terakhir aktif</option><option value="transactions">Transaksi terbanyak</option><option value="users">Pengguna aktif terbanyak</option><option value="hours">Durasi sesi terbanyak</option></Select>
           </div>
         </div>
         <div className="overflow-x-auto"><table className="w-full text-sm">
           <thead className="bg-slate-50 text-xs text-slate-500"><tr>{['Bisnis / pengguna', 'Paket', 'Transaksi · 7 hari', `Pengguna · ${period === 'day' ? '24 jam' : '7 hari'}`, 'Durasi sesi', `API · ${period === 'day' ? 'hari ini UTC' : '7 hari kalender UTC'}`, 'Produk', 'Terakhir aktif · WIB'].map((label, i) => <th key={label} className={`px-4 py-3 font-medium ${i >= 2 && i <= 6 ? 'text-right' : 'text-left'}`}>{label}</th>)}</tr></thead>
           <tbody className="divide-y divide-slate-100">
-            {filtered.slice((currentPage - 1) * 15, currentPage * 15).map(row => <tr key={row.business_id} className="hover:bg-slate-50">
-              <td className="px-4 py-3"><Link to={`/businesses/${row.business_id}`} state={{ from: '/usage' }} className="font-semibold text-slate-800 hover:text-indigo-600 hover:underline">{row.business_name}</Link><p className="mt-1 text-xs text-slate-400">{formatNumber(row.total_users)} pengguna · Daftar {formatDate(row.created_at)}</p></td>
+            {filtered.slice((page - 1) * 15, page * 15).map(row => <tr key={row.business_id} className="hover:bg-slate-50">
+              <td className="px-4 py-3"><DetailLink kind="business" id={row.business_id} className="font-semibold text-slate-800 hover:text-indigo-600 hover:underline">{row.business_name}</DetailLink><p className="mt-1 text-xs text-slate-400">{formatNumber(row.total_users)} pengguna · Daftar {formatDate(row.created_at)}</p></td>
               <td className="px-4 py-3"><PlanBadge plan={row.plan} /></td>
               <td className={`px-4 py-3 text-right tabular-nums ${(row.trx_this_week ?? 0) > 0 ? 'font-semibold text-emerald-600' : 'text-slate-400'}`}>{formatNumber(row.trx_this_week)}</td>
               <td className="px-4 py-3 text-right tabular-nums"><span className={row[activeKey] > 0 ? 'font-semibold text-indigo-600' : 'text-slate-400'}>{formatNumber(row[activeKey])}</span><span className="text-slate-400"> / {formatNumber(row.total_users)}</span></td>
@@ -104,7 +105,7 @@ export default function UsagePage() {
             {!filtered.length && <tr><td colSpan={8} className="px-5 py-12 text-center text-slate-400">{rows.length ? 'Tidak ada bisnis yang cocok dengan filter.' : 'Belum ada bisnis tercatat.'}</td></tr>}
           </tbody>
         </table></div>
-        <div className="border-t border-slate-100 px-5 py-3"><Pagination page={currentPage} total={filtered.length} limit={15} onChange={setPage} /></div>
+        <div className="border-t border-slate-100 px-5 py-3"><Pagination page={page} total={filtered.length} limit={15} onChange={setPage} /></div>
       </div>
       <details className="card p-4 text-sm text-slate-600"><summary className="cursor-pointer font-medium">Cara membaca data</summary><div className="mt-3 space-y-2 text-xs leading-5"><p>Pengguna aktif adalah akun yang memiliki jejak request terautentikasi dalam 24 jam atau 7 hari terakhir, termasuk akun karyawan. Angka ini bukan jumlah pengguna yang sedang online.</p><p>Durasi sesi diperkirakan dari request pertama hingga terakhir. Jeda lebih dari 15 menit memulai sesi baru. Request tunggal tetap dihitung sebagai aktivitas meskipun durasinya nol; sinkronisasi latar belakang juga bisa tercatat.</p><p>API menggunakan hari kalender UTC (berganti pukul 07.00 WIB), sehingga berbeda dari jendela aktivitas 24 jam / 7 hari. Jam ditampilkan sebagai total sesi, bukan rata-rata waktu layar.</p><p>Tanda — berarti data belum tersedia. Kolom produk adalah jumlah produk yang belum dihapus.</p></div></details>
     </>}

@@ -1,4 +1,7 @@
 import Select from '../components/ui/Select'
+import Pagination from '../components/ui/Pagination'
+import { useAdminData } from '../hooks/useAdminData'
+import { useListQuery, usePageBounds } from '../hooks/useListQuery'
 import { useState, useEffect, useCallback } from 'react'
 import { format } from 'date-fns'
 import { id as localeId } from 'date-fns/locale'
@@ -17,7 +20,7 @@ import {
 } from '../api/prospects'
 import { searchGooglePlaces, type GooglePlaceResult } from '../lib/googlePlaces'
 import {
-  ArrowLeft, ArrowRight, Building2, Globe, Mail, MapPin, MessageCircle, Phone, Pencil, Search, Send, Star,
+  Building2, Globe, Mail, MapPin, MessageCircle, Phone, Pencil, Search, Send, Star,
   StickyNote, Tag, Trash2,
 } from 'lucide-react'
 import ButtonIcon from '../components/ui/ButtonIcon'
@@ -80,31 +83,24 @@ const COMMON_CITIES = [
 type SendTarget = { mode: 'single'; prospect: Prospect } | { mode: 'selected'; ids: string[] } | { mode: 'all' }
 
 export default function ProspectsPage() {
-  const [rows, setRows] = useState<Prospect[]>([])
-  const [total, setTotal] = useState(0)
-  const [page, setPage] = useState(1)
-  const [statusFilter, setStatusFilter] = useState('')
-  const [search, setSearch] = useState('')
-  const [searchInput, setSearchInput] = useState('')
-  const [loading, setLoading] = useState(true)
+  const { params, page, setPage, setFilters } = useListQuery()
+  const statusFilter = params.get('status') ?? ''
+  const search = params.get('search') ?? ''
+  const [searchInput, setSearchInput] = useState(search)
   const [selected, setSelected] = useState<Set<string>>(new Set())
   const [formModal, setFormModal] = useState<'new' | Prospect | null>(null)
   const [sendTarget, setSendTarget] = useState<SendTarget | null>(null)
   const [importOpen, setImportOpen] = useState(false)
 
-  const load = useCallback(() => {
-    setLoading(true)
-    getProspects({ page, limit: LIMIT, status: statusFilter, search })
-      .then((r) => {
-        setRows(r.data ?? [])
-        setTotal(r.pagination.total)
-      })
-      .catch(() => {})
-      .finally(() => setLoading(false))
+  const fetcher = useCallback(async () => {
+    const res = await getProspects({ page, limit: LIMIT, status: statusFilter, search })
+    if (!res.status) throw new Error(res.message)
+    return res
   }, [page, statusFilter, search])
-
-  // eslint-disable-next-line react-hooks/set-state-in-effect
-  useEffect(() => { load() }, [load])
+  const { data, loading, error, refresh: load } = useAdminData(fetcher)
+  const rows = data?.data ?? []
+  const total = data?.pagination.total ?? 0
+  usePageBounds(page, data?.pagination.total, LIMIT, setPage)
 
   const toggleSelect = (id: string) =>
     setSelected((s) => {
@@ -133,7 +129,6 @@ export default function ProspectsPage() {
     load()
   }
 
-  const totalPages = Math.ceil(total / LIMIT)
   const selectedIds = [...selected]
 
   return (
@@ -171,7 +166,7 @@ export default function ProspectsPage() {
           {FILTER_TABS.map((opt) => (
             <button
               key={opt.value}
-              onClick={() => { setStatusFilter(opt.value); setPage(1) }}
+              onClick={() => setFilters({ status: opt.value })}
               className={`px-4 py-2 rounded-xl text-sm font-medium border transition-all ${
                 statusFilter === opt.value
                   ? 'bg-indigo-600 text-white border-indigo-600'
@@ -183,7 +178,7 @@ export default function ProspectsPage() {
           ))}
         </div>
         <form
-          onSubmit={(e) => { e.preventDefault(); setSearch(searchInput); setPage(1) }}
+          onSubmit={(e) => { e.preventDefault(); setFilters({ search: searchInput.trim() }) }}
           className="flex gap-2 w-full lg:w-auto lg:ml-auto"
         >
           <input
@@ -216,6 +211,10 @@ export default function ProspectsPage() {
 
       {loading ? (
         <div className="card py-20 text-center text-slate-400 text-sm">Memuat data...</div>
+      ) : error ? (
+        <p role="alert" className="card p-4 text-sm text-red-700">{error} <button onClick={load} className="underline">Coba lagi</button></p>
+      ) : !rows.length && (statusFilter || search) ? (
+        <p className="card p-8 text-center text-sm text-slate-500">Tidak ada prospek sesuai filter.</p>
       ) : rows.length === 0 ? (
         <div className="card py-20 px-6 text-center">
           <MapPin size={32} strokeWidth={1.5} className="mx-auto mb-3 text-slate-300" aria-hidden />
@@ -256,19 +255,7 @@ export default function ProspectsPage() {
             ))}
           </div>
 
-          {totalPages > 1 && (
-            <div className="flex flex-col min-[430px]:flex-row min-[430px]:items-center justify-between gap-3 pt-2">
-              <p className="text-xs text-slate-500">
-                {(page - 1) * LIMIT + 1}–{Math.min(page * LIMIT, total)} dari {total} prospek
-              </p>
-              <div className="flex gap-1.5">
-                <button onClick={() => setPage((p) => Math.max(1, p - 1))} disabled={page === 1}
-                  className="px-3 py-1.5 text-xs border border-slate-200 rounded-xl disabled:opacity-40 hover:bg-slate-50"><ButtonIcon icon={ArrowLeft} size={13} />Sebelumnya</button>
-                <button onClick={() => setPage((p) => Math.min(totalPages, p + 1))} disabled={page === totalPages}
-                  className="px-3 py-1.5 text-xs border border-slate-200 rounded-xl disabled:opacity-40 hover:bg-slate-50">Berikutnya<ButtonIcon icon={ArrowRight} side="end" size={13} /></button>
-              </div>
-            </div>
-          )}
+          <Pagination page={page} total={total} limit={LIMIT} onChange={setPage} />
         </>
       )}
 
@@ -291,7 +278,7 @@ export default function ProspectsPage() {
       {importOpen && (
         <ImportGoogleModal
           onClose={() => setImportOpen(false)}
-          onImported={() => { setImportOpen(false); setPage(1); load() }}
+          onImported={() => { setImportOpen(false); if (page === 1) load(); else setPage(1) }}
         />
       )}
     </div>

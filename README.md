@@ -1,5 +1,18 @@
 # React + TypeScript + Vite
 
+## Uji navigasi daftar dan detail
+
+`npm test` mencakup batas dan rentang tombol pagination. Untuk menguji alur
+halaman 9 → detail → ubah → kembali di desktop dan ponsel, jalankan Vite lokal:
+
+```sh
+VITE_API_BASE_URL=http://127.0.0.1:5186 npm run dev -- --host 127.0.0.1 --port 5186 --strictPort
+```
+
+Di terminal lain, jalankan `node tests/navigation.smoke.cjs` dengan Chrome dan
+`LOKA_PLAYWRIGHT_PATH` menunjuk instalasi Playwright lokal. Skenario ini memakai
+respons API tiruan dan memblokir permintaan ke luar server lokal.
+
 ## Deploy ke Cloudflare Workers
 
 Push ke `main` menjalankan build dan deploy otomatis melalui GitHub Actions. Build produksi memakai konfigurasi Vite di `.env`.

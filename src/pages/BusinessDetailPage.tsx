@@ -4,24 +4,28 @@ import ButtonIcon from '../components/ui/ButtonIcon'
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate, useLocation } from 'react-router-dom'
 import { getBusinessById, getActiveUsers, updateOutletAdminNote, toggleBusinessActive, createMembership, updateMembership, deactivateMembership, deleteBusiness, updateBusiness, getBusinessTypes, getBusinessVerticals, resetUserPassword } from '../api/admin'
-import type { BusinessActiveUsers } from '../api/admin'
+import { useAnalytics } from '../hooks/useAnalytics'
 import type { AdminBusiness, AdminBusinessType, AdminBusinessVertical } from '../types'
 import BusinessSubscriptionPrices from '../components/BusinessSubscriptionPrices'
 import BusinessPaymentOrders from '../components/BusinessPaymentOrders'
 import Badge from '../components/ui/Badge'
 import { quickMembershipPlans, trialExtensionDays, TRIAL_DEFAULT_DAYS, membershipLabel, membershipVariant, membershipDefaultDays, membershipUpdate } from '../lib/membership'
 import Modal from '../components/ui/Modal'
+import type { DetailProps } from '../components/ui/DetailModal'
 import DeleteConfirmModal from '../components/ui/DeleteConfirmModal'
 import { format } from 'date-fns'
 import { id as localeId } from 'date-fns/locale'
 
-export default function BusinessDetailPage() {
-  const { id } = useParams<{ id: string }>()
+export default function BusinessDetailPage({ recordId, onDismiss, onChanged }: DetailProps) {
+  const { id: routeId } = useParams()
+  const id = recordId ?? routeId
   const navigate = useNavigate()
   const location = useLocation()
   const [business, setBusiness] = useState<AdminBusiness | null>(null)
-  const [usage, setUsage] = useState<BusinessActiveUsers | null>(null)
+  const usageQuery = useAnalytics(getActiveUsers)
+  const usage = usageQuery.data?.businesses?.find(row => row.business_id === id)
   const [loading, setLoading] = useState(true)
+  const [failed, setFailed] = useState(false)
   const [membershipModal, setMembershipModal] = useState(false)
   const [form, setForm] = useState({ type: 'pro', days: 30 })
   const [submitting, setSubmitting] = useState(false)
@@ -42,24 +46,26 @@ export default function BusinessDetailPage() {
   const [savingOutletNote, setSavingOutletNote] = useState<string | null>(null)
   const [resettingPassword, setResettingPassword] = useState(false)
 
-  const refetch = () => {
+  const retry = () => {
     setLoading(true)
     setFetchTick((n) => n + 1)
   }
+  const refetch = () => { onChanged?.(); usageQuery.refresh(); retry() }
 
   useEffect(() => {
     if (!id) return
     let cancelled = false
-    Promise.all([getBusinessById(id), getActiveUsers()])
-      .then(([businessRes, usageRes]) => {
+    getBusinessById(id)
+      .then(businessRes => {
         if (cancelled) return
+        if (!businessRes.status || !businessRes.data) throw new Error()
+        setFailed(false)
         setBusiness(businessRes.data)
-        setUsage((usageRes.data.businesses ?? []).find((row) => row.business_id === id) ?? null)
       })
-      .catch(() => { if (!cancelled) navigate('/businesses') })
+      .catch(() => { if (!cancelled) setFailed(true) })
       .finally(() => { if (!cancelled) setLoading(false) })
     return () => { cancelled = true }
-  }, [id, navigate, fetchTick])
+  }, [id, fetchTick])
 
   const openEditBusiness = () => {
     if (!business) return
@@ -219,7 +225,7 @@ export default function BusinessDetailPage() {
     return <div className="flex items-center justify-center h-64 text-slate-400">Memuat...</div>
   }
 
-  if (!business) return null
+  if (failed || !business) return <p role="alert" className="rounded-lg bg-red-50 p-4 text-sm text-red-700">Detail bisnis gagal dimuat. <button onClick={retry} className="font-semibold underline">Coba lagi</button></p>
 
   const membership = business.membership
   const isExpired = membership && (!membership.is_active || new Date(membership.end_date) < new Date())
@@ -242,13 +248,15 @@ export default function BusinessDetailPage() {
         onClose={() => setDeleteModal(false)}
         onConfirm={async () => {
           await deleteBusiness(business.id)
-          navigate('/businesses')
+          onChanged?.()
+          if (onDismiss) onDismiss()
+          else navigate('/businesses')
         }}
       />
 
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="flex items-start sm:items-center gap-3 min-w-0">
-          <button onClick={() => navigate(backTo)} className="text-slate-400 hover:text-slate-600" aria-label="Kembali"><ArrowLeft size={20} aria-hidden /></button>
+          {!onDismiss && <button onClick={() => navigate(backTo)} className="text-slate-400 hover:text-slate-600" aria-label="Kembali"><ArrowLeft size={20} aria-hidden /></button>}
           <div className="min-w-0">
             <h2 className="text-xl font-bold text-slate-800 break-words">{business.business_name}</h2>
             <p className="text-xs sm:text-sm text-slate-500 break-all">{business.id}</p>
@@ -269,7 +277,7 @@ export default function BusinessDetailPage() {
       <div className="flex flex-wrap gap-2">
         <button onClick={() => navigate(`/users?business_id=${business.id}`)} className="rounded-lg border border-indigo-200 bg-indigo-50 px-4 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-100"><ButtonIcon icon={Users} />Lihat pengguna</button>
         <button onClick={() => navigate(`/sales?business_id=${business.id}`)} className="rounded-lg border border-indigo-200 bg-indigo-50 px-4 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-100"><ButtonIcon icon={TrendingUp} />Lihat penjualan</button>
-        <button onClick={() => navigate(`/products?business_id=${business.id}`)} className="rounded-lg border border-indigo-200 bg-indigo-50 px-4 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-100"><ButtonIcon icon={Boxes} />Lihat produk ({(usage?.record_count ?? 0).toLocaleString('id-ID')})</button>
+        <button onClick={() => navigate(`/products?business_id=${business.id}`)} className="rounded-lg border border-indigo-200 bg-indigo-50 px-4 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-100"><ButtonIcon icon={Boxes} />Lihat produk{usage?.record_count != null && ` (${usage.record_count.toLocaleString('id-ID')})`}</button>
       </div>
 
       {/* Snapshot operasional agar super admin bisa menilai kesehatan tenant
@@ -280,18 +288,20 @@ export default function BusinessDetailPage() {
             <h3 className="font-semibold text-slate-700">Kesehatan Operasional</h3>
             <p className="text-xs text-slate-400 mt-0.5">Ringkasan aktivitas 7 hari terakhir</p>
           </div>
-          <span className={`w-fit px-2.5 py-1 rounded-full text-xs font-medium ${usageState.tone}`}>{usageState.label}</span>
+          {usage && <span className={`w-fit px-2.5 py-1 rounded-full text-xs font-medium ${usageState.tone}`}>{usageState.label}</span>}
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+        {usageQuery.error ? <p role="alert" className="text-sm text-red-700">Aktivitas gagal dimuat. <button onClick={usageQuery.refresh} className="underline">Coba lagi</button></p>
+          : !usage ? <p className="text-sm text-slate-500">{usageQuery.loading ? 'Memuat aktivitas…' : 'Belum ada ringkasan aktivitas.'}</p>
+          : <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
           <Metric label="Transaksi" value={(usage?.trx_this_week ?? 0).toLocaleString('id-ID')} hint="7 hari terakhir" positive={(usage?.trx_this_week ?? 0) > 0} />
           <Metric label="Jam pakai" value={formatUsageHours(usage?.hours_this_week ?? 0)} hint="7 hari terakhir" />
           <Metric label="Pengguna aktif" value={`${usage?.active_this_week ?? 0}/${usage?.total_users ?? 0}`} hint="aktif / terdaftar" />
           <Metric label="API calls" value={(usage?.api_calls_this_week ?? 0).toLocaleString('id-ID')} hint="7 hari terakhir" />
           <Metric label="Terakhir aktif" value={lastSeenLabel(usage?.last_seen_at ?? null)} hint="aktivitas pengguna" />
-          <Metric label="Data tersimpan" value={(usage?.record_count ?? 0).toLocaleString('id-ID')} hint="transaksi + produk" />
+          <Metric label="Produk" value={(usage.record_count ?? 0).toLocaleString('id-ID')} hint="belum dihapus" />
           <Metric label="Aktif hari ini" value={(usage?.active_today ?? 0).toLocaleString('id-ID')} hint="dari pengguna terdaftar" />
           <Metric label="API hari ini" value={(usage?.api_calls_today ?? 0).toLocaleString('id-ID')} hint="permintaan aplikasi" />
-        </div>
+        </div>}
       </section>
 
       <section className="card overflow-hidden">

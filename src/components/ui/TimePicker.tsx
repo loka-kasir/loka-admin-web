@@ -43,6 +43,7 @@ export default function TimePicker({ value, onChange, label, suffix = 'WIB', dis
   disabled?: boolean
 }) {
   const [open, setOpen] = useState(false)
+  const [portalRoot, setPortalRoot] = useState<HTMLElement | null>(null)
   const [style, setStyle] = useState<CSSProperties>({})
   const triggerRef = useRef<HTMLButtonElement>(null)
   const panelRef = useRef<HTMLDivElement>(null)
@@ -102,7 +103,11 @@ export default function TimePicker({ value, onChange, label, suffix = 'WIB', dis
         aria-haspopup="dialog"
         aria-expanded={open}
         disabled={disabled}
-        onClick={() => (open ? close() : setOpen(true))}
+        onClick={e => {
+          setPortalRoot(e.currentTarget.closest('dialog') ?? document.body)
+          if (open) close()
+          else setOpen(true)
+        }}
         onKeyDown={onKeyDown}
         className="inline-flex h-10 items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-800 hover:border-slate-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 disabled:opacity-50"
       >
@@ -111,7 +116,7 @@ export default function TimePicker({ value, onChange, label, suffix = 'WIB', dis
         {suffix && <span className="text-slate-400">{suffix}</span>}
       </button>
 
-      {open && createPortal(
+      {open && portalRoot && createPortal(
         <div
           ref={panelRef}
           role="dialog"
@@ -124,7 +129,7 @@ export default function TimePicker({ value, onChange, label, suffix = 'WIB', dis
           <div className="my-2 w-px bg-slate-100" aria-hidden />
           <Column name="Menit" items={MINUTES} current={mm} onPick={(m) => { onChange(`${hh}:${m}`); close() }} />
         </div>,
-        document.body,
+        portalRoot,
       )}
     </>
   )

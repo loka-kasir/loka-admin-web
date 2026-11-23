@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import DetailLink from '../ui/DetailLink'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import type { SocialPost } from '../../api/social'
 import { POST_STATUS, mediaPoster, monthGrid, wibDateKey, wibParts } from '../../lib/social'
@@ -46,17 +46,16 @@ export default function SocialCalendar({ year, month, posts, onMonth, today }: {
             <div key={cell.key} className={`min-h-24 bg-white p-1.5 ${cell.inMonth ? '' : 'opacity-50'}`}>
               <div className={`mb-1 flex h-5 w-5 items-center justify-center rounded-full text-[11px] ${cell.key === today ? 'bg-indigo-600 font-semibold text-white' : 'text-slate-500'}`}>{cell.day}</div>
               <div className="space-y-1">
-                {items.slice(0, 3).map((p) => {
+                {items.map((p) => {
                   const t = wibParts(p.scheduled_at!)
                   return (
-                    <Link key={p.id} to={`/social/${p.id}`} title={`${POST_STATUS[p.status].label} · ${p.caption.slice(0, 80)}`} className="flex items-center gap-1.5 rounded-md px-1 py-0.5 hover:bg-slate-100">
+                    <DetailLink key={p.id} kind="post" id={p.id} title={`${POST_STATUS[p.status].label} · ${p.caption.slice(0, 80)}`} className="flex items-center gap-1.5 rounded-md px-1 py-0.5 hover:bg-slate-100">
                       {p.media[0] ? <img src={mediaPoster(p.media[0].url)} alt="" className="h-5 w-5 shrink-0 rounded object-cover" /> : <span className="h-5 w-5 shrink-0 rounded bg-slate-200" />}
                       <span className="tabular-nums text-slate-600">{String(t.hh).padStart(2, '0')}:{String(t.mm).padStart(2, '0')}</span>
                       <span className={`ml-auto h-1.5 w-1.5 shrink-0 rounded-full ${DOT[POST_STATUS[p.status].variant]}`} aria-label={POST_STATUS[p.status].label} />
-                    </Link>
+                    </DetailLink>
                   )
                 })}
-                {items.length > 3 && <p className="px-1 text-[11px] text-slate-400">+{items.length - 3} lagi</p>}
               </div>
             </div>
           )

@@ -1,4 +1,5 @@
-import { AlertTriangle, Trash2 } from 'lucide-react'
+import { AlertTriangle } from 'lucide-react'
+import Modal from './Modal'
 import ButtonIcon from '../../components/ui/ButtonIcon'
 import { useState } from 'react'
 
@@ -28,6 +29,7 @@ export default function DeleteConfirmModal({ open, businessName, onClose, onConf
   const [error, setError] = useState('')
 
   const handleClose = () => {
+    if (loading) return
     setInput('')
     setError('')
     onClose()
@@ -54,18 +56,8 @@ export default function DeleteConfirmModal({ open, businessName, onClose, onConf
   if (!open) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center">
-      <div className="absolute inset-0 bg-black/50" onClick={handleClose} />
-      <div className="relative bg-white rounded-t-2xl sm:rounded-2xl shadow-2xl w-full max-w-md sm:mx-4 p-4 sm:p-6 max-h-[92dvh] overflow-y-auto">
-        <div className="flex items-center gap-3 mb-4">
-          <div className="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center text-red-600 shrink-0">
-            <Trash2 size={18} aria-hidden />
-          </div>
-          <div>
-            <h2 className="text-base font-bold text-slate-800">Hapus Bisnis</h2>
-            <p className="text-xs text-slate-500 mt-0.5">Tindakan ini tidak bisa dibatalkan</p>
-          </div>
-        </div>
+    <Modal title="Hapus Bisnis" open={open} onClose={handleClose}>
+        <p className="text-xs text-slate-500 mb-4">Tindakan ini tidak bisa dibatalkan</p>
 
         <div className="bg-red-50 border border-red-200 rounded-xl p-4 mb-5 space-y-1">
           <p className="text-sm font-semibold text-red-700"><ButtonIcon icon={AlertTriangle} />Data berikut akan terhapus permanen:</p>
@@ -102,7 +94,6 @@ export default function DeleteConfirmModal({ open, businessName, onClose, onConf
             {loading ? 'Menghapus...' : 'Hapus Permanen'}
           </button>
         </div>
-      </div>
-    </div>
+    </Modal>
   )
 }

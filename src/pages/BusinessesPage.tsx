@@ -1,7 +1,10 @@
 import Select from '../components/ui/Select'
 import { FilterBar, SearchField, filterControl } from '../components/ui/FilterBar'
-import { useEffect, useState, useCallback } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useState, useCallback } from 'react'
+import { useAdminData } from '../hooks/useAdminData'
+import { useListQuery, usePageBounds } from '../hooks/useListQuery'
+import DetailLink from '../components/ui/DetailLink'
+import DetailModal from '../components/ui/DetailModal'
 import { getBusinesses, toggleBusinessActive, deleteBusiness } from '../api/admin'
 import type { AdminBusiness } from '../types'
 import Badge from '../components/ui/Badge'
@@ -42,62 +45,24 @@ function membershipBadge(membership: AdminBusiness['membership']) {
 }
 
 export default function BusinessesPage() {
-  const [businesses, setBusinesses] = useState<AdminBusiness[]>([])
-  const [error, setError] = useState<string | null>(null)
-  const [total, setTotal] = useState(0)
-  const [page, setPage] = useState(1)
-  const [search, setSearch] = useState('')
-  const [status, setStatus] = useState('')
-  const [sort, setSort] = useState<SortValue>('created_at:desc')
-  const [loading, setLoading] = useState(true)
+  const { params, page, setPage, setFilters } = useListQuery()
+  const search = params.get('search') ?? ''
+  const status = params.get('status') ?? ''
+  const sort = SORT_OPTIONS.find(o => o.value === params.get('sort'))?.value ?? SORT_OPTIONS[0].value
   const [toggling, setToggling] = useState<string | null>(null)
   const [deleteTarget, setDeleteTarget] = useState<AdminBusiness | null>(null)
-  const navigate = useNavigate()
 
   const limit = 15
 
-  const load = useCallback(async () => {
-    setLoading(true)
-    setError(null)
-    try {
-      // Urutan selalu dikirim (bawaan "Terbaru daftar"). Pagination server
-      // memakai `created_at asc` sebagai bawaan, sehingga tanpa ini pendaftar
-      // baru — yang justru paling sering dicari — terkubur di halaman terakhir.
-      const res = await getBusinesses({
-        page,
-        limit,
-        search,
-        status,
-        ...sortParams(sort),
-      })
-      if (!res.status) throw new Error(res.message)
-      setError(null)
-      setBusinesses(res.data ?? [])
-      setTotal(res.pagination?.total ?? 0)
-    } catch (err) {
-      console.error(err)
-      setError('Gagal memuat daftar bisnis. Silakan coba lagi.')
-    } finally {
-      setLoading(false)
-    }
+  const fetcher = useCallback(async () => {
+    const res = await getBusinesses({ page, limit, search, status, ...sortParams(sort) })
+    if (!res.status) throw new Error(res.message)
+    return res
   }, [page, search, status, sort])
-
-  useEffect(() => {
-    let active = true
-    getBusinesses({ page, limit, search, status, ...sortParams(sort) })
-      .then((res) => {
-        if (!active) return
-        if (!res.status) throw new Error(res.message)
-        setError(null)
-        setBusinesses(res.data ?? [])
-        setTotal(res.pagination?.total ?? 0)
-      })
-      .catch(() => { if (active) setError('Gagal memuat daftar bisnis. Silakan coba lagi.') })
-      .finally(() => { if (active) setLoading(false) })
-    return () => { active = false }
-  }, [page, search, status, sort])
-
-
+  const { data, error, loading, refresh: load } = useAdminData(fetcher)
+  const businesses = data?.data ?? []
+  const total = data?.pagination.total ?? 0
+  usePageBounds(page, data?.pagination.total, limit, setPage)
 
   const handleToggle = async (b: AdminBusiness) => {
     if (!confirm(`${b.is_active ? 'Nonaktifkan' : 'Aktifkan'} bisnis "${b.business_name}"?`)) return
@@ -121,6 +86,7 @@ export default function BusinessesPage() {
 
   return (
     <div className="space-y-4">
+      <DetailModal kind="business" onChanged={load} />
       <DeleteConfirmModal
         open={!!deleteTarget}
         businessName={deleteTarget?.business_name ?? ''}
@@ -144,14 +110,14 @@ export default function BusinessesPage() {
             label="Cari bisnis"
             placeholder="Cari nama bisnis, pemilik, nama/email pengguna…"
             value={search}
-            onSearch={(next) => { setLoading(true); setSearch(next); setPage(1) }}
+            onSearch={search => setFilters({ search })}
           />
         }
         controls={<>
           <Select
             aria-label="Status bisnis"
             value={status}
-            onChange={(e) => { setLoading(true); setStatus(e.target.value); setPage(1) }}
+            onChange={e => setFilters({ status: e.target.value })}
             className={filterControl}
           >
             {STATUS_OPTIONS.map((o) => (
@@ -161,7 +127,7 @@ export default function BusinessesPage() {
           <Select
             aria-label="Urutkan bisnis"
             value={sort}
-            onChange={(e) => { setLoading(true); setSort(e.target.value as SortValue); setPage(1) }}
+            onChange={e => setFilters({ sort: e.target.value })}
             className={filterControl}
           >
             {SORT_OPTIONS.map((o) => (
@@ -209,7 +175,7 @@ export default function BusinessesPage() {
                           </div>
                         )}
                         <div>
-                          <p className="font-medium text-slate-800">{b.business_name}</p>
+                          <DetailLink kind="business" id={b.id} className="font-medium text-indigo-600 hover:underline">{b.business_name}</DetailLink>
                           <p className="text-xs text-slate-400">{b.id.slice(0, 8)}...</p>
                         </div>
                       </div>
@@ -250,12 +216,12 @@ export default function BusinessesPage() {
                     </td>
                     <td className="px-4 py-3">
                       <div className="flex justify-end gap-2">
-                        <button
-                          onClick={() => navigate(`/businesses/${b.id}`)}
+                        <DetailLink
+                          kind="business" id={b.id}
                           className="px-3 py-1 text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg transition-colors"
                         >
                           Detail
-                        </button>
+                        </DetailLink>
                         <button
                           onClick={() => handleToggle(b)}
                           disabled={toggling === b.id}
@@ -284,7 +250,7 @@ export default function BusinessesPage() {
 
         {!loading && !error && (
           <div className="px-4 py-3 border-t border-slate-100">
-            <Pagination page={page} total={total} limit={limit} onChange={(next) => { if (next !== page) { setLoading(true); setPage(next) } }} />
+            <Pagination page={page} total={total} limit={limit} onChange={setPage} />
           </div>
         )}
       </div>

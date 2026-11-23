@@ -1,4 +1,5 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { lastPage, pageWindow } from '../../lib/pagination'
 interface PaginationProps {
   page: number
   total: number
@@ -7,28 +8,32 @@ interface PaginationProps {
 }
 
 export default function Pagination({ page, total, limit, onChange }: PaginationProps) {
-  const totalPages = Math.ceil(total / limit)
+  const totalPages = lastPage(total, limit)
   if (totalPages <= 1) return null
 
   return (
-    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mt-4 text-sm text-slate-600">
+    <nav aria-label="Navigasi halaman" className="flex flex-wrap items-center justify-between gap-3 text-sm text-slate-600">
       <span>
         Menampilkan {(page - 1) * limit + 1}–{Math.min(page * limit, total)} dari {total} data
       </span>
-      <div className="flex gap-1 max-w-full overflow-x-auto pb-1">
+      <div className="flex max-w-full flex-wrap items-center gap-1">
         <button
-          disabled={page <= 1}
+          type="button" disabled={page <= 1}
           onClick={() => onChange(page - 1)}
           className="px-3 py-1.5 rounded border border-slate-200 hover:bg-slate-100 disabled:opacity-40 disabled:cursor-not-allowed"
           aria-label="Halaman sebelumnya"
         >
           <ChevronLeft size={16} aria-hidden />
         </button>
-        {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
-          const p = i + 1
+        {pageWindow(page, totalPages).map(p => {
+          if (typeof p === 'string') return <span key={p} aria-hidden className="px-1 text-slate-400">…</span>
           return (
             <button
               key={p}
+              type="button"
+              aria-label={`Halaman ${p}`}
+              aria-current={p === page ? 'page' : undefined}
+              disabled={p === page}
               onClick={() => onChange(p)}
               className={`px-3 py-1.5 rounded border text-sm ${
                 p === page
@@ -41,7 +46,7 @@ export default function Pagination({ page, total, limit, onChange }: PaginationP
           )
         })}
         <button
-          disabled={page >= totalPages}
+          type="button" disabled={page >= totalPages}
           onClick={() => onChange(page + 1)}
           className="px-3 py-1.5 rounded border border-slate-200 hover:bg-slate-100 disabled:opacity-40 disabled:cursor-not-allowed"
           aria-label="Halaman berikutnya"
@@ -49,6 +54,6 @@ export default function Pagination({ page, total, limit, onChange }: PaginationP
           <ChevronRight size={16} aria-hidden />
         </button>
       </div>
-    </div>
+    </nav>
   )
 }

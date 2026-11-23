@@ -1,6 +1,9 @@
 import Select from '../components/ui/Select'
-import { useState, useEffect, useCallback } from 'react'
-import { getSecurityLogs, type SecurityEventLog, type SecurityLogsParams } from '../api/admin'
+import { useCallback } from 'react'
+import { getSecurityLogs, type SecurityEventLog } from '../api/admin'
+import { useAdminData } from '../hooks/useAdminData'
+import { useListQuery, usePageBounds } from '../hooks/useListQuery'
+import Pagination from '../components/ui/Pagination'
 
 const ACTION_LABELS: Record<string, string> = {
   request_forgot_password: 'Minta OTP (Web)',
@@ -48,43 +51,19 @@ function parseUserAgent(ua: string): string {
 }
 
 export default function SecurityLogsPage() {
-  const [logs, setLogs] = useState<SecurityEventLog[]>([])
-  const [total, setTotal] = useState(0)
-  const [loading, setLoading] = useState(false)
-  const [params, setParams] = useState<SecurityLogsParams>({ page: 1, limit: 20, action: '', status: '' })
-
-  const fetchLogs = useCallback(async () => {
-    setLoading(true)
-    try {
-      const cleaned: SecurityLogsParams = { ...params }
-      if (!cleaned.action) delete cleaned.action
-      if (!cleaned.status) delete cleaned.status
-      const res = await getSecurityLogs(cleaned)
-      setLogs(res.data.data ?? [])
-      setTotal(res.data.total ?? 0)
-    } catch {
-      // keep previous data
-    } finally {
-      setLoading(false)
-    }
-  }, [params])
-
-  useEffect(() => {
-    let active = true
-    const cleaned: SecurityLogsParams = { ...params }
-    if (!cleaned.action) delete cleaned.action
-    if (!cleaned.status) delete cleaned.status
-    getSecurityLogs(cleaned)
-      .then((res) => {
-        if (!active) return
-        setLogs(res.data.data ?? [])
-        setTotal(res.data.total ?? 0)
-      })
-      .finally(() => { if (active) setLoading(false) })
-    return () => { active = false }
-  }, [params])
-
-  const totalPages = Math.ceil(total / (params.limit ?? 20))
+  const { params, page, setPage, setFilters } = useListQuery()
+  const action = params.get('action') || undefined
+  const status = params.get('status') || undefined
+  const limit = 20
+  const fetcher = useCallback(async () => {
+    const res = await getSecurityLogs({ page, limit, action, status })
+    if (!res.status) throw new Error(res.message)
+    return res.data
+  }, [page, action, status])
+  const { data, loading, error, refresh } = useAdminData(fetcher)
+  const logs = data?.data ?? []
+  const total = data?.total ?? 0
+  usePageBounds(page, data?.total, limit, setPage)
 
   return (
     <div className="space-y-6">
@@ -98,8 +77,9 @@ export default function SecurityLogsPage() {
       {/* Filters */}
       <div className="card p-3 sm:p-4 grid grid-cols-1 sm:flex sm:flex-wrap gap-3">
         <Select
-          value={params.action ?? ''}
-          onChange={(e) => setParams((p) => ({ ...p, action: e.target.value, page: 1 }))}
+          aria-label="Aksi"
+          value={action ?? ''}
+          onChange={e => setFilters({ action: e.target.value })}
           className="border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
         >
           {ACTION_OPTIONS.map((o) => (
@@ -107,8 +87,9 @@ export default function SecurityLogsPage() {
           ))}
         </Select>
         <Select
-          value={params.status ?? ''}
-          onChange={(e) => setParams((p) => ({ ...p, status: e.target.value, page: 1 }))}
+          aria-label="Status"
+          value={status ?? ''}
+          onChange={e => setFilters({ status: e.target.value })}
           className="border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
         >
           {STATUS_OPTIONS.map((o) => (
@@ -116,16 +97,16 @@ export default function SecurityLogsPage() {
           ))}
         </Select>
         <button
-          onClick={fetchLogs}
+          disabled={loading} onClick={refresh}
           className="sm:ml-auto px-4 py-2.5 sm:py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 transition-colors"
         >
-          Refresh
+          Perbarui
         </button>
       </div>
 
       {/* Summary */}
       <div className="text-sm text-slate-500">
-        {total > 0 ? `${total} event ditemukan` : 'Tidak ada event'}
+        {error ? <p role="alert" className="text-red-700">{error} <button onClick={refresh} className="underline">Coba lagi</button></p> : loading ? 'Memuat log…' : `${total} kejadian ditemukan`}
       </div>
 
       {/* Table */}
@@ -153,7 +134,7 @@ export default function SecurityLogsPage() {
               ) : logs.length === 0 ? (
                 <tr>
                   <td colSpan={7} className="text-center py-10 text-slate-400">
-                    Tidak ada log
+                    {error ? 'Log belum berhasil dimuat.' : 'Tidak ada log sesuai filter.'}
                   </td>
                 </tr>
               ) : (
@@ -196,30 +177,7 @@ export default function SecurityLogsPage() {
           </table>
         </div>
 
-        {/* Pagination */}
-        {totalPages > 1 && (
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 px-4 py-3 border-t border-slate-200">
-            <span className="text-sm text-slate-500">
-              Halaman {params.page} dari {totalPages}
-            </span>
-            <div className="flex gap-2">
-              <button
-                disabled={(params.page ?? 1) <= 1}
-                onClick={() => setParams((p) => ({ ...p, page: (p.page ?? 1) - 1 }))}
-                className="px-3 py-1.5 text-sm border border-slate-200 rounded-lg disabled:opacity-40 hover:bg-slate-50 transition-colors"
-              >
-                Sebelumnya
-              </button>
-              <button
-                disabled={(params.page ?? 1) >= totalPages}
-                onClick={() => setParams((p) => ({ ...p, page: (p.page ?? 1) + 1 }))}
-                className="px-3 py-1.5 text-sm border border-slate-200 rounded-lg disabled:opacity-40 hover:bg-slate-50 transition-colors"
-              >
-                Berikutnya
-              </button>
-            </div>
-          </div>
-        )}
+        {total > limit && <div className="border-t border-slate-200 p-4"><Pagination page={page} limit={limit} total={total} onChange={setPage} /></div>}
       </div>
     </div>
   )

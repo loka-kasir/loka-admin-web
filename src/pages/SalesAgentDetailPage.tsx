@@ -2,6 +2,8 @@ import { ArrowLeft, KeyRound, Pencil } from 'lucide-react'
 import ButtonIcon from '../components/ui/ButtonIcon'
 import { useCallback, useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
+import DetailModal, { type DetailProps } from '../components/ui/DetailModal'
+import DetailLink from '../components/ui/DetailLink'
 import { format } from 'date-fns'
 import { id as localeId } from 'date-fns/locale'
 import Badge from '../components/ui/Badge'
@@ -56,8 +58,9 @@ function Info({ label, value, mono }: { label: string; value: string; mono?: boo
   )
 }
 
-export default function SalesAgentDetailPage() {
-  const { id = '' } = useParams<{ id: string }>()
+export default function SalesAgentDetailPage({ recordId, onDismiss, onChanged }: DetailProps) {
+  const { id: routeId } = useParams()
+  const id = recordId ?? routeId ?? ''
   const navigate = useNavigate()
   const [agent, setAgent] = useState<SalesAgent | null>(null)
   const [error, setError] = useState('')
@@ -80,7 +83,7 @@ export default function SalesAgentDetailPage() {
   if (!agent) {
     return error ? (
       <div className="space-y-4">
-        <button onClick={() => navigate('/sales-agents')} className="text-sm text-slate-500 hover:text-slate-700"><ButtonIcon icon={ArrowLeft} />Daftar sales</button>
+        {!onDismiss && <button onClick={() => navigate('/sales-agents')} className="text-sm text-slate-500 hover:text-slate-700"><ButtonIcon icon={ArrowLeft} />Daftar sales</button>}
         <div role="alert" className="flex items-center justify-between gap-3 rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">
           <span>{error}</span>
           <button type="button" onClick={() => { setError(''); refreshAgent() }} className="font-semibold underline">Coba lagi</button>
@@ -100,7 +103,7 @@ export default function SalesAgentDetailPage() {
     <div className="space-y-4 sm:space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="flex items-start sm:items-center gap-3 min-w-0">
-          <button onClick={() => navigate('/sales-agents')} className="text-slate-400 hover:text-slate-600" aria-label="Kembali"><ArrowLeft size={20} aria-hidden /></button>
+          {!onDismiss && <button onClick={() => navigate('/sales-agents')} className="text-slate-400 hover:text-slate-600" aria-label="Kembali"><ArrowLeft size={20} aria-hidden /></button>}
           <div className="min-w-0">
             <div className="flex flex-wrap items-center gap-2">
               <h2 className="text-xl font-bold text-slate-800 break-words">{agent.name}</h2>
@@ -160,12 +163,13 @@ export default function SalesAgentDetailPage() {
         ))}
       </div>
 
-      {tab === 'customers' ? <CustomersTab salesId={agent.id} /> : <CommissionsTab salesId={agent.id} onChanged={refreshAgent} />}
+      {tab === 'customers' ? <CustomersTab salesId={agent.id} /> : <CommissionsTab salesId={agent.id} onChanged={() => { refreshAgent(); onChanged?.() }} />}
+      <DetailModal kind="business" onChanged={refreshAgent} />
 
       <Modal title="Ubah data sales" open={editOpen} onClose={() => setEditOpen(false)}>
         {editOpen && (
           <SalesAgentForm agent={agent} onCancel={() => setEditOpen(false)}
-            onSaved={(updated) => { setAgent(updated); setEditOpen(false) }} />
+            onSaved={(updated) => { setAgent(updated); setEditOpen(false); onChanged?.() }} />
         )}
       </Modal>
 
@@ -281,7 +285,7 @@ function CustomersTab({ salesId }: { salesId: string }) {
               return (
                 <tr key={c.business_id} className="border-b border-slate-100 last:border-0 align-top">
                   <td className="px-4 py-3">
-                    <Link to={`/businesses/${c.business_id}`} className="font-medium text-slate-800 hover:text-indigo-600">{c.name || '—'}</Link>
+                    <DetailLink kind="business" id={c.business_id} className="font-medium text-slate-800 hover:text-indigo-600">{c.name || '—'}</DetailLink>
                     <p className="text-xs text-slate-500">{[c.city, c.owner_phone_masked].filter(Boolean).join(' · ') || '—'}</p>
                   </td>
                   <td className="px-4 py-3 text-slate-700">{c.plan ? membershipLabel(c.plan) : '—'}</td>

@@ -1,10 +1,13 @@
 import { AlertTriangle, X } from 'lucide-react'
 import ButtonIcon from '../components/ui/ButtonIcon'
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { format } from 'date-fns'
 import { id as localeId } from 'date-fns/locale'
 import { getBusinesses, getTransactionResetPreview, resetTransactions } from '../api/admin'
 import Pagination from '../components/ui/Pagination'
+import Modal from '../components/ui/Modal'
+import { useListQuery, usePageBounds } from '../hooks/useListQuery'
+import { useAdminData } from '../hooks/useAdminData'
 import type { AdminBusiness, AdminTransactionResetPreview } from '../types'
 
 function errorMessage(err: unknown): string {
@@ -23,12 +26,9 @@ function rupiah(value: number): string {
 }
 
 export default function ResetTransactionsPage() {
-  const [businesses, setBusinesses] = useState<AdminBusiness[]>([])
-  const [total, setTotal] = useState(0)
-  const [page, setPage] = useState(1)
-  const [searchInput, setSearchInput] = useState('')
-  const [search, setSearch] = useState('')
-  const [loading, setLoading] = useState(true)
+  const { params, page, setPage, setFilters } = useListQuery()
+  const search = params.get('search') ?? ''
+  const [searchInput, setSearchInput] = useState(search)
   const [target, setTarget] = useState<AdminBusiness | null>(null)
   const [preview, setPreview] = useState<AdminTransactionResetPreview | null>(null)
   const [previewLoading, setPreviewLoading] = useState(false)
@@ -38,34 +38,32 @@ export default function ResetTransactionsPage() {
   const [notice, setNotice] = useState('')
   const limit = 15
 
-  useEffect(() => {
-    let active = true
-    getBusinesses({ page, limit, search, sort_by: 'created_at', order_by: 'desc' })
-      .then((res) => {
-        if (!active) return
-        setBusinesses(res.data ?? [])
-        setTotal(res.pagination?.total ?? 0)
-      })
-      .catch((err) => { if (active) setNotice(errorMessage(err)) })
-      .finally(() => { if (active) setLoading(false) })
-    return () => { active = false }
+  const fetcher = useCallback(async () => {
+    const res = await getBusinesses({ page, limit, search, sort_by: 'created_at', order_by: 'desc' })
+    if (!res.status) throw new Error(res.message)
+    return res
   }, [page, search])
+  const { data, loading, error: listError, refresh } = useAdminData(fetcher)
+  const businesses = data?.data ?? []
+  const total = data?.pagination.total ?? 0
+  usePageBounds(page, data?.pagination.total, limit, setPage)
 
-  const openReset = async (business: AdminBusiness) => {
+  const openReset = (business: AdminBusiness) => {
     setTarget(business)
     setPreview(null)
     setConfirmation('')
     setError('')
     setPreviewLoading(true)
-    try {
-      const res = await getTransactionResetPreview(business.id)
-      setPreview(res.data)
-    } catch (err) {
-      setError(errorMessage(err))
-    } finally {
-      setPreviewLoading(false)
-    }
   }
+  useEffect(() => {
+    if (!target) return
+    let current = true
+    getTransactionResetPreview(target.id)
+      .then(res => { if (current) setPreview(res.data) })
+      .catch(err => { if (current) setError(errorMessage(err)) })
+      .finally(() => { if (current) setPreviewLoading(false) })
+    return () => { current = false }
+  }, [target])
 
   const closeReset = () => {
     if (deleting) return
@@ -95,9 +93,7 @@ export default function ResetTransactionsPage() {
 
   const submitSearch = (event: React.FormEvent) => {
     event.preventDefault()
-    setLoading(true)
-    setSearch(searchInput.trim())
-    setPage(1)
+    setFilters({ search: searchInput.trim() })
   }
 
   return (
@@ -112,6 +108,7 @@ export default function ResetTransactionsPage() {
         <p className="text-xs mt-1 text-red-700">Penghapusan tidak mengembalikan stok, tidak mengubah riwayat shift atau poin loyalti, dan tidak membalik jurnal accounting yang sudah terkirim.</p>
       </div>
 
+      {listError && <p role="alert" className="card p-4 text-sm text-red-700">{listError} <button onClick={refresh} className="underline">Coba lagi</button></p>}
       {notice && (
         <div className="bg-emerald-50 border border-emerald-200 rounded-xl px-4 py-3 text-sm text-emerald-800 flex justify-between gap-3">
           <span>{notice}</span>
@@ -144,7 +141,7 @@ export default function ResetTransactionsPage() {
               {loading ? (
                 <tr><td colSpan={4} className="text-center py-12 text-slate-400">Memuat data...</td></tr>
               ) : businesses.length === 0 ? (
-                <tr><td colSpan={4} className="text-center py-12 text-slate-400">Bisnis tidak ditemukan</td></tr>
+                <tr><td colSpan={4} className="text-center py-12 text-slate-400">{listError ? 'Daftar bisnis belum berhasil dimuat.' : 'Bisnis tidak ditemukan'}</td></tr>
               ) : businesses.map((business) => (
                 <tr key={business.id} className="hover:bg-slate-50">
                   <td className="px-4 py-3">
@@ -169,13 +166,10 @@ export default function ResetTransactionsPage() {
         </div>
       </div>
 
-      <Pagination page={page} total={total} limit={limit} onChange={(nextPage) => { setLoading(true); setPage(nextPage) }} />
+      <Pagination page={page} total={total} limit={limit} onChange={setPage} />
 
       {target && (
-        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center">
-          <button className="absolute inset-0 bg-black/50" onClick={closeReset} aria-label="Tutup dialog" />
-          <div className="relative bg-white w-full sm:max-w-lg sm:mx-4 rounded-t-2xl sm:rounded-2xl shadow-2xl p-5 sm:p-6 max-h-[92dvh] overflow-y-auto">
-            <h3 className="text-lg font-bold text-slate-900">Hapus seluruh transaksi</h3>
+        <Modal title="Hapus seluruh transaksi" open onClose={closeReset}>
             <p className="text-sm text-slate-500 mt-1">Bisnis: <strong className="text-slate-800">{target.business_name}</strong></p>
 
             {previewLoading ? (
@@ -218,8 +212,7 @@ export default function ResetTransactionsPage() {
                 {deleting ? 'Menghapus...' : `Hapus ${preview?.total_transactions ?? 0} transaksi`}
               </button>
             </div>
-          </div>
-        </div>
+        </Modal>
       )}
     </div>
   )

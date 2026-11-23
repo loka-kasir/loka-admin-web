@@ -1,6 +1,9 @@
 import Select from '../components/ui/Select'
 import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import DetailLink from '../components/ui/DetailLink'
+import DetailModal from '../components/ui/DetailModal'
+import Pagination from '../components/ui/Pagination'
+import { useListQuery, usePageBounds } from '../hooks/useListQuery'
 import Badge from '../components/ui/Badge'
 import { getMerchantHealth, type MerchantHealthResponse, type MerchantHealthRow } from '../api/merchantHealth'
 import {
@@ -43,17 +46,16 @@ function ScoreBar({ score }: { score: number }) {
 }
 
 function Row({ row }: { row: MerchantHealthRow }) {
-  const navigate = useNavigate()
   const wa = waUrl(row.owner_phone, csMessage(row))
   const seen = daysAgo(row.last_seen_at)
   const trend = row.tx_prev_7d > 0 ? Math.round((row.tx_7d / row.tx_prev_7d - 1) * 100) : null
   return (
     <tr className="border-b border-slate-100 last:border-0 hover:bg-slate-50/60 align-top">
       <td className="px-4 py-3">
-        <button type="button" onClick={() => navigate(`/businesses/${row.business_id}`)} className="text-left">
+        <DetailLink kind="business" id={row.business_id} className="block text-left">
           <p className="font-medium text-slate-800 hover:text-indigo-600">{row.business_name}</p>
           <p className="text-xs text-slate-500">{row.owner_name || '—'}{row.owner_phone ? ` · ${row.owner_phone}` : ''}</p>
-        </button>
+        </DetailLink>
       </td>
       <td className="px-4 py-3"><ScoreBar score={row.score} /></td>
       <td className="px-4 py-3 space-y-1">
@@ -103,11 +105,14 @@ export default function MerchantHealthPage() {
   const [data, setData] = useState<MerchantHealthResponse | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(true)
-  const [risk, setRisk] = useState('')
-  const [stage, setStage] = useState('')
-  const [search, setSearch] = useState('')
-  const [searchInput, setSearchInput] = useState('')
+  const { params, page, setPage, setFilters } = useListQuery()
+  const risk = params.get('risk') ?? ''
+  const stage = params.get('stage') ?? ''
+  const search = params.get('search') ?? ''
+  const [searchInput, setSearchInput] = useState(search)
   const [reload, setReload] = useState(0)
+  const limit = 20
+  usePageBounds(page, !loading && !error ? data?.rows.length : undefined, limit, setPage)
 
   useEffect(() => {
     let active = true
@@ -118,7 +123,7 @@ export default function MerchantHealthPage() {
         setError(null)
         setData(res.data)
       })
-      .catch(() => { if (active) setError('Gagal memuat kesehatan merchant. Silakan coba lagi.') })
+      .catch(() => { if (active) { setData(null); setError('Gagal memuat kesehatan merchant. Silakan coba lagi.') } })
       .finally(() => { if (active) setLoading(false) })
     return () => { active = false }
   }, [risk, stage, search, reload])
@@ -134,6 +139,7 @@ export default function MerchantHealthPage() {
 
   return (
     <div className="space-y-4">
+      <DetailModal kind="business" onChanged={() => setReload(n => n + 1)} />
       <div>
         <h2 className="text-xl font-bold text-slate-800">Kesehatan Merchant</h2>
         <p className="text-sm text-slate-500 mt-0.5">
@@ -157,17 +163,17 @@ export default function MerchantHealthPage() {
       </div>
 
       <div className="card p-3 sm:p-4 flex flex-col sm:flex-row sm:flex-wrap gap-3">
-        <form onSubmit={(e) => { e.preventDefault(); setLoading(true); setSearch(searchInput) }} className="flex gap-2 flex-1 min-w-0 sm:min-w-60">
+        <form onSubmit={e => { e.preventDefault(); if (searchInput.trim() !== search) setLoading(true); setFilters({ search: searchInput.trim() }) }} className="flex gap-2 flex-1 min-w-0 sm:min-w-60">
           <input type="text" placeholder="Cari bisnis, pemilik, nomor, email..." value={searchInput}
             onChange={(e) => setSearchInput(e.target.value)}
             className="flex-1 px-3 py-2 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" />
           <button type="submit" className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm hover:bg-indigo-700">Cari</button>
         </form>
-        <Select value={risk} onChange={(e) => { setLoading(true); setRisk(e.target.value) }}
+        <Select aria-label="Risiko" value={risk} onChange={(e) => { setLoading(true); setFilters({ risk: e.target.value }) }}
           className="w-full sm:w-auto px-3 py-2 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
           {RISK_OPTIONS.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
         </Select>
-        <Select value={stage} onChange={(e) => { setLoading(true); setStage(e.target.value) }}
+        <Select aria-label="Tahap" value={stage} onChange={(e) => { setLoading(true); setFilters({ stage: e.target.value }) }}
           className="w-full sm:w-auto px-3 py-2 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
           {STAGE_OPTIONS.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
         </Select>
@@ -189,11 +195,12 @@ export default function MerchantHealthPage() {
               ) : !data?.rows.length ? (
                 <tr><td colSpan={6} className="px-4 py-10 text-center text-slate-400">Tidak ada toko sesuai filter</td></tr>
               ) : (
-                data.rows.map((r) => <Row key={r.business_id} row={r} />)
+                data.rows.slice((page - 1) * limit, page * limit).map((r) => <Row key={r.business_id} row={r} />)
               )}
             </tbody>
           </table>
         </div>
+        {data && !loading && data.rows.length > limit && <div className="border-t border-slate-100 p-4"><Pagination page={page} total={data.rows.length} limit={limit} onChange={setPage} /></div>}
       </div>
     </div>
   )

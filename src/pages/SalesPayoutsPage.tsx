@@ -1,7 +1,8 @@
 import { Download, X } from 'lucide-react'
 import ButtonIcon from '../components/ui/ButtonIcon'
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import DetailModal from '../components/ui/DetailModal'
+import DetailLink from '../components/ui/DetailLink'
 import { format } from 'date-fns'
 import { id as localeId } from 'date-fns/locale'
 import Badge from '../components/ui/Badge'
@@ -68,7 +69,7 @@ export default function SalesPayoutsPage() {
     return () => { active = false }
   }, [status, tick])
 
-  const changeStatus = (value: PayoutStatus | '') => { setRows(null); setStatus(value) }
+  const changeStatus = (value: PayoutStatus | '') => { if (value !== status) { setRows(null); setStatus(value) } }
   const reload = () => { setTick((n) => n + 1) }
 
   const exportCsv = async () => {
@@ -93,6 +94,7 @@ export default function SalesPayoutsPage() {
 
   return (
     <div className="space-y-4">
+      <DetailModal kind="agent" onChanged={reload} />
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <h2 className="text-xl font-bold text-slate-800">Pencairan Komisi Sales</h2>
@@ -134,7 +136,7 @@ export default function SalesPayoutsPage() {
                 <tbody>
                   {batchResult.skipped.map((s) => (
                     <tr key={s.sales_id} className="border-b border-slate-100 last:border-0">
-                      <td className="px-3 py-2"><Link to={`/sales-agents/${s.sales_id}`} className="text-slate-800 hover:text-indigo-600">{s.sales_name}</Link></td>
+                      <td className="px-3 py-2"><DetailLink kind="agent" id={s.sales_id} className="text-indigo-600 hover:underline">{s.sales_name}</DetailLink></td>
                       <td className={`px-3 py-2 text-right tabular-nums ${s.amount < 0 ? 'text-red-600' : 'text-slate-700'}`}>{formatMoney(s.amount)}</td>
                       <td className="px-3 py-2 text-slate-600">{s.reason}</td>
                     </tr>
@@ -206,7 +208,7 @@ export default function SalesPayoutsPage() {
                 return (
                   <tr key={p.id} className="border-b border-slate-100 last:border-0 align-top">
                     <td className="px-4 py-3">
-                      <Link to={`/sales-agents/${p.sales_id}`} className="font-medium text-slate-800 hover:text-indigo-600">{p.sales_name}</Link>
+                      <DetailLink kind="agent" id={p.sales_id} className="font-medium text-indigo-600 hover:underline">{p.sales_name}</DetailLink>
                       <p className="text-xs text-slate-500"><span className="font-mono">{p.sales_code}</span> · dibuat {fmt(p.created_at, 'dd MMM yyyy')}</p>
                     </td>
                     <td className="px-4 py-3 text-right whitespace-nowrap">

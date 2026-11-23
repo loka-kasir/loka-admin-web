@@ -226,6 +226,10 @@ body {
   width: 100%;
 }
 
+html:has(dialog:modal) {
+  overflow: hidden;
+}
+
 button,
 a,
 select {

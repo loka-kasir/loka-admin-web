@@ -1,6 +1,10 @@
 import Select from '../components/ui/Select'
 import { useEffect, useMemo, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
+import DetailModal from '../components/ui/DetailModal'
+import DetailLink from '../components/ui/DetailLink'
+import Pagination from '../components/ui/Pagination'
+import { useListQuery, usePageBounds } from '../hooks/useListQuery'
 import { format } from 'date-fns'
 import { id as localeId } from 'date-fns/locale'
 import Badge from '../components/ui/Badge'
@@ -22,12 +26,13 @@ const SALES_SIGNUP_URL = 'https://app.lokakasir.id/mitra/daftar'
  * komisinya. Aturan bisnis: docs/sales-referral.md di loka-kasir-service.
  */
 export default function SalesAgentsPage() {
-  const navigate = useNavigate()
+  const { params, page, setPage, setFilters } = useListQuery()
+  const [, setParams] = useSearchParams()
   const [agents, setAgents] = useState<SalesAgent[] | null>(null)
   const [error, setError] = useState('')
   const [reload, setReload] = useState(0)
-  const [status, setStatus] = useState<'' | SalesAgentStatus>('')
-  const [search, setSearch] = useState('')
+  const status = params.get('status') ?? ''
+  const search = params.get('search') ?? ''
   const [createOpen, setCreateOpen] = useState(false)
   const [copied, setCopied] = useState(false)
   const reserved = agents?.filter((a) => a.status !== 'terminated').length
@@ -46,6 +51,8 @@ export default function SalesAgentsPage() {
       (!status || a.status === status) &&
       (!q || [a.name, a.code, a.email, a.phone].some((v) => v.toLowerCase().includes(q))))
   }, [agents, status, search])
+  const limit = 20
+  usePageBounds(page, agents ? rows.length : undefined, limit, setPage)
 
   const totals = useMemo(() => (agents ?? []).reduce((t, a) => ({
     active: t.active + (a.status === 'active' ? 1 : 0),
@@ -64,6 +71,7 @@ export default function SalesAgentsPage() {
 
   return (
     <div className="space-y-4">
+      <DetailModal kind="agent" onChanged={() => setReload(n => n + 1)} />
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <h2 className="text-xl font-bold text-slate-800">Program Referral Sales</h2>
@@ -102,9 +110,9 @@ export default function SalesAgentsPage() {
       </div>
 
       <div className="card p-3 sm:p-4 flex flex-col sm:flex-row sm:flex-wrap gap-3">
-        <input type="search" placeholder="Cari nama, kode, email, HP…" value={search} onChange={(e) => setSearch(e.target.value)}
+        <input type="search" aria-label="Cari sales" placeholder="Cari nama, kode, email, HP…" value={search} onChange={(e) => setFilters({ search: e.target.value })}
           className="flex-1 min-w-0 sm:min-w-60 px-3 py-2 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-        <Select value={status} onChange={(e) => setStatus(e.target.value as '' | SalesAgentStatus)}
+        <Select aria-label="Status sales" value={status} onChange={(e) => setFilters({ status: e.target.value })}
           className="w-full sm:w-auto px-3 py-2 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
           {STATUS_FILTERS.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
         </Select>
@@ -127,13 +135,12 @@ export default function SalesAgentsPage() {
                 <tr><td colSpan={7} className="px-4 py-10 text-center text-slate-400">
                   {agents?.length ? 'Tidak ada sales sesuai filter' : 'Belum ada sales. Tambahkan sales pertama.'}
                 </td></tr>
-              ) : rows.map((a) => {
+              ) : rows.slice((page - 1) * limit, page * limit).map((a) => {
                 const st = SALES_STATUS[a.status] ?? { label: a.status, variant: 'neutral' as const }
                 return (
-                  <tr key={a.id} onClick={() => navigate(`/sales-agents/${a.id}`)}
-                    className="border-b border-slate-100 last:border-0 hover:bg-slate-50/60 cursor-pointer">
+                  <tr key={a.id} className="border-b border-slate-100 last:border-0 hover:bg-slate-50/60">
                     <td className="px-4 py-3">
-                      <p className="font-medium text-slate-800">{a.name}</p>
+                      <DetailLink kind="agent" id={a.id} className="font-medium text-indigo-600 hover:underline">{a.name}</DetailLink>
                       <p className="text-xs text-slate-500">{a.email} · {a.phone}</p>
                     </td>
                     <td className="px-4 py-3 font-mono text-slate-700">{a.code}</td>
@@ -156,13 +163,20 @@ export default function SalesAgentsPage() {
           </table>
         </div>
         <p className="px-4 py-2 text-xs text-slate-400 border-t border-slate-100">Pelanggan: aktif berlangganan / total terhubung.</p>
+        {rows.length > limit && <div className="p-4"><Pagination page={page} total={rows.length} limit={limit} onChange={setPage} /></div>}
       </div>
 
       <Modal title="Tambah sales" open={createOpen} onClose={() => setCreateOpen(false)}>
         {createOpen && (
           <SalesAgentForm
             onCancel={() => setCreateOpen(false)}
-            onSaved={(agent) => { setCreateOpen(false); navigate(`/sales-agents/${agent.id}`) }}
+            onSaved={(agent) => {
+              setCreateOpen(false)
+              setReload(n => n + 1)
+              const next = new URLSearchParams(params)
+              next.set('agent', agent.id)
+              setParams(next, { state: { openedDetail: 'agent' } })
+            }}
           />
         )}
       </Modal>

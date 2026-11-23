@@ -65,7 +65,23 @@ export const getProductOverview = (fresh = false) =>
     .get<SingleResponse<ProductOverviewItem[]>>('/admin/product-monitor', { params: fresh ? { fresh: 1 } : undefined })
     .then((r) => r.data)
 
-export const getProductSummary = (product: ProductKey, fresh = false) =>
+export interface MonitorQuery {
+  page: number
+  limit: number
+  status: TenantStatus | ''
+  search: string
+}
+export interface PagedSummary extends ProductSummary {
+  pagination: { page: number; limit: number; total: number }
+}
+
+export const getProductSummary = (product: ProductKey, query: MonitorQuery, fresh = false) =>
   axios
-    .get<SingleResponse<ProductSummary>>(`/admin/product-monitor/${product}`, { params: fresh ? { fresh: 1 } : undefined })
-    .then((r) => r.data)
+    .get<SingleResponse<PagedSummary>>(`/admin/product-monitor/${product}`, { params: { ...query, fresh: fresh ? 1 : undefined } })
+    .then(({ data: r }) => {
+      const p = r.data?.pagination
+      if (!r.status || !p || p.page !== query.page || p.limit !== query.limit || !Number.isSafeInteger(p.total) || p.total < 0) {
+        throw new Error('Layanan belum mengembalikan halaman tenant yang diminta.')
+      }
+      return r.data
+    })
